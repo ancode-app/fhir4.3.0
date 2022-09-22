@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Endpoint" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Endpoint" />
+  <version value="1.0" />
+  <name value="Endpoint" />
+  <status value="draft" />
+  <date value="2022-04-05" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Endpoint" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Endpoint" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Endpoint.identifier">
+      <path value="Endpoint.identifier" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Endpoint.connectionType">
+      <path value="Endpoint.connectionType" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/EndpointType" />
+      </binding>
+    </element>
+    <element id="Endpoint.managingOrganization">
+      <path value="Endpoint.managingOrganization" />
+      <min value="1" />
+    </element>
+    <element id="Endpoint.payloadType">
+      <path value="Endpoint.payloadType" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/MimeType" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

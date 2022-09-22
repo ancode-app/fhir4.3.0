@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Organization" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Organization" />
+  <version value="1.0" />
+  <name value="Organization" />
+  <status value="draft" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Organization" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Organization" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Organization">
+      <path value="Organization" />
+      <constraint>
+        <key value="org-5" />
+        <severity value="error" />
+        <human value="When type is HealthcareProvider, Location is required" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Organization" />
+      </constraint>
+    </element>
+    <element id="Organization.extension">
+      <path value="Organization.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="Organization.extension:terminologyType">
+      <path value="Organization.extension" />
+      <sliceName value="terminologyType" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/TerminologyType" />
+      </type>
+    </element>
+    <element id="Organization.extension:typeHealthcareFacility">
+      <path value="Organization.extension" />
+      <sliceName value="typeHealthcareFacility" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/TypeHealthcareFacility" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Organization.extension:serviceBillingTable">
+      <path value="Organization.extension" />
+      <sliceName value="serviceBillingTable" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ServiceBillingTable" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Organization.extension:medicationBillingTable">
+      <path value="Organization.extension" />
+      <sliceName value="medicationBillingTable" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/MedicationBillingTable" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Organization.extension:deviceBillingTable">
+      <path value="Organization.extension" />
+      <sliceName value="deviceBillingTable" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/DeviceBillingTable" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Organization.extension:bankAccount">
+      <path value="Organization.extension" />
+      <sliceName value="bankAccount" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Organization.identifier">
+      <path value="Organization.identifier" />
+      <min value="1" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+      <constraint>
+        <key value="org-4" />
+        <severity value="error" />
+        <human value="CNPJ validation" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Organization" />
+      </constraint>
+      <constraint>
+        <key value="ide-1" />
+        <severity value="error" />
+        <human value="The Resource must have at least one Oficial Identifier" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </constraint>
+    </element>
+    <element id="Organization.identifier.type">
+      <path value="Organization.identifier.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypeOrganization" />
+      </binding>
+    </element>
+    <element id="Organization.active">
+      <path value="Organization.active" />
+      <min value="1" />
+    </element>
+    <element id="Organization.type">
+      <path value="Organization.type" />
+      <min value="1" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Organization.name">
+      <path value="Organization.name" />
+      <min value="1" />
+    </element>
+    <element id="Organization.alias">
+      <path value="Organization.alias" />
+      <max value="1" />
+    </element>
+    <element id="Organization.telecom">
+      <path value="Organization.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+    <element id="Organization.address">
+      <path value="Organization.address" />
+      <type>
+        <code value="Address" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

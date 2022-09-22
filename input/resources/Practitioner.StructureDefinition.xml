@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Practitioner" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Practitioner" />
+  <version value="1.0" />
+  <name value="Practitioner" />
+  <status value="draft" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Practitioner" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Practitioner.identifier">
+      <path value="Practitioner.identifier" />
+      <min value="1" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+      <constraint>
+        <key value="ide-1" />
+        <severity value="error" />
+        <human value="The Resource must have at least one Oficial Identifier" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </constraint>
+    </element>
+    <element id="Practitioner.identifier.type">
+      <path value="Practitioner.identifier.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypePractitioner" />
+      </binding>
+    </element>
+    <element id="Practitioner.active">
+      <path value="Practitioner.active" />
+      <min value="1" />
+    </element>
+    <element id="Practitioner.name">
+      <path value="Practitioner.name" />
+      <min value="1" />
+      <type>
+        <code value="HumanName" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/HumanName" />
+      </type>
+    </element>
+    <element id="Practitioner.telecom">
+      <path value="Practitioner.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+    <element id="Practitioner.address">
+      <path value="Practitioner.address" />
+      <type>
+        <code value="Address" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+    <element id="Practitioner.photo">
+      <path value="Practitioner.photo" />
+      <max value="1" />
+    </element>
+    <element id="Practitioner.qualification.code">
+      <path value="Practitioner.qualification.code" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/Qualification" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BrazilianState" />
+  <url value="https://ancode.app/fhir/ValueSet/BrazilianState" />
+  <version value="1.0" />
+  <name value="BrazilianState" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-03-11T18:43:43.0294815+00:00" />
+  <publisher value="Ancode" />
+  <description value="Domínio de valores de Unidade Federativa para classificação." />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/BrazilianState" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

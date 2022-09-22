@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="Race" />
+  <url value="https://ancode.app/fhir/ValueSet/Race" />
+  <version value="1.0" />
+  <name value="Race" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-03-12T13:25:38.9038219+00:00" />
+  <publisher value="Ancode" />
+  <description value="Códigos para representação de raça/cor no Brasil." />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/Race" />
+    </include>
+  </compose>
+</ValueSet>

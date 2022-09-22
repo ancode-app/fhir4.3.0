@@ -1,0 +1,136 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRLocalAplicacao" />
+  <meta>
+    <lastUpdated value="2021-12-06T14:39:34.465+00:00" />
+  </meta>
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRLocalAplicacao" />
+  <version value="01.02" />
+  <name value="BRLocalAplicacao" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2020-03-11T18:15:54.9540124+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Define a localização anatômica de aplicação de uma substância" />
+  <content value="complete" />
+  <concept>
+    <code value="0" />
+    <display value="Sem registro no sistema de informação de origem" />
+    <designation>
+      <language value="en" />
+      <value value="No registration in the source information system" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Sin registro en el sistema de información de fuentes" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="1" />
+    <display value="Deltóide Direito" />
+    <designation>
+      <language value="en" />
+      <value value="Right deltoid" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Deltoides derecho" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="Deltóide Esquerdo" />
+    <designation>
+      <language value="en" />
+      <value value="Left deltoid" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Deltoides izquierdo" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="3" />
+    <display value="Vasto Lateral da Coxa Direita" />
+    <designation>
+      <language value="en" />
+      <value value="Right Vastus Lateralis" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Vasto lateral derecho" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="4" />
+    <display value="Vasto Lateral da Coxa Esquerda" />
+    <designation>
+      <language value="en" />
+      <value value="Left Vastus Lateralis" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Vasto lateral izquierdo" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="5" />
+    <display value="Ventroglúteo Direito" />
+    <designation>
+      <language value="en" />
+      <value value="Right ventro gluteus" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Ventro gluteus derecho" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="6" />
+    <display value="Ventroglúteo Esquerdo" />
+    <designation>
+      <language value="en" />
+      <value value="Left ventro gluteus" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Ventro gluteus izquierdo" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="7" />
+    <display value="Glúteo" />
+    <designation>
+      <language value="en" />
+      <value value="gluteus" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Glúteo" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="8" />
+    <display value="Ferimento Local" />
+    <designation>
+      <language value="en" />
+      <value value="Local Injury" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Lesión local" />
+    </designation>
+  </concept>
+  <concept>
+    <code value="9" />
+    <display value="Boca" />
+    <designation>
+      <language value="en" />
+      <value value="Mouth" />
+    </designation>
+    <designation>
+      <language value="es" />
+      <value value="Boca" />
+    </designation>
+  </concept>
+</CodeSystem>

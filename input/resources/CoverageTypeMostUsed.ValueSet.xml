@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CoverageTypeMostUsed" />
+  <url value="https://ancode.app/fhir/ValueSet/CoverageTypeMostUsed" />
+  <version value="1.0" />
+  <name value="CoverageTypeMostUsed" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-03-09" />
+  <publisher value="Ancode" />
+  <description value="Coverage Type Most Used" />
+  <immutable value="false" />
+  <compose>    
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/coverage-selfpay" />      
+      <concept>
+        <code value="pay" />
+        <display value="Pay" />
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />      
+      <concept>
+        <code value="EHCPOL" />
+        <display value="Extended Healthcare" />
+      </concept>
+      <concept>
+        <code value="PUBLICPOL" />
+        <display value="Public Healthcare" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

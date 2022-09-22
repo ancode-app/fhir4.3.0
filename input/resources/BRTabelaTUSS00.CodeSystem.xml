@@ -1,0 +1,5451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="BRTabelaTUSS00"/>
+	<url value="https://ancode.app/fhir/CodeSystem/BRTabelaTUSS00"/>
+	<version value="TNUMM 2022-06-06"/>
+	<name value="BRTabelaTUSS00"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<publisher value="Ancode"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="https://ancode.app"/>
+		</telecom>
+	</contact>
+	<description value="Tabela 00 - Terminologia de Medicamentos"/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="94000018"/>
+		<display value="NUTRI CASEIN SEM SABOR 250G"/>
+	</concept>
+	<concept>
+		<code value="94000026"/>
+		<display value="NUTRI HWHEY 250G"/>
+	</concept>
+	<concept>
+		<code value="94000204"/>
+		<display value="BEPANTOL BABY POMADA TUBO C/ 30G - BAYER"/>
+	</concept>
+	<concept>
+		<code value="94000212"/>
+		<display value="VITAMINAS DO COMPLEXO BSOL OR CT FR VD AMB X 120 ML"/>
+	</concept>
+	<concept>
+		<code value="94000255"/>
+		<display value="AGUA OXIGENADA 30 VOL. FR 100ML"/>
+	</concept>
+	<concept>
+		<code value="94000280"/>
+		<display value="VASELINA LIQUIDA 30 VOL. - FR 100ML"/>
+	</concept>
+	<concept>
+		<code value="94000298"/>
+		<display value="WHEY PROTEIN ISOLATE 15 SACHES DE 15G - MPI225"/>
+	</concept>
+	<concept>
+		<code value="94000352"/>
+		<display value="ISOFORT CHOCOLATE CX C/15 SACHES DE 30G"/>
+	</concept>
+	<concept>
+		<code value="94000360"/>
+		<display value="ISOFORT FRUTAS VERMELHAS CX C/15 SACHES DE 30G"/>
+	</concept>
+	<concept>
+		<code value="94000379"/>
+		<display value="ISOFORT NEUTRO CX C/15 SACHES DE 30G"/>
+	</concept>
+	<concept>
+		<code value="94000387"/>
+		<display value="ISOFORT BAUNILHA 900G C/ 01PT"/>
+	</concept>
+	<concept>
+		<code value="94000409"/>
+		<display value="ISOFORT NEUTRO 900G C/ 01PT"/>
+	</concept>
+	<concept>
+		<code value="94000425"/>
+		<display value="SOYPLEX BAUNILHA 300G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94000450"/>
+		<display value="SOYPLEX NATURAL 300G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94000484"/>
+		<display value="DIBEN 1,5KCAL HP SEM SABOR SF 1000ML C/ 01BOLS"/>
+	</concept>
+	<concept>
+		<code value="94000492"/>
+		<display value="DIBEN 1,5KCAL HP SEM SABOR SF 500ML C/ 01BOLS"/>
+	</concept>
+	<concept>
+		<code value="94089639"/>
+		<display value="VASELINA LIQUIDA FR. X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94089884"/>
+		<display value="ALCOOL IODADO 0,1% FRASCO X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94090220"/>
+		<display value="AGUA BORICADA 3% FR. X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94090351"/>
+		<display value="RIODEINE TOPICO  FR. X 1000 ML 0210"/>
+	</concept>
+	<concept>
+		<code value="94090424"/>
+		<display value="RIODEINE DEGERMANTE ALMOTOLIA X 100ML"/>
+	</concept>
+	<concept>
+		<code value="94113769"/>
+		<display value="COMPLEXO B MEDQUIMICA (1 + 0,55 + 0,4 + 4 + 0,5) MG/ML SOL OR CT FR PLAS AMB X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94113785"/>
+		<display value="LEITE DE MAGNESIA DE PHILLIPS FRASCO 350 ML"/>
+	</concept>
+	<concept>
+		<code value="94136807"/>
+		<display value="EPAREMA 125 MG DRG CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="94139083"/>
+		<display value="SANTIAZEPAM 5 MG CX. 1000 CP."/>
+	</concept>
+	<concept>
+		<code value="94164479"/>
+		<display value="TANAKAN 80 MG COM REV CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="94164487"/>
+		<display value="TANAKAN 120 MG COM REV CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="94185557"/>
+		<display value="PENTASA  500 MG FR. X 50 CP. REV."/>
+	</concept>
+	<concept>
+		<code value="94197687"/>
+		<display value="DRAPOLENE CREME BISN. X 40 G"/>
+	</concept>
+	<concept>
+		<code value="94199159"/>
+		<display value="METRONIFLEX 5 MG/ML SOL INJ CX 25 BOLS PLAS TRANS SIST FECH X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94202303"/>
+		<display value="HYPOSIL 5 MG/ML SOL INJ CX 100 AMP VD AMB X 2 ML ( EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94202621"/>
+		<display value="GLICOSE 250 MG/ML SOL INJ CX 200 AMP PLAS INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94224463"/>
+		<display value="IONCLOR 60 MG/ML SOL OR CX 50 FR PLAS OPC X 150 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94225257"/>
+		<display value="FOSFATO SODICO DE PREDNISOLONA 1 MG/ML. SOL. ORAL FR. PLAST. X 100 ML. + CP. DOS.X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94225265"/>
+		<display value="FOSFATO SODICO DE PREDNISOLONA 3 MG/ML SOL. ORAL FR. PLAST. X 60 ML. + CP. MED."/>
+	</concept>
+	<concept>
+		<code value="94227977"/>
+		<display value="SOLUCAO FISIOLOGICA DE CLORETO DE SODIO EQUIPLEX 175,5 MG/ML SOL INJ IV CX 200 AMP PE X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94227985"/>
+		<display value="SOLUCAO DE CLORETO DE POTASSIO 191 MG/ML SOL INJ IV CX 100AMP PE X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94231168"/>
+		<display value="CREON 150 MG CAP GEL DURA CT FR PLAS OPC X 100 (MINIMICROESFERAS)"/>
+	</concept>
+	<concept>
+		<code value="94236291"/>
+		<display value="CEFOTAXIMA SODICA 1 G PO SOL INJ CT FA VD TRANS+ DIL AMP VD TRANS X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94236410"/>
+		<display value="CEFTRIAXONA SODICA 500 MG IV PO SOL. INJ. CX. 5 FA + 5 AMP. DIL. X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94246262"/>
+		<display value="DERMAMON-FREE  CREME BISN. X 50 G"/>
+	</concept>
+	<concept>
+		<code value="94246270"/>
+		<display value="DERMAMON-FREE  CREME BISN. X 100 G"/>
+	</concept>
+	<concept>
+		<code value="94250553"/>
+		<display value="RIODEINE TOPICO ALMOTOLIA X 30ML"/>
+	</concept>
+	<concept>
+		<code value="94255717"/>
+		<display value="INSUMO CINTILOGRAFIA RENAL DINAMICA COM DIURETICO."/>
+	</concept>
+	<concept>
+		<code value="94255776"/>
+		<display value="MILNUTRI LATA 800G"/>
+	</concept>
+	<concept>
+		<code value="94255784"/>
+		<display value="QUALI SENIOR DISPLAY COM 10 SACHES DE 30 G"/>
+	</concept>
+	<concept>
+		<code value="94255792"/>
+		<display value="CALDE K2 COM REV CX 30"/>
+	</concept>
+	<concept>
+		<code value="94255865"/>
+		<display value="AMPICILINA 50 MG/ML PO P/ SUS OR CT FR PLAS OPC X 150 ML"/>
+	</concept>
+	<concept>
+		<code value="94255970"/>
+		<display value="CEFOXITINA SODICA 1 G PO SOL INJ IV CT FA VD TRANS + DIL AMP VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94255997"/>
+		<display value="GLICOSE 500 MG/ML SOL INJ CX 100 AMP VD INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94256004"/>
+		<display value="FILDERME 1% IODO 100 ML FR"/>
+	</concept>
+	<concept>
+		<code value="94256012"/>
+		<display value="GLICERINA - 100ML - 80 FRS"/>
+	</concept>
+	<concept>
+		<code value="94256020"/>
+		<display value="AQUALAV - SOL. FR. 1000ML - SIST. ABERTO"/>
+	</concept>
+	<concept>
+		<code value="94256039"/>
+		<display value="DIPIRONA SODICA 500 MG/ML SOL INJ CX 50 AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94256055"/>
+		<display value="COMPLEXIMED B COM REV  X 100"/>
+	</concept>
+	<concept>
+		<code value="94256071"/>
+		<display value="NUTREN JUST PROTEIN 15G C/ 01SACHE"/>
+	</concept>
+	<concept>
+		<code value="94256080"/>
+		<display value="FRESUBIN LIPID DRINK SABOR ABACAXI E COCO 200ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94256136"/>
+		<display value="ASTERALCOOL 70% 100ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94256187"/>
+		<display value="VITAWIN 2 30ML"/>
+	</concept>
+	<concept>
+		<code value="94256314"/>
+		<display value="CARBOFOR 400G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94256330"/>
+		<display value="AIDE 3 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94256403"/>
+		<display value="PEPTAMEN JUNIOR SISTEMA FECHADO 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94256411"/>
+		<display value="ARAMIN 10 MG/ML SOL INJ CX 50 AMP VD AMB X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94256446"/>
+		<display value="CETRILAN CREME BISN. X 40 G"/>
+	</concept>
+	<concept>
+		<code value="94256500"/>
+		<display value="LACPLUS FR 120ML (SABOR SALADA DE FRUTAS)"/>
+	</concept>
+	<concept>
+		<code value="94256519"/>
+		<display value="RINOSORO GOTAS CLORETO DE SODIO 9 MG/ML 30ML"/>
+	</concept>
+	<concept>
+		<code value="94256527"/>
+		<display value="EVOMIXAN 2 MG/ML SOL INJ CT 5 FA VD AMB X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94256535"/>
+		<display value="RIOHEX 0,2% DERMO SOL.AQUOSA TOPICA 100ML ALMOT.TWIST OFF"/>
+	</concept>
+	<concept>
+		<code value="94256543"/>
+		<display value="CLOREXIDINA 4% ALMOT.100ML"/>
+	</concept>
+	<concept>
+		<code value="94256551"/>
+		<display value="CLOREXIDINA 0,5% ALMOT.100ML"/>
+	</concept>
+	<concept>
+		<code value="94256560"/>
+		<display value="LEITE DE MAGNESIA PHILLIPS FRASCO 120 ML"/>
+	</concept>
+	<concept>
+		<code value="94256594"/>
+		<display value="NIQUITIN 21 MG ADES TRANSD CT ENV AL PE X 7"/>
+	</concept>
+	<concept>
+		<code value="94256608"/>
+		<display value="NIQUITIN 14 MG ADES TRANSD CT ENV AL PE X 7"/>
+	</concept>
+	<concept>
+		<code value="94258538"/>
+		<display value="CLORIDRATO DE RANITIDINA 25 MG/ML SOL INJ CX 100 AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94264864"/>
+		<display value="FRESUBIN ENERGY FIBRE SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94264872"/>
+		<display value="FRESUBIN ORIGINAL SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94264880"/>
+		<display value="FRESUBIN ORIGINAL FIBRE SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94266603"/>
+		<display value="NUTRISON STANDARD 1.0 PACK 1 LITRO SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94266620"/>
+		<display value="NUTRISON MULTI FIBER 1.0 MF PACK 1 LITRO SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94266654"/>
+		<display value="FRESUBIN LIPID SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94266662"/>
+		<display value="FRESUBIN HP ENERGY SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94266670"/>
+		<display value="FRESUBIN ENERGY SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94267510"/>
+		<display value="LISADOR (500 MG + 5 MG + 10 MG) / 1,5 ML SOL OR CT FR VD AMB X 15 ML + CGT"/>
+	</concept>
+	<concept>
+		<code value="94270287"/>
+		<display value="HALO 2 MG/ML SOL OR 50 CX FR GOT PLAS OPC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94270988"/>
+		<display value="MALEATO  DE  ENALAPRIL  20 MG CX. 30 CP"/>
+	</concept>
+	<concept>
+		<code value="94272522"/>
+		<display value="DIETA NUTRI RENAL  (2,0 KCAL/ML) ABERTO X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94273243"/>
+		<display value="ENFAMIL PREMIUM  1  -  LATA  400  G"/>
+	</concept>
+	<concept>
+		<code value="94273359"/>
+		<display value="NUTRISON SOYA MULTI FIBER LATA 800 G BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94273863"/>
+		<display value="LIPOVENOS 20% EMULSAO INJ. FR. X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94273871"/>
+		<display value="LIPOVENOS 20% EMULSAO INJ. FR. X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94278440"/>
+		<display value="NESTOGENO 1  LATA X 400 G"/>
+	</concept>
+	<concept>
+		<code value="94278458"/>
+		<display value="NESTOGENO 2  LATA X 400 G"/>
+	</concept>
+	<concept>
+		<code value="94278490"/>
+		<display value="IPRANEO 0,25 MG/ML SOL INAL CX 50 FR VD AMB GOT X 20 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94282161"/>
+		<display value="GLUTAMAX CX. 20 SACHES X 5 G"/>
+	</concept>
+	<concept>
+		<code value="94282170"/>
+		<display value="GLUTAMAX 400 G"/>
+	</concept>
+	<concept>
+		<code value="94288160"/>
+		<display value="SUSTEVIT BAUNILHA 400G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94288216"/>
+		<display value="DIAMAX TETRA PAK X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94288410"/>
+		<display value="AQUABEN CX. 4 ENV. X 27,9 G NATURAL"/>
+	</concept>
+	<concept>
+		<code value="94288674"/>
+		<display value="BENZEVIT PREVENT 100.000 UI/G + 200 MG/G CREME BISN. X 45 G"/>
+	</concept>
+	<concept>
+		<code value="94290156"/>
+		<display value="DECONGEX PLUS 12 MG + 15 MG COM REV LIB PROG CT BL AL PLAS INC X 4"/>
+	</concept>
+	<concept>
+		<code value="94290520"/>
+		<display value="SURVIMED OPD EASY BAG SEM SABOR X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94290539"/>
+		<display value="FRESUBIN SOYA FIBRE SF EASY BAG 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94290547"/>
+		<display value="RECONVAN EASY BAG X 500 ML SEM SABOR SF"/>
+	</concept>
+	<concept>
+		<code value="94292558"/>
+		<display value="FLOGOLAB 150 MG/100 ML COLUT CT 01 FR PET TRANS X 150 ML + COPO MEDIDA"/>
+	</concept>
+	<concept>
+		<code value="94293694"/>
+		<display value="HIDROXIDO DE ALUMINIO + HIDROXIDO DE MAGNESIO 6% + 4% SUSP. ORAL FR. X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94293708"/>
+		<display value="HIDROXIDO DE ALUMINIO + HIDROXIDO DE MAGNESIO 6% + 4% SUSP. ORAL FR. X 150 ML"/>
+	</concept>
+	<concept>
+		<code value="94293716"/>
+		<display value="HIDROXIDO DE ALUMINIO + HIDROXIDO DE MAGNESIO 6% + 4% SUSP. ORAL FR. X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94293732"/>
+		<display value="HIDROXIDO DE ALUMINIO 60 MG/ML SUSP. ORAL FR. X 150 ML"/>
+	</concept>
+	<concept>
+		<code value="94293740"/>
+		<display value="HIDROXIDO DE ALUMINIO 60 MG/ML SUSP. ORAL FR. X 240 ML"/>
+	</concept>
+	<concept>
+		<code value="94294267"/>
+		<display value="LEV SOY S/LACTOSE E SACAROSE POTE X 300 G"/>
+	</concept>
+	<concept>
+		<code value="94295247"/>
+		<display value="MICOSTALAB 25000 UI/G CREM VAG CT BG AL X 60 G + 1 APLIC"/>
+	</concept>
+	<concept>
+		<code value="94299587"/>
+		<display value="FRESUBIN ENERGY DRINK SF EASY BOTTLE 200 ML - MORANGO"/>
+	</concept>
+	<concept>
+		<code value="94299609"/>
+		<display value="FRESUBIN ENERGY FIBRE DRINK SF EASY BOTTLE 200 ML - CHOCOLATE"/>
+	</concept>
+	<concept>
+		<code value="94299625"/>
+		<display value="FRESUBIN PROTEIN ENERGY DRINK SF EASY BOTTLE 200 ML -  AVELA"/>
+	</concept>
+	<concept>
+		<code value="94299650"/>
+		<display value="FRESUBIN PROTEIN ENERGY DRINK SF EASY BOTTLE 200 ML - FRUTAS VERMELHAS"/>
+	</concept>
+	<concept>
+		<code value="94300046"/>
+		<display value="TCM DERMA SOAP FR. X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94300364"/>
+		<display value="MCT COM AGE 250 ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94301212"/>
+		<display value="NUTRICAO PARENTERAL MANIPULADA"/>
+	</concept>
+	<concept>
+		<code value="94301220"/>
+		<display value="NUTRICAO ENTERAL MANIPULADA"/>
+	</concept>
+	<concept>
+		<code value="94301239"/>
+		<display value="PRODUTO MANIPULADO FORMA FARMACEUTICA SOLIDA"/>
+	</concept>
+	<concept>
+		<code value="94301247"/>
+		<display value="PRODUTO MANIPULADO FORMA FARMACEUTICA SEMI-SOLIDA"/>
+	</concept>
+	<concept>
+		<code value="94301255"/>
+		<display value="PRODUTO MANIPULADO FORMA FARMACEUTICA LIQUIDA"/>
+	</concept>
+	<concept>
+		<code value="94301360"/>
+		<display value="FRESUBIN PROTEIN ENERGY DRINK SF EASY BOTTLE 200 ML -  ABACAXI"/>
+	</concept>
+	<concept>
+		<code value="94301620"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX FR PLAS TRANS X 2000 ML"/>
+	</concept>
+	<concept>
+		<code value="94302154"/>
+		<display value="BUSCODUO 10 MG + 500 MG COM REV CT BL AL PLAS INC X 4 (FRACAO DE VENDA)"/>
+	</concept>
+	<concept>
+		<code value="94302170"/>
+		<display value="HIPODEX BABY TUBO X 40 G"/>
+	</concept>
+	<concept>
+		<code value="94302472"/>
+		<display value="AGUA PURIFICADA SOL.INJ. FR. X 500 ML IRR"/>
+	</concept>
+	<concept>
+		<code value="94302480"/>
+		<display value="AGUA PURIFICADA SOL INJ FR X 1000 ML IRR"/>
+	</concept>
+	<concept>
+		<code value="94304025"/>
+		<display value="GLUTAMAX  300 G"/>
+	</concept>
+	<concept>
+		<code value="94304394"/>
+		<display value="CLINERIZE ENXAGUATORIO BUCAL TRADICIONAL FR. X 300 ML"/>
+	</concept>
+	<concept>
+		<code value="94304904"/>
+		<display value="RIODEINE TINTURA 10 G/100 ML PLAST X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94304963"/>
+		<display value="NAN COMFOR 1 LATA X 400 G"/>
+	</concept>
+	<concept>
+		<code value="94305218"/>
+		<display value="NAUSEDRON 8 MG COM REV CT BL AL/PLAS PVDC/TE/PVC TRANS X 10"/>
+	</concept>
+	<concept>
+		<code value="94307083"/>
+		<display value="WHEY PROTEIN ISOLATE 250 G"/>
+	</concept>
+	<concept>
+		<code value="94307091"/>
+		<display value="FRESUBIN 2 KCAL FIBRE DRINK EASY BOTTLE 200 ML - CHOCOLATE"/>
+	</concept>
+	<concept>
+		<code value="94307105"/>
+		<display value="FORTINI PO NEUTRO LATA X 400 G"/>
+	</concept>
+	<concept>
+		<code value="94307849"/>
+		<display value="SARCOPEN 240G COM 30 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94307857"/>
+		<display value="PRURIX LOCAO FR. X 120 ML"/>
+	</concept>
+	<concept>
+		<code value="94307970"/>
+		<display value="SUPRASOY SEM LACTOSE ORIGINAL 300G"/>
+	</concept>
+	<concept>
+		<code value="94308047"/>
+		<display value="FRESUBIN HEPA SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94308080"/>
+		<display value="FRESUBIN 2 KCAL DRINK BAUNILHA EASY BOTTLE 200ML BR7138601 C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94308098"/>
+		<display value="FRESUBIN 2 KCAL DRINK FRUTAS DA FLORESTA EASY BOTTLE 200ML BR7253601 C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94308101"/>
+		<display value="FRESUBIN LIPID DRINK SF EASY BOTTLE 200 ML - CAPPUCCINO"/>
+	</concept>
+	<concept>
+		<code value="94308152"/>
+		<display value="FRESUBIN PROTEIN ENERGY DRINK SF EASY BOTTLE 200 ML - CAPPUCINO"/>
+	</concept>
+	<concept>
+		<code value="94308292"/>
+		<display value="SUPOSITORIO DE GLICERINA ADULTO C/ 12UN"/>
+	</concept>
+	<concept>
+		<code value="94309175"/>
+		<display value="MEPISV 30 MG/ML SOL INJ CT BL TRANS X 100 CARP VD TRANS X 1,8 ML"/>
+	</concept>
+	<concept>
+		<code value="94309647"/>
+		<display value="ENSURE PLUS TETRAPACK X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94309787"/>
+		<display value="IBUPROTRAT 50MG/ML SUSP. ORAL FR. PLAST. GTS X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94310831"/>
+		<display value="OLEO MINERAL FR. X 100ML"/>
+	</concept>
+	<concept>
+		<code value="94310866"/>
+		<display value="NAN COMFOR 1 LATA X 800 G"/>
+	</concept>
+	<concept>
+		<code value="94311854"/>
+		<display value="RIOHEX 0,2% DERMA SUAVE SOL. FR. X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94312370"/>
+		<display value="BICARBONATO DE SODIO PO SECO X 80 G"/>
+	</concept>
+	<concept>
+		<code value="94312400"/>
+		<display value="SUPRIDERME LOCAO FR. X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94312524"/>
+		<display value="NUTRISON ADVANCED PROTISON PACK 500 ML SEM SABOR 1.28KCAL"/>
+	</concept>
+	<concept>
+		<code value="94312591"/>
+		<display value="TINTURA DE BENJOIM 20% ALMOTOLIA 100ML"/>
+	</concept>
+	<concept>
+		<code value="94312613"/>
+		<display value="RIOHEX SCRUB DISPLAY"/>
+	</concept>
+	<concept>
+		<code value="94312877"/>
+		<display value="PROPOFOL 10 MG/ML EMU INJ CX 5 AMP VD INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94313130"/>
+		<display value="MILLAR POMADA 30G"/>
+	</concept>
+	<concept>
+		<code value="94313385"/>
+		<display value="GLUCERNA 1.5 KCAL TETRAPACK 200 ML -BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94313440"/>
+		<display value="SUSTAGEN KIDS BAUNILHA LATA BAUNILHA X 380GR"/>
+	</concept>
+	<concept>
+		<code value="94313539"/>
+		<display value="OLEO DE RICINO SOL. FR. X 30ML"/>
+	</concept>
+	<concept>
+		<code value="94313598"/>
+		<display value="ALCOOL IODADO 0,1% FRASCO X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94314144"/>
+		<display value="NOVASOURCE GC  200ML MORANGO TETRA SLIM CX C/ 27"/>
+	</concept>
+	<concept>
+		<code value="94314152"/>
+		<display value="NOVASOURCE GC  200ML BAUNILHA TETRA SLIM CX C/ 27"/>
+	</concept>
+	<concept>
+		<code value="94314217"/>
+		<display value="PEPTAMEN HN SF CX. 12 FR 500 ML -  SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94314349"/>
+		<display value="BICARBONATO DE SODIO PO SECO X 100G"/>
+	</concept>
+	<concept>
+		<code value="94314608"/>
+		<display value="DERMANI FRASCO 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94314730"/>
+		<display value="BENEFLORA 2G C/ 03 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94314896"/>
+		<display value="MOPH DERME FR. 20ML"/>
+	</concept>
+	<concept>
+		<code value="94314977"/>
+		<display value="DEPURA GTS 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94315809"/>
+		<display value="DERMACYD SABONETE LIQUIDO INFANTIL 200ML"/>
+	</concept>
+	<concept>
+		<code value="94315868"/>
+		<display value="GLICERINA BRANCA 1000ML 0139"/>
+	</concept>
+	<concept>
+		<code value="94315981"/>
+		<display value="CEFTRIAX IM 500MG SOL INJ IV CT 1 FA + AMP DIL X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94316554"/>
+		<display value="LABORHEX 0,5% 100ML FRASCO"/>
+	</concept>
+	<concept>
+		<code value="94317054"/>
+		<display value="SUPRADYN ATIVA 30 CAP"/>
+	</concept>
+	<concept>
+		<code value="94317097"/>
+		<display value="FRESUBIN JUCY DRINK SF EASY BOTTLE 200 ML - ABACAXI"/>
+	</concept>
+	<concept>
+		<code value="94317119"/>
+		<display value="FRESUBIN JUCY DRINK SF EASY BOTTLE 200 ML - MACA"/>
+	</concept>
+	<concept>
+		<code value="94317470"/>
+		<display value="RIALCOOL 70% 100ML ALMOT."/>
+	</concept>
+	<concept>
+		<code value="94317488"/>
+		<display value="ALCOOLABOR 70 100ML FR"/>
+	</concept>
+	<concept>
+		<code value="94317496"/>
+		<display value="ALCOOLABOR 70 1000ML FR"/>
+	</concept>
+	<concept>
+		<code value="94317500"/>
+		<display value="RIALCOOL 70% 1000ML FR"/>
+	</concept>
+	<concept>
+		<code value="94318174"/>
+		<display value="NOVASOURCE GC 1L CX C/ 12 UNIDADES DE 1000ML TETRA SQUARE BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94318190"/>
+		<display value="BICARBONATO DE SODIO PO SECO X  100 G"/>
+	</concept>
+	<concept>
+		<code value="94318255"/>
+		<display value="PERMANGANATO DE POTASSIO 100MG 10CP"/>
+	</concept>
+	<concept>
+		<code value="94318603"/>
+		<display value="RIODEINE TOPICO 100ML ALMOT.0312"/>
+	</concept>
+	<concept>
+		<code value="94318700"/>
+		<display value="NUTRI ENTERAL (1,5 KCAL/ML) ABERTO SABOR BAUNILHA X 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94318719"/>
+		<display value="NUTRI ENTERAL (1,5 KCAL/ML) ABERTO SABOR BAUNILHA  200ML"/>
+	</concept>
+	<concept>
+		<code value="94319057"/>
+		<display value="BICARBONATO DE SODIO 100GRS"/>
+	</concept>
+	<concept>
+		<code value="94319090"/>
+		<display value="CEPACOL 300ML TRADICIONAL"/>
+	</concept>
+	<concept>
+		<code value="94319103"/>
+		<display value="SUPRIDERME 30 ML ALMOTOLIA"/>
+	</concept>
+	<concept>
+		<code value="94319138"/>
+		<display value="MINEROLEO FRASCO 100ML"/>
+	</concept>
+	<concept>
+		<code value="94319146"/>
+		<display value="OLEO MINERAL FR 100ML"/>
+	</concept>
+	<concept>
+		<code value="94319170"/>
+		<display value="ENFAMIL HMF SACHET C/0,71 G SACHET"/>
+	</concept>
+	<concept>
+		<code value="94319421"/>
+		<display value="ENTEROGERMINA FLACONETE 5ML X 10 FRASCOS"/>
+	</concept>
+	<concept>
+		<code value="94319456"/>
+		<display value="ACIDO ACETILSALICILICO 100 MG COM CT STR X 200 (EMB MULT)"/>
+	</concept>
+	<concept>
+		<code value="94319677"/>
+		<display value="PROLIVE CX 30 CAPS"/>
+	</concept>
+	<concept>
+		<code value="94319693"/>
+		<display value="NOVASOURCE GC HP CX 6 UND 1000ML BAUNILHA SF"/>
+	</concept>
+	<concept>
+		<code value="94319723"/>
+		<display value="GOB 6 25 MG COM CT BL ALU/ALU X 18"/>
+	</concept>
+	<concept>
+		<code value="94319995"/>
+		<display value="NUTREN 2.0 BAUN. TETRA SLIM 27 X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94320420"/>
+		<display value="QUELATUS CX. 60 CP"/>
+	</concept>
+	<concept>
+		<code value="94320438"/>
+		<display value="SAL AMARGO RIOQUIMICA 25G"/>
+	</concept>
+	<concept>
+		<code value="94320551"/>
+		<display value="PASTA D AGUA SIMPLES 100 GRS"/>
+	</concept>
+	<concept>
+		<code value="94321167"/>
+		<display value="NUTREN SENIOR SEM SABOR PO CX. C/12 LTS. DE 370 G"/>
+	</concept>
+	<concept>
+		<code value="94321191"/>
+		<display value="FORTINI PO BAUNILHA LATA X 400 G"/>
+	</concept>
+	<concept>
+		<code value="94321221"/>
+		<display value="ENSURE PO MORANGO LATA 400G"/>
+	</concept>
+	<concept>
+		<code value="94321230"/>
+		<display value="ENSURE PO CHOCOLATE LATA 400G"/>
+	</concept>
+	<concept>
+		<code value="94321248"/>
+		<display value="ENSURE PO BAUNILHA LATA 400G"/>
+	</concept>
+	<concept>
+		<code value="94321256"/>
+		<display value="ENSURE PO BANANA LATA 400G"/>
+	</concept>
+	<concept>
+		<code value="94321264"/>
+		<display value="ENSURE PO CHOCOLATE LATA 900G"/>
+	</concept>
+	<concept>
+		<code value="94321280"/>
+		<display value="ENSURE PO BAUNILHA LATA 900G"/>
+	</concept>
+	<concept>
+		<code value="94321299"/>
+		<display value="ENSURE PO BANANA LATA 900G"/>
+	</concept>
+	<concept>
+		<code value="94321540"/>
+		<display value="DIETA NUTRI FIBER 1,5KCAL/ML SABOR BAUNILHA 1L SISTEMA ABERTO"/>
+	</concept>
+	<concept>
+		<code value="94321833"/>
+		<display value="NUTRIDRINK COMPACT PROTEIN BAUNILHA 125ML"/>
+	</concept>
+	<concept>
+		<code value="94322228"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE TUMORES NEUROENDOCRINO - LUTECIO"/>
+	</concept>
+	<concept>
+		<code value="94322236"/>
+		<display value="PRODERM EMULSAO 120ML"/>
+	</concept>
+	<concept>
+		<code value="94322279"/>
+		<display value="GLUCERNA 400G - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94322406"/>
+		<display value="CETAPHIL ADVANCED LOCAO HIDRATANTE 226G"/>
+	</concept>
+	<concept>
+		<code value="94322414"/>
+		<display value="ISOSOURCE 1,5 CAL S/ SACAROSE 1 L CX 12 TETRA SQUARE 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94322627"/>
+		<display value="PEPTAMEN JUNIOR CX 12 LATAS 400G - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94322708"/>
+		<display value="VITAMINA E 400MG C/ 60CAP"/>
+	</concept>
+	<concept>
+		<code value="94322821"/>
+		<display value="NUTREN JUNIOR BAUNILHA PO CX C/ 12 LATAS 400G"/>
+	</concept>
+	<concept>
+		<code value="94322899"/>
+		<display value="SUPOSITORIO DE GLICERINA INFANTIL 12 UND"/>
+	</concept>
+	<concept>
+		<code value="94323011"/>
+		<display value="VASELINA POM 90 GRS 0258"/>
+	</concept>
+	<concept>
+		<code value="94323127"/>
+		<display value="TROPHIC EP TETRA PACK 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94323186"/>
+		<display value="NOVASOURCE GC SF 6 UND X 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94323500"/>
+		<display value="PASTA D'AGUA 100GRS 0187"/>
+	</concept>
+	<concept>
+		<code value="94323534"/>
+		<display value="OLEO DE RICINO SOL. FR. X 60ML"/>
+	</concept>
+	<concept>
+		<code value="94323674"/>
+		<display value="FRESUBIN PROTEIN POWDER 300 G"/>
+	</concept>
+	<concept>
+		<code value="94323704"/>
+		<display value="CICLOSPORINA 50 MG CAP MOLE CT BL AL/AL X 20"/>
+	</concept>
+	<concept>
+		<code value="94323720"/>
+		<display value="LEVEDURA DE CERVEJA C/ 150 CP"/>
+	</concept>
+	<concept>
+		<code value="94351937"/>
+		<display value="TOTAL NUTRITION HEPATO 360G"/>
+	</concept>
+	<concept>
+		<code value="94351945"/>
+		<display value="TROPHIC FIBER BAUNILHA 800G"/>
+	</concept>
+	<concept>
+		<code value="94351953"/>
+		<display value="CLEAN WHEY ISOLATE LATA 360G"/>
+	</concept>
+	<concept>
+		<code value="94352003"/>
+		<display value="GLUCERNA SR RPB 200ML - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94352011"/>
+		<display value="GLUCERNA SR RPB 200ML - CHOCOLATE"/>
+	</concept>
+	<concept>
+		<code value="94352038"/>
+		<display value="RESPIDON 1 MG COM REV CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94352062"/>
+		<display value="LUFTAL 75 MG ML EMU OR CT FR PLAS OPC GOT X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94352089"/>
+		<display value="OSMOLITE HICAL RTH SEM SABOR 1000ML SF C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94354480"/>
+		<display value="LEVOFLOXACINO HEMI-HIDRATADO 5 MG/ML SOL INJ IV CT 5 ENV PLAS OPC BOLS PLAS TRANS SIST FECH X 150 ML"/>
+	</concept>
+	<concept>
+		<code value="94354499"/>
+		<display value="CALCEOS KIDS 200ML"/>
+	</concept>
+	<concept>
+		<code value="94354502"/>
+		<display value="4 FIBER LIMAO 10G CHA MAIS"/>
+	</concept>
+	<concept>
+		<code value="94363161"/>
+		<display value="LISADOR DIP 500 MG/ML SOL INJ 50 AMP 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94363170"/>
+		<display value="SUPOSITORIO DE GLICERINA INFANTIL 1,44G CX. 24 SUP."/>
+	</concept>
+	<concept>
+		<code value="94363188"/>
+		<display value="POLICRESULENO + CLORIDRATO DE CINCHOCAINA 0,1 G/G + 0,01 G/G POM RET CT 10 BG AL X 3 G + 10 APLIC"/>
+	</concept>
+	<concept>
+		<code value="94363196"/>
+		<display value="SUPRA D 200UI/GOTA 20ML FR"/>
+	</concept>
+	<concept>
+		<code value="94363200"/>
+		<display value="VASELINA LIQUIDA 100ML"/>
+	</concept>
+	<concept>
+		<code value="94363218"/>
+		<display value="SAL AMARGO PO 30G"/>
+	</concept>
+	<concept>
+		<code value="94363269"/>
+		<display value="PLENI D 400G"/>
+	</concept>
+	<concept>
+		<code value="94363277"/>
+		<display value="BEPANTOL DERMA REGENERADOR LABIAL 7,5ML"/>
+	</concept>
+	<concept>
+		<code value="94363293"/>
+		<display value="CLORIDRATO DE OXIMETAZOLINA 0,25 MG/ML SOL NAS CT FR GOT PLAS OPC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94363315"/>
+		<display value="DEPAKOTE 250 MG COM REV CT FR VD AMB X 20"/>
+	</concept>
+	<concept>
+		<code value="94363340"/>
+		<display value="CLORIDRATO DE GANISETRONA 1 MG/ML SOL INJ CT AMP VD INC X 3 ML"/>
+	</concept>
+	<concept>
+		<code value="94366195"/>
+		<display value="SUSTEVIT PRO BAUNILHA 400G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94366217"/>
+		<display value="SUPRIDERME LOCAO FR. X 100ML"/>
+	</concept>
+	<concept>
+		<code value="94366241"/>
+		<display value="SOLFIBER 10G CX C/ 10 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94366284"/>
+		<display value="SIMETICONA 75 MG/ML EMU OR CT FR PLAS GOT X 15 ML"/>
+	</concept>
+	<concept>
+		<code value="94366306"/>
+		<display value="GERIADERM POMADA ASSADURA BISN. 120G"/>
+	</concept>
+	<concept>
+		<code value="94366314"/>
+		<display value="SEROQUEL 25 MG COM REV CT BL AL PLAS PVC OPC X 28"/>
+	</concept>
+	<concept>
+		<code value="94366357"/>
+		<display value="SOLUCAO ELETROLITICA BOLSA DE 5L-CLORETO DE SODIO 0,61%-SODIO 105 MEQ/L-POT.2,0 MEQ/L-MAGN. 0 A 1,8 MEQ/L-FOSF. 0 A 1,1 MMOL/L-CALCIO 1,5 MEQ/L-BICARB. DE SODIO 35 MEQ/L"/>
+	</concept>
+	<concept>
+		<code value="94366403"/>
+		<display value="TALCO MENTOLADO ADV  POTE 35G"/>
+	</concept>
+	<concept>
+		<code value="94366411"/>
+		<display value="AMILIA TALCO LIQUIDO 80G"/>
+	</concept>
+	<concept>
+		<code value="94366420"/>
+		<display value="BEPANTOL DERMA SPRAY 50ML"/>
+	</concept>
+	<concept>
+		<code value="94366438"/>
+		<display value="COENZIMA Q10 50MG C/60 COMP"/>
+	</concept>
+	<concept>
+		<code value="94366454"/>
+		<display value="FISIOGEL LOCAO HIPOALERGENICA FR. X 100ML"/>
+	</concept>
+	<concept>
+		<code value="94366470"/>
+		<display value="OSCAL KIDS XAROPE 150ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94366489"/>
+		<display value="PURAVIT A/D/E GOTAS 20ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94366500"/>
+		<display value="CARIAX ENXAGUANTE BUCAL SACHE 12ML (USO HOSPITALAR)"/>
+	</concept>
+	<concept>
+		<code value="94366519"/>
+		<display value="ARGCIR 13G  DISPLAY C/ 10SACHE"/>
+	</concept>
+	<concept>
+		<code value="94366527"/>
+		<display value="ESCADERM FR. X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94366535"/>
+		<display value="CLORIDRATO DE METOCLOPRAMIDA 5 MG/ML SOL INJ CT 100 AMP VD TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94366543"/>
+		<display value="SOLUCAO DE CITRATO DE SODIO 4% 3000ML C/ 01BOLS"/>
+	</concept>
+	<concept>
+		<code value="94366551"/>
+		<display value="SOLUCAO ELETROELITICA CALCIO+ASSOC 184MEQ/L 500ML C/ 01BOLS"/>
+	</concept>
+	<concept>
+		<code value="94366560"/>
+		<display value="REVITAM CALCIO SUPLEMENTO VITAMINICO MINERAL SUS OR FR X 225 ML"/>
+	</concept>
+	<concept>
+		<code value="94366578"/>
+		<display value="SULFATO FERROSO 125MG/ML GOTAS FRASCO 30ML FRAMBOESA"/>
+	</concept>
+	<concept>
+		<code value="94370605"/>
+		<display value="SUPOSITORIO DE GLICERINA (NOTIF.SIMPLIF.) PEDIATRICO C/ 12UN"/>
+	</concept>
+	<concept>
+		<code value="94370613"/>
+		<display value="SORINE SSC 0,9% SOL. NASAL FR. SPRAY AL. X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94370621"/>
+		<display value="LACTUGOLD XAROPE SABOR AMEIXA 120ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94370630"/>
+		<display value="CLORETO DE POTASSIO 19,1% SOL INJ IV CX 8 CT 100 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94370648"/>
+		<display value="AGUA PARA INJETAVEIS SOL INJ CX 8 CT 100 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94370656"/>
+		<display value="NUTILIS CLEAR 175G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94370664"/>
+		<display value="GELTRAT 37 + 40 + 5 MG/ML SUS OR CT FR PLAS OPC X 150 ML"/>
+	</concept>
+	<concept>
+		<code value="94370672"/>
+		<display value="BORG OMEGA 3 CONCENTRADO 60 CAPSULAS"/>
+	</concept>
+	<concept>
+		<code value="94370699"/>
+		<display value="BENZOL 400 MG COM CT BL AL PLAS INC X 45"/>
+	</concept>
+	<concept>
+		<code value="94370702"/>
+		<display value="CLORETO DE SODIO 9 MG/ML SOL INFUS IV CX 24 BOLS PLAS PVC TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94370729"/>
+		<display value="ZINCOPRO 02G CX C/ 04 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94370745"/>
+		<display value="MAXXI D3 SEM SABOR SOL ORAL 200UI/GOTA 20ML"/>
+	</concept>
+	<concept>
+		<code value="94370753"/>
+		<display value="NAN SOJA 800G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94370770"/>
+		<display value="ORGANONEURO CEREBRAL COM REV CT FR VD AMB X 25"/>
+	</concept>
+	<concept>
+		<code value="94370788"/>
+		<display value="PIEMONTE 5 MG COM MAST CT BL AL/AL X 10"/>
+	</concept>
+	<concept>
+		<code value="94370796"/>
+		<display value="SIFROL ER 0,75 MG COM LIB PROL CT BL AL/AL X 10"/>
+	</concept>
+	<concept>
+		<code value="94370826"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DE PERFUSAO CEREBRAL PARA AVALIACAO DO TRANSPORTE DE DOPAMINA (4070709-1)"/>
+	</concept>
+	<concept>
+		<code value="94370850"/>
+		<display value="FERRONIL 40 MG. CX. 50 CPRS. REV."/>
+	</concept>
+	<concept>
+		<code value="94370877"/>
+		<display value="DORSPAN 6,67 MG/ML + 333,4 MG/ML SOL OR CT FR VD AMB GOT X 15ML"/>
+	</concept>
+	<concept>
+		<code value="94370940"/>
+		<display value="DEMEDROX  150 MG/ML SUS INJ CT FA VD TRANS X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94370958"/>
+		<display value="DROPERDAL 2,5 MG/ML SOL INJ IM/IV CX 50 FA VD AMB X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94370974"/>
+		<display value="BROMIDRATO DE FENOTEROL 5 MG/ML SOL OR CT FR PLAS OPC GOT X 20ML"/>
+	</concept>
+	<concept>
+		<code value="94370982"/>
+		<display value="ALDOSTERIN25 MG COM REV CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94370990"/>
+		<display value="DIAZEPAM 5 MG/ML SOL INJ CT AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94371008"/>
+		<display value="MALEATO DE DEXCLORFENIRAMINA0,4 MG/ML SOL OR CT FR VD AMB X 100 ML + COP 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94371024"/>
+		<display value="CLORIDRATO DE CEFEPIMA 1 G PO SOL INJ IV/IM CT 01 FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94371032"/>
+		<display value="CLORIDRATO DE CEFEPIMA 1 G PO SOL INJ IM/IV CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94371040"/>
+		<display value="HIPOTEN 25 MG COM CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="94371059"/>
+		<display value="AMPICILINA SODICA 500 MG PO P/ SOL INJ CT 12 FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94371075"/>
+		<display value="AMINOFILINA24 MG/ML SOL INJ CX 100 EST AMP VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94371083"/>
+		<display value="EPREX 4000 UI SOL INJ CT 6 SER PREENCHIDA X 0,4 ML"/>
+	</concept>
+	<concept>
+		<code value="94371156"/>
+		<display value="SULFATO DE TERBUTALINA 0,5 MG/ML SOL INJ CT 6 AMP VD INC X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94371164"/>
+		<display value="ESPECTROPRIMA 40 MG/ML + 8 MG/ML SUS OR CT FR VD AMB X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94371172"/>
+		<display value="BABYDRAX 04ENV PO SOL ORAL X 27,9G"/>
+	</concept>
+	<concept>
+		<code value="94371180"/>
+		<display value="POLYDRAT 50 ENV PO SOL ORAL X 27,9G NATURAL"/>
+	</concept>
+	<concept>
+		<code value="94371199"/>
+		<display value="HIDRAPLEX REIDRATANTE PO SOLUCAO ORAL 50ENV X 27,9G"/>
+	</concept>
+	<concept>
+		<code value="94371202"/>
+		<display value="REHIDRAZOL 50ENV PO SOLUCAO ORAL X 27,9G"/>
+	</concept>
+	<concept>
+		<code value="94371210"/>
+		<display value="OLEO MINERAL FR 100ML SABOR LARANJA"/>
+	</concept>
+	<concept>
+		<code value="94371229"/>
+		<display value="KOLLANGEL ANTIACIDO SOLUCAO ORAL SABOR MORANGO HIDROXIDO DE ALUMINIO+MAGNESIO 60MG/ML +40MG/ML FR 150ML"/>
+	</concept>
+	<concept>
+		<code value="94371237"/>
+		<display value="ALKAGEL SUSPENSAO ORAL SABOR MENTA 240 ML - HIDROXIDO DE ALUMINIO 6% + HIDROXIDO DE ALUMINIO 4%"/>
+	</concept>
+	<concept>
+		<code value="94371245"/>
+		<display value="ESPIRONOLACTONA 50 MG COM CT BL AL PLAS TRANS X 60 (EMB FRAC)"/>
+	</concept>
+	<concept>
+		<code value="94371253"/>
+		<display value="NUJOL 1 ML/ML OLE CT FR PLAS TRANS PET X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94371261"/>
+		<display value="AMPICILINA SODICA 1 G PO P/ SOL INJ CT 50 FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94371288"/>
+		<display value="PROZAC 20 MG CAP GEL DURA X 14"/>
+	</concept>
+	<concept>
+		<code value="94371300"/>
+		<display value="PIDOMAG 150 MG/ML SOL OR CT 12 FLAC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94371318"/>
+		<display value="BIENN DIRECT 8 MG COM ORODISP CT BL AL PLAS TRANS X 10"/>
+	</concept>
+	<concept>
+		<code value="94371334"/>
+		<display value="ESGRILAX SUPOSITORIO GLICERINA ADULTO C/ 06UN"/>
+	</concept>
+	<concept>
+		<code value="94371377"/>
+		<display value="SULFERROL SUPLEMENTO MINERAL C/ 50COM"/>
+	</concept>
+	<concept>
+		<code value="94371393"/>
+		<display value="LIROMAG PO 30 SACHES X 01G"/>
+	</concept>
+	<concept>
+		<code value="94371407"/>
+		<display value="OSCAL CIT 30 SACHES X 30G"/>
+	</concept>
+	<concept>
+		<code value="94371415"/>
+		<display value="CETOCONAZOL SHAMPOO 100ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94371423"/>
+		<display value="FRESUBIN 3,2KCAL DRINK BAUNILHA 125ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94371431"/>
+		<display value="FRESUBIN 3,2KCAL DRINK AVELA 125ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94371440"/>
+		<display value="RIXIMYO 10 MG/ML SOL DIL INFUS CT 2 FR VD TRANS X 50 ML"/>
+	</concept>
+	<concept>
+		<code value="94371458"/>
+		<display value="RIXIMYO 10 MG/ML SOL DIL INFUS CT 3 FR VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94371474"/>
+		<display value="NOVASOURCE PROLINE MORANGO TETRA SLIM 200ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94371555"/>
+		<display value="SIMETICONA 75MG/ML EMU CT FR PLAS OPC GOT X 15ML"/>
+	</concept>
+	<concept>
+		<code value="94371563"/>
+		<display value="SIMETICONA NOTIF. SIMPLIF 40 MG 2 BL X 10 CPRS"/>
+	</concept>
+	<concept>
+		<code value="94371601"/>
+		<display value="GLICERINA SUPOSITORIO 1,0G INFANTIL"/>
+	</concept>
+	<concept>
+		<code value="94371610"/>
+		<display value="GLICERINA SUPOSITORIO 2,25G ADULTO"/>
+	</concept>
+	<concept>
+		<code value="94371644"/>
+		<display value="NISTATINA 25.000 UI/G CREM VAG CT BG AL X 60 G + 14 APLIC"/>
+	</concept>
+	<concept>
+		<code value="94371652"/>
+		<display value="CICATRICURE GEL HIDRATANTE E UMECTANTE 30G"/>
+	</concept>
+	<concept>
+		<code value="94371717"/>
+		<display value="KABIVEN EMUL INJ CX 4 BOLS PLAS BIOFINA X 1026ML"/>
+	</concept>
+	<concept>
+		<code value="94371725"/>
+		<display value="FIBERFOS 6G C/ 10 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94371733"/>
+		<display value="ENFAMIL ENFACARE PREMIUM LATA 363G"/>
+	</concept>
+	<concept>
+		<code value="94371741"/>
+		<display value="NUTRIDRINK PROTEIN BAUNILHA 350G C/ 12LT"/>
+	</concept>
+	<concept>
+		<code value="94371750"/>
+		<display value="NUTRIDRINK PROTEIN SEM SABOR 350G C/ 12LT"/>
+	</concept>
+	<concept>
+		<code value="94371768"/>
+		<display value="NUTRIDRINK PROTEIN SEM SABOR 700G C/ 12LT"/>
+	</concept>
+	<concept>
+		<code value="94371776"/>
+		<display value="FOSVITA 30 SACHES C/ 7G FV30"/>
+	</concept>
+	<concept>
+		<code value="94371784"/>
+		<display value="FOSVITA MODULO DE FIBRAS 250G POTE FV250"/>
+	</concept>
+	<concept>
+		<code value="94371792"/>
+		<display value="FIBERFOR EM PO 300G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94371806"/>
+		<display value="APTAMIL PREMIUM 1 800G"/>
+	</concept>
+	<concept>
+		<code value="94371814"/>
+		<display value="APTAMIL PREMIUM 1 400G"/>
+	</concept>
+	<concept>
+		<code value="94371822"/>
+		<display value="APTAMIL PREMIUM 2 800G"/>
+	</concept>
+	<concept>
+		<code value="94371830"/>
+		<display value="APTAMIL PREMIUM 2 400G"/>
+	</concept>
+	<concept>
+		<code value="94371849"/>
+		<display value="NAN ESPESSAR 400G"/>
+	</concept>
+	<concept>
+		<code value="94371857"/>
+		<display value="NAN ESPESSAR 800G"/>
+	</concept>
+	<concept>
+		<code value="94371865"/>
+		<display value="NAN SUPREME 1 400G"/>
+	</concept>
+	<concept>
+		<code value="94371873"/>
+		<display value="NAN SUPREME 1 800G"/>
+	</concept>
+	<concept>
+		<code value="94371881"/>
+		<display value="NAN SUPREME 2 800G"/>
+	</concept>
+	<concept>
+		<code value="94371890"/>
+		<display value="NUTRI ENTERAL SOYA BAUNILHA 800G"/>
+	</concept>
+	<concept>
+		<code value="94371903"/>
+		<display value="NEOVITE LUTEIN C/ 60COM"/>
+	</concept>
+	<concept>
+		<code value="94371911"/>
+		<display value="DISFOR LARANJA 11G C/ 45SACHE"/>
+	</concept>
+	<concept>
+		<code value="94371920"/>
+		<display value="AMINOMED SEM SABOR 400G"/>
+	</concept>
+	<concept>
+		<code value="94371938"/>
+		<display value="PEPTAMEN 1.5 CX. 24 TETRA PRISMA 250 ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94371946"/>
+		<display value="PEPTAMEN 1.5  SF CX. 6 ULTRAPAK 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94371954"/>
+		<display value="VINOQ 10 C/ 30CAPS"/>
+	</concept>
+	<concept>
+		<code value="94371962"/>
+		<display value="NOVASOURCE PROLINE 1000 ML SF C/  01FR"/>
+	</concept>
+	<concept>
+		<code value="94371997"/>
+		<display value="INOVAFLEX 12G LIMAO/CHA VERDE 30 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94372004"/>
+		<display value="EXTIMA 20G 30 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94372012"/>
+		<display value="DOSE D 200UI/GTS 20ML"/>
+	</concept>
+	<concept>
+		<code value="94372020"/>
+		<display value="NITRATO DE MICONAZOL 20 MG/G CREM VAG CT BG AL X 80 G + 14 APLIC"/>
+	</concept>
+	<concept>
+		<code value="94372055"/>
+		<display value="AMPICILINA SODICA + SULBACTAM SODICA 1G + 0,5G PO P/ SOL INJ CT 20 FA VD TRANS X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94372071"/>
+		<display value="OLEO MINERAL 100ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94372098"/>
+		<display value="SIMETICONA 40 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94372136"/>
+		<display value="STONGEL 400 MG + 400 MG COMP MAST CT ENV KRAFT X 20"/>
+	</concept>
+	<concept>
+		<code value="94372144"/>
+		<display value="STONGEL VS 200MG + 200MG PAS CX X 50"/>
+	</concept>
+	<concept>
+		<code value="94372179"/>
+		<display value="GLICOSE 100 MG/ML SOL INJ IV BOLS PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94372187"/>
+		<display value="ERITROMAX 3000 UI PO LIOF INJ CX FA VD INC + DIL X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94372225"/>
+		<display value="ZILABEN 0,25 ML/ML EMU TOP CX 50 FR VD AMB X 100 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94372233"/>
+		<display value="GLICOSE 100 MG/ML SOL INJ IV BOLS PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94372250"/>
+		<display value="TROPHIC SOYA 1,2KCAL SABOR BAUNILHA TETRA PAK 1000ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94372268"/>
+		<display value="JEVITY HICAL SEM SABOR 250ML"/>
+	</concept>
+	<concept>
+		<code value="94372276"/>
+		<display value="JEVITY PLUS SEM SABOR 250ML"/>
+	</concept>
+	<concept>
+		<code value="94372314"/>
+		<display value="NUTRI GLUTAMINE SEM SABOR SACHE 10G"/>
+	</concept>
+	<concept>
+		<code value="94372322"/>
+		<display value="NUTRI ENTERAL SOYA 1,2 KCAL/ML ABERTO SABOR BAUNILHA X 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94372330"/>
+		<display value="NUTRI ENTERAL SOYA FIBER 1,2 KCAL/ML BAUNILHA 1000ML TETRA PAK"/>
+	</concept>
+	<concept>
+		<code value="94372349"/>
+		<display value="NUTRI ENTERAL SOYA FIBER BAUNILHA 800G"/>
+	</concept>
+	<concept>
+		<code value="94372357"/>
+		<display value="MILUPA 2 800G"/>
+	</concept>
+	<concept>
+		<code value="94372365"/>
+		<display value="NESLAC COMFOR 800G"/>
+	</concept>
+	<concept>
+		<code value="94372373"/>
+		<display value="NESLAC SUPREME 800G"/>
+	</concept>
+	<concept>
+		<code value="94372381"/>
+		<display value="NESTONUTRI 800G"/>
+	</concept>
+	<concept>
+		<code value="94372390"/>
+		<display value="NAN SENSITIVE 800G"/>
+	</concept>
+	<concept>
+		<code value="94372403"/>
+		<display value="OSMOLITE PLUS HN RTH SEM SABOR 1000ML SF"/>
+	</concept>
+	<concept>
+		<code value="94372420"/>
+		<display value="OSMOLITE PLUS HN SEM SABOR 250ML"/>
+	</concept>
+	<concept>
+		<code value="94372470"/>
+		<display value="PERIOXIDIN 0,12% ENXAGUATORIO BUCAL 2000ML"/>
+	</concept>
+	<concept>
+		<code value="94372489"/>
+		<display value="NUTRATOPIC PRO-AMP ISDIN 400ML"/>
+	</concept>
+	<concept>
+		<code value="94372497"/>
+		<display value="COLIDIS GTS 5ML"/>
+	</concept>
+	<concept>
+		<code value="94372500"/>
+		<display value="ESPIRONOLACTONA 50 MG COM CT BL AL PLAS TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="94372519"/>
+		<display value="SAL DE FRUTA ENO PO EFEV CT 60 ENV AL POLIET X 5 G"/>
+	</concept>
+	<concept>
+		<code value="94372527"/>
+		<display value="SEVONESS LIQ INAL CX FR X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94372535"/>
+		<display value="TIORFAN 10 MG GRAN CT 10 SACH AL / PE X 1G"/>
+	</concept>
+	<concept>
+		<code value="94372543"/>
+		<display value="PIQRAY 200 MG COM REV CT BL AL PLAS PVC/PCTFE TRANS X 14"/>
+	</concept>
+	<concept>
+		<code value="94372551"/>
+		<display value="LIFE VEGAN 450G"/>
+	</concept>
+	<concept>
+		<code value="94372616"/>
+		<display value="NOVAMIL RICE 400G"/>
+	</concept>
+	<concept>
+		<code value="94372624"/>
+		<display value="NUTREN JUST PROTEIN LATA 280G"/>
+	</concept>
+	<concept>
+		<code value="94372632"/>
+		<display value="CLORETO DE CALCIO 100 MG/ML SOL INJ IV CX 50 AMP VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94372659"/>
+		<display value="CEPACOL 500ML"/>
+	</concept>
+	<concept>
+		<code value="94372667"/>
+		<display value="VITALUX PLUS OMEGA 3 C/ 30CAP"/>
+	</concept>
+	<concept>
+		<code value="94372675"/>
+		<display value="PARALAC 9000 FCC C/ 30COM"/>
+	</concept>
+	<concept>
+		<code value="94372683"/>
+		<display value="DIGELIV 2G 400FCC C/ 30SACHES"/>
+	</concept>
+	<concept>
+		<code value="94372713"/>
+		<display value="FISIOGEL LOCAO HIPOALERGENICA FR. X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="94372730"/>
+		<display value="CLORETO DE CALCIO 100 MG/ML SOL INJ IV CX 50 AMP VD TRANS X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94372748"/>
+		<display value="CALCITRAN B12 SUS OR CT FR PLAS OPC X 150 ML"/>
+	</concept>
+	<concept>
+		<code value="94372756"/>
+		<display value="BROMELIN 0,88 G/ML SUS OR CT FR PLAS X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94372772"/>
+		<display value="FISIOGEL CREME 60G C/ 01BG"/>
+	</concept>
+	<concept>
+		<code value="94372780"/>
+		<display value="FISIOGEL AI CREME 30G C/ 01BG"/>
+	</concept>
+	<concept>
+		<code value="94372799"/>
+		<display value="NUTRICOMP ENERGY HN MB BOLSA 1000ML 3547750"/>
+	</concept>
+	<concept>
+		<code value="94372802"/>
+		<display value="ENTEROGERMINA FLACONETE 5ML C/ 20 FRASCOS"/>
+	</concept>
+	<concept>
+		<code value="94372810"/>
+		<display value="PASURTA 70 MG/ML SOL INJ CT 2 SER PREENC VD TRANS X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94372870"/>
+		<display value="VITAFER 109 MG COM REV CT FR VD AMB X 50"/>
+	</concept>
+	<concept>
+		<code value="94372918"/>
+		<display value="ARICILINA  5.000.000 UI PO INJ CX 50 FA + 50 AMP DIL X 5ML"/>
+	</concept>
+	<concept>
+		<code value="94372942"/>
+		<display value="ENVID 800 MCG + 20 MG CAP MOLE CT BL AL PLAS OPC X 60"/>
+	</concept>
+	<concept>
+		<code value="94372977"/>
+		<display value="SIMETICONA 40 MG COM CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="94372985"/>
+		<display value="LUFBEM 75 MG/ML 10ML SABOR MORANGO"/>
+	</concept>
+	<concept>
+		<code value="94372993"/>
+		<display value="LACTULOSE NUTRIMAIS 667MG/ML 120ML SABOR AMEIXA"/>
+	</concept>
+	<concept>
+		<code value="94373027"/>
+		<display value="CLORIDRATO DE DOPAMINA 5 MG/ML SOL INJ CX 5 AMP VD AMB X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94373035"/>
+		<display value="XYLOCAINA 100ML MG/ML SOL TOP CT FR VD INC SPRAY X 50ML"/>
+	</concept>
+	<concept>
+		<code value="94373108"/>
+		<display value="PHOSFOENEMA (160 + 60)MG/ML SOL RET CX 12 FR PLAS X 130 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94373132"/>
+		<display value="ENZYFOR CX 10 SACHES X 3 G"/>
+	</concept>
+	<concept>
+		<code value="94373140"/>
+		<display value="VENAFLON 450 MG + 50 MG COM REV CT BL AL PLAS PVDC TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="94373159"/>
+		<display value="SAL DE FRUTA ENO PO EFEV 2 ENV AL POLIET X 5 G"/>
+	</concept>
+	<concept>
+		<code value="94373167"/>
+		<display value="KAVIT 10 MG/ML SOL INJ CX 50 AMP VD AMB X 1 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94373205"/>
+		<display value="DROXAINE 60 MG/ML + 20 MG/ML + 2 MG/ML SUS OR CT FR PLAS PET OPC X 240 ML"/>
+	</concept>
+	<concept>
+		<code value="94373221"/>
+		<display value="PERITOSTERIL (42,5+5,786+3,924+0,2573+0,1017) MG/ML SOL DP CX BOLS PLAS TRANS X 2000ML + EQ + BOLS DREN KIT"/>
+	</concept>
+	<concept>
+		<code value="94373256"/>
+		<display value="VIOLETA GENCIANA SOLUCAO 1% 30ML"/>
+	</concept>
+	<concept>
+		<code value="94373264"/>
+		<display value="ENZYFOR CX 30 SACHES 3 G"/>
+	</concept>
+	<concept>
+		<code value="94373272"/>
+		<display value="CARBOFOR 25G CX 20 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94373280"/>
+		<display value="ESPEFOR ESPESSANTE 4G 20 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94373329"/>
+		<display value="FREBINI ENERGY FIBRE EASY BAG 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94373337"/>
+		<display value="FISIOGEL LOCAO HIPOALERGIENICA FR 400ML"/>
+	</concept>
+	<concept>
+		<code value="94373345"/>
+		<display value="SEAKALM 260 MG COM REV CT BL AL PLAS TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="94373353"/>
+		<display value="GROWZINCO GUARANA 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94373361"/>
+		<display value="INSUMO RADIOATIVO ESTUDO DO SHUNT DE LE VEEN"/>
+	</concept>
+	<concept>
+		<code value="94373388"/>
+		<display value="INSUMO RADIOATIVO TESTE DO PERCLORATO"/>
+	</concept>
+	<concept>
+		<code value="94373396"/>
+		<display value="VITAMINA C ARTE NATIVA 200GM/ML SOL OR X 20ML"/>
+	</concept>
+	<concept>
+		<code value="94373400"/>
+		<display value="FENAFLAN ICE AEROSOL 150ML"/>
+	</concept>
+	<concept>
+		<code value="94373426"/>
+		<display value="INSUMO RADIOATIVO IMUNOCINTILOGRAFIA (ANTICORPOS MONOCLONAIS)"/>
+	</concept>
+	<concept>
+		<code value="94373434"/>
+		<display value="INSUMO RADIOATIVO TRATAMENTO DA POLICEMIA VERA"/>
+	</concept>
+	<concept>
+		<code value="94373442"/>
+		<display value="HEMATOLOGICO IN VIVO DETERMINACAO DO VOLUME PLASMATICO"/>
+	</concept>
+	<concept>
+		<code value="94373450"/>
+		<display value="HEMATOLOGICO IN VIVO DETERMINACAO DO SEQUESTRO DE HEMACIAS PELO BACO"/>
+	</concept>
+	<concept>
+		<code value="94373469"/>
+		<display value="DIGESTIVO IN VIVO PERDAS PROTEICAS"/>
+	</concept>
+	<concept>
+		<code value="94373485"/>
+		<display value="OMEGA 3 VITAZ 1000MG C/ 120CAP"/>
+	</concept>
+	<concept>
+		<code value="94373493"/>
+		<display value="FISIOGEL LOCAO HIPOALERGENICA FR 240ML"/>
+	</concept>
+	<concept>
+		<code value="94373507"/>
+		<display value="CLORETO DE SODIO 20% SOL INJ CX 8 CT 100 AMP PLAST TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94373515"/>
+		<display value="SULFATO DE MAGNESIO 100 MG/ML SOL INJ CX 100 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94373523"/>
+		<display value="INSUMO RADIOATIVO - TESTE DE ABSORCAO DE VITAMINA B12 COM COBALTO - 57 (TESTE DE SCHILLING)"/>
+	</concept>
+	<concept>
+		<code value="94373531"/>
+		<display value="STIPROX SHAMPOO 120ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94373540"/>
+		<display value="ABERALGINA 500 MG/ML SOL OR CT FR PLAS OPC GOT X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94373558"/>
+		<display value="CETAPHILL CREME HIDRATANTE 250G"/>
+	</concept>
+	<concept>
+		<code value="94373574"/>
+		<display value="SANISKIN LOCAO HIDRATANTE 200ML"/>
+	</concept>
+	<concept>
+		<code value="94373582"/>
+		<display value="URBANIL 10 MG COM CT BL AL PLAS LAR X 20"/>
+	</concept>
+	<concept>
+		<code value="94373590"/>
+		<display value="CANABIDIOL 200 MG/ML SOL CT FR VD AMB X 30 ML + SER DOS"/>
+	</concept>
+	<concept>
+		<code value="94373604"/>
+		<display value="NATIGLOS POMADA DERMATOLOGICA BISNAGA 45G"/>
+	</concept>
+	<concept>
+		<code value="94373671"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE CANCER DA TIREOIDE (350 MCI)"/>
+	</concept>
+	<concept>
+		<code value="94373680"/>
+		<display value="LAVITAN DRG CT FR PLAS OPC X 50"/>
+	</concept>
+	<concept>
+		<code value="94373710"/>
+		<display value="CLORHEXIDINE DEGERMANTE 0,2% 100ML"/>
+	</concept>
+	<concept>
+		<code value="94373728"/>
+		<display value="CISBERRY 200MG CX C/ 30 CAPSULAS"/>
+	</concept>
+	<concept>
+		<code value="94373736"/>
+		<display value="PEDIASURE COMPLETE SABOR MORANGO LATA 900G"/>
+	</concept>
+	<concept>
+		<code value="94373744"/>
+		<display value="REVITAM JUNIOR SUPLEMENTO VITAMINICO SOLUCAO ORAL 120ML"/>
+	</concept>
+	<concept>
+		<code value="94373760"/>
+		<display value="BEPANTOL DERMA REGENERADOR LABIAL 7,5ML"/>
+	</concept>
+	<concept>
+		<code value="94373787"/>
+		<display value="PROPOMAX 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94373795"/>
+		<display value="POMADA CALMOSEPTINE OINTMENT TUBO DE 4 OZ 113G"/>
+	</concept>
+	<concept>
+		<code value="94373809"/>
+		<display value="PEG-LAX PO SOL. ORAL 14 ENVS. AL. PLAST. X 17,5 G."/>
+	</concept>
+	<concept>
+		<code value="94373817"/>
+		<display value="GINKOLAB 40MG C/ 30COM"/>
+	</concept>
+	<concept>
+		<code value="94373825"/>
+		<display value="PURIVIT IMUNE 75ML"/>
+	</concept>
+	<concept>
+		<code value="94373892"/>
+		<display value="COMPLEXO B MEDQUIMICA COM REV CT FR VD AMB X 20"/>
+	</concept>
+	<concept>
+		<code value="94373906"/>
+		<display value="COMPLEXO B MEDQUIMICA COM REV CT FR VD AMB X 100"/>
+	</concept>
+	<concept>
+		<code value="94373914"/>
+		<display value="NUTRICOMP D MONOBAG 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94373922"/>
+		<display value="HUMALIN QUALI SENIOR LATA 400G"/>
+	</concept>
+	<concept>
+		<code value="94373930"/>
+		<display value="COLLESTRA 650MG C/ 60CAP"/>
+	</concept>
+	<concept>
+		<code value="94373949"/>
+		<display value="PERLATTE C/ 30COM"/>
+	</concept>
+	<concept>
+		<code value="94373973"/>
+		<display value="ALLEGRA 60 MG COM REV CT BL AL AL X 10"/>
+	</concept>
+	<concept>
+		<code value="94373981"/>
+		<display value="ALLEGRA 120 MG COM REV CT BL AL AL X 5"/>
+	</concept>
+	<concept>
+		<code value="94374007"/>
+		<display value="FOSFATO SODICO DE PREDNISOLONA 3,0 MG/ML SOL OR CT FR PLAS PET AMB X 120 ML + COP"/>
+	</concept>
+	<concept>
+		<code value="94374040"/>
+		<display value="OILATUM SABONETE BARRA 100 G"/>
+	</concept>
+	<concept>
+		<code value="94374058"/>
+		<display value="SULFERBEL 25 MG/ML XPE CT FR VD AMB X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94374090"/>
+		<display value="AIDE 3 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94374112"/>
+		<display value="HIPOGLOS AMENDOAS 40G"/>
+	</concept>
+	<concept>
+		<code value="94374120"/>
+		<display value="INSTANTH CLEAR 125G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="94374139"/>
+		<display value="INSTANTH NEO 13,75G C/ 37 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94374147"/>
+		<display value="BEMMAX 350G C/ 12 LATAS"/>
+	</concept>
+	<concept>
+		<code value="94374155"/>
+		<display value="LAVITAN KIDS FRASCO 240ML"/>
+	</concept>
+	<concept>
+		<code value="94374171"/>
+		<display value="DOZOITO 25 MG COM REV LIB PROL CT FR PLAS PEAD OPC X 30"/>
+	</concept>
+	<concept>
+		<code value="94374201"/>
+		<display value="OMEGA 3 EPA DHA 1000 MG CX. 60 CAP."/>
+	</concept>
+	<concept>
+		<code value="94374210"/>
+		<display value="ALLEGRA 180 MG COM REV CT BL AL AL X 10"/>
+	</concept>
+	<concept>
+		<code value="94374236"/>
+		<display value="SUPOSITORIO DE GLICERINA ADULTO 2,92G C/24UN"/>
+	</concept>
+	<concept>
+		<code value="94374252"/>
+		<display value="PROBIAN CAIXA C/ 30 CAPSULAS"/>
+	</concept>
+	<concept>
+		<code value="94374287"/>
+		<display value="NUTREN SENIOR ZERO LACTOSE SEM SABOR C/ 740G"/>
+	</concept>
+	<concept>
+		<code value="94374295"/>
+		<display value="MOTIX SOL INJ CT AMP VD INC X 2,2ML"/>
+	</concept>
+	<concept>
+		<code value="94374317"/>
+		<display value="BROMOPRIDA 5 MG/ML SOL INJ CX 50 AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94374333"/>
+		<display value="FRESUBIN 3,2KCAL DRINK CARAMELO 125ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94374341"/>
+		<display value="BICERTO IV 1,0 MG/ML SOL INFUS CX 60 ENVOL PEAD FA PLAS PP TRANS SIST FECH X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94374384"/>
+		<display value="ACIDO ACETILSALICILICO GENERICO 100 MG COM X 30"/>
+	</concept>
+	<concept>
+		<code value="94374392"/>
+		<display value="AMPICILINA SODICA + SULBACTAM SODICO 2G + 1G PO SOL INJ IM/IV CT 20 FA VD TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94374406"/>
+		<display value="SOLUCAO ELETROLITICA PARA DIALISE MANIPULADA TSR (SODIO 0,57-0,85%) (ICMS 0%)(RESTR. HOSP.)BOLSA DE 5 L SODIO 98 A 145 MEQ/L - MAGNESIO 0 A 1,8 MEQ/L - FOSFORO 0 A 1,1 MMOL/L; SEM POTASSIO - SEM GLICOSE (CFME PRESCRICAO MEDICA)"/>
+	</concept>
+	<concept>
+		<code value="94374414"/>
+		<display value="TEMODAL 100 MG PO LIOF SOL INJ CT FA VD TRANS X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94374422"/>
+		<display value="TEMODAL 100 MG PO LIOF SOL INJ CT 5 FA VD TRANS X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94374430"/>
+		<display value="LEUSTATIN 1MG/ML SOL INJ CT FA VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94374457"/>
+		<display value="MSUD MED B LATA 500G"/>
+	</concept>
+	<concept>
+		<code value="94374465"/>
+		<display value="NUTRISON ADVANCED PROTISON 500 ML OPTRI BOTTLE"/>
+	</concept>
+	<concept>
+		<code value="94374473"/>
+		<display value="APIXABANA 5 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94374481"/>
+		<display value="ENFAMIL GENTLEASE PREMIUM 800G"/>
+	</concept>
+	<concept>
+		<code value="94374490"/>
+		<display value="ZINCOPRO C/ 30CAP"/>
+	</concept>
+	<concept>
+		<code value="94374503"/>
+		<display value="FORTIFIT PRO MORANGO 600G"/>
+	</concept>
+	<concept>
+		<code value="94374511"/>
+		<display value="OLIMEL (14,2 + 27,5 + 20) G/L EMUL INJ IV CX 6 BOLS PLAS TRANS FLEX X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94374520"/>
+		<display value="AXETILCEFUROXIMA 500 MG COM CT BL AL/AL X 20"/>
+	</concept>
+	<concept>
+		<code value="94374538"/>
+		<display value="AMPICILINA SODICA + SULBACTAM SODICO 1G + 0,5G PO P/ SOL INJ CT 30 FA VD TRANS X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94374546"/>
+		<display value="AMPICILINA SODICA + SULBACTAM SODICO 2G + 1G PO P/ SOL INJ CT 30 FA VD TRANS X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94374554"/>
+		<display value="CEFTRIAXONA SODICA 1 G PO INJ IV CT 25 FA VD TRANS + 25 AMP DIL X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94374562"/>
+		<display value="INFLUVAC SUS INJ CT 1 SER LONG PREENC VD TRANS COM AGU 25MM X 0,5 ML"/>
+	</concept>
+	<concept>
+		<code value="94374589"/>
+		<display value="VANCOCINA CP 500 MG PO SOL INJ CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94374597"/>
+		<display value="VANCOCINA CP 1 G PO SOL INJ CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94374619"/>
+		<display value="HEMAX ERITRON 10.000 UI PO LIOF SOL INJ CT FA VD TRANS + AMP DIL X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94374627"/>
+		<display value="NOVOFER PED 263,16 MG/ML SUS OR CT FR VD AMB X 30 ML + CGT"/>
+	</concept>
+	<concept>
+		<code value="94374643"/>
+		<display value="NAROPIN 7,5 MG/ML SOL INJ CT 5 AMP PLAS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94374660"/>
+		<display value="CIPRO 500 MG COM REV MULT LIB PROL CT BL AL/AL X 7"/>
+	</concept>
+	<concept>
+		<code value="94374678"/>
+		<display value="EYLIA 40 MG/ML SOL INJ IVIT CT SER PREENC VD TRANS X 0,165 ML"/>
+	</concept>
+	<concept>
+		<code value="94374686"/>
+		<display value="MIRENA 52 MG DIU CT BL X 1 + INSERTOR"/>
+	</concept>
+	<concept>
+		<code value="94374694"/>
+		<display value="UROTROBEL 400 MG COM REV CT FR VD AMB X 14"/>
+	</concept>
+	<concept>
+		<code value="94374708"/>
+		<display value="CLORIDRATO DE ONDANSETRONA 4 MG COM ORODISP CT BL AL PLAS TRANS X 10"/>
+	</concept>
+	<concept>
+		<code value="94374716"/>
+		<display value="ERITROMAX 40000 UI/ML SOL INJ CX 12 SER PREENC X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94374724"/>
+		<display value="OCITOCINA 5 UI/ML SOL INJ CX 1 AMP VD INC X 1 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94374732"/>
+		<display value="ONTRAX 2 MG/ML SOL INJ CT 100 AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94374775"/>
+		<display value="CINALEO 15 U PO LIOF SOL INJ IM/IV/IP/SC CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94374783"/>
+		<display value="BUPICAN HEAVY 5 MG/ ML SOL INJ CX 5 AMP VD TRANS X 4 ML"/>
+	</concept>
+	<concept>
+		<code value="94374791"/>
+		<display value="CELESTONE 4 MG/ML SOL INJ CX 25 AMP VD INC X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94374805"/>
+		<display value="PERIDAL 1 MG/ML SUS OR CT FR VD AMB X 100 ML + DOSADOR"/>
+	</concept>
+	<concept>
+		<code value="94374821"/>
+		<display value="AMYTRIL 75 MG COM REV CT BL AL PLAS PVDC TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94374830"/>
+		<display value="FENTANEST 0,05 MG/ML SOL INJ CX 25 AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94374848"/>
+		<display value="FENTANEST 0,05 MG/ML SOL INJ CX 25 AMP VD AMB X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94374856"/>
+		<display value="NAUSEDRON 2 MG/ML SOL INJ IV/IM CT AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94374864"/>
+		<display value="NAUSEDRON 2 MG/ML SOL INJ IV/IM CT AMP VD AMB X 4 ML"/>
+	</concept>
+	<concept>
+		<code value="94374872"/>
+		<display value="TRACUR 10 MG/ML SOL INJ CX 5 AMP VD TRANS X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94374880"/>
+		<display value="TRACUR 10 MG/ML SOL INJ CX 5 AMP VD TRANS X 2,5 ML"/>
+	</concept>
+	<concept>
+		<code value="94374899"/>
+		<display value="CYMBALTA 30 MG CAP DURA C/ MGRAN RETARD CT BL AL AL X 7"/>
+	</concept>
+	<concept>
+		<code value="94374902"/>
+		<display value="ALPRAZOLAM 0,25 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94374910"/>
+		<display value="ALPRAZOLAM 0,5 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94374929"/>
+		<display value="BROMAZEPAM 3 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94374937"/>
+		<display value="BROMAZEPAM 6 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94374945"/>
+		<display value="CAPTOPRIL 50 MG COM CT BL AL PLAS OPC X 28"/>
+	</concept>
+	<concept>
+		<code value="94374953"/>
+		<display value="CEFALEXINA MONOIDRATADA 1G COM REV CT BL AL PLAS LEIT X 8"/>
+	</concept>
+	<concept>
+		<code value="94374961"/>
+		<display value="HIDROCLOROTIAZIDA 25 MG COM CT BL AL PLAS OPC X 20"/>
+	</concept>
+	<concept>
+		<code value="94374970"/>
+		<display value="SULFATO NEOMICINA+BACITRACINA5 MG/G + 250 UI/G POM DERM CT BG AL X 50 G"/>
+	</concept>
+	<concept>
+		<code value="94374988"/>
+		<display value="CLORIDRATO DE PROPRANOLOL 40 MG COM CT BL AL PLAS TRANS X 60"/>
+	</concept>
+	<concept>
+		<code value="94374996"/>
+		<display value="DIPIRONA MONOIDRATADA 500 MG COM CT BL AL PLAS PVC TRANS X 200"/>
+	</concept>
+	<concept>
+		<code value="94375003"/>
+		<display value="SULFAMETOXAZOL+TRIMETOPRIMA 40 MG/ML + 8 MG/ML SUS OR CT FR PLAS AMB X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94375038"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 24 FR POLIET X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94375046"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 12 FR POLIET X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375054"/>
+		<display value="AZITROMICINA 500 MG COM REV CT BL AL PLAS PVC TRANS X 2"/>
+	</concept>
+	<concept>
+		<code value="94375062"/>
+		<display value="CLORIDRATO DE GENCITABINA 1 G PO LIOF SOL INJ IV CT FA VD TRANS X 50 ML"/>
+	</concept>
+	<concept>
+		<code value="94375070"/>
+		<display value="CLORIDRATO DE IRINOTECANO 20 MG/ML SOL DIL INFUS IV CT FA VD AMB X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94375089"/>
+		<display value="MEROPENEM 500 MG PO P/ SOL INJ CT 10 FA VD TRANS X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94375097"/>
+		<display value="PANTOCAL 40 MG PO LIOF SOL INJ CT 50 FA VD TRANS + 50 AMP PLAS DIL X 10"/>
+	</concept>
+	<concept>
+		<code value="94375100"/>
+		<display value="METROFARMA 5 MG/ML SOL INJ CX 50 AMP VD AMB X 2 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94375119"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94375127"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 30 FR PLAS TRANS SIST FECHX 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94375135"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 80 FR PLAS TRANS SIST FECH X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94375143"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 16 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375151"/>
+		<display value="ENDONIDAZOL 5 MG/ML SOL INJ CX 80 FR PLAS TRANS SIST FECH X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94375160"/>
+		<display value="HISOCEL SOL SOL INJ IV CX 30 BOLS PLAS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94375178"/>
+		<display value="GLICOSE 50 MG/ML SOL INJ IV CX 16 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375186"/>
+		<display value="MANITOL 200 MG/ML SOL INFUS IV CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94375194"/>
+		<display value="CLORETO DE SODIO 9 MG/ML SOL INJ IV CX 80 FR PLAS TRANS SIST FECH X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94375208"/>
+		<display value="CLORETO DE SODIO 9 MG/ML SOL INJ IV CX 16 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375216"/>
+		<display value="SOLUCAO GLICOFISIOLOGICA 50 MG/ML + 9 MG/ML SOL INJ IV CX 16 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375224"/>
+		<display value="GLICOSE 100 MG/ML SOL INJ IV CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94375232"/>
+		<display value="GLICOSE 100 MG/ML SOL INJ IV CX 16 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375240"/>
+		<display value="GLICOSE 50 MG/ML SOL INJ IV CX 30 FR PLAS TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94375259"/>
+		<display value="SOLUCAO RINGER COM LACTATO SOL INJ IV CX 16 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94375267"/>
+		<display value="VOLUVEN 6% 60 MG/ML SOL INJ IV CX 30 FR PE TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94375275"/>
+		<display value="VOLUVEN 6% 60 MG/ML SOL INJ IV CX 30 BOLS PLAS TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="94375283"/>
+		<display value="CLORETO DE SODIO 9 MG/ML SOL INJ IV CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94375291"/>
+		<display value="GLICOSE 50 MG/ML SOL INJ IV CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94375305"/>
+		<display value="BROMAZEPAM 3 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94375364"/>
+		<display value="AEROLIN 100 MCG/DOSE SUS AER INAL OR CT TB AL X 200 ACIONAMENTOS + DISP INAL + ESPAC"/>
+	</concept>
+	<concept>
+		<code value="94375380"/>
+		<display value="CLORETO DE POTASSIO 10% 0,10 G/ML SOL INJ IV CX 200 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375399"/>
+		<display value="BUTILBROMETO DE ESCOPOLAMINA + DIPIRONA SODICA (4 + 500) MG/ML SOL INJ IM/IV CT 3 AMP VD AMB X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94375402"/>
+		<display value="MIDAZOLAM 5 MG/ML SOL INJ CT 5 AMP VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375410"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 100 AMP VD TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94375429"/>
+		<display value="HEMITARTARATO DE NOREPINEFRINA 2 MG/ML SOL INJ IV CX 10 AMP VD AMB X 4 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94375437"/>
+		<display value="DORMEC 100 MG COM CT 20 ENV POLIEST + FILME POLI X 10 (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94375445"/>
+		<display value="DYSPORT 300 U PO LIOF SOL INJ CT 2 FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94375453"/>
+		<display value="FENTANIL 50 MCG/ML SOL INJ 10 CX 5 AMP VD TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94375461"/>
+		<display value="JP MANITOL 200 MG/ML SOL INJ IV CX 30 FR PLAS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94375488"/>
+		<display value="SULFATO DE SALBUTAMOL 0,4 MG/ML XPE CT FR PET AMB X 100 ML + CP MED"/>
+	</concept>
+	<concept>
+		<code value="94375496"/>
+		<display value="CAPTOPRIL 12,5 MG COM CT BL AL PLAS TRANS X 16"/>
+	</concept>
+	<concept>
+		<code value="94375500"/>
+		<display value="CAPTOPRIL 50 MG COM CT BL AL PLAS TRANS X 16"/>
+	</concept>
+	<concept>
+		<code value="94375518"/>
+		<display value="CLONAZEPAM 0,5 MG COM CT BL AL PLAS OPC X 20"/>
+	</concept>
+	<concept>
+		<code value="94375526"/>
+		<display value="ZOSTAVAX PO LIOF INJ CT FA VD INC + SER VD INC PREENCH DIL X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94375534"/>
+		<display value="PROPOTIL 10 MG/ML EMU INJ CT 10 AMP VD TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94375542"/>
+		<display value="OXYCONTIN 10 MG COM REV LIB PROL CT BL AL PLAS PVC/PVDC TRANS X 56"/>
+	</concept>
+	<concept>
+		<code value="94375550"/>
+		<display value="SUCCINATO SODICO DE METILPREDNISOLONA 500 MG PO LIOF SOL INJ CX 50 FA VD TRANS + DIL 50 AMP VD TRANS X 8 ML"/>
+	</concept>
+	<concept>
+		<code value="94375569"/>
+		<display value="NOVAMICIN 500 MG PO LIOF SOL INJ IV CX 20 FA VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375577"/>
+		<display value="AMPICILINA SODICA+SULBACTAM SODICO (2,0 + 1,0) G PO P/ SOL INJ CT FA VD TRANS X 6,4 ML"/>
+	</concept>
+	<concept>
+		<code value="94375585"/>
+		<display value="GALVUS MET 50 MG + 1000 MG COM REV CT BL AL/AL X 28"/>
+	</concept>
+	<concept>
+		<code value="94375593"/>
+		<display value="RITALINA 10 MG COM CT BL AL PLAS INC X 60"/>
+	</concept>
+	<concept>
+		<code value="94375607"/>
+		<display value="SIRDALUD 2 MG COM CT BL AL PLAS INC X 12"/>
+	</concept>
+	<concept>
+		<code value="94375615"/>
+		<display value="ELPRAZOL 20 MG CAP DURA CT BL AL PLAS TRANS X 56"/>
+	</concept>
+	<concept>
+		<code value="94375623"/>
+		<display value="ALOPURINOL 100 MG COM CT BL AL PLAS TRANS X 300"/>
+	</concept>
+	<concept>
+		<code value="94375631"/>
+		<display value="MALEATO DE DEXCLORFENIRAMINA 0,4 MG/ML SOL OR CT FR PLAS OPC X 120 ML + CP MED"/>
+	</concept>
+	<concept>
+		<code value="94375640"/>
+		<display value="PARACETAMOL 500 MG COM CT BL AL PLAS TRANS X 200"/>
+	</concept>
+	<concept>
+		<code value="94375666"/>
+		<display value="FOSFATO SODICO DE PREDNISOLONA 3 MG/ML SOL OR CT FR PLAS OPC X 100 ML + COP"/>
+	</concept>
+	<concept>
+		<code value="94375674"/>
+		<display value="RUBROMICIN 50 MG/ML SUS OR CT FR PLAS OPC X 60 ML + COP"/>
+	</concept>
+	<concept>
+		<code value="94375682"/>
+		<display value="DIPIRONA SODICA 500 MG COM CT BL AL PLAS TRANS X 100(EMB MULT)"/>
+	</concept>
+	<concept>
+		<code value="94375690"/>
+		<display value="PEPTIMAX BAUNILHA 400G C/ 12LT"/>
+	</concept>
+	<concept>
+		<code value="94375704"/>
+		<display value="AXETILCEFUROXIMA 50 MG/ML PO SUS OR CT FR PLAS TRANS X 70 ML"/>
+	</concept>
+	<concept>
+		<code value="94375712"/>
+		<display value="AGUA PARA INJETAVEIS SOL INJ CX 50 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375720"/>
+		<display value="AGUA PARA INJETAVEIS SOL INJ CX 4 CT 100 AMP PLAS TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94375739"/>
+		<display value="GLICOSE 50% SOL INJ CX 50 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375747"/>
+		<display value="GLICOSE 50% SOL INJ CX 8 CT 100 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375755"/>
+		<display value="CLORETO DE POTASSIO 10G/100ML SOL INJ CX 50 AMP PLAS TRANS X 10ML"/>
+	</concept>
+	<concept>
+		<code value="94375763"/>
+		<display value="CLORETO DE SODIO 0,9% SOL INJ CX 8 CT 100 AMP PLAST TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375771"/>
+		<display value="CLORETO DE SODIO 0,9% SOL INJ CX 50 AMP PLAS TRANS X 10 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94375780"/>
+		<display value="CLORETO DE SODIO 0,9% SOL INJ CX 4 CT 100 AMP PLAST TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94375798"/>
+		<display value="CLORETO DE SODIO 0,9% SOL INJ CX 50 AMP PLAS TRANS X 20 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94375810"/>
+		<display value="AMARYL  1 MG COM CT BL AL AL X 30"/>
+	</concept>
+	<concept>
+		<code value="94375836"/>
+		<display value="FLAGYL NISTATINA 100 MG/G + 20.000 UI/G CREM VAG CT BG PLAS OPC X 50 G + 10 APLIC DESCART"/>
+	</concept>
+	<concept>
+		<code value="94375844"/>
+		<display value="LANTUS 100 U/ML SOL INJ CT 5 CAR VD TRANS X 3 ML"/>
+	</concept>
+	<concept>
+		<code value="94375860"/>
+		<display value="OROXADIN 100 MG COM CT BL AL PLAS TRANS X 10"/>
+	</concept>
+	<concept>
+		<code value="94375879"/>
+		<display value="PREDNISOLON 1,34 MG/ML SOL OR CT FR VD AMB X 100 ML + SER DOS"/>
+	</concept>
+	<concept>
+		<code value="94375887"/>
+		<display value="STILNOX 10 MG COM REV CT BL AL PLAS TRANS X 10"/>
+	</concept>
+	<concept>
+		<code value="94375909"/>
+		<display value="VALPROATO DE SODIO 50 MG/ML XPE CX 50 FR PLAS AMB X 100 ML + 50 CP MED (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94375917"/>
+		<display value="ANDROCORTIL 100 MG PO LIOF SOL INJ CT FA VD TRANS + AMP DIL POLIET TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94375925"/>
+		<display value="CAPTOPRIL 12,5 MG COM CT BL AL PLAS TRANS X 15"/>
+	</concept>
+	<concept>
+		<code value="94375933"/>
+		<display value="MALEATO DE ENALAPRIL 10 MG COM CX ENV AL X 100"/>
+	</concept>
+	<concept>
+		<code value="94375941"/>
+		<display value="MALEATO DE ENALAPRIL 5 MG COM CT ENV AL X 30"/>
+	</concept>
+	<concept>
+		<code value="94375950"/>
+		<display value="FENITOINA SODICA 50 MG/ML SOL INJ CT 50 AMP VD TRANS X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94375968"/>
+		<display value="DICLOFENACO SODICO 25 MG/ML SOL INJ CT 5 AMP VD AMB X 3ML"/>
+	</concept>
+	<concept>
+		<code value="94375976"/>
+		<display value="TRAMALIV 100 MG/2ML SOL INJ CT AMP VD AMB X 100"/>
+	</concept>
+	<concept>
+		<code value="94375984"/>
+		<display value="TRIAXON 1 G IV PO SOL INJ CT FA VD TRANS + DIL X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94375992"/>
+		<display value="CLORIDRATO DE VANCOMICINA 500 MG PO LIOF INJ CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94376000"/>
+		<display value="LONQUEX 10 MG/ML SOL INJ SC CT SER PREENC VD INC X 0,6 ML"/>
+	</concept>
+	<concept>
+		<code value="94376026"/>
+		<display value="TEVAGRASTIM 300 MCG SOL INJ IV SC CT 5 SER PREENC VD TRANS X 0,5 ML"/>
+	</concept>
+	<concept>
+		<code value="94376034"/>
+		<display value="CLORIDRATO DE DOPAMINA 5 MG/ML SOL INJ IV CT 10 AMP VD AMB X 10 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94376042"/>
+		<display value="TERBUTIL 0,5 MG/ML SOL INJ CT 6 AMP VD TRANS X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94376050"/>
+		<display value="UNI-HIOSCIN 20 MG/ML SOL INJ CT 50 AMP VD AMB X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="94376069"/>
+		<display value="OLINA - ESSENCIA DE VIDA (0,18 ML + 4 MG)/ML SOL OR CT FR VD AMB X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94376093"/>
+		<display value="CEWIN 200 MG/ML SOL OR CT BG PLAS OPC GOT X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94376115"/>
+		<display value="ZICLAGUE 0,08 ML/ML CT FR AL 60 ML"/>
+	</concept>
+	<concept>
+		<code value="94376123"/>
+		<display value="OZEMPIC 1,34 MG/ML SOL INJ CT X 1 CAR VD TRANS X 3 ML + 1 SIST APLIC PLAS (DOSES 1 MG) + 4 AGULHAS NOVOFINE"/>
+	</concept>
+	<concept>
+		<code value="94376131"/>
+		<display value="NUTREN SENIOR SEM SABOR PO 740G"/>
+	</concept>
+	<concept>
+		<code value="94376140"/>
+		<display value="NUTREN SENIOR 200 ML SABOR BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94376166"/>
+		<display value="SIMETICONA (NOTIF.SIMPLIF.) 125 MG. BL. 10 CAPS."/>
+	</concept>
+	<concept>
+		<code value="94376174"/>
+		<display value="AGUA BORICADA 3% FR. X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94376204"/>
+		<display value="BABYMED AMENDOAS 40G"/>
+	</concept>
+	<concept>
+		<code value="94376212"/>
+		<display value="CRANBERRY CR 400MG C/ 30SACHES"/>
+	</concept>
+	<concept>
+		<code value="94376220"/>
+		<display value="JEVITY PLUS SEM SABOR LATA 250ML"/>
+	</concept>
+	<concept>
+		<code value="94376239"/>
+		<display value="CARVEDILOL 6,25 MG COM CT BL AL AL X 80 (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94376247"/>
+		<display value="QUELATUS BARI C/ 30 COMPRIMIDOS MASTIGAVEIS"/>
+	</concept>
+	<concept>
+		<code value="94376263"/>
+		<display value="OLEO MINERAL C/ 100ML"/>
+	</concept>
+	<concept>
+		<code value="94376298"/>
+		<display value="HIDANTAL 50 MG/ML SOL INJ CT 3 AMP VD TRANS X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94376301"/>
+		<display value="COMPLEAT PEDIATRIC TETRA SLIM 250ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94376310"/>
+		<display value="ALBUMINA NATUROVOS NATURAL 500G"/>
+	</concept>
+	<concept>
+		<code value="94376344"/>
+		<display value="AZITROMICINA DIIDRATADA 500 MG COM REV CT BL AL PVC INC X 50 (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94376352"/>
+		<display value="ZEEL COMP N 301,5 MG COM SUB-LING CT FR PLAS OPC X 50"/>
+	</concept>
+	<concept>
+		<code value="94376360"/>
+		<display value="SIMETICONA FLAGASS 40MG BL 20 CPRS"/>
+	</concept>
+	<concept>
+		<code value="94376379"/>
+		<display value="PEG-LAX PO SOL. ORAL 14 ENVS. AL. PLAST. X 8,5 G."/>
+	</concept>
+	<concept>
+		<code value="94376654"/>
+		<display value="ENFAMIL A.R. PREMIUM 800G"/>
+	</concept>
+	<concept>
+		<code value="94376700"/>
+		<display value="CPHD GENIUS (GENIUS 90 DS 138/35-90)CLORETO DE SODIO PO 331,3 G+BICARB DE SODIO 264,6 G+ GLICOSE ANIDRA 90,0 G PO CX BOLSA PLAST"/>
+	</concept>
+	<concept>
+		<code value="94376719"/>
+		<display value="ZIRVIT BABY SUSPENSAO FRASCO 30ML"/>
+	</concept>
+	<concept>
+		<code value="94376727"/>
+		<display value="GLUCERNA SR BAUNILHA PO 850G"/>
+	</concept>
+	<concept>
+		<code value="94376743"/>
+		<display value="MEDICAMENTO IMPORTADO  AUTORIZADO IMPORTACAO EM VIRTUDE DA EMERGENCIA DE SAUDE PUBLICA INTERNACIONAL RELACIONADA AO SARS-COV-2"/>
+	</concept>
+	<concept>
+		<code value="94376751"/>
+		<display value="NUTRISON ADVANCED PROTISON 1000 ML OPTRI BOTTLE"/>
+	</concept>
+	<concept>
+		<code value="94376760"/>
+		<display value="SULFATO FERROSO 40MG C/ 60COM"/>
+	</concept>
+	<concept>
+		<code value="94376778"/>
+		<display value="SULFATO FERROSO 40MG C/ 500COM"/>
+	</concept>
+	<concept>
+		<code value="94376786"/>
+		<display value="PET DEDICADO ONCOLOGICO COM USO DE ANALOGO DA SOMATOSTATINA"/>
+	</concept>
+	<concept>
+		<code value="94376794"/>
+		<display value="TROPHIC EP TETRA PAK BAUNILHA 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94376808"/>
+		<display value="BICERTO IV 1,0 MG/ML SOL INFUS CT 60 ENVOL PEAD BOLS PLAS PP TRANS SIST FECH X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94376816"/>
+		<display value="CETAPHIL CREME HIDRATANTE 453G"/>
+	</concept>
+	<concept>
+		<code value="94376824"/>
+		<display value="COMPLEXO B ARTE NATIVA FRAMBOESA 30ML"/>
+	</concept>
+	<concept>
+		<code value="94376840"/>
+		<display value="ERITROMAX 40.000 UI/ML SOL INJ CX 100 SER PREENCH X 1,0 ML + SISTEMA SEGURANCA"/>
+	</concept>
+	<concept>
+		<code value="94376859"/>
+		<display value="ERITROMAX ERITROMAX 10.000 UI/ML SOL INJ CX 100 SER PREENCH X 1,0 ML + SISTEMA SEGURANCA"/>
+	</concept>
+	<concept>
+		<code value="94376867"/>
+		<display value="VERSA 100 MG/ML SOL INJ CT 2 SER PREENC X 0,2 ML"/>
+	</concept>
+	<concept>
+		<code value="94376875"/>
+		<display value="MYTEDOM 5 MG COM X 60"/>
+	</concept>
+	<concept>
+		<code value="94376891"/>
+		<display value="MOXICRIS 1,6MG/ML SOL INJ CT 6 ENV PLAS OPC BOLS PLAS TRANS SIST FECH X 250ML"/>
+	</concept>
+	<concept>
+		<code value="94376905"/>
+		<display value="RIOGEL ALCOOL ETILICO GEL 70% 90 GRAMAS"/>
+	</concept>
+	<concept>
+		<code value="94376921"/>
+		<display value="DESUPRE D3 200UI/GOTAS 20ML"/>
+	</concept>
+	<concept>
+		<code value="94376930"/>
+		<display value="ENXAGUATORIO BUCAL ANTISSEPTICO RIOHEX GARD 0,12% 30ML"/>
+	</concept>
+	<concept>
+		<code value="94376948"/>
+		<display value="DORFLEX UNO 1 G COM  CT BL AL PLAS TRANS X 100"/>
+	</concept>
+	<concept>
+		<code value="94376956"/>
+		<display value="DORFLEX UNO 1G COM EFEV CT STR AL AL X 10"/>
+	</concept>
+	<concept>
+		<code value="94376964"/>
+		<display value="DORFLEX UNO 1G COM EFEV CT STR AL AL X 100"/>
+	</concept>
+	<concept>
+		<code value="94376972"/>
+		<display value="DORFLEX UNO 1 G COM CT BL AL PLAS OPC X 10"/>
+	</concept>
+	<concept>
+		<code value="94376980"/>
+		<display value="DORFLEX UNO 1 G COM CT BL AL PLAS OPC X 20"/>
+	</concept>
+	<concept>
+		<code value="94376999"/>
+		<display value="DORFLEX UNO 1 G COM CT BL AL PLAS OPC X 100"/>
+	</concept>
+	<concept>
+		<code value="94377006"/>
+		<display value="APTAMIL PREMIUM 3 800G"/>
+	</concept>
+	<concept>
+		<code value="94377049"/>
+		<display value="ZIRVIT KIDS SUSPENSAO ORAL PEDIATRICO 150ML"/>
+	</concept>
+	<concept>
+		<code value="94377057"/>
+		<display value="ENTEROGERMINA PLUS 4 BCFU 5 FLACONETES X 5ML"/>
+	</concept>
+	<concept>
+		<code value="94377065"/>
+		<display value="NUTREN FRESH 200ML"/>
+	</concept>
+	<concept>
+		<code value="94377073"/>
+		<display value="NUJOL OLEO MINERAL FRASCO 120ML"/>
+	</concept>
+	<concept>
+		<code value="94377081"/>
+		<display value="L-CAPS 60 CAPSULAS"/>
+	</concept>
+	<concept>
+		<code value="94377090"/>
+		<display value="GLUCERNA RTH SABOR BAUNILHA FRASCO 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94377103"/>
+		<display value="CALCIOLIT 500 MG COM CT FR PLAS X 1000"/>
+	</concept>
+	<concept>
+		<code value="94377120"/>
+		<display value="ENSURE PLUS ADVANCE RTH 500ML"/>
+	</concept>
+	<concept>
+		<code value="94377154"/>
+		<display value="SIMETICONA (NOTIF.SIMPLIF.) 125 MG. CT. BL. 10 CAPS. GEL."/>
+	</concept>
+	<concept>
+		<code value="94377162"/>
+		<display value="TOTAL NUTRITION HEPATO PROLIV BAUNILHA 1,5KCAL/ML LATA 360G"/>
+	</concept>
+	<concept>
+		<code value="94377170"/>
+		<display value="PEPTAMEN ENTERAL SISTEMA FECHADO 1.5 ULTRAPACK 1 LITRO SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94377189"/>
+		<display value="TROPHIC INFANT BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="94377197"/>
+		<display value="MSUD MED A LATA 500G"/>
+	</concept>
+	<concept>
+		<code value="94377200"/>
+		<display value="APTANUTRI PROFUTURA 3 800G"/>
+	</concept>
+	<concept>
+		<code value="94377219"/>
+		<display value="NUTREN CONTROL NESTLE BAUNILHA 200ML"/>
+	</concept>
+	<concept>
+		<code value="94377227"/>
+		<display value="NUTREN CONTROL NESTLE CHOCOLATE 200ML"/>
+	</concept>
+	<concept>
+		<code value="94377251"/>
+		<display value="HUMIRA 50 MG/ML SOL INJ CT 2 BL X SER PREENC VD TRANS X 0,8 ML + ENV LEN ALCOOL"/>
+	</concept>
+	<concept>
+		<code value="94377278"/>
+		<display value="MCT SEM AGE 500ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94377286"/>
+		<display value="DOISKA SUPLEMENTO VITAMINICO 60MCG 30 COM"/>
+	</concept>
+	<concept>
+		<code value="94377294"/>
+		<display value="ENSURE PLUS CHOCOLATE TETRA PACK 200ML"/>
+	</concept>
+	<concept>
+		<code value="94377308"/>
+		<display value="GLUCERNA RTH SABOR BAUNILHA 1,5 KCAL FRASCO 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94377316"/>
+		<display value="COLIDIS GTS 10ML"/>
+	</concept>
+	<concept>
+		<code value="94377324"/>
+		<display value="PASTA DAGUA COM GLICERINA 120G"/>
+	</concept>
+	<concept>
+		<code value="94377332"/>
+		<display value="CITONEURIN (5000 MCG + 100 MG + 100 MG) DRG X 20"/>
+	</concept>
+	<concept>
+		<code value="94377340"/>
+		<display value="SOLUCAO ELETROLITICA CALCIO DIALISE 3,38% 460MEQ/L 250ML C/ 01BLS"/>
+	</concept>
+	<concept>
+		<code value="94377405"/>
+		<display value="VITALUX PLUS OMEGA 3 C/ 30CAP"/>
+	</concept>
+	<concept>
+		<code value="94377413"/>
+		<display value="ENFAMIL PREMIUM 1 800G"/>
+	</concept>
+	<concept>
+		<code value="94377421"/>
+		<display value="ENSURE PLUS TETRAPACK X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94377430"/>
+		<display value="ENSURE PROTEIN RPB BAUNILHA 220ML"/>
+	</concept>
+	<concept>
+		<code value="94377448"/>
+		<display value="GLUCERNA 1.5 KCAL TETRAPACK 200 ML -BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94377456"/>
+		<display value="GLUCERNA 400G - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94377464"/>
+		<display value="CANABIDIOL 20MG/ML 30ML FR C/SERINGA DOSADORA"/>
+	</concept>
+	<concept>
+		<code value="94377472"/>
+		<display value="CANABIDIOL 50MG/ML 30ML FR C/SERINGA DOSADORA"/>
+	</concept>
+	<concept>
+		<code value="94377502"/>
+		<display value="LORATADINA 10 MG COM REV CT BL AL PLAS AMB X 6"/>
+	</concept>
+	<concept>
+		<code value="94377545"/>
+		<display value="PEPTAMEN BAUNILHA 400 G"/>
+	</concept>
+	<concept>
+		<code value="94377553"/>
+		<display value="NEOFORTE MORANGO 400G"/>
+	</concept>
+	<concept>
+		<code value="94377561"/>
+		<display value="BIO 5 4G X 30 SACHES"/>
+	</concept>
+	<concept>
+		<code value="94377588"/>
+		<display value="PEDIANUTRI TUTTI-FRUTTI GTS X FR 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94377596"/>
+		<display value="PEPTAMEN JUNIOR BAUNILHA 1.0 500ML SF C/ 12FR"/>
+	</concept>
+	<concept>
+		<code value="94377626"/>
+		<display value="CUVITRU 0,2 G/ML SOL INJ CT 1 FA VD INC X 40 ML"/>
+	</concept>
+	<concept>
+		<code value="94377642"/>
+		<display value="IMUNOGLOBULINA IMPORTADA  AUTORIZADO IMPORTACAO EM VIRTUDE DA EMERGENCIA DE SAUDE PUBLICA INTERNACIONAL RELACIONADA AO SARS-COV-2"/>
+	</concept>
+	<concept>
+		<code value="94377650"/>
+		<display value="DECI 50 MG PO LIOF SOL INJ IV CT FA VD TRANS 20ML + DIL FA VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94377677"/>
+		<display value="BORTEZOMIBE 3,5 MG PO LIOF INJ CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="94377707"/>
+		<display value="JEVITY PLUS RTH SF 1000 ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94377715"/>
+		<display value="JEVITY HICAL RTH 1,5 KCAL/M SF SEM SABOR 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94377723"/>
+		<display value="ENSURE BANANA 400G"/>
+	</concept>
+	<concept>
+		<code value="94377731"/>
+		<display value="ENSURE BANANA 900G"/>
+	</concept>
+	<concept>
+		<code value="94377740"/>
+		<display value="ENSURE BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="94377758"/>
+		<display value="ENSURE BAUNILHA 900G"/>
+	</concept>
+	<concept>
+		<code value="94377766"/>
+		<display value="ENSURE CHOCOLATE 400G"/>
+	</concept>
+	<concept>
+		<code value="94377774"/>
+		<display value="ENSURE CHOCOLATE 900G"/>
+	</concept>
+	<concept>
+		<code value="94377782"/>
+		<display value="ENSURE MORANGO 400G"/>
+	</concept>
+	<concept>
+		<code value="94377790"/>
+		<display value="ENSURE MORANGO 900G"/>
+	</concept>
+	<concept>
+		<code value="94377804"/>
+		<display value="PERATIVE RTH SEM SABOR 1000ML SF C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94377812"/>
+		<display value="COLACT 667MG/ML SEM SABOR 120ML"/>
+	</concept>
+	<concept>
+		<code value="94377820"/>
+		<display value="NEOVITE MAX 60 CAPS"/>
+	</concept>
+	<concept>
+		<code value="94377847"/>
+		<display value="SIMETICONA 75MG/ML 10ML GTS"/>
+	</concept>
+	<concept>
+		<code value="94377855"/>
+		<display value="LIDOCAINA 20 MG/G GELE TOP CX 100 BG AL X 30 G"/>
+	</concept>
+	<concept>
+		<code value="94377863"/>
+		<display value="BUSCOPAN COMPOSTO (4,0 + 500,0) MG/ML SOL INJ IV/IM 3 AMP X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="94377898"/>
+		<display value="SUSTAP WHEY SEM SABOR PROBENE 250G"/>
+	</concept>
+	<concept>
+		<code value="94377901"/>
+		<display value="MCT SEM AGE 250ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="94377910"/>
+		<display value="VITAFOR MEGA DHA 1000MG 50%DHA 10% EPA 120CAP"/>
+	</concept>
+	<concept>
+		<code value="94377928"/>
+		<display value="CARBO CH LATA 400G"/>
+	</concept>
+	<concept>
+		<code value="94377944"/>
+		<display value="CREAFORT 30 SACHES X 3G"/>
+	</concept>
+	<concept>
+		<code value="94377952"/>
+		<display value="ENTERAL COMP BAUNILHA 800G"/>
+	</concept>
+	<concept>
+		<code value="94377960"/>
+		<display value="ENTERAL COMP COM FIBRAS BAUNILHA 800G"/>
+	</concept>
+	<concept>
+		<code value="94377979"/>
+		<display value="ESPEFOR 250G"/>
+	</concept>
+	<concept>
+		<code value="94377987"/>
+		<display value="FIBERFOR 400G"/>
+	</concept>
+	<concept>
+		<code value="94377995"/>
+		<display value="GLUTAMAX 30 SACHES X 5G"/>
+	</concept>
+	<concept>
+		<code value="94378002"/>
+		<display value="SIMCAPS 30CAPS"/>
+	</concept>
+	<concept>
+		<code value="94378010"/>
+		<display value="SIMFORT FIBRAS 210G"/>
+	</concept>
+	<concept>
+		<code value="94378029"/>
+		<display value="VITA D3 500MG 30CAPS"/>
+	</concept>
+	<concept>
+		<code value="94378037"/>
+		<display value="BUSCOPAN COMPOSTO (10,0 + 250,0) MG COM REV CT BL AL PLAS PVC TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="94378061"/>
+		<display value="FLUCISTEIN 40 MG/G GRAN CT 15 ENV AL/PLAS PE X 5 G"/>
+	</concept>
+	<concept>
+		<code value="94378070"/>
+		<display value="DRAMIN B6 DL 3 MG/ML + 5 MG/ML + 100 MG/ML + 100 MG/ML SOL INJ CX 3 AMP VD AMB X 10ML"/>
+	</concept>
+	<concept>
+		<code value="94378088"/>
+		<display value="FUROSEMIDA 40 MG COM CT BL AL PLAS PVDC OPC X 100"/>
+	</concept>
+	<concept>
+		<code value="94378096"/>
+		<display value="CARVEDILOL 25 MG COM CT BL AL AL X 300 (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94378100"/>
+		<display value="CARVEDILOL 12,5 MG COM CT BL AL AL X 300 (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="94378134"/>
+		<display value="SULBACTAM SODICO + AMPICILINA SODICA GENERICO (1,0 + 2,0) G PO SOL INJ/INFUS IV/IM CT 20 FA VD TRANS + 20 DIL AMP PLAS TRANSL X 6,4 ML"/>
+	</concept>
+	<concept>
+		<code value="94378169"/>
+		<display value="RYDAPT 25 MG CAP MOLE CT BL AL AL X 56"/>
+	</concept>
+	<concept>
+		<code value="94378177"/>
+		<display value="FIBERMAIS SEM SABOR 5G CX C/ 10SCH"/>
+	</concept>
+	<concept>
+		<code value="94378185"/>
+		<display value="SURVIMED OPD HN EASY BAG SEM SABOR 500ML"/>
+	</concept>
+	<concept>
+		<code value="94378193"/>
+		<display value="FISIOGEN FERRO FORTE CX 30 CAP"/>
+	</concept>
+	<concept>
+		<code value="94378207"/>
+		<display value="MONOGEN 400G"/>
+	</concept>
+	<concept>
+		<code value="94378215"/>
+		<display value="NEUTROFER 300 MG COM REV CT FR PLAS OPC X 30"/>
+	</concept>
+	<concept>
+		<code value="94378231"/>
+		<display value="SUCCINATO SODICO DE METILPREDNISOLONA 125 MG PO LIOF SOL INJ CT FA VD TRANS + DIL AMP VD TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94378240"/>
+		<display value="OXACILIL 500 MG PO SOL INJ IV IM CX 50 FA VD TRANS X 10 ML + 50 DIL AMP VD TRANS X 3 ML"/>
+	</concept>
+	<concept>
+		<code value="94378266"/>
+		<display value="CARIAX ENXAGUANTE BUCAL 250 ML"/>
+	</concept>
+	<concept>
+		<code value="94378274"/>
+		<display value="DIAMAX IG TETRA PAK X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94378282"/>
+		<display value="COGMAX 60 CAPS"/>
+	</concept>
+	<concept>
+		<code value="94378290"/>
+		<display value="FIBERMAIS SEM SABOR 260G"/>
+	</concept>
+	<concept>
+		<code value="94378304"/>
+		<display value="VITAXON C 200MG/ML GOTAS COM 20ML SABOR CARAMELO"/>
+	</concept>
+	<concept>
+		<code value="94378312"/>
+		<display value="MALEATO DE ENALAPRIL 10 MG COM CT BL AL AL X 30"/>
+	</concept>
+	<concept>
+		<code value="94378320"/>
+		<display value="CARVEDILOL 3,125 MG COM CT BL AL PLAS TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="94378339"/>
+		<display value="ISOFORT PLANT BANANA COM CANELA 450G"/>
+	</concept>
+	<concept>
+		<code value="94378347"/>
+		<display value="ISOFORT PLANT BAUNILHA 450G"/>
+	</concept>
+	<concept>
+		<code value="94378355"/>
+		<display value="ISOFORT PLANT CACAU 450G"/>
+	</concept>
+	<concept>
+		<code value="94378363"/>
+		<display value="ISOFORT PLANT PACOCA 450G"/>
+	</concept>
+	<concept>
+		<code value="94378371"/>
+		<display value="FM 85 CX. DISPLAY C/ 72 SACHES DE 1G"/>
+	</concept>
+	<concept>
+		<code value="94378380"/>
+		<display value="NANLAC COMFOR LATA 800G"/>
+	</concept>
+	<concept>
+		<code value="94378401"/>
+		<display value="ADDERA CALCIO 1000UI 90 COMPRIMIDOS"/>
+	</concept>
+	<concept>
+		<code value="94378410"/>
+		<display value="ADDERA D3 1000UI 5,0ML"/>
+	</concept>
+	<concept>
+		<code value="94378436"/>
+		<display value="CLEAN WHEY ISOLATE CLASSIC 5,0KG"/>
+	</concept>
+	<concept>
+		<code value="94378460"/>
+		<display value="NUTREN FORTIFY SEM SABOR 360G"/>
+	</concept>
+	<concept>
+		<code value="94378479"/>
+		<display value="OLEO CANABIDIOL ESPECTRUM USA HEMP 3000MG 30ML"/>
+	</concept>
+	<concept>
+		<code value="94378487"/>
+		<display value="IMMAX LATA 700G"/>
+	</concept>
+	<concept>
+		<code value="94378495"/>
+		<display value="ENERGYZIP SENIOR LATA 700G"/>
+	</concept>
+	<concept>
+		<code value="94378509"/>
+		<display value="NEOCAINA COM VASOCONSTRITOR 5,0MG/ML + 9,1MCG/ML SOL INJ CX 10 FA VD TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94378525"/>
+		<display value="LAMOTRIGINA 50 MG COM CT BL AL PLAS TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="94378533"/>
+		<display value="CLORIDRATO DE EPIRRUBICINA 2 MG/ML SOL INJ IV CT FR VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94378541"/>
+		<display value="FRESUBIN LP BAUNILHA EASY BOTTLE 200ML"/>
+	</concept>
+	<concept>
+		<code value="94378568"/>
+		<display value="OLEO CANABIDIOL ESPECTRUM 6000MG 60ML"/>
+	</concept>
+	<concept>
+		<code value="94378592"/>
+		<display value="ETNA (1,0 + 2,5 + 1,5) MG PO LIOF SOL INJ CT 3 FA VD AMB + 3 AMP DIL VD TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94378606"/>
+		<display value="VITA SUPRAZ X 60COM"/>
+	</concept>
+	<concept>
+		<code value="94378614"/>
+		<display value="PEPTAMEN BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="94378622"/>
+		<display value="L-ENEMA 130ML"/>
+	</concept>
+	<concept>
+		<code value="94378630"/>
+		<display value="HIDROXIDO DE ALUMINIO 6% SUSP FR 100 ML + COPO DOSADOR"/>
+	</concept>
+	<concept>
+		<code value="94378649"/>
+		<display value="IMPACT BANANA 01FR 200ML"/>
+	</concept>
+	<concept>
+		<code value="94378657"/>
+		<display value="CEFALEXINA 500 MG COM REV CT BL AL PLAS TRANS X 200"/>
+	</concept>
+	<concept>
+		<code value="94378665"/>
+		<display value="CEFALEXINA 500 MG COM REV CT BL AL PLAS TRANS X 8"/>
+	</concept>
+	<concept>
+		<code value="94378673"/>
+		<display value="SUGAMADEX SODICO 100 MG/ML SOL INJ/DIL INFUS IV CX 10 FA VD TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="94378681"/>
+		<display value="PHESGO 600 MG + 600 MG SOL INJ SC CT FA VD TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="94378690"/>
+		<display value="PHESGO 1200 MG + 600 MG SOL INJ SC CT FA VD TRANS X 15 ML"/>
+	</concept>
+	<concept>
+		<code value="94378703"/>
+		<display value="GEFITINIBE 250 MG COM REV CT ENVOL BL AL PLAS PVC/PE/PVDC TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="94378711"/>
+		<display value="NAN SUPREME 1 400G"/>
+	</concept>
+	<concept>
+		<code value="94378720"/>
+		<display value="NAN SUPREME 1 800G"/>
+	</concept>
+	<concept>
+		<code value="94378738"/>
+		<display value="REVLIMID 10 MG CAP DURA CT BL AL PLAS TRANS X 21"/>
+	</concept>
+	<concept>
+		<code value="94378746"/>
+		<display value="REVLIMID  15 MG CAP DURA CT BL AL PLAS TRANS X 28"/>
+	</concept>
+	<concept>
+		<code value="94378762"/>
+		<display value="BUTILBROMETO DE ESCOPOLAMINA (6,67 + 333,4) MG/ML GENERICO SOL OR FR GOT X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="94378770"/>
+		<display value="LIPITOR 10 MG COM REV CT BL AL/AL X 30"/>
+	</concept>
+	<concept>
+		<code value="94378789"/>
+		<display value="LIPITOR 20 MG COM REV CT BL AL/AL X 30"/>
+	</concept>
+	<concept>
+		<code value="94378797"/>
+		<display value="SUPPORTAN DRINK CAPPUCCINO FR 200ML"/>
+	</concept>
+	<concept>
+		<code value="94378800"/>
+		<display value="LQFEX CLOROQUINA 150 MG COM CX ENV KRAFT X 500"/>
+	</concept>
+	<concept>
+		<code value="94378819"/>
+		<display value="NUTRISON ADVANCED PROTISON PACK 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="94378827"/>
+		<display value="MALVATRICIN 0,3 MG / ML + 10 MG / ML SOL TOP CT FR TRANS X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94378835"/>
+		<display value="LUMAKRAS 120 MG COM REV CT 2 FR PLAS PEAD OPC X 120"/>
+	</concept>
+	<concept>
+		<code value="94378843"/>
+		<display value="ZERBAXA 1G + 0,5G C/ 01FA"/>
+	</concept>
+	<concept>
+		<code value="94400857"/>
+		<display value="NITROFEN 100 MG CX. 24 CAP."/>
+	</concept>
+	<concept>
+		<code value="94433011"/>
+		<display value="SORINE INFANTIL 0,5 MG/ML SOL NAS CT FR PLAS TRANS GOT X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="94702012"/>
+		<display value="LABEL 150 MG COM REV CT BL AL AL X 20"/>
+	</concept>
+	<concept>
+		<code value="94844372"/>
+		<display value="JEVITY PLUS RTH SF 1000 ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94852375"/>
+		<display value="NUTRISON ADVANCED PEPTISORB (PEPTISON DIET) PACK 1 LITRO SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852618"/>
+		<display value="NUTRINI ENERGY MULTI FIBER FR. X 200 ML SEM SABOR 1.5KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852626"/>
+		<display value="NUTRINI ENERGY MULTI FIBER PACK 500 ML. SEM SABOR 1.5 KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852634"/>
+		<display value="NUTRINI STANDARD FR. X 200 ML SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852642"/>
+		<display value="NUTRINI STANDARD PACK 500 ML. SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852650"/>
+		<display value="NUTRINI MULTI FIBER FR. X 200 ML SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852669"/>
+		<display value="NUTRINI MULTI FIBER PACK X 500 ML SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="94852707"/>
+		<display value="NUTILIS LATA X 300 G"/>
+	</concept>
+	<concept>
+		<code value="94852723"/>
+		<display value="NUTRISON ADVANCED DIASON SF PACK 1000ML"/>
+	</concept>
+	<concept>
+		<code value="94852758"/>
+		<display value="DIASIP SUPLEMENTO X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94868077"/>
+		<display value="FM 85 CX. DISPLAY C/ 70 SACHES DE 1G"/>
+	</concept>
+	<concept>
+		<code value="94868123"/>
+		<display value="DIETA NUTRI ENTERAL (1,2 KCAL/ML) ABERTO X 1000 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94868131"/>
+		<display value="DIETA NUTRI FIBER (1,2 KCAL/ML) ABERTO X 1000 ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94868158"/>
+		<display value="DIETA NUTRI RENAL  (2,0 KCAL/ML) ABERTO X 1000 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94870330"/>
+		<display value="FRESUBIN ORIGINAL FIBRE SF EASY BAG 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94870349"/>
+		<display value="FRESUBIN ENERGY FIBRE SF EASY BAG 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94870357"/>
+		<display value="FRESUBIN HP ENERGY SF EASY BAG 1000 ML - SEM SABOR SF"/>
+	</concept>
+	<concept>
+		<code value="94870365"/>
+		<display value="FRESUBIN ENERGY SF EASY BAG 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94870373"/>
+		<display value="FREBINI ENERGY EASY BAG X 500 ML SEM SABOR SF"/>
+	</concept>
+	<concept>
+		<code value="94870381"/>
+		<display value="FREBINI ORIGINAL  EASY BAG X 500 ML SEM SABOR SF"/>
+	</concept>
+	<concept>
+		<code value="94870390"/>
+		<display value="FREBINI ORIGINAL FIBRE EASY BAG X 500 ML SEM SABOR SF"/>
+	</concept>
+	<concept>
+		<code value="94870926"/>
+		<display value="FRESUBIN ENERGY DRINK SF EASY BOTTLE 200 ML - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94870969"/>
+		<display value="FRESUBIN ENERGY FIBRE DRINK SF EASY BOTTLE 200 ML - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94871027"/>
+		<display value="FRESUBIN PROTEIN ENERGY DRINK SF EASY BOTTLE 200 ML - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94876789"/>
+		<display value="SABOFEN 10% SAB. LIQ. 100 ML"/>
+	</concept>
+	<concept>
+		<code value="94877360"/>
+		<display value="RENAL-DERM CREME FR. X 150 G"/>
+	</concept>
+	<concept>
+		<code value="94894760"/>
+		<display value="L-GLUTAMINA  LATA  X 350 G"/>
+	</concept>
+	<concept>
+		<code value="94894779"/>
+		<display value="L-GLUTAMINA CX C/18 DISPLAYS C/ 20 SACHES DE 10G"/>
+	</concept>
+	<concept>
+		<code value="94894787"/>
+		<display value="NEOFIBER LATA 400 G"/>
+	</concept>
+	<concept>
+		<code value="94894817"/>
+		<display value="TCM AGE NUTERAL X 250 ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="94906017"/>
+		<display value="SEKI  3,54 MG/ML XPE CT FR VD AMB X 120 ML + COL"/>
+	</concept>
+	<concept>
+		<code value="94906025"/>
+		<display value="SEKI 35,4 MG/ML SUS OR CT FR VD AMB X 15 ML"/>
+	</concept>
+	<concept>
+		<code value="94938130"/>
+		<display value="TCM DERMA HIDRATT FR. X 120 G"/>
+	</concept>
+	<concept>
+		<code value="94938172"/>
+		<display value="TCM DERMA SOAP FR. X 140 ML"/>
+	</concept>
+	<concept>
+		<code value="94938660"/>
+		<display value="INSUMO RADIOATIVO DE ANGIOGRAFIA RADIOISOTOPICA."/>
+	</concept>
+	<concept>
+		<code value="94938679"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA COM HEMACIAS MARCADAS."/>
+	</concept>
+	<concept>
+		<code value="94938687"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO COM DUPLO ISOTOPO (PERF.+VIAB.)."/>
+	</concept>
+	<concept>
+		<code value="94938695"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO COM FDG FLUOR 18."/>
+	</concept>
+	<concept>
+		<code value="94938709"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO - NECROSE (INFARTO AGUDO)."/>
+	</concept>
+	<concept>
+		<code value="94938717"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO PERFUSAO - REPOUSO."/>
+	</concept>
+	<concept>
+		<code value="94938725"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO PERFUSAO - ESTRESSE FISICO."/>
+	</concept>
+	<concept>
+		<code value="94938733"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO PERFUSAO - ESTRESSE FARMACOLOGICO."/>
+	</concept>
+	<concept>
+		<code value="94938741"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA SINC. DAS CAMARAS CARDIACAS - ESFORCO."/>
+	</concept>
+	<concept>
+		<code value="94938750"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA SINC. DAS CAMARAS CARDIACAS - REPOUSO."/>
+	</concept>
+	<concept>
+		<code value="94938768"/>
+		<display value="INSUMO RADIOATIVO DE FLUXO SANGUINEO DAS EXTREMIDADES."/>
+	</concept>
+	<concept>
+		<code value="94938776"/>
+		<display value="INSUMO RADIOATIVO DE QUANTIFICACAO DE SHUNT DA DIREITA PARA ESQUERDA."/>
+	</concept>
+	<concept>
+		<code value="94938784"/>
+		<display value="INSUMO RADIOATIVO DE QUANTIFICACAO DE SHUNT PERIFERICO."/>
+	</concept>
+	<concept>
+		<code value="94938792"/>
+		<display value="INSUMO RADIOATIVO DE VENOGRAFIA RADIOISOTOPICA."/>
+	</concept>
+	<concept>
+		<code value="94938806"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO MIOCARDIO PERFUSAO - REPOUSO E ESTRESSE."/>
+	</concept>
+	<concept>
+		<code value="94938822"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DAS GLANDULAS SALIVARES COM OU SEM ESTIMULO."/>
+	</concept>
+	<concept>
+		<code value="94938830"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO FIGADO E BACO."/>
+	</concept>
+	<concept>
+		<code value="94938849"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO FIGADO E VIAS BILIARES."/>
+	</concept>
+	<concept>
+		<code value="94938857"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA DETECCAO DE HEMORRAGIA DIGESTORIA ATIVA."/>
+	</concept>
+	<concept>
+		<code value="94938865"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA DETECCAO DE HEMORRAGIA DIGESTORIA NAO ATIVA."/>
+	</concept>
+	<concept>
+		<code value="94938873"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA DETERM. DO TEMPO DE ESVAZIAMENTO GASTRICO."/>
+	</concept>
+	<concept>
+		<code value="94938881"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA ESTUDO DE TRANSITO ESOFAGICO (LIQUIDOS)."/>
+	</concept>
+	<concept>
+		<code value="94938890"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)."/>
+	</concept>
+	<concept>
+		<code value="94938903"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA PESQUISA DE DIVERTICULO DE MECKEL."/>
+	</concept>
+	<concept>
+		<code value="94938911"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA PESQUISA DE REFLUXO GASTROESOFAGICO."/>
+	</concept>
+	<concept>
+		<code value="94938920"/>
+		<display value="INSUMO RADIOATIVO DE FLUXO SANGUINEO HEPATICO (QUALITATIVO E QUANTITATIVO)."/>
+	</concept>
+	<concept>
+		<code value="94938954"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DA TIREOIDE E/OU CAPTACAO COM IODO 123."/>
+	</concept>
+	<concept>
+		<code value="94938962"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DA TIREOIDE E/OU CAPTACAO COM IODO 131."/>
+	</concept>
+	<concept>
+		<code value="94938970"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DA TIREOIDE E/OU CAPTACAO COM TECNECIO 99M TC."/>
+	</concept>
+	<concept>
+		<code value="94938989"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DAS PARATIREOIDES."/>
+	</concept>
+	<concept>
+		<code value="94938997"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DE CORPO INTEIRO PARA PESQUISA DE METASTASE (PCI) - IODO 131."/>
+	</concept>
+	<concept>
+		<code value="94939004"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DE CORPO INTEIRO PARA PESQUISA DE METASTASE (PCI) - IODO 123."/>
+	</concept>
+	<concept>
+		<code value="94939012"/>
+		<display value="INSUMO RADIOATIVO DE TESTE DE ESTIMULO DA TIREOIDE COM TSH RECOMBINANTE."/>
+	</concept>
+	<concept>
+		<code value="94939047"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA RENAL DINAMICA."/>
+	</concept>
+	<concept>
+		<code value="94939063"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA RENAL ESTATICA (QUALITATIVA OU QUANTITATIVA)."/>
+	</concept>
+	<concept>
+		<code value="94939071"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA TESTICULAR ESCROTAL."/>
+	</concept>
+	<concept>
+		<code value="94939080"/>
+		<display value="INSUMO RADIOATIVO DE CISTOCINTILOGRAFIA DIRETA."/>
+	</concept>
+	<concept>
+		<code value="94939098"/>
+		<display value="INSUMO RADIOATIVO DE CISTOCINTILOGRAFIA INDIRETA."/>
+	</concept>
+	<concept>
+		<code value="94939101"/>
+		<display value="INSUMO RADIOATIVO DE DETERMINACAO DA FILTRACAO GLOMERULAR."/>
+	</concept>
+	<concept>
+		<code value="94939110"/>
+		<display value="INSUMO RADIOATIVO DE DETERMINACAO DO FLUXO PLASMATICO RENAL."/>
+	</concept>
+	<concept>
+		<code value="94939136"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DO S.R.E. (MEDULA OSSEA)."/>
+	</concept>
+	<concept>
+		<code value="94939152"/>
+		<display value="INSUMO RADIOATIVO DE DETERMINACAO DE SOBREVIDA DE HEMACIAS."/>
+	</concept>
+	<concept>
+		<code value="94939195"/>
+		<display value="INSUMO RADIOATIVO DE DETERMINACAO DA VOLEMIA."/>
+	</concept>
+	<concept>
+		<code value="94939209"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA OSSEA (CORPO TOTAL)."/>
+	</concept>
+	<concept>
+		<code value="94939217"/>
+		<display value="INSUMO RADIOATIVO DE FLUXO SANGUINEO OSSEO."/>
+	</concept>
+	<concept>
+		<code value="94939225"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DAS ARTICULACOES E/OU EXTREMIDADES."/>
+	</concept>
+	<concept>
+		<code value="94939233"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA CEREBRAL."/>
+	</concept>
+	<concept>
+		<code value="94939241"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA CEREBRAL COM FDG - FLUOR 18."/>
+	</concept>
+	<concept>
+		<code value="94939250"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DE PERFUSAO CEREBRAL."/>
+	</concept>
+	<concept>
+		<code value="94939268"/>
+		<display value="INSUMO RADIOATIVO DE CISTERNOCINTILOGRAFIA"/>
+	</concept>
+	<concept>
+		<code value="94939276"/>
+		<display value="INSUMO RADIOATIVO DE CISTERNOCINTILOGRAFIA PARA ESTUDO DE FISTULAS LIQUORICAS"/>
+	</concept>
+	<concept>
+		<code value="94939284"/>
+		<display value="INSUMO RADIOATIVO DE FLUXO SANGUINEO CEREBRAL."/>
+	</concept>
+	<concept>
+		<code value="94939292"/>
+		<display value="INSUMO RADIOATIVO DE MIELOCINTILOGRAFIA."/>
+	</concept>
+	<concept>
+		<code value="94939306"/>
+		<display value="INSUMO RADIOATIVO DE VENTRICULOCINTILOGRAFIA."/>
+	</concept>
+	<concept>
+		<code value="94939314"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA COM ANALOGO DE SOMATOSTATINA."/>
+	</concept>
+	<concept>
+		<code value="94939322"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA COM GALIO 67."/>
+	</concept>
+	<concept>
+		<code value="94939330"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA COM LEUCOCITOS MARCADOS."/>
+	</concept>
+	<concept>
+		<code value="94939349"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA COM MIBG E IODO 131."/>
+	</concept>
+	<concept>
+		<code value="94939357"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA COM MIBG E IODO 123."/>
+	</concept>
+	<concept>
+		<code value="94939365"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DE CORPO TOTAL COM FDG - FLUOR 18."/>
+	</concept>
+	<concept>
+		<code value="94939373"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA DE DE MAMA (BILATERAL)."/>
+	</concept>
+	<concept>
+		<code value="94939381"/>
+		<display value="INSUMO RADIOATIVO DE DEMARCACAO RADIOISOTOPICA DE LESOES TUMORAIS."/>
+	</concept>
+	<concept>
+		<code value="94939390"/>
+		<display value="INSUMO RADIOATIVO DE LINFOCINTILOGRAFIA."/>
+	</concept>
+	<concept>
+		<code value="94939403"/>
+		<display value="INSUMO RADIOATIVO DE QUANTIFICACAO DA CAPTACAO PULMONAR COM GALIO 67."/>
+	</concept>
+	<concept>
+		<code value="94939411"/>
+		<display value="INSUMO RADIOATIVO DE PET DEDICADO ONCOLOGICO FDG - FLUOR 18"/>
+	</concept>
+	<concept>
+		<code value="94939420"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA DETECCAO DE ASPIRACAO PULMONAR."/>
+	</concept>
+	<concept>
+		<code value="94939438"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PULMONAR - INALACAO."/>
+	</concept>
+	<concept>
+		<code value="94939446"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PULMONAR - PERFUSAO."/>
+	</concept>
+	<concept>
+		<code value="94939454"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO COM MIBG."/>
+	</concept>
+	<concept>
+		<code value="94939470"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE CANCER DA TIREOIDE (ATE 150 MCI)."/>
+	</concept>
+	<concept>
+		<code value="94939489"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE CANCER DA TIREOIDE (200 MCI)."/>
+	</concept>
+	<concept>
+		<code value="94939497"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE CANCER DA TIREOIDE (250 MCI)."/>
+	</concept>
+	<concept>
+		<code value="94939500"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE CANCER DA TIREOIDE (300 MCI)."/>
+	</concept>
+	<concept>
+		<code value="94939527"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE CANCER DA TIREOIDE (400 MCI)."/>
+	</concept>
+	<concept>
+		<code value="94939535"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE HIPERTIREOIDISMO-BOCIO NODULAR TOXICO - GRAVES."/>
+	</concept>
+	<concept>
+		<code value="94939543"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE HIPERTIREOIDISMO-BOCIO NODULAR TOXICO - PLUMMER."/>
+	</concept>
+	<concept>
+		<code value="94939551"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE METASTASES OSSEAS - ESTRONCIO 90."/>
+	</concept>
+	<concept>
+		<code value="94939560"/>
+		<display value="INSUMO RADIOATIVO DE TRATAMENTO DE METASTASES OSSEAS - SAMARIO 153."/>
+	</concept>
+	<concept>
+		<code value="94939578"/>
+		<display value="INSUMO RADIOATIVO DE DACRIOCINTILOGRAFIA."/>
+	</concept>
+	<concept>
+		<code value="94942374"/>
+		<display value="TROPHIC BASIC TETRA PACK 1000ML -BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94942382"/>
+		<display value="TROPHIC FIBER  TETRA PACK 1000ML -BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="94942390"/>
+		<display value="TROPHIC 1,5  TETRA PACK 1000ML - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="95224017"/>
+		<display value="MIOSAN 5 MG COM REV CT 2 BL AL PLAS INC X 15"/>
+	</concept>
+	<concept>
+		<code value="95252355"/>
+		<display value="DRAMIN 2,5 MG/ML SOL OR CT FR PLAST AMB X 120ML"/>
+	</concept>
+	<concept>
+		<code value="95264060"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 100 AMP POLIET X 10ML"/>
+	</concept>
+	<concept>
+		<code value="95267077"/>
+		<display value="AGUA OXIGENADA 10 VOL. FR. X  1000 ML"/>
+	</concept>
+	<concept>
+		<code value="95371699"/>
+		<display value="GAMA ANTI-TETANO 250 UI/ML SOL. INJ. SERINGA X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="95373160"/>
+		<display value="AMLOVASC 5 MG COM CT BL AL PLAS INC X 30"/>
+	</concept>
+	<concept>
+		<code value="95385207"/>
+		<display value="ASPIRINA EFERVERVESCENTE 500 MG COM EFERV CT ENV AL PE X 50"/>
+	</concept>
+	<concept>
+		<code value="95404074"/>
+		<display value="HYTOS PLUS 48 MG/ML + 9 MG/ML SOL. ORAL GTS. FR. X 15 ML"/>
+	</concept>
+	<concept>
+		<code value="95407030"/>
+		<display value="LEVOZINE 40 MG/ ML SOL OR CT FR VD AMB X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="95410589"/>
+		<display value="ESPECTROPRIMA 40 MG/ML + 8 MG/ML. SUSP. ORAL CX. 50 FR. VD. X 60 ML"/>
+	</concept>
+	<concept>
+		<code value="95427155"/>
+		<display value="SINGULAIR 10 MG CX. 10 CP. REV."/>
+	</concept>
+	<concept>
+		<code value="95427163"/>
+		<display value="SINGULAIR 10 MG CX. 30 CP. REV."/>
+	</concept>
+	<concept>
+		<code value="95427180"/>
+		<display value="SINGULAIR 4 MG CX. 30 CP. MAST."/>
+	</concept>
+	<concept>
+		<code value="95435000"/>
+		<display value="VERRUX SOL. TOP. FR. X 10 ML+ APLICADOR"/>
+	</concept>
+	<concept>
+		<code value="95435875"/>
+		<display value="CITROPLEX 500 MG COM CT ENV AL POLIET X 20"/>
+	</concept>
+	<concept>
+		<code value="95439331"/>
+		<display value="SOLUCAO DE CLORETO DE POTASSIO 100 MG/ML SOL INJ IV CX 100 AMP PE X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="95439340"/>
+		<display value="SOLUCAO DE CLORETO DE POTASSIO 150 MG/ML SOL INJ IV CX 100 AMP PE X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="95442960"/>
+		<display value="CUBITAN SUPLEMENTO X 200 ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="95447350"/>
+		<display value="CLORETO DE POTASSIO 19,1% SOL INJ IV CX 200 AMP PLAS TRANS X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="95448497"/>
+		<display value="NUTRINI MAX MF (MULTI FIBER) FR. 500ML SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="95450572"/>
+		<display value="MODULO PARA DIETA ENTERAL  - NUTRI DEXTRIN X 400 G SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="95450815"/>
+		<display value="FRESUBIN ORIGINAL SF EASY BAG 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="95456074"/>
+		<display value="TRICOCILIN B (12,5 MG/G + 25 MG/G) CREM VAG CT BG AL X 45 G + 10 APLIC"/>
+	</concept>
+	<concept>
+		<code value="95456554"/>
+		<display value="FLUIMUCIL 11,50 MG/ML SOL NAS CT FR VD AMB X 20 ML + CGT"/>
+	</concept>
+	<concept>
+		<code value="95461159"/>
+		<display value="MALEATO DE DEXCLORFENIRAMINA 0,4 MG/ML SOL OR CT FR VD AMB X 120 ML"/>
+	</concept>
+	<concept>
+		<code value="96000350"/>
+		<display value="PROLIVE 15 CAPS"/>
+	</concept>
+	<concept>
+		<code value="96000414"/>
+		<display value="IMPACT TORTA DE LIMAO 1 LITRO CX 12 TETRA SQUARE DE 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96000694"/>
+		<display value="LABORHEX 2% 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96000708"/>
+		<display value="LABORHEX 2% 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96000848"/>
+		<display value="PASTA D AGUA 140 GRS"/>
+	</concept>
+	<concept>
+		<code value="96001046"/>
+		<display value="DESOL GOTAS FRASCO DE 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96001194"/>
+		<display value="NUTREN 1.0 BAUNILHA PO CX 12 LATAS 400G"/>
+	</concept>
+	<concept>
+		<code value="96001224"/>
+		<display value="DEPURA GOTAS 20ML"/>
+	</concept>
+	<concept>
+		<code value="96001402"/>
+		<display value="LABORHEX 0,5% 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96001801"/>
+		<display value="NUTRIDRINK COMPACT CHOCOLATE 125ML"/>
+	</concept>
+	<concept>
+		<code value="96002263"/>
+		<display value="BEPANTOL DERMA 5% 20G"/>
+	</concept>
+	<concept>
+		<code value="96002280"/>
+		<display value="MARIMER SOL. ISOTONICA 0,9% FR 100ML"/>
+	</concept>
+	<concept>
+		<code value="96002603"/>
+		<display value="FORTIFIT PRO SABOR BAUNILHA LATA 280GR"/>
+	</concept>
+	<concept>
+		<code value="96003260"/>
+		<display value="BEPANTOL BABY CREME 60G"/>
+	</concept>
+	<concept>
+		<code value="96003308"/>
+		<display value="NUTRISON ENERGY 1.5 PACK 1 LITRO SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96003537"/>
+		<display value="AMPICILINA 500 MG PO P/ SOL INJ CX 50 FA VD TRANS + 50 DIL AMP FR PLAS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="96003812"/>
+		<display value="NUTRISON PROTEIN PLUS ENERGY 1.5 PACK 1 LITRO SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96003820"/>
+		<display value="NUTRISON PROTEIN PLUS ENERGY 1.5 PACK 500ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96004002"/>
+		<display value="FRESUBIN 2 KCAL CREME 125 G - FRUTAS DA FLORESTA"/>
+	</concept>
+	<concept>
+		<code value="96004010"/>
+		<display value="FRESUBIN 2 KCAL CREME 125 G - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96004118"/>
+		<display value="BIDRILAC CX 6 SACHES"/>
+	</concept>
+	<concept>
+		<code value="96004150"/>
+		<display value="NORIPURUM EV 20MG/ML SOL INJ EV CX 5 AMP VD INC X 5ML"/>
+	</concept>
+	<concept>
+		<code value="96004215"/>
+		<display value="ISOSOURCE SOYA 1L CX 12 TETRA SQUARE 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96004240"/>
+		<display value="SEDADOR 500 MG + 5 MG + 10 MG/ 1,5 ML SOL OR CT FR VD AMB X 15 ML"/>
+	</concept>
+	<concept>
+		<code value="96004592"/>
+		<display value="NUTRISON ENERGY MULTI FIBER 1.5MF  TETRAPACK 1000ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96005394"/>
+		<display value="DIAMAX TETRA PAK 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96005548"/>
+		<display value="INFATRINI 400 GRAMAS PO"/>
+	</concept>
+	<concept>
+		<code value="96005653"/>
+		<display value="NEOCATE LCP 400G"/>
+	</concept>
+	<concept>
+		<code value="96006021"/>
+		<display value="NOVASOURCE GC 1.5 SF 6FR X 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96006145"/>
+		<display value="FRESUBIN PROTEIN ENERGY DRINK SF EASY BOTTLE 200 ML - CHOCOLATE"/>
+	</concept>
+	<concept>
+		<code value="96006161"/>
+		<display value="ALFARE CX C/ 6 LATAS 400G"/>
+	</concept>
+	<concept>
+		<code value="96006234"/>
+		<display value="NUTRISON ADVANCED CUBISON PACK 1000ML 1.0KCAL SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96006285"/>
+		<display value="GLUTAMAX CX. 30 SACHES DE 10 G"/>
+	</concept>
+	<concept>
+		<code value="96006307"/>
+		<display value="PARACETAMOL 750MG COM REV CT BL AL. PLAS AMB X 280 (EMB FRAC.)"/>
+	</concept>
+	<concept>
+		<code value="96006404"/>
+		<display value="GROW VIT BB FR. VD. AMBER 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96212560"/>
+		<display value="NUTREN ACTIVE  BAUNILHA  PO CX. 12 LATAS X 400 G"/>
+	</concept>
+	<concept>
+		<code value="96212578"/>
+		<display value="NUTREN ACTIVE  CHOCOLATE  PO CX. 12 LATAS X 400 G"/>
+	</concept>
+	<concept>
+		<code value="96212586"/>
+		<display value="NUTREN ACTIVE  MORANGO  PO CX. 12 LATAS X 400 G"/>
+	</concept>
+	<concept>
+		<code value="96212608"/>
+		<display value="ISOSOURCE SOYA FIBER 1L CX 12 TETRA SQUARE 1000ML BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96212624"/>
+		<display value="NOVASOURCE SENIOR SISTEMA FECHADO C/ 6 FRASCOS BAUNILHA 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96212691"/>
+		<display value="DIETA ENTERAL LIQUIDA EASY BAG SURVIMED OPD 1000ML SEM SABOR SF"/>
+	</concept>
+	<concept>
+		<code value="96212705"/>
+		<display value="FRESUBIN ENERGY DRINK SF EASY BOTTLE 200ML - CHOCOLATE"/>
+	</concept>
+	<concept>
+		<code value="96212721"/>
+		<display value="FRESUBIN LIPID DRINK SF EASY BOTTLE 200 ML - FRUTAS TROPICAIS"/>
+	</concept>
+	<concept>
+		<code value="96212730"/>
+		<display value="FRESUBIN 1.2 HP FIBRE EASY BAG 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96212802"/>
+		<display value="PEPTAMEN INTENSE SF CX. 6 ULTRAPAK 1000 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96212837"/>
+		<display value="NUTRISON 1,0 TETRAPACK 1000ML SISTEMA ABERTO SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96212845"/>
+		<display value="NUTRISON ENERGY 1,5 TETRAPACK 1000ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96212853"/>
+		<display value="NUTRISON ADVANCED DIASON TETRAPACK 1000ML SISTEMA ABERTO SEM SABOR 1.0KCAL"/>
+	</concept>
+	<concept>
+		<code value="96212861"/>
+		<display value="SOUVENAID  BAUNILHA 125ML C/ 4 FR"/>
+	</concept>
+	<concept>
+		<code value="96212896"/>
+		<display value="NUTRISON ADVANCED DIASON ENERGY HP PACK 1,5KCAL SEM SABOR SF 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96212985"/>
+		<display value="PIPERACILINA SODICA + TAZOBACTAM SODICO 4 G + 500 MG PO SOL INJ CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="96213051"/>
+		<display value="OXACILINA SODICA 500 MG PO P/ SOL INJ CX 50 FA VD TRANS + 50 AMP DIL FR PLAS X 5ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="96213086"/>
+		<display value="LIPIDIL 200 MG CAP GEL DURA CT BL AL PLAS PVC TRANS X 30"/>
+	</concept>
+	<concept>
+		<code value="96213116"/>
+		<display value="IMIPENEM+CILASTATINA SODICA 500MG + 500MG PO SOL INJ IV CT FA VD INC X 20ML"/>
+	</concept>
+	<concept>
+		<code value="96213167"/>
+		<display value="ACEBROFILINA 10 MG/ ML XPE CX 50 FR VD AMB X 120 ML + 50 COP (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="96213302"/>
+		<display value="FRESUBIN 2 KCAL DRINK NEUTRO EASY BOTTLE 200ML BR71416101 C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96213353"/>
+		<display value="OSMOLAC 5G X10 SACHES"/>
+	</concept>
+	<concept>
+		<code value="96213370"/>
+		<display value="RINOSORO JET 0,9% SPRAY NASAL FR. 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96213388"/>
+		<display value="MOTILEX CX. 30 SACHES"/>
+	</concept>
+	<concept>
+		<code value="96213396"/>
+		<display value="ALCOOL IODADO 0,1% 1FR 100ML"/>
+	</concept>
+	<concept>
+		<code value="96213400"/>
+		<display value="HALOXIN 6% 100ML"/>
+	</concept>
+	<concept>
+		<code value="96213418"/>
+		<display value="SUPOSITORIO DE GLICERINA ADULTO 12 UND"/>
+	</concept>
+	<concept>
+		<code value="96213434"/>
+		<display value="BIOZINC KIDS FR. 75 ML"/>
+	</concept>
+	<concept>
+		<code value="96213493"/>
+		<display value="MARESIS SOL. SPRAY 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96213507"/>
+		<display value="MILNUTRI LATA 400 G"/>
+	</concept>
+	<concept>
+		<code value="96213540"/>
+		<display value="PASTA D`AGUA 90G"/>
+	</concept>
+	<concept>
+		<code value="96213558"/>
+		<display value="LEITE EM PO NINHO FASES +1 400G"/>
+	</concept>
+	<concept>
+		<code value="96213582"/>
+		<display value="OLEO MINERAL CAZI FR. 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96213698"/>
+		<display value="PROPOVAN 10 MG/ML EMU INJ CX 5 AMP VD TRANS X 20 ML (REST. HOSP)"/>
+	</concept>
+	<concept>
+		<code value="96213701"/>
+		<display value="CEVITA 100MG/ML SOL INJ CT 100 AMP VD AMB X 5ML"/>
+	</concept>
+	<concept>
+		<code value="96213752"/>
+		<display value="CERUMIN OTOLOGICO 8ML"/>
+	</concept>
+	<concept>
+		<code value="96213795"/>
+		<display value="TELEBRIX HYSTERO 550,50 MG/ML SOL INJ CT FA VD INC X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96228180"/>
+		<display value="VIBRAL 1,5 MG/ ML XPE PED CT FR VD AMB X 120 ML + CP MED"/>
+	</concept>
+	<concept>
+		<code value="96228229"/>
+		<display value="FRESUBIN 2 KCAL HP SF EASY BAG 500ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96228270"/>
+		<display value="NOVASOURCE SENIOR TETRA SQUARE 1000ML C/ 12FR BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96228296"/>
+		<display value="UNIZINCO 4 MG/ML SOLUCAO ORAL 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96228342"/>
+		<display value="KETOCAL LATA 300G"/>
+	</concept>
+	<concept>
+		<code value="96228350"/>
+		<display value="NAN 2 COMFOR LATA  800G"/>
+	</concept>
+	<concept>
+		<code value="96228377"/>
+		<display value="CLORETO DE SODIO 9 MG/ML SOL INJ IV CX 30 FR PLAS TRANS SIST FECH X 500ML"/>
+	</concept>
+	<concept>
+		<code value="96228393"/>
+		<display value="DIASIP SUPLEMENTO X 200 ML MORANGO"/>
+	</concept>
+	<concept>
+		<code value="96228423"/>
+		<display value="FREBINI ENERGY DRINK BANANA EASY BOTTLE 200ML"/>
+	</concept>
+	<concept>
+		<code value="96228563"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 48 FR PE SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="96228610"/>
+		<display value="CLORIDRATO DE DOXORRUBICINA 50 MG PO LIOF SOL INJ CT FA VD TRANS X 50 ML"/>
+	</concept>
+	<concept>
+		<code value="96228628"/>
+		<display value="PEDIASURE COMPLETE CHOCOLATE 400G"/>
+	</concept>
+	<concept>
+		<code value="96228636"/>
+		<display value="PEDIASURE COMPLETE BAUNILHA 900G"/>
+	</concept>
+	<concept>
+		<code value="96228644"/>
+		<display value="PEDIASURE COMPLETE CHOCOLATE 900G"/>
+	</concept>
+	<concept>
+		<code value="96228679"/>
+		<display value="RESOURCE GLUTAMINA - SACHE - CX. C/12 DISPLAYS C/20 SACHES 5 G"/>
+	</concept>
+	<concept>
+		<code value="96228687"/>
+		<display value="NOVASOURCE REN BAUNILHA 1000ML SF C/ 6 FRASCOS DE 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96228695"/>
+		<display value="RESOURCE PROTEIN SEM SABOR 240G CX C/ 12"/>
+	</concept>
+	<concept>
+		<code value="96228717"/>
+		<display value="CUBITAN MORANGO 200ML"/>
+	</concept>
+	<concept>
+		<code value="96228725"/>
+		<display value="CUBITAN CHOCOLATE 200ML"/>
+	</concept>
+	<concept>
+		<code value="96228733"/>
+		<display value="CALOGEN SEM SABOR 200ML"/>
+	</concept>
+	<concept>
+		<code value="96228741"/>
+		<display value="NUTRI DIABETIC ( 1,0KCAL/ML) BAUNILHA TETRA PAK 200ML"/>
+	</concept>
+	<concept>
+		<code value="96228768"/>
+		<display value="ISOSOURCE 1,5 BAUNILHA SEM SACAROSE 1000ML SF CX C/ 6"/>
+	</concept>
+	<concept>
+		<code value="96228784"/>
+		<display value="RESOURCE THICKEN UP CLEAR SEM SABOR 125G CX C/ 12"/>
+	</concept>
+	<concept>
+		<code value="96228822"/>
+		<display value="JEVITY HICAL RTH 1,5 KCAL/M SF SEM SABOR 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96228830"/>
+		<display value="RESOURCE THICKEN UP CLEAR SEM SABOR CX C/ 12 DISPLAYS C/ 24 SACHES DE 1,2G"/>
+	</concept>
+	<concept>
+		<code value="96228849"/>
+		<display value="STIMULANCE  MULTIFIBER SACHE CX C/ 24 DISPLAYS C/ 14 SACHES 5G"/>
+	</concept>
+	<concept>
+		<code value="96228865"/>
+		<display value="NOVASOURCE GI CONTROL BAUNILHA CX C/ 12 TETRA SQUARE 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96228873"/>
+		<display value="NUTRIDRINK COMPACT MORANGO 125ML"/>
+	</concept>
+	<concept>
+		<code value="96228903"/>
+		<display value="NUTREN 1,5 MORANGO TETRA SLIM 200ML"/>
+	</concept>
+	<concept>
+		<code value="96228938"/>
+		<display value="NEO SPOON 400G"/>
+	</concept>
+	<concept>
+		<code value="96228954"/>
+		<display value="NUTRIDRINK COMPACT BAUNILHA 125ML"/>
+	</concept>
+	<concept>
+		<code value="96240199"/>
+		<display value="MILNUTRI  DE SOJA 800G"/>
+	</concept>
+	<concept>
+		<code value="96240210"/>
+		<display value="FRESUBIN 2 KCAL HP FIBRE SF EASY BAG 500 ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96240237"/>
+		<display value="VITAWIN 1 FR 15 ML"/>
+	</concept>
+	<concept>
+		<code value="96240245"/>
+		<display value="IMPACT 1.5 SF - CX. C/6  ULTRAPACK 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="96240253"/>
+		<display value="AGUA PURIFICADA SOL. INJ. FR. X 250 ML IRR"/>
+	</concept>
+	<concept>
+		<code value="96241365"/>
+		<display value="SUSTARE BAUNILHA 360G"/>
+	</concept>
+	<concept>
+		<code value="96241390"/>
+		<display value="APTAMIL PROEXPERT ACTIVE 800G"/>
+	</concept>
+	<concept>
+		<code value="96241403"/>
+		<display value="NUTRI DIABETIC 1,0 KCAL BAUNILHA TETRA PAK 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96241411"/>
+		<display value="ENSURE PLUS CHOCOLATE TETRA PAK 200ML"/>
+	</concept>
+	<concept>
+		<code value="96241462"/>
+		<display value="FREBINI ENERGY DRINK MORANGO EASY BOTTLE 200ML [BR7244601]"/>
+	</concept>
+	<concept>
+		<code value="96241489"/>
+		<display value="NUTREN SENIOR CHOCOLATE CX C/ 27 TETRA SLIM 200ML"/>
+	</concept>
+	<concept>
+		<code value="96241497"/>
+		<display value="NUTREN SENIOR MIX DE FRUTAS CX C/ 27 TETRA SLIM 200ML"/>
+	</concept>
+	<concept>
+		<code value="96241500"/>
+		<display value="ENSURE MORANGO 900G"/>
+	</concept>
+	<concept>
+		<code value="96241519"/>
+		<display value="ENSURE PROTEIN RPB BAUNILHA 220ML"/>
+	</concept>
+	<concept>
+		<code value="96241560"/>
+		<display value="PEDIASURE COMPLETE MORANGO 400G"/>
+	</concept>
+	<concept>
+		<code value="96241578"/>
+		<display value="FREBINI ENERGY FIBRE DRINK BAUNILHA EASY BOTTLE 200ML [BR7029601"/>
+	</concept>
+	<concept>
+		<code value="96241586"/>
+		<display value="FREBINI ENERGY FIBRE DRINK CHOCOLATE EASY BOTTLE 200ML [BR7246601]"/>
+	</concept>
+	<concept>
+		<code value="96241594"/>
+		<display value="FRESUBIN 2 KCAL CREME 125 G - PRALINE"/>
+	</concept>
+	<concept>
+		<code value="96241616"/>
+		<display value="APTAMIL PROFUTURA 1 400G"/>
+	</concept>
+	<concept>
+		<code value="96241624"/>
+		<display value="APTAMIL PROFUTURA 1 800G"/>
+	</concept>
+	<concept>
+		<code value="96241632"/>
+		<display value="FORTICARE CAPPUCCINO 125ML"/>
+	</concept>
+	<concept>
+		<code value="96241640"/>
+		<display value="FORTIFIT PRO MORANGO 280G"/>
+	</concept>
+	<concept>
+		<code value="96241667"/>
+		<display value="FORTINI MULTIFIBER CHOCOLATE 200ML"/>
+	</concept>
+	<concept>
+		<code value="96241675"/>
+		<display value="INFATRINI 125ML"/>
+	</concept>
+	<concept>
+		<code value="96241748"/>
+		<display value="NUTRIDRINK COMPACT PROTEIN MORANGO 125ML"/>
+	</concept>
+	<concept>
+		<code value="96241772"/>
+		<display value="NUTRIDRINK PROTEIN CHOCOLATE 200ML"/>
+	</concept>
+	<concept>
+		<code value="96241780"/>
+		<display value="NUTRINI PEPTI 1,0 KCAL PAK 500ML SF SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96241799"/>
+		<display value="NUTRISON ADVANCED CUBISON 1,0 KCAL TETRA PAK 1000ML SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96241802"/>
+		<display value="NUTRISON ENERGY MULTIFIBER 1,5 KCAL SEM SABOR PAK 1000ML SF"/>
+	</concept>
+	<concept>
+		<code value="96241810"/>
+		<display value="NUTRISON MULTIFIBER 1,0 KCAL SEM SABOR TETRA PAK 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96241829"/>
+		<display value="NUTRISON PROTEIN PLUS MULTIFIBER 1,25 KCAL SEM SABOR PAK 1000ML SF"/>
+	</concept>
+	<concept>
+		<code value="96241845"/>
+		<display value="PREGOMIN PEPTI 400G"/>
+	</concept>
+	<concept>
+		<code value="96241861"/>
+		<display value="STIMULANCE MULTIFIBER 225G"/>
+	</concept>
+	<concept>
+		<code value="96241870"/>
+		<display value="PERATIVE RTH SEM SABOR 1000ML SF C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96241888"/>
+		<display value="ALFAMINO 400G"/>
+	</concept>
+	<concept>
+		<code value="96241896"/>
+		<display value="ALTHERA 450G"/>
+	</concept>
+	<concept>
+		<code value="96241918"/>
+		<display value="APTAMIL PROEXPERT HA 400G"/>
+	</concept>
+	<concept>
+		<code value="96241950"/>
+		<display value="NOVASOURCE HI PROTEIN BAUNILHA 1000ML SF C/ 6 FRASCOS 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96241977"/>
+		<display value="ENSURE PLUS ADVANCE RPB BAUNILHA 220ML"/>
+	</concept>
+	<concept>
+		<code value="96241993"/>
+		<display value="APTAMIL PROFUTURA 2 800G"/>
+	</concept>
+	<concept>
+		<code value="96242396"/>
+		<display value="NUTREN ACTIVE BANANA 400G"/>
+	</concept>
+	<concept>
+		<code value="96242400"/>
+		<display value="MODULEN SEM SABOR 400G"/>
+	</concept>
+	<concept>
+		<code value="96242418"/>
+		<display value="APTAMIL PROEXPERT AR 400G"/>
+	</concept>
+	<concept>
+		<code value="96242426"/>
+		<display value="NUTRICOMP STANDARD MB SEM SABOR 1000ML SF"/>
+	</concept>
+	<concept>
+		<code value="96242434"/>
+		<display value="NUTRICOMP STANDARD FIBER MB SEM SABOR 1000ML SF"/>
+	</concept>
+	<concept>
+		<code value="96242469"/>
+		<display value="ENFAMIL PREMIUM 1 800G"/>
+	</concept>
+	<concept>
+		<code value="96242477"/>
+		<display value="SUSTAGEN BANANA 400G"/>
+	</concept>
+	<concept>
+		<code value="96242485"/>
+		<display value="NEOFIBER 260G"/>
+	</concept>
+	<concept>
+		<code value="96242493"/>
+		<display value="TOTAL NUTRITION SOY HIPOSSODICO SEM SACAROSE BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="96242507"/>
+		<display value="NEOFIBER 10G C/ 20ENV"/>
+	</concept>
+	<concept>
+		<code value="96242515"/>
+		<display value="NUTRI RENAL D 2,0 KCAL BAUNILHA TETRA PAK 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96242523"/>
+		<display value="NUTRI RENAL D 2,0 KCAL BAUNILHA TETRA PAK 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242531"/>
+		<display value="NUTRI ENTERAL 1,5 KCAL CHOCOLATE TETRA PAK 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242566"/>
+		<display value="SUSTARE CRIANCA BAUNILHA 380G"/>
+	</concept>
+	<concept>
+		<code value="96242582"/>
+		<display value="ENTERFIBER 400G"/>
+	</concept>
+	<concept>
+		<code value="96242604"/>
+		<display value="TROPHIC INFANT 380G - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96242680"/>
+		<display value="SUSTAGEN BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="96242701"/>
+		<display value="SUSTAGEN KIDS MORANGO 380G"/>
+	</concept>
+	<concept>
+		<code value="96242728"/>
+		<display value="PEDIASURE COMPLETE BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="96242744"/>
+		<display value="NUTRIDRINK COMPACT PROTEIN CAPPUCINO 125ML"/>
+	</concept>
+	<concept>
+		<code value="96242752"/>
+		<display value="NOVASOURCE GI CONTROL BAUNILHA SF CX C/ 6 FR 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96242779"/>
+		<display value="NUTREN KIDS BAUNILHA 350G"/>
+	</concept>
+	<concept>
+		<code value="96242795"/>
+		<display value="NOVASOURCE REN BAUNILHA CX C/ 27  TETRA SLIM 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242825"/>
+		<display value="SULFATO DE AMICACINA 125 MG/ML SOL INJ CT AMP VD INC X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="96242841"/>
+		<display value="FRESUBIN ENERGY FIBRE DRINK SF EASY BOTTLE 200 ML - MORANGO"/>
+	</concept>
+	<concept>
+		<code value="96242868"/>
+		<display value="FORTICARE LARANJA/LIMAO 125ML"/>
+	</concept>
+	<concept>
+		<code value="96242876"/>
+		<display value="FORTICARE PESSEGO/GENGIBRE 125ML"/>
+	</concept>
+	<concept>
+		<code value="96242884"/>
+		<display value="FORTINI MULTIFIBER MORANGO 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242892"/>
+		<display value="FORTINI MULTIFIBER BAUNILHA 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242906"/>
+		<display value="NUTRIDRINK PROTEIN BAUNILHA 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242914"/>
+		<display value="NUTRIDRINK PROTEIN MORANGO 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242922"/>
+		<display value="NUTRIDRINK COMPACT CAPUCCINO 125ML"/>
+	</concept>
+	<concept>
+		<code value="96242930"/>
+		<display value="SUSTAIN JUNIOR BAUNILHA 350G"/>
+	</concept>
+	<concept>
+		<code value="96242949"/>
+		<display value="SUSTAIN JUNIOR CHOCOLATE 350G"/>
+	</concept>
+	<concept>
+		<code value="96242965"/>
+		<display value="NUTREN 1,5  BAUNILHA CX C/ 27 TETRA SLIM 200ML"/>
+	</concept>
+	<concept>
+		<code value="96242990"/>
+		<display value="MILUPA 2 400G"/>
+	</concept>
+	<concept>
+		<code value="96243031"/>
+		<display value="NEO ADVANCE 400G"/>
+	</concept>
+	<concept>
+		<code value="96243058"/>
+		<display value="MAXIJOULE SEM SABOR 400G"/>
+	</concept>
+	<concept>
+		<code value="96243066"/>
+		<display value="PEPTAMEN PREBIO SF CX. 6 ULTRAPAK 1000ML - SEM SABOR"/>
+	</concept>
+	<concept>
+		<code value="96243082"/>
+		<display value="TRODAT-1 (99M TC)  1 FRASCO DE REAGENTE LIOFILIZADO PARA USO INJETAVEL"/>
+	</concept>
+	<concept>
+		<code value="96243090"/>
+		<display value="NUTRICOMP ENERGY HN FIBER MB SEM SABOR 1000ML [3547940] SF C/ 01BLS"/>
+	</concept>
+	<concept>
+		<code value="96243112"/>
+		<display value="SUSTAIN ENERGY BAUNILHA 450G"/>
+	</concept>
+	<concept>
+		<code value="96243120"/>
+		<display value="SUSTAIN ENERGY CHOCOLATE 450G"/>
+	</concept>
+	<concept>
+		<code value="96243139"/>
+		<display value="SUSTAIN ENERGY MORANGO 450G"/>
+	</concept>
+	<concept>
+		<code value="96243155"/>
+		<display value="SUSTAIN JUNIOR VITAMINA DE FRUTAS 350G"/>
+	</concept>
+	<concept>
+		<code value="96243244"/>
+		<display value="THICK EASY CX. 100 SACHES X 9 G"/>
+	</concept>
+	<concept>
+		<code value="96243252"/>
+		<display value="THICK &amp; EASY LATA X 225 G"/>
+	</concept>
+	<concept>
+		<code value="96243309"/>
+		<display value="TRAUMEEL S SOL INJ CT AMP VD INC X 2,2ML"/>
+	</concept>
+	<concept>
+		<code value="96243333"/>
+		<display value="IMOLAC 120 ML"/>
+	</concept>
+	<concept>
+		<code value="96243341"/>
+		<display value="TROPHIC BASIC 800GR - BAUNILHA"/>
+	</concept>
+	<concept>
+		<code value="96243392"/>
+		<display value="NAN SEM LACTOSE 400G"/>
+	</concept>
+	<concept>
+		<code value="96243414"/>
+		<display value="NAN HA 400G"/>
+	</concept>
+	<concept>
+		<code value="96243422"/>
+		<display value="MCT SEM AGE 500ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96243430"/>
+		<display value="MODULO DE MALTODEXTRINA 500G"/>
+	</concept>
+	<concept>
+		<code value="96243660"/>
+		<display value="KEFADIM 1 G PO SOL INJ CX 50 FA VD TRANS TIPO III"/>
+	</concept>
+	<concept>
+		<code value="96243716"/>
+		<display value="IMPACT SISTEMA FECHADO SABOR PESSEGO CX 6FRS 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96243732"/>
+		<display value="ISOSOURCE MIX BAUNILHA- SF - CX. C/6 FRASCOS DE 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="96258128"/>
+		<display value="APTAMIL PREMIUM 3 800G"/>
+	</concept>
+	<concept>
+		<code value="96258136"/>
+		<display value="APTAMIL PROEXPERT AR 800G"/>
+	</concept>
+	<concept>
+		<code value="96258152"/>
+		<display value="APTAMIL PROEXPERT PEPTI 800G"/>
+	</concept>
+	<concept>
+		<code value="96258160"/>
+		<display value="APTAMIL PROEXPERT SL 400G"/>
+	</concept>
+	<concept>
+		<code value="96258187"/>
+		<display value="APTAMIL PROEXPERT SOJA 1 400G"/>
+	</concept>
+	<concept>
+		<code value="96258195"/>
+		<display value="APTAMIL PROEXPERT SOJA 2 400G"/>
+	</concept>
+	<concept>
+		<code value="96258209"/>
+		<display value="APTAMIL PROEXPERT SOJA 2 800G"/>
+	</concept>
+	<concept>
+		<code value="96258268"/>
+		<display value="ISOSOURCE MIX BAUNILHA TETRA SQUARE 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96258349"/>
+		<display value="CALCIPREV 500MG CX 60CP"/>
+	</concept>
+	<concept>
+		<code value="96258390"/>
+		<display value="IMPACT PESSEGO TETRA SLIM 200ML CX C/ 27"/>
+	</concept>
+	<concept>
+		<code value="96258403"/>
+		<display value="IMPACT SABOR TORTA DE LIMAO TETRA SLIM 27 X 200ML"/>
+	</concept>
+	<concept>
+		<code value="96258446"/>
+		<display value="PRE NAN LATA X 400 G."/>
+	</concept>
+	<concept>
+		<code value="96258543"/>
+		<display value="ENBREL PFS 50 MG SOL INJ CT 2 SER PREENCH C/ AGU X 1,0 ML + 4 LENCOS"/>
+	</concept>
+	<concept>
+		<code value="96258560"/>
+		<display value="ENBREL PFS 25 MG SOL INJ CT 2 SER PREENCH C/ AGU X 0,5 ML + 4 LENCOS"/>
+	</concept>
+	<concept>
+		<code value="96258586"/>
+		<display value="ENBREL 25 MG PO LIOF INJ CT C/ 4 EST C/ 1 FA VD INC + 1 SER PREENCH DIL X 1ML + 2 AGU + 2 LENCOS"/>
+	</concept>
+	<concept>
+		<code value="96258608"/>
+		<display value="GLUCERNA 1.5 RTH SF BAUNILHA 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96258624"/>
+		<display value="APTAMIL PROEXPERT PRE 400G"/>
+	</concept>
+	<concept>
+		<code value="96258683"/>
+		<display value="ZANIDIP 10 MG COM REV CT STR AL X 20"/>
+	</concept>
+	<concept>
+		<code value="96258705"/>
+		<display value="CARDCOR 0,25 MG COM CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="96258721"/>
+		<display value="APTAMIL PROEXPERT PRE TRANSITION 400G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="96258756"/>
+		<display value="DECONGEX PLUS GOTAS 2 MG/ML + 2,5 MG/ML SOL OR CT FR GOT PLAS OPC X 30 ML"/>
+	</concept>
+	<concept>
+		<code value="96258772"/>
+		<display value="PIELOGRAF- 756,57 MG/ML SOL INJ IV/IAR CT FA VD TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96258799"/>
+		<display value="FIBER MAIS FLORA 5G C/ 06ENV"/>
+	</concept>
+	<concept>
+		<code value="96258802"/>
+		<display value="SURVIMED OPD DRINK BAUNILHA 200 ML"/>
+	</concept>
+	<concept>
+		<code value="96258861"/>
+		<display value="ANESEVO 1 ML/ML SOL INAL CT FR VD AMB X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96258870"/>
+		<display value="ATROFARMA 0,25 MG/ML SOL INJ CX 50 AMP VD INC X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="96258900"/>
+		<display value="BEPANTOL BABY EXTRA PROTECAO 30G"/>
+	</concept>
+	<concept>
+		<code value="96258934"/>
+		<display value="CAPTOPRIL 25 MG COM CT BL AL PLAS INC X 28"/>
+	</concept>
+	<concept>
+		<code value="96258969"/>
+		<display value="CAPTOPRIL 50 MG COM CT BL AL PLAS TRANS X 15"/>
+	</concept>
+	<concept>
+		<code value="96258993"/>
+		<display value="CEFAZOLINA SODICA 1 G PO P/ SOL INJ CT 25 FA VD TRANS + 25 DIL X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96259000"/>
+		<display value="CEFTAFOR 1 G PO INJ CX 50 FR AMP VD TRANS + AMP DIL X 10 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="96259019"/>
+		<display value="CEFTAZIDIMA 1 G PO P/SOL INJ CT 25 FA VD INC + 25 DIL AMP VD INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96259027"/>
+		<display value="CEFUROXIMA SODICA 750 MG PO SOL INJ CT 25 FA VD INC + 25 AMP DIL VD INC X 6 ML"/>
+	</concept>
+	<concept>
+		<code value="96259051"/>
+		<display value="CEZOLIN 1 G PO SOL INJ CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="96259060"/>
+		<display value="CIMETIDINA 150 MG/ML SOL INJ CT 100 AMP VD TRANS X 2ML EMB HOSP"/>
+	</concept>
+	<concept>
+		<code value="96259078"/>
+		<display value="CITALOPRAM 20 MG COM REV CT BL AL PLAS TRANS X 28"/>
+	</concept>
+	<concept>
+		<code value="96259086"/>
+		<display value="CLORIDRATO DE CEFEPIME 1 G PO P/ SOL INJ CT 25 FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="96259094"/>
+		<display value="CLORIDRATO DE DOPAMINA 5 MG/ML SOL DIL INFUS CX 10 AMP VD AMB X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96259124"/>
+		<display value="CLORIDRATO DE RANITIDINA 150 MG COM REV CT STR AL X 20"/>
+	</concept>
+	<concept>
+		<code value="96259140"/>
+		<display value="CLORIDRATO DE TRAMADOL 50 MG/ML SOL INJ CX 6 AMP VD AMB X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="96259159"/>
+		<display value="COLACT 667MG/ML AMEIXA 120ML"/>
+	</concept>
+	<concept>
+		<code value="96259248"/>
+		<display value="FENOBARBITAL PORTARIA 344/98 LISTA B1 100 MG COM CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="96259280"/>
+		<display value="FOSFATO DISSODICO DE DEXAMETASONA 2,0 MG /ML SOL INJ CT FA VD INC X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="96259299"/>
+		<display value="FUROSEMIDA 10 MG/ML SOL INJ CT 50 AMP VD AMB X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="96259302"/>
+		<display value="GANCICLOTRAT 500 MG PO LIOF SOL INJ CT FA VD INC + DIL X 10ML"/>
+	</concept>
+	<concept>
+		<code value="96259329"/>
+		<display value="GLICONATO DE CALCIO 0,1 G/ML SOL INJ IV CX 100 AMP VD INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96259345"/>
+		<display value="GLIMEPIRIDA 2 MG COM CT BL AL PLAS INC X 450 EMB HOSP"/>
+	</concept>
+	<concept>
+		<code value="96259396"/>
+		<display value="LORAX 1 MG COM CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="96259418"/>
+		<display value="MACRODANTINA 100 MG CAP GEL DURA CT BL AL PLAS TRANS X 24"/>
+	</concept>
+	<concept>
+		<code value="96259434"/>
+		<display value="MESNA 100 MG / ML SOL INJ CT 10 AMP VD TRANS X 4 ML"/>
+	</concept>
+	<concept>
+		<code value="96259442"/>
+		<display value="METREXATO 2,5 MG COM CT BL AL PLAS AMB X 25"/>
+	</concept>
+	<concept>
+		<code value="96259485"/>
+		<display value="NEOCAINA 7,5MG/ML + 9,1MCG/ML SOL INJ CX 10 FA VD TRANS X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96259523"/>
+		<display value="PANTOPRAZOL 40 MG PO LIOF SOL INJ CT 50 FA VD TRANS + 50 AMP DIL X 10 MLEMB HOSP"/>
+	</concept>
+	<concept>
+		<code value="96259540"/>
+		<display value="PARACETAMOL 100 MG/ML SUS OR CT FR PLAS OPC X 15 ML + SER DOSAD"/>
+	</concept>
+	<concept>
+		<code value="96259566"/>
+		<display value="PREDNISONA 20 MG COM CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="96259612"/>
+		<display value="PROMERGAN 20 MG/G CREM DERM CT BG AL X 30 G"/>
+	</concept>
+	<concept>
+		<code value="96259655"/>
+		<display value="SOLUCAO DE MANITOL 200 MG/ML SOL INJ IV CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="96259671"/>
+		<display value="SOLUCAO FISIOLOGICA DE RINGER COM LACTATO DE SODIO SOL INJ CX 20 FR PLAS TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="96259680"/>
+		<display value="SOLUCAO GLICOFISIOLOGICA 50 MG/ML + 9 MG/ML SOL INJ IV CX 10 FR PLAS TRANS SIST FECH X 1000 ML"/>
+	</concept>
+	<concept>
+		<code value="96259698"/>
+		<display value="SOLUCAO GLICOFISIOLOGICA 50 MG/ML + 9 MG/ML SOL INJ IV CX 30 FR PLAS TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="96259701"/>
+		<display value="SOLUCAO GLICOFISIOLOGICA 50 MG/ML + 9 MG/ML SOL INJ IV CX 48 FR PLAS TRANS SIST FECH X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="96259710"/>
+		<display value="SOLUCAO RINGER COM LACTATO SOL INJ IV CX 30 FR PLAS TRANS SIST FECH X 500 ML"/>
+	</concept>
+	<concept>
+		<code value="96259760"/>
+		<display value="AGUA OXIGENADA 10V 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96259779"/>
+		<display value="DEVI 200UI GTS 30ML"/>
+	</concept>
+	<concept>
+		<code value="96259787"/>
+		<display value="GLICERIN 2,392G SUPOSITORIO C/ 06UN"/>
+	</concept>
+	<concept>
+		<code value="96259795"/>
+		<display value="LEITE MAGNESIA PHILLIPS HORTELA 120ML"/>
+	</concept>
+	<concept>
+		<code value="96259809"/>
+		<display value="LEVELAX 100ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96259817"/>
+		<display value="OLEO DE RICINO 30ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96259825"/>
+		<display value="OLEO MINERAL 100ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96259833"/>
+		<display value="TINTURA DE BENJOIM 100ML"/>
+	</concept>
+	<concept>
+		<code value="96259841"/>
+		<display value="VASELINA ESTERILIZADA POMADA 30G"/>
+	</concept>
+	<concept>
+		<code value="96259850"/>
+		<display value="ALCOOL IODADO 0,1% 1000ML 01FR"/>
+	</concept>
+	<concept>
+		<code value="96259868"/>
+		<display value="SOLUCAO THIERSCH 3% 500ML"/>
+	</concept>
+	<concept>
+		<code value="96259876"/>
+		<display value="HALOPERIDOL 5 MG/ML SOL INJ CT 50 AMP VD AMB X 1 ML"/>
+	</concept>
+	<concept>
+		<code value="96259884"/>
+		<display value="PRATI-SAL 3,5/1,5/2,9/20G PO SOL 50 SACHES X 27,9G"/>
+	</concept>
+	<concept>
+		<code value="96259892"/>
+		<display value="ENERGYZIP BAUNILHA TETRAPACK  X 200 ML"/>
+	</concept>
+	<concept>
+		<code value="96259906"/>
+		<display value="HDMAX BAUNILHA 200ML TETRA PAK"/>
+	</concept>
+	<concept>
+		<code value="96259957"/>
+		<display value="ENERGYZIP CHOCOLATE TETRA PAK 200ML"/>
+	</concept>
+	<concept>
+		<code value="96259981"/>
+		<display value="REABILIT PEPTIFLEX -  LATA 445G"/>
+	</concept>
+	<concept>
+		<code value="96259990"/>
+		<display value="BEMVITAL CARBOIDRATO 400G"/>
+	</concept>
+	<concept>
+		<code value="96260041"/>
+		<display value="VOTRIENT 200 MG COM REV CT FR PLAS OPC X 90"/>
+	</concept>
+	<concept>
+		<code value="96260068"/>
+		<display value="CLORETO DE SODIO 0,9% 9 MG/ML FRASCO 100ML"/>
+	</concept>
+	<concept>
+		<code value="96260076"/>
+		<display value="IODOFOR AQUOSO 1000ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96260130"/>
+		<display value="FOSFATO DISSODICO DE DEXAMETASONA - 4,0 MG/ML SOL INJ CT AMP VD AMB X 2,5 ML"/>
+	</concept>
+	<concept>
+		<code value="96260149"/>
+		<display value="JP MANITOL - 20 PCC SOL INJ CX 30 BOLSA PVC X 250 ML"/>
+	</concept>
+	<concept>
+		<code value="96260173"/>
+		<display value="ISOFORT BAUNILHA CX. C/15 SACHES DE 30G"/>
+	</concept>
+	<concept>
+		<code value="96260190"/>
+		<display value="SULFATO DE AMICACINA 50 MG/ML SOL INJ CT AMP VD INC X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="96260211"/>
+		<display value="HIDROXIDO DE ALUMINIO 61,5MG/ML SUSP. FR. 240 ML"/>
+	</concept>
+	<concept>
+		<code value="96260220"/>
+		<display value="GLUTAMIN UP 150G C/ 01PT"/>
+	</concept>
+	<concept>
+		<code value="96260238"/>
+		<display value="ISOFORT FRUTAS VERMELHAS 900G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="96260246"/>
+		<display value="NEOFORTE BAUNILHA 400G"/>
+	</concept>
+	<concept>
+		<code value="96260254"/>
+		<display value="BENEFIBER NUTRIOSE PO ORAL CX 10 SACHE X 3,5 G"/>
+	</concept>
+	<concept>
+		<code value="96260262"/>
+		<display value="BENEFIBER NUTRIOSE PO ORAL CX 28 SACHE X 3,5 G"/>
+	</concept>
+	<concept>
+		<code value="96260319"/>
+		<display value="ADEROGIL NUTRA SOL ORAL X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96260327"/>
+		<display value="NATIBEM 60 CAPS. GEL. MOLES"/>
+	</concept>
+	<concept>
+		<code value="96260351"/>
+		<display value="ENERGYZIP MORANGO TETRA PAK 200ML"/>
+	</concept>
+	<concept>
+		<code value="96260424"/>
+		<display value="INSUMO RADIOATIVO DE CINTILOGRAFIA PARA AVALIACAO DO FLUXO VENOSO"/>
+	</concept>
+	<concept>
+		<code value="96260475"/>
+		<display value="HEMATOLOGICO IN VIVO DETERMINACAO DO VOLUME ERITROCITARIO"/>
+	</concept>
+	<concept>
+		<code value="96260483"/>
+		<display value="DIGESTIVO IN VIVO ABSORCAO DE GORDURAS"/>
+	</concept>
+	<concept>
+		<code value="96260505"/>
+		<display value="TYR ANAMIX INFANT 400G C/ 01LT"/>
+	</concept>
+	<concept>
+		<code value="96260513"/>
+		<display value="LEVOTIROXINA SODICA 25 MCG COM BL AL/ AL X 30"/>
+	</concept>
+	<concept>
+		<code value="96260530"/>
+		<display value="AQUALAV - SOL. FR. 500ML - SIST. ABERTO"/>
+	</concept>
+	<concept>
+		<code value="96281340"/>
+		<display value="CLEAN WHEY HYDROLYSATE 600 GR"/>
+	</concept>
+	<concept>
+		<code value="96281359"/>
+		<display value="CLEAN WHEY ISOLATE 15GR SACHE"/>
+	</concept>
+	<concept>
+		<code value="96281367"/>
+		<display value="CLEAN WHEY ISOLATE 900 GR"/>
+	</concept>
+	<concept>
+		<code value="96281375"/>
+		<display value="CLEAN WHEY HYDROLYSATE 15G SACHE"/>
+	</concept>
+	<concept>
+		<code value="96281383"/>
+		<display value="CLEAN WHEY CONCENTRATE 15GR SACHE"/>
+	</concept>
+	<concept>
+		<code value="96281391"/>
+		<display value="ZOFRAN 2 MG/ML SOL INJ CT 5 AMP VD TRANS X 2 ML"/>
+	</concept>
+	<concept>
+		<code value="96281405"/>
+		<display value="ZOFRAN 2 MG/ML SOL INJ CT 5 AMP VD TRANS X 4 ML"/>
+	</concept>
+	<concept>
+		<code value="96281421"/>
+		<display value="RIOHEX 2% DEGERMANTE 100ML ALMOT.0366"/>
+	</concept>
+	<concept>
+		<code value="96281430"/>
+		<display value="CLOREXIDINA 2% ALMOT.100ML"/>
+	</concept>
+	<concept>
+		<code value="96281448"/>
+		<display value="RIOHEX 0,5% SOL.ALCOOLICA 100ML ALMOT.0364"/>
+	</concept>
+	<concept>
+		<code value="96281464"/>
+		<display value="BECAN 76 MG / ML SUSPENSAO ORAL GOTAS 20ML"/>
+	</concept>
+	<concept>
+		<code value="96281480"/>
+		<display value="FRESUBIN 5 KCAL SHOT CREME 120ML"/>
+	</concept>
+	<concept>
+		<code value="96281499"/>
+		<display value="DIETA ENTERAL DIBEN EASY 1000 ML SF"/>
+	</concept>
+	<concept>
+		<code value="96281529"/>
+		<display value="SIMFORT CX. 30 SACHES X 2 G"/>
+	</concept>
+	<concept>
+		<code value="96281618"/>
+		<display value="MOBILITY COM 30 SACHES DE 10G"/>
+	</concept>
+	<concept>
+		<code value="96281626"/>
+		<display value="PROBIATOP 30 SACHES X 1 G"/>
+	</concept>
+	<concept>
+		<code value="96281707"/>
+		<display value="CLARITIN - 1 MG/ML SOL OR CT FR PLAS OPC X 100 ML"/>
+	</concept>
+	<concept>
+		<code value="96281839"/>
+		<display value="FISIOLOGICO (FISIOSOL) - 0,9% SOL. INJ. SF. CX. 90 FR.X 100 ML - SIST. ABERTO"/>
+	</concept>
+	<concept>
+		<code value="96282240"/>
+		<display value="TRUSOPT - 20 MG/ML SOL OFT CT FR PLAS TRANS X 5 ML"/>
+	</concept>
+	<concept>
+		<code value="96282304"/>
+		<display value="FISIOLOGICO (FISIOSOL) - 0,9% SOL. FR. PLAST. 1000ML - SIST. ABERTO"/>
+	</concept>
+	<concept>
+		<code value="96282312"/>
+		<display value="PONDERA 20 MG COM REV CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="96282320"/>
+		<display value="CLORIDRATO DE PAROXETINA 20 MG COM REV CT BL AL PLAS TRANS X 20"/>
+	</concept>
+	<concept>
+		<code value="96282339"/>
+		<display value="AMINOFILINA 24 MG/ML SOL INJ CX 100 AMP VD INC X 10 ML (EMB HOSP)"/>
+	</concept>
+	<concept>
+		<code value="96282347"/>
+		<display value="NEBACETIN 5,0 MG/G + 250 UI/G POM CT BG AL X 50 G"/>
+	</concept>
+	<concept>
+		<code value="96282371"/>
+		<display value="BICARBONATO DE SODIO 100 MG/ML SOL INJ CX 100 AMP VD INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96282380"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 100 AMP PLAS INC X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96282398"/>
+		<display value="RITMONORM 300 MG COM REV CT BL AL PLAS AMB X 20"/>
+	</concept>
+	<concept>
+		<code value="96282401"/>
+		<display value="BICARBONATO DE SODIO 84 MG/ML SOL INJ CX 100 AMP VD INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96282410"/>
+		<display value="CLORIDRATO DE SERTRALINA 50 MG COM REV CT BL AL PLAS INC X 20"/>
+	</concept>
+	<concept>
+		<code value="96282436"/>
+		<display value="RIOHEX 0,5% SOL.ALCOOLICA 30ML ALMOT.0743"/>
+	</concept>
+	<concept>
+		<code value="96282525"/>
+		<display value="SIMBIOFLORA 6G C/ 15SCH"/>
+	</concept>
+	<concept>
+		<code value="96282541"/>
+		<display value="ENFAMIL PREMATURO PREMIUM FR 59ML"/>
+	</concept>
+	<concept>
+		<code value="96282550"/>
+		<display value="DRY LIN OLEO DE LINHACA 1G 60CAP"/>
+	</concept>
+	<concept>
+		<code value="96282568"/>
+		<display value="PROVANCE -  30 COMPRIMIDOS MASTIGAVEIS"/>
+	</concept>
+	<concept>
+		<code value="96282584"/>
+		<display value="AGUA PARA INJECAO SOL INJ CX 100 AMP PLAS INC X 10 ML"/>
+	</concept>
+	<concept>
+		<code value="96282592"/>
+		<display value="GLICONATO DE CLOREXIDINA - RIOHEX 4% - 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96282606"/>
+		<display value="ACHEFLAN 5 MG/G CREM DERM CT BG AL X 60 G"/>
+	</concept>
+	<concept>
+		<code value="96282657"/>
+		<display value="PIDOMAG B3 CAIXA 60 CAP"/>
+	</concept>
+	<concept>
+		<code value="96282690"/>
+		<display value="SUPOSITORIO DE GLICERINA PED. 6 SUPOSITORIOS"/>
+	</concept>
+	<concept>
+		<code value="96282703"/>
+		<display value="SUPOSITORIO DE GLICERINA (NOTIF.SIMPLIF.) ADULTO 6 SUPOSITORIOS"/>
+	</concept>
+	<concept>
+		<code value="96282738"/>
+		<display value="GLICOSE HYPOFARMA 500 MG/ML SOL INJ CX 100 AMP PLAS INC X 20 ML"/>
+	</concept>
+	<concept>
+		<code value="96282800"/>
+		<display value="MAGVIT GOTAS 50ML"/>
+	</concept>
+	<concept>
+		<code value="96282886"/>
+		<display value="NAN COMFOR 3 LATA 800G"/>
+	</concept>
+	<concept>
+		<code value="96282908"/>
+		<display value="SALSEP 9 MG/ML SOL. NASAL FR. SPRAY X 50 ML"/>
+	</concept>
+	<concept>
+		<code value="96282924"/>
+		<display value="NOVASOURCE PROLINE BAUNILHA TETRA SLIM 200ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96282932"/>
+		<display value="IMMAX LATA 350 G"/>
+	</concept>
+	<concept>
+		<code value="96283041"/>
+		<display value="VICLOHEX 0,12% ENXAGUATORIO BUCAL - 250ML"/>
+	</concept>
+	<concept>
+		<code value="96283106"/>
+		<display value="OXALIPLATINA 100 MG PO LIOF SOL INJ IV CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="96283114"/>
+		<display value="OXALIPLATINA 50 MG PO LIOF SOL INJ IV CT FA VD TRANS"/>
+	</concept>
+	<concept>
+		<code value="96283181"/>
+		<display value="ENTEROGERMINA PLUS 5ML  CX.C/5 FRASCOS"/>
+	</concept>
+	<concept>
+		<code value="96283211"/>
+		<display value="INSUMO RADIOATIVO DE ENDOCRINO IN VIVO TESTE DE SUPRESSAO DA TIREOIDE COM T3"/>
+	</concept>
+	<concept>
+		<code value="96283238"/>
+		<display value="20 BI 435MG  CX.C/ 10CAPSULAS"/>
+	</concept>
+	<concept>
+		<code value="96283246"/>
+		<display value="BARIVIT  CX.C/60 COMPRIMIDOS"/>
+	</concept>
+	<concept>
+		<code value="96283254"/>
+		<display value="FIXARE CX COM 30 COMPRIMIDOS"/>
+	</concept>
+	<concept>
+		<code value="96283262"/>
+		<display value="RINOSORO KIT GTS. FR. 30 ML. + ASPIRADOR NASAL"/>
+	</concept>
+	<concept>
+		<code value="96283300"/>
+		<display value="PROBIATOP - 15 SACHES X 1 G"/>
+	</concept>
+	<concept>
+		<code value="96283360"/>
+		<display value="XEROLACER ENXAGUATORIO LACER SPRAY 30ML"/>
+	</concept>
+	<concept>
+		<code value="96283505"/>
+		<display value="ZICLAGUE 0,08 ML/ML CT FR AL 30 ML"/>
+	</concept>
+	<concept>
+		<code value="96283513"/>
+		<display value="ENERGRIP C 500 MG COM CT ENV AL X 20"/>
+	</concept>
+	<concept>
+		<code value="96283556"/>
+		<display value="RIOHEX 1% SOL.AQUOSA TOPICA 100ML"/>
+	</concept>
+	<concept>
+		<code value="96283564"/>
+		<display value="CENTRUM BASE C/ 30COM"/>
+	</concept>
+	<concept>
+		<code value="96283629"/>
+		<display value="ARGREPAIR DISPLAY COM 10 SACHES DE 12 G"/>
+	</concept>
+	<concept>
+		<code value="96283637"/>
+		<display value="RINOSORO SIC 9 0 MG ML SOL. NASAL SPRAY X 50 ML"/>
+	</concept>
+	<concept>
+		<code value="96283645"/>
+		<display value="RINOSORO SIC 9 0 MG ML SOL. NASAL SPRAY INF. X 50 ML"/>
+	</concept>
+	<concept>
+		<code value="96283750"/>
+		<display value="NOPLAK SEM ALCOOL - 250ML"/>
+	</concept>
+	<concept>
+		<code value="96283785"/>
+		<display value="SORINE SSC 9,0 MG ML SOL. NASAL S CONSERV. FR. 50 ML"/>
+	</concept>
+	<concept>
+		<code value="96283793"/>
+		<display value="MAXXI D3 KIDS SABOR TUTTI FRUTTI COM 10ML (200 UI/GOTA)"/>
+	</concept>
+	<concept>
+		<code value="96283858"/>
+		<display value="PROCTOSAN - ACETADO DE HIDROCORTISONA 0,5% + LIDOCAINA BASE 2,0% + SUBGALATO DE BISMUTO 2,0% + OXIDO DE ZINCO 10,0%"/>
+	</concept>
+	<concept>
+		<code value="96283998"/>
+		<display value="LEITE EM PO NINHO FASES +3 400G"/>
+	</concept>
+	<concept>
+		<code value="96284021"/>
+		<display value="SELOKEN 100 MG COM CT BL AL/AL X 20"/>
+	</concept>
+	<concept>
+		<code value="96284080"/>
+		<display value="AMINOVEN 100 MG/ML SOL INJ CX 10 FR VD TRANS X 250 ML (INFANT)"/>
+	</concept>
+	<concept>
+		<code value="96284153"/>
+		<display value="CEPACOL REGULAR 250ML SOLUCAO / 01FR"/>
+	</concept>
+	<concept>
+		<code value="96284161"/>
+		<display value="CYMBALTA 30MG CAP DURA C/ MGRAN RETARD CT BL AL AL X 14"/>
+	</concept>
+	<concept>
+		<code value="96284170"/>
+		<display value="DIMEZIN 75MG/ML GTS 10ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96284188"/>
+		<display value="MALEATO DE ENALAPRIL 20MG C/ 30 COM GEN"/>
+	</concept>
+	<concept>
+		<code value="96284196"/>
+		<display value="VASELINA SOLIDA USP 0030G C/ 48TB"/>
+	</concept>
+	<concept>
+		<code value="96284200"/>
+		<display value="VASELINA LIQUIDA 1000ML"/>
+	</concept>
+	<concept>
+		<code value="96284218"/>
+		<display value="VASELINA LIQUIDA 0100ML"/>
+	</concept>
+	<concept>
+		<code value="96284250"/>
+		<display value="HALOPERIDOL 5MG/ML 01ML C/ 05AMP - C1 GEN"/>
+	</concept>
+	<concept>
+		<code value="96284293"/>
+		<display value="RIODEINE PVPI TOPICO 100ML C/ 30FR"/>
+	</concept>
+	<concept>
+		<code value="96284307"/>
+		<display value="RIODEINE PVPI TINTURA ALCOOLICO 1000ML C/ 12FR"/>
+	</concept>
+	<concept>
+		<code value="96284315"/>
+		<display value="RIODEINE DEGERMANTE 1000ML C/ 01FR"/>
+	</concept>
+	<concept>
+		<code value="96284331"/>
+		<display value="NITRATO DE PRATA BASTAO 25G C/ 01UN"/>
+	</concept>
+	<concept>
+		<code value="96284340"/>
+		<display value="PERMANGANATO DE POTASSIO 100MG C/ 30COM GEN"/>
+	</concept>
+</CodeSystem>

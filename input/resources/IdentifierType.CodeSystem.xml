@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="IdentifierType" />
+  <url value="https://ancode.app/fhir/CodeSystem/IdentifierType" />
+  <version value="1.0" />
+  <name value="IdentifierType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <description value="Classifica o tipo de indicador que está sendo utilizado." />
+  <content value="complete" />
+  <property>
+    <code value="use" />
+    <description value="Uso do Tipo do Identificador" />
+    <type value="code" />
+  </property>
+  <concept>
+    <code value="CPF" />
+    <display value="CPF" />
+  </concept>
+  <concept>
+    <code value="CNS" />
+    <display value="Cartão Nacional de Saúde" />
+  </concept>
+  <concept>
+    <code value="RG" />
+    <display value="Registro Geral" />
+  </concept>
+  <concept>
+    <code value="CNH" />
+    <display value="Carteira Nacional de Habilitação" />
+  </concept>
+  <concept>
+    <code value="INSS" />
+    <display value="Instituto Nacional do Seguro Social" />
+  </concept>
+  <concept>
+    <code value="PISPASEP" />
+    <display value="Programa de Integração Social/Programa de Formação do Patrimônio do Servidor Público" />
+  </concept>
+  <concept>
+    <code value="NIT" />
+    <display value="Número de Registro do Trabalhador" />
+  </concept>
+  <concept>
+    <code value="PPN" />
+    <display value="Passaporte" />
+  </concept>
+  <concept>
+    <code value="FACERECOGNITION" />
+    <display value="Face Recognition" />
+  </concept>
+  <concept>
+    <code value="AUTHID" />
+    <display value="AUTH ID" />
+  </concept>
+  <concept>
+    <code value="AUTHLOGIN" />
+    <display value="AUTH Login" />
+  </concept>
+  <concept>
+    <code value="COREN" />
+    <display value="Número de inscrição no Conselho Regional de Enfermagem de São Paulo (COREN)" />
+  </concept> 
+  <concept>
+    <code value="CRESS" />
+    <display value="Número de inscrição no Conselho Regional de Serviço Social (CRESS)" />
+  </concept>
+   <concept>
+    <code value="CRF" />
+    <display value="Número de inscrição no Conselho Regional de Farmácia (CRF)" />
+  </concept>
+   <concept>
+    <code value="CREFITO" />
+    <display value="Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)" />
+  </concept>
+  <concept>
+    <code value="CRM" />
+    <display value="Número de inscrição no Conselho Regional de Medicina (CRM)" />
+  </concept>
+  <concept>
+    <code value="CRMV" />
+    <display value="Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)" />
+  </concept>
+  <concept>
+    <code value="CRN" />
+    <display value="Número de inscrição no Conselho Regional de Nutrição (CRN)" />
+  </concept>
+  <concept>
+    <code value="CRP" />
+    <display value="Número de inscrição no Conselho Regional de Psicologia (CRP)" />
+  </concept>
+  <concept>
+    <code value="CREF" />
+    <display value="Número de inscrição no Conselho Regional de Educação Física (CREF)" />
+  </concept>
+  <concept>
+    <code value="CRBM" />
+    <display value="Número da inscrição no Conselho Regional de Biomedicina (CRBM)" />
+  </concept>
+  <concept>
+    <code value="CRFA" />
+    <display value="Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)" />
+  </concept>
+  <concept>
+    <code value="CRTR" />
+    <display value="Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)" />
+  </concept>
+  <concept>
+    <code value="IDMIL" />
+    <display value="Número da Identidade Militar" />
+  </concept>
+  <concept>
+    <code value="IDFUNC" />
+    <display value="Número da Identidade Funcional" />
+  </concept>
+  <concept>
+    <code value="CNPJ" />
+    <display value="Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)" />
+  </concept>
+  <concept>
+    <code value="IE" />
+    <display value="Inscrição Estadual" />
+  </concept>
+  <concept>
+    <code value="IM" />
+    <display value="Inscrição Municipal" />
+  </concept>
+  <concept>
+    <code value="CNES" />
+    <display value="Código Nacional Estabelecimento Saúde" />
+  </concept>
+  <concept>
+    <code value="ANS" />
+    <display value="Código na Agência Nacional de Saúde"/>
+  </concept>
+  <concept>
+    <code value="IDENTIFIER" />
+    <display value="Identifier"/>
+  </concept>
+  <concept>
+    <code value="LEGACY" />
+    <display value="Legacy System ID" />
+  </concept>
+  <concept>
+    <code value="OTHER" />
+    <display value="Other Identifier"/>
+  </concept>  
+  <concept>
+    <code value="ANVISA" />
+    <display value="ANVISA - Agência Nacional de Vigilância Sanitária"/>
+  </concept>
+  <concept>
+    <code value="INTEGRATION" />
+    <display value="Integration Identifier"/>
+  </concept>
+  <concept>
+    <code value="HEALTHCAREPROVIDERCODE" />
+    <display value="Healthcare Provider Code"/>
+  </concept>  
+  <concept>
+    <code value="VERSION" />
+    <display value="Version"/>
+  </concept> 
+  <concept>
+    <code value="VIDEOCALL" />
+    <display value="VideoCall"/>
+  </concept>
+  <concept>
+    <code value="GROUPID" />
+    <display value="Group ID"/>
+  </concept>
+  <concept>
+    <code value="HEALTHCAREINSURANCECODE" />
+    <display value="Healthcare Insurance Code"/>
+  </concept>
+</CodeSystem>

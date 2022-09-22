@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ChargeItem" />
+  <url value="https://ancode.app/fhir/StructureDefinition/ChargeItem" />
+  <version value="1.0" />
+  <name value="ChargeItem" />
+  <status value="draft" />
+  <date value="2021-12-02" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ChargeItem" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ChargeItem" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ChargeItem.definitionCanonical">
+      <path value="ChargeItem.definitionCanonical" />
+      <max value="1" />
+    </element>
+    <element id="ChargeItem.subject">
+      <path value="ChargeItem.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+      </type>
+    </element>
+    <element id="ChargeItem.context">
+      <path value="ChargeItem.context" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter" />
+      </type>
+    </element>
+    <element id="ChargeItem.occurrence[x]">
+      <path value="ChargeItem.occurrence[x]" />
+      <min value="1" />
+      <type>
+        <code value="Period" />
+      </type>
+    </element>
+    <element id="ChargeItem.occurrence[x].start">
+      <path value="ChargeItem.occurrence[x].start" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.quantity">
+      <path value="ChargeItem.quantity" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.priceOverride">
+      <path value="ChargeItem.priceOverride" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.enterer">
+      <path value="ChargeItem.enterer" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.enteredDate">
+      <path value="ChargeItem.enteredDate" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItem.service">
+      <path value="ChargeItem.service" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Procedure" />
+      </type>
+    </element>
+    <element id="ChargeItem.product[x]">
+      <path value="ChargeItem.product[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceDefinition" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService" />
+      </type>
+      <binding>
+        <strength value="example" />
+      </binding>
+    </element>
+    <element id="ChargeItem.account">
+      <path value="ChargeItem.account" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

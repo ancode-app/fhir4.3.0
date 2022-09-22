@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="DurationMinute" />
+  <url value="https://ancode.app/fhir/CodeSystem/DurationMinute" />
+  <version value="1.0" />
+  <name value="DurationMinute" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-12-07" />
+  <publisher value="Ancode" />
+  <description value="Duration Minute" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="10" />
+    <display value="10 Min." />
+  </concept>
+  <concept>
+    <code value="15" />
+    <display value="15 Min." />
+  </concept>
+  <concept>
+    <code value="20" />
+    <display value="20 Min." />
+  </concept>
+  <concept>
+    <code value="30" />
+    <display value="30 Min." />
+  </concept>
+  <concept>
+    <code value="45" />
+    <display value="45 Min." />
+  </concept>
+  <concept>
+    <code value="60" />
+    <display value="60 Min." />
+  </concept>
+</CodeSystem>

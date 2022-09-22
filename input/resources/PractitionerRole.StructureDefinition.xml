@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="PractitionerRole" />
+  <url value="https://ancode.app/fhir/StructureDefinition/PractitionerRole" />
+  <version value="1.0" />
+  <name value="PractitionerRole" />
+  <status value="draft" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="PractitionerRole" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="PractitionerRole.extension">
+      <path value="PractitionerRole.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="PractitionerRole.extension:mainSpecialty">
+      <path value="PractitionerRole.extension" />
+      <sliceName value="mainSpecialty" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/CBOHealthcare" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="PractitionerRole.active">
+      <path value="PractitionerRole.active" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.period">
+      <path value="PractitionerRole.period" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.period.start">
+      <path value="PractitionerRole.period.start" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.practitioner">
+      <path value="PractitionerRole.practitioner" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.organization">
+      <path value="PractitionerRole.organization" />
+      <min value="1" />
+    </element>
+    <element id="PractitionerRole.code">
+      <path value="PractitionerRole.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/PractitionerRoleMostUsed" />
+      </binding>
+    </element>
+    <element id="PractitionerRole.specialty">
+      <path value="PractitionerRole.specialty" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/CBOHealthcare" />
+      </binding>
+    </element>
+    <element id="PractitionerRole.telecom">
+      <path value="PractitionerRole.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

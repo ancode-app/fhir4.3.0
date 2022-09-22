@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ScheduleComment" />
+  <url value="https://ancode.app/fhir/SearchParameter/ScheduleComment" />
+  <version value="1" />
+  <name value="ScheduleComment.SearchParameter" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-03-04" />
+  <description value="Schedule Comment" />
+  <code value="comment" />
+  <base value="Schedule" />
+  <type value="string" />
+  <expression value="Schedule.comment" />
+  <xpath value="f:Schedule/f:comment" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

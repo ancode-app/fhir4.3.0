@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
+  <id value="ancode.app.fhir.anhealth"/>
+  <url value="https://ancode.app/fhir/ImplementationGuide/ancode.app.fhir.anhealth"/>
+  <version value="0.2.0"/>
+  <name value="AnHealth"/>
+  <title value="Guia de Implementação do AnHealth"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="Ancode"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://ancode.app"/>
+    </telecom>
+  </contact>
+  <description value="Esse Guia de Implementação detalha o modelo de interoperabilidade da Aplicação anHealth, que atende Clínicas Médicas e Hospitais"/>
+  <packageId value="ancode.app.fhir.anhealth"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.3.0"/>
+  <definition>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AccidentIndicator"/>
+      </reference>
+      <name value="AccidentIndicator"/>
+      <description value="Accident Indicator"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Account"/>
+      </reference>
+      <name value="Account"/>
+      <description value="Account"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/AccountGuarantor"/>
+      </reference>
+      <name value="AccountGuarantor"/>
+      <description value="Account Guarantor"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AccountNumber"/>
+      </reference>
+      <name value="AccountNumber"/>
+      <description value="Account Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/AccountServicePeriod"/>
+      </reference>
+      <name value="AccountServicePeriod"/>
+      <description value="Account Service Period"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Address"/>
+      </reference>
+      <name value="Address"/>
+      <description value="Address"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AddressComplement"/>
+      </reference>
+      <name value="AddressComplement"/>
+      <description value="Address Complement"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AgencyNumber"/>
+      </reference>
+      <name value="AgencyNumber"/>
+      <description value="Agency Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AllergyIntolerance"/>
+      </reference>
+      <name value="AllergyIntolerance"/>
+      <description value="Allergy Intolerance"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/AllergyIntoleranceCode"/>
+      </reference>
+      <name value="AllergyIntoleranceCode"/>
+      <description value="Allergy Intolerance Code"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/AllergyIntoleranceCode"/>
+      </reference>
+      <name value="AllergyIntoleranceCode"/>
+      <description value="Allergy Intolerance Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Appointment"/>
+      </reference>
+      <name value="Appointment"/>
+      <description value="Appointment"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="SearchParameter/AppointmentPartcipantIdentifier"/>
+      </reference>
+      <name value="AppointmentPartcipantIdentifier"/>
+      <description value="Appointment Partcipant Identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/AppointmentSupportingInformation"/>
+      </reference>
+      <name value="AppointmentSupportingInformation"/>
+      <description value="Appointment SupportingInformation"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/AuthorizedQuantity"/>
+      </reference>
+      <name value="AuthorizedQuantity"/>
+      <description value="Authorized Quantity"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BankAccount"/>
+      </reference>
+      <name value="BankAccount"/>
+      <description value="Bank Account"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BankCode"/>
+      </reference>
+      <name value="BankCode"/>
+      <description value="Bank Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BillingTableProvider"/>
+      </reference>
+      <name value="BillingTableProvider"/>
+      <description value="BillingTable Provider"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BirthSex"/>
+      </reference>
+      <name value="BirthSex"/>
+      <description value="Birth Sex"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BrazilianState"/>
+      </reference>
+      <name value="BrazilianState"/>
+      <description value="Brazilian State"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BrazilianState"/>
+      </reference>
+      <name value="BrazilianState"/>
+      <description value="Brazilian State"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="ValueSet/BrazilianMaritalStatus"/>
+      </reference>
+      <name value="BrazilianMaritalStatus"/>
+      <description value="Brazilian Marital Status"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCBO"/>
+      </reference>
+      <name value="BRCBO"/>
+      <description value="BR CBO"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCBO"/>
+      </reference>
+      <name value="BRCBO"/>
+      <description value="BR CBO"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRCID10"/>
+      </reference>
+      <name value="BRCID10"/>
+      <description value="BR CID10"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRCID10"/>
+      </reference>
+      <name value="BRCID10"/>
+      <description value="BR CID10"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/BREtnia"/>
+      </reference>
+      <name value="BREtnia"/>
+      <description value="BR Etnia"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BREtniaIndigena"/>
+      </reference>
+      <name value="BREtniaIndigena"/>
+      <description value="BREtniaIndigena"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="CodeSystem/BRGrauParticipacao"/>
+      </reference>
+      <name value="BRGrauParticipacao"/>
+      <description value="BR Grau Participacao"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRGrauParticipacao"/>
+      </reference>
+      <name value="BRGrauParticipacao"/>
+      <description value="BR Grau Participacao"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRImunobiologico"/>
+      </reference>
+      <name value="BRImunobiologico"/>
+      <description value="BRImunobiologico"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRIndicadorAcidente"/>
+      </reference>
+      <name value="BRIndicadorAcidente"/>
+      <description value="BR Indicador Acidente"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRIndicadorAcidente"/>
+      </reference>
+      <name value="BRIndicadorAcidente"/>
+      <description value="BR Indicador Acidente"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRLocalAplicacao"/>
+      </reference>
+      <name value="BRLocalAplicacao"/>
+      <description value="BRLocalAplicacao"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRNivelEscolaridade"/>
+      </reference>
+      <name value="BRNivelEscolaridade"/>
+      <description value="BR Nivel Escolaridade"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRNivelEscolaridade"/>
+      </reference>
+      <name value="BRNivelEscolaridade"/>
+      <description value="BR Nivel Escolaridade"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRPrioridade"/>
+      </reference>
+      <name value="BRPrioridade"/>
+      <description value="BR Prioridade"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRPrioridade"/>
+      </reference>
+      <name value="BRPrioridade"/>
+      <description value="BR Prioridade"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaSUS"/>
+      </reference>
+      <name value="BRTabelaSUS"/>
+      <description value="BR Tabela SUS"/>                              
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTabelaSUS"/>
+      </reference>
+      <name value="BRTabelaSUS"/>
+      <description value="BR Tabela SUS"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaTUSS00"/>
+      </reference>
+      <name value="BRTabelaTUSS00"/>
+      <description value="BR Tabela TUSS 00"/>                          
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTabelaTUSS00"/>
+      </reference>
+      <name value="BRTabelaTUSS00"/>
+      <description value="BR Tabela TUSS 00"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaTUSS18"/>
+      </reference>
+      <name value="BRTabelaTUSS18"/>
+      <description value="BR Tabela TUSS 18"/>                          
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTabelaTUSS18"/>
+      </reference>
+      <name value="BRTabelaTUSS18"/>
+      <description value="BR Tabela TUSS 18"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaTUSS20"/>
+      </reference>
+      <name value="BRTabelaTUSS20"/>
+      <description value="BR Tabela TUSS 20"/>                          
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTabelaTUSS20"/>
+      </reference>
+      <name value="BRTabelaTUSS20"/>
+      <description value="BR Tabela TUSS 20"/>
+    </resource> 
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTabelaTUSS22"/>
+      </reference>
+      <name value="BRTabelaTUSS22"/>
+      <description value="BR Tabela TUSS 22"/>                          
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTabelaTUSS22"/>
+      </reference>
+      <name value="BRTabelaTUSS22"/>
+      <description value="BR Tabela TUSS 22"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTecnicaUtilizada"/>
+      </reference>
+      <name value="BRTecnicaUtilizada"/>
+      <description value="BR Tecnica Utilizada"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTecnicaUtilizada"/>
+      </reference>
+      <name value="BRTecnicaUtilizada"/>
+      <description value="BR Tecnica Utilizada"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoEstabelecimentoSaude"/>
+      </reference>
+      <name value="BRTipoEstabelecimentoSaude"/>
+      <description value="BR Tipo Estabelecimento Saude"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoEstabelecimentoSaude"/>
+      </reference>
+      <name value="BRTipoEstabelecimentoSaude"/>
+      <description value="BR Tipo Estabelecimento Saude"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeMedida"/>
+      </reference>
+      <name value="BRUnidadeMedida"/>
+      <description value="BR Unidade Medida"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRUnidadeMedida"/>
+      </reference>
+      <name value="BRUnidadeMedida"/>
+      <description value="BR Unidade Medida"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRViaAcesso"/>
+      </reference>
+      <name value="BRViaAcesso"/>
+      <description value="BR Via Acesso"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRViaAcesso"/>
+      </reference>
+      <name value="BRViaAcesso"/>
+      <description value="BR Via Acesso"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRViaAdministracao"/>
+      </reference>
+      <name value="BRViaAdministracao"/>
+      <description value="BRViaAdministracao"/>
+    </resource>   
+    <resource>
+      <reference>
+        <reference value="CodeSystem/CBOHealthcare"/>
+      </reference>
+      <name value="CBOHealthcare"/>
+      <description value="CBOHealthcare"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CBOHealthcare"/>
+      </reference>
+      <name value="CBOHealthcare"/>
+      <description value="CBOHealthcare"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/CBOHealthcare"/>
+      </reference>
+      <name value="CBOHealthcare"/>
+      <description value="CBOHealthcare"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ChargeItem"/>
+      </reference>
+      <name value="ChargeItem"/>
+      <description value="Charge Item"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ChargeItemDefinition"/>
+      </reference>
+      <name value="ChargeItemDefinition"/>
+      <description value="Charge Item Definition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/ChargeItemDefinitionCode"/>
+      </reference>
+      <name value="ChargeItemDefinitionCode"/>
+      <description value="ChargeItemDefinition Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/ChargeItemDefinitionInstance"/>
+      </reference>
+      <name value="ChargeItemDefinitionInstance"/>
+      <description value="ChargeItemDefinition Instance"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/ChargeItemStatus"/>
+      </reference>
+      <name value="ChargeItemStatus"/>
+      <description value="ChargeItem Status"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/City"/>
+      </reference>
+      <name value="City"/>
+      <description value="City"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Claim"/>
+      </reference>
+      <name value="Claim"/>
+      <description value="Claim"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ClaimResponse"/>
+      </reference>
+      <name value="ClaimResponse"/>
+      <description value="Claim Response"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ClinicalImpression"/>
+      </reference>
+      <name value="ClinicalImpression"/>
+      <description value="Clinical Impression"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Condition"/>
+      </reference>
+      <name value="Condition"/>
+      <description value="Condition"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="CodeSystem/ConfirmationType"/>
+      </reference>
+      <name value="ConfirmationType"/>
+      <description value="Confirmation Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ConfirmationType"/>
+      </reference>
+      <name value="ConfirmationType"/>
+      <description value="Confirmation Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ConfirmationType"/>
+      </reference>
+      <name value="ConfirmationType"/>
+      <description value="Confirmation Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Consent"/>
+      </reference>
+      <name value="Consent"/>
+      <description value="Consent"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ContactPoint"/>
+      </reference>
+      <name value="ContactPoint"/>
+      <description value="Contact Point"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/Country"/>
+      </reference>
+      <name value="Country"/>
+      <description value="Country"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Country"/>
+      </reference>
+      <name value="Country"/>
+      <description value="Country"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/Country"/>
+      </reference>
+      <name value="Country"/>
+      <description value="Country"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Coverage"/>
+      </reference>
+      <name value="Coverage"/>
+      <description value="Coverage"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/CoverageTypeMostUsed"/>
+      </reference>
+      <name value="CoverageTypeMostUsed"/>
+      <description value="Coverage Type Most Used"/>
+    </resource>  
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DaysOfWeek"/>
+      </reference>
+      <name value="DaysOfWeek"/>
+      <description value="Days Of Week"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DefaultCostCenter"/>
+      </reference>
+      <name value="DefaultCostCenter"/>
+      <description value="DefaultCostCenter"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/DefinitionTopic"/>
+      </reference>
+      <name value="DefinitionTopic"/>
+      <description value="Definition Topic"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/DefinitionTopic"/>
+      </reference>
+      <name value="DefinitionTopic"/>
+      <description value="Definition Topic"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Device"/>
+      </reference>
+      <name value="Device"/>
+      <description value="Device"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DeviceBillingTable"/>
+      </reference>
+      <name value="DeviceBillingTable"/>
+      <description value="Device Billing Table"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DeviceDefinition"/>
+      </reference>
+      <name value="DeviceDefinition"/>
+      <description value="Device Definition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/DeviceDefinitionName"/>
+      </reference>
+      <name value="DeviceDefinitionName"/>
+      <description value="DeviceDefinition Name"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DiagnosticReport"/>
+      </reference>
+      <name value="DiagnosticReport"/>
+      <description value="Diagnostic Report"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DocumentReference"/>
+      </reference>
+      <name value="DocumentReference"/>
+      <description value="Document Reference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/DocumentReferenceType"/>
+      </reference>
+      <name value="DocumentReferenceType"/>
+      <description value="Document Reference Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/DocumentReferenceType"/>
+      </reference>
+      <name value="DocumentReferenceType"/>
+      <description value="Document Reference Type"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="SearchParameter/DomainResourceExtension"/>
+      </reference>
+      <name value="DomainResourceExtension"/>
+      <description value="DomainResource Extension"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/DurationMinute"/>
+      </reference>
+      <name value="DurationMinute"/>
+      <description value="Duration Minute"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/DurationMinute"/>
+      </reference>
+      <name value="DurationMinute"/>
+      <description value="Duration Minute"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/EducationLevel"/>
+      </reference>
+      <name value="EducationLevel"/>
+      <description value="Education Level"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Encounter"/>
+      </reference>
+      <name value="Encounter"/>
+      <description value="Encounter"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="CodeSystem/EncounterClass"/>
+      </reference>
+      <name value="EncounterClass"/>
+      <description value="Encounter Class"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/EncounterClass"/>
+      </reference>
+      <name value="EncounterClass"/>
+      <description value="Encounter Class"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/EncounterClass"/>
+      </reference>
+      <name value="EncounterClass"/>
+      <description value="Encounter Class"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/EncounterParticipantTypeMostUsed"/>
+      </reference>
+      <name value="EncounterParticipantTypeMostUsed"/>
+      <description value="Encounter Participant Type Most Used"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="CodeSystem/EncounterType"/>
+      </reference>
+      <name value="EncounterType"/>
+      <description value="Encounter Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/EncounterType"/>
+      </reference>
+      <name value="EncounterType"/>
+      <description value="Encounter Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/EncounterType"/>
+      </reference>
+      <name value="EncounterType"/>
+      <description value="Encounter Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Endpoint"/>
+      </reference>
+      <name value="Endpoint"/>
+      <description value="Endpoint"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/EndpointType"/>
+      </reference>
+      <name value="EndpointType"/>
+      <description value="EndpointType"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/EndpointType"/>
+      </reference>
+      <name value="EndpointType"/>
+      <description value="EndpointType"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/EndTime"/>
+      </reference>
+      <name value="EndTime"/>
+      <description value="End Time"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="StructureDefinition/Ethnicity"/>
+      </reference>
+      <name value="Ethnicity"/>
+      <description value="Ethnicity"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/FamilyMemberHistory"/>
+      </reference>
+      <name value="FamilyMemberHistory"/>
+      <description value="Family Member History"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HealthcareService"/>
+      </reference>
+      <name value="HealthcareService"/>
+      <description value="Healthcare Service"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HumanName"/>
+      </reference>
+      <name value="HumanName"/>
+      <description value="Human Name"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="SearchParameter/HumanNameExtension"/>
+      </reference>
+      <name value="HumanNameExtension"/>
+      <description value="HumanName Extension"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/IBGECode"/>
+      </reference>
+      <name value="IBGECode"/>
+      <description value="IBGE Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Identifier"/>
+      </reference>
+      <name value="Identifier"/>
+      <description value="Identifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/IdentifierType"/>
+      </reference>
+      <name value="IdentifierType"/>
+      <description value="Identifier Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IdentifierType"/>
+      </reference>
+      <name value="IdentifierType"/>
+      <description value="Identifier Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IdentifierTypeCommon"/>
+      </reference>
+      <name value="IdentifierTypeCommon"/>
+      <description value="Identifier Type Common"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IdentifierTypeOrganization"/>
+      </reference>
+      <name value="IdentifierTypeOrganization"/>
+      <description value="Identifier Type Organization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IdentifierTypePerson"/>
+      </reference>
+      <name value="IdentifierTypePerson"/>
+      <description value="Identifier Type Person"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IdentifierTypePractitioner"/>
+      </reference>
+      <name value="IdentifierTypePractitioner"/>
+      <description value="Identifier Type Practitioner"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Immunization"/>
+      </reference>                                                                                
+      <name value="Immunization"/>
+      <description value="Immunization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/InsuranceProvider"/>
+      </reference>                                                                                
+      <name value="InsuranceProvider"/>
+      <description value="Insurance Insurance Provider"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Invoice"/>
+      </reference>                                                                                
+      <name value="Invoice"/>
+      <description value="Invoice"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/IsMain"/>
+      </reference>                                                                                
+      <name value="IsMain"/>
+      <description value="Is Main"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Library"/>
+      </reference>                                                                                
+      <name value="Library"/>
+      <description value="Library"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Location"/>
+      </reference>                                                                                
+      <name value="Location"/>
+      <description value="Location"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Medication"/>
+      </reference>                                                                                
+      <name value="Medication"/>
+      <description value="Medication"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MedicationBillingTable"/>
+      </reference>                                                                                
+      <name value="MedicationBillingTable"/>
+      <description value="Medication Billing Table"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/MedicationCodeExtension"/>
+      </reference>
+      <name value="MedicationCodeExtension"/>
+      <description value="Medication Code Extension"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MedicationRequest"/>
+      </reference>                                                                                
+      <name value="MedicationRequest"/>
+      <description value="Medication Request"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/MedicationRequestCategory"/>
+      </reference>
+      <name value="MedicationRequestCategory"/>
+      <description value="Medication Request Category"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/MedicationRequestCategory"/>
+      </reference>
+      <name value="MedicationRequestCategory"/>
+      <description value="Medication Request Category"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/MedicationRequestGroupIdentifier"/>
+      </reference>
+      <name value="MedicationRequestGroupIdentifier"/>
+      <description value="MedicationRequest GroupIdentifier"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MedicationStatement"/>
+      </reference>                                                                                
+      <name value="MedicationStatement"/>
+      <description value="Medication Statement"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/MedicationStatementStatus"/>
+      </reference>
+      <name value="MedicationStatementStatus"/>
+      <description value="Medication Statement Status"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Metaphone"/>
+      </reference>
+      <name value="Metaphone"/>
+      <description value="Metaphone"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/MimeType"/>
+      </reference>
+      <name value="MimeType"/>
+      <description value="Mime Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/MimeType"/>
+      </reference>
+      <name value="MimeType"/>
+      <description value="Mime Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MotherName"/>
+      </reference>
+      <name value="MotherName"/>
+      <description value="MotherName"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Neighborhood"/>
+      </reference>
+      <name value="Neighborhood"/>
+      <description value="Neighborhood"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/NewbornCare"/>
+      </reference>
+      <name value="NewbornCare"/>
+      <description value="Newborn Care"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/NotifyMinimumStock"/>
+      </reference>
+      <name value="NotifyMinimumStock"/>
+      <description value="NotifyMinimumStock"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Observation"/>
+      </reference>
+      <name value="Observation"/>
+      <description value="Observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/ObservationCodes"/>
+      </reference>
+      <name value="ObservationCodes"/>
+      <description value="Observation Codes"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ObservationCodes"/>
+      </reference>
+      <name value="ObservationCodes"/>
+      <description value="Observation Codes"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ObservationDefinition"/>
+      </reference>
+      <name value="ObservationDefinition"/>
+      <description value="Observation Definition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ObservationPhysicalExam"/>
+      </reference>
+      <name value="ObservationPhysicalExam"/>
+      <description value="Observation Physical Exam"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/ObservationSocialHistory"/>
+      </reference>
+      <name value="ObservationSocialHistory"/>
+      <description value="Observation Social History"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ObservationVitalSigns"/>
+      </reference>
+      <name value="ObservationVitalSigns"/>
+      <description value="Observation Vital Signs"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Occupation"/>
+      </reference>
+      <name value="Occupation"/>
+      <description value="Occupation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Organization"/>
+      </reference>
+      <name value="Organization"/>
+      <description value="Organization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/OrganizationAffiliation"/>
+      </reference>
+      <name value="OrganizationAffiliation"/>
+      <description value="OrganizationAffiliation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PackagedProductDefinition"/>
+      </reference>
+      <name value="PackagedProductDefinition"/>
+      <description value="PackagedProductDefinition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Patient"/>
+      </reference>
+      <name value="Patient"/>
+      <description value="Patient"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PerformedQuantity"/>
+      </reference>
+      <name value="PerformedQuantity"/>
+      <description value="Performed Quantity"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Person"/>
+      </reference>
+      <name value="Person"/>
+      <description value="Person"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PixKey"/>
+      </reference>
+      <name value="PixKey"/>
+      <description value="PixKey"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Practitioner"/>
+      </reference>
+      <name value="Practitioner"/>
+      <description value="Practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PractitionerRole"/>
+      </reference>
+      <name value="PractitionerRole"/>
+      <description value="PractitionerRole"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/PractitionerRoleMostUsed"/>
+      </reference>
+      <name value="PractitionerRoleMostUsed"/>
+      <description value="Practitioner Role Most Used"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/PractitionerRoleMostUsed"/>
+      </reference>
+      <name value="PractitionerRoleMostUsed"/>
+      <description value="Practitioner Role MostUsed"/>
+    </resource>  
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Procedure"/>
+      </reference>
+      <name value="Procedure"/>
+      <description value="Procedure"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ProtectedPerson"/>
+      </reference>
+      <name value="ProtectedPerson"/>
+      <description value="ProtectedPerson"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/Qualification"/>
+      </reference>
+      <name value="Qualification"/>
+      <description value="Qualification"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/Qualification"/>
+      </reference>
+      <name value="Qualification"/>
+      <description value="Qualification"/>
+    </resource>   
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Questionnaire"/>
+      </reference>
+      <name value="Questionnaire"/>
+      <description value="Questionnaire"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/QuestionnaireCode"/>
+      </reference>
+      <name value="QuestionnaireCode"/>
+      <description value="Questionnaire Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/QuestionnaireCode"/>
+      </reference>
+      <name value="QuestionnaireCode"/>
+      <description value="Questionnaire Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/QuestionnaireResponse"/>
+      </reference>
+      <name value="QuestionnaireResponse"/>
+      <description value="Questionnaire Response"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/Race"/>
+      </reference>
+      <name value="Race"/>
+      <description value="Race"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Race"/>
+      </reference>
+      <name value="Race"/>
+      <description value="Race"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/Race"/>
+      </reference>
+      <name value="Race"/>
+      <description value="Race"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Reference"/>
+      </reference>
+      <name value="Reference"/>
+      <description value="Reference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/RelatedPerson"/>
+      </reference>
+      <name value="RelatedPerson"/>
+      <description value="RelatedPerson"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/RiskClass"/>
+      </reference>
+      <name value="RiskClass"/>
+      <description value="Risk Class"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/RiskClass"/>
+      </reference>
+      <name value="RiskClass"/>
+      <description value="Risk Class"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Schedule"/>
+      </reference>
+      <name value="Schedule"/>
+      <description value="Schedule"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/ScheduleComment"/>
+      </reference>
+      <name value="ScheduleComment"/>
+      <description value="Schedule Comment"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ScheduleDuration"/>
+      </reference>
+      <name value="ScheduleDuration"/>
+      <description value="Schedule Duration"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ScheduleDynamicSlot"/>
+      </reference>
+      <name value="ScheduleDynamicSlot"/>
+      <description value="Schedule Dynamic Slot"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/SchedulePlan"/>
+      </reference>
+      <name value="SchedulePlan"/>
+      <description value="Schedule Plan"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/ScheduleType"/>
+      </reference>
+      <name value="ScheduleType"/>
+      <description value="Schedule Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ScheduleType"/>
+      </reference>
+      <name value="ScheduleType"/>
+      <description value="ScheduleType"/>
+    </resource>   
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ServiceBillingTable"/>
+      </reference>
+      <name value="ServiceBillingTable"/>
+      <description value="Service Billing Table"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/ServiceCategory"/>
+      </reference>
+      <name value="ServiceCategory"/>
+      <description value="Service Category"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ServiceCategory"/>
+      </reference>
+      <name value="ServiceCategory"/>
+      <description value="Service Category"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="StructureDefinition/ServiceProvider"/>
+      </reference>
+      <name value="ServiceProvider"/>
+      <description value="Service Provider"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ScheduleType"/>
+      </reference>
+      <name value="ScheduleType"/>
+      <description value="Schedule Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ServiceRequest"/>
+      </reference>
+      <name value="ServiceRequest"/>
+      <description value="Service Request"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/ServiceType"/>
+      </reference>
+      <name value="ServiceType"/>
+      <description value="Service Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ServiceType"/>
+      </reference>
+      <name value="ServiceType"/>
+      <description value="Service Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Slot"/>
+      </reference>
+      <name value="Slot"/>
+      <description value="Slot"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/StartTime"/>
+      </reference>
+      <name value="StartTime"/>
+      <description value="Start Time"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/StreetName"/>
+      </reference>
+      <name value="StreetName"/>
+      <description value="Street Name"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/StreetNumber"/>
+      </reference>
+      <name value="StreetNumber"/>
+      <description value="Street Number"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/StreetType"/>
+      </reference>
+      <name value="StreetType"/>
+      <description value="Street Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/TerminologyType"/>
+      </reference>
+      <name value="TerminologyType"/>
+      <description value="Terminology Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/TerminologyType"/>
+      </reference>
+      <name value="TerminologyType"/>
+      <description value="Terminology Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/TerminologyType"/>
+      </reference>
+      <name value="TerminologyType"/>
+      <description value="Terminology Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/TypeHealthcareFacility"/>
+      </reference>
+      <name value="TypeHealthcareFacility"/>
+      <description value="Type Healthcare Facility"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/UnitType"/>
+      </reference>
+      <name value="UnitType"/>
+      <description value="Unit Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/VaccineBodySite"/>
+      </reference>
+      <name value="VaccineBodySite"/>
+      <description value="VaccineBodySite"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/VaccineCode"/>
+      </reference>
+      <name value="VaccineCode"/>
+      <description value="VaccineCode"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/VaccineRoute"/>
+      </reference>
+      <name value="VaccineRoute"/>
+      <description value="VaccineRoute"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Value"/>
+      </reference>
+      <name value="Value"/>
+      <description value="Value"/>
+    </resource>    
+    <page>
+      <!-- The root will always be toc.html - the template will force it if you don't do it -->
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home Page"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="background.html"/>
+        <title value="Background"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Useful Downloads"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="changes.html"/>
+        <title value="IG Change History"/>
+        <generation value="html"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2021+"/>
+    </parameter>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI Build"/>
+    </parameter>
+    <parameter>
+      <code value="find-other-resources"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input\history"/>
+    </parameter>
+    <parameter>
+      <code value="path-binary"/>
+      <value value="input\cql"/>
+    </parameter>
+    <parameter>
+      <code value="path-liquid"/>
+      <value value="templates\liquid"/>
+    </parameter>
+    <parameter>
+      <code value="shownav"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="showsource"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

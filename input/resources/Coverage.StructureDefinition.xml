@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Coverage" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Coverage" />
+  <version value="1.0" />
+  <name value="Coverage" />
+  <status value="draft" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Coverage" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Coverage" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Coverage.type">
+      <path value="Coverage.type" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/CoverageTypeMostUsed" />
+      </binding>
+    </element>
+    <element id="Coverage.policyHolder">
+      <path value="Coverage.policyHolder" />
+      <min value="1" />
+    </element>
+    <element id="Coverage.subscriber">
+      <path value="Coverage.subscriber" />
+      <min value="1" />
+    </element>
+    <element id="Coverage.relationship">
+      <path value="Coverage.relationship" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Coverage.period">
+      <path value="Coverage.period" />
+      <min value="1" />
+    </element>
+    <element id="Coverage.period.start">
+      <path value="Coverage.period.start" />
+      <min value="1" />
+    </element>
+    <element id="Coverage.payor">
+      <path value="Coverage.payor" />
+      <max value="1" />
+    </element>
+    <element id="Coverage.costToBeneficiary.type">
+      <path value="Coverage.costToBeneficiary.type" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Coverage.subrogation">
+      <path value="Coverage.subrogation" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

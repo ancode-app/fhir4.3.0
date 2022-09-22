@@ -1,0 +1,69 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRGrauParticipacao" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRGrauParticipacao" />
+  <version value="1.0" />
+  <name value="BRGrauParticipacao" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-06-14" />
+  <publisher value="Ancode" />
+  <description value="BR Grau Participacao" />
+  <content value="complete" />
+  <concept>
+    <code value="00" />
+    <display value="Cirurgião" />
+  </concept>
+  <concept>
+    <code value="01" />
+    <display value="Primeiro Auxiliar" />
+  </concept>
+  <concept>
+    <code value="02" />
+    <display value="Segundo Auxiliar" />
+  </concept>
+  <concept>
+    <code value="03" />
+    <display value="Terceiro Auxiliar" />
+  </concept>
+  <concept>
+    <code value="04" />
+    <display value="Quarto Auxiliar" />
+  </concept>
+  <concept>
+    <code value="05" />
+    <display value="Instrumentador" />
+  </concept>
+  <concept>
+    <code value="06" />
+    <display value="Anestesista" />
+  </concept>
+  <concept>
+    <code value="07" />
+    <display value="Auxiliar de Anestesista" />
+  </concept>
+  <concept>
+    <code value="08" />
+    <display value="Consultor" />
+  </concept>
+  <concept>
+    <code value="09" />
+    <display value="Perfusionista" />
+  </concept>
+  <concept>
+    <code value="10" />
+    <display value="Pediatra na sala de parto" />
+  </concept>
+  <concept>
+    <code value="11" />
+    <display value="Auxiliar SADT" />
+  </concept>
+  <concept>
+    <code value="12" />
+    <display value="Clínico" />
+  </concept>
+  <concept>
+    <code value="13" />
+    <display value="Intensivista" />
+  </concept>
+</CodeSystem>

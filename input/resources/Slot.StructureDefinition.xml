@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Slot" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Slot" />
+  <version value="1.0" />
+  <name value="Slot" />
+  <status value="draft" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Slot" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Slot" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Slot.extension">
+      <path value="Slot.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="Slot.extension:InsuranceProvider">
+      <path value="Slot.extension" />
+      <sliceName value="InsuranceProvider" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/InsuranceProvider" />
+      </type>
+    </element>
+    <element id="Slot.specialty">
+      <path value="Slot.specialty" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/CBOHealthcare" />
+      </binding>
+    </element>
+    <element id="Slot.appointmentType">
+      <path value="Slot.appointmentType" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/EncounterType" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

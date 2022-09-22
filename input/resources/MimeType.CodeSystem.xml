@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="MimeType" />
+  <url value="https://ancode.app/fhir/CodeSystem/MimeType" />
+  <version value="1.0" />
+  <name value="MimeType" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2022-04-12" />
+  <publisher value="Ancode" />
+  <description value="Mime Type" />
+  <content value="complete" />  
+  <concept>
+    <code value="application/fhir+json" />
+    <display value="application/fhir+json" />
+  </concept>
+  <concept>
+    <code value="application/json" />
+    <display value="application/json" />
+  </concept>
+  <concept>
+    <code value="application/fhir+xml" />
+    <display value="application/fhir+xml" />
+  </concept>
+  <concept>
+    <code value="application/xml" />
+    <display value="application/xml" />
+  </concept>
+  <concept>
+    <code value="xml" />
+    <display value="xml" />
+  </concept>
+  <concept>
+    <code value="json" />
+    <display value="json" />
+  </concept>
+  <concept>
+    <code value="application/dicom" />
+    <display value="application/dicom" />
+  </concept>
+  <concept>
+    <code value="application/pdf" />
+    <display value="application/pdf" />
+  </concept>
+  <concept>
+    <code value="application/xml-patch+xml" />
+    <display value="application/xml-patch+xml" />
+  </concept>
+  <concept>
+    <code value="application/json-patch+json" />
+    <display value="application/json-patch+json" />
+  </concept>
+  <concept>
+    <code value="application/signature+xml" />
+    <display value="application/signature+xml" />
+  </concept>
+  <concept>
+    <code value="image/jpeg" />
+    <display value="image/jpeg" />
+  </concept>
+  <concept>
+    <code value="image/gif" />
+    <display value="image/gif" />
+  </concept>
+</CodeSystem>

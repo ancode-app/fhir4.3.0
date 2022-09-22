@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://ancode.app/fhir/StructureDefinition/QuestionnaireResponse" />
+  <name value="QuestionnaireResponse" />
+  <status value="draft" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="QuestionnaireResponse" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="QuestionnaireResponse.subject">
+      <path value="QuestionnaireResponse.subject" />
+      <min value="1" />
+    </element>
+    <element id="QuestionnaireResponse.encounter">
+      <path value="QuestionnaireResponse.encounter" />
+      <min value="1" />
+    </element>
+    <element id="QuestionnaireResponse.author">
+      <path value="QuestionnaireResponse.author" />
+      <min value="1" />
+    </element>
+    <element id="QuestionnaireResponse.source">
+      <path value="QuestionnaireResponse.source" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

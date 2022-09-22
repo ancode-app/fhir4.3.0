@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <url value="https://ancode.app/fhir/SearchParameter/MedicationCodeExtension" />
+  <version value="1.0" />
+  <name value="MedicationCodeExtension" />
+  <status value="draft" />
+  <date value="2022-05-25" />
+  <publisher value="Ancode" />
+  <description value="Medication Code Extension" />
+  <code value="codeExtension" />
+  <base value="Medication" />
+  <type value="special" />
+  <expression value="Medication.code.extension" />
+  <xpath value="f:Medication/f:code/f:extension" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

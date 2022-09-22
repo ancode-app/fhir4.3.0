@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ObservationCodes" />
+  <url value="https://ancode.app/fhir/ValueSet/ObservationCodes" />
+  <version value="1.0" />
+  <name value="ObservationCodes" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-05-05" />
+  <publisher value="Ancode" />
+  <description value="Observation Codes" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/ObservationCodes" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

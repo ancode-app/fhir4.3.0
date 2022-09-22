@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://ancode.app/fhir/StructureDefinition/PackagedProductDefinition" />
+  <name value="PackagedProductDefinition" />
+  <status value="draft" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="PackagedProductDefinition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition" />
+  <derivation value="constraint" />
+</StructureDefinition>

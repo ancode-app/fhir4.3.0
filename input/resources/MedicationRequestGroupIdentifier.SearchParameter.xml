@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="MedicationRequestGroupIdentifier" />
+  <url value="https://ancode.app/fhir/SearchParameter/MedicationRequestGroupIdentifier" />
+  <version value="1.0" />
+  <name value="MedicationRequestGroupIdentifier" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-06-20" />
+  <description value="MedicationRequest GroupIdentifier" />
+  <code value="groupIdentifier" />
+  <base value="MedicationRequest" />
+  <type value="token" />
+  <expression value="MedicationRequest.groupIdentifier" />
+  <xpath value="f:MedicationRequest/f:groupIdentifier" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

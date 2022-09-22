@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="TerminologyType" />
+  <url value="https://ancode.app/fhir/ValueSet/TerminologyType" />
+  <version value="1.0" />
+  <name value="TerminologyType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-12-20" />
+  <publisher value="Ancode" />
+  <description value="Billing Table" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/TerminologyType" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

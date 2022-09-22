@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ChargeItemStatus" />
+  <url value="https://ancode.app/fhir/SearchParameter/ChargeItemStatus" />
+  <version value="1.0" />
+  <name value="ChargeItemStatus" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-07-26" />
+  <description value="ChargeItem Status" />
+  <code value="status" />
+  <base value="ChargeItem" />
+  <type value="token" />
+  <expression value="ChargeItem.status" />
+  <xpath value="f:ChargeItem/f:status" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

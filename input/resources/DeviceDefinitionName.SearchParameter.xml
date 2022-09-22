@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DeviceDefinitionName" />
+  <url value="https://ancode.app/fhir/SearchParameter/DeviceDefinitionName" />
+  <version value="1.0" />
+  <name value="DeviceDefinitionName.SearchParameter" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-03-31" />
+  <description value="DeviceDefinition Name" />
+  <code value="name" />
+  <base value="DeviceDefinition" />
+  <type value="string" />
+  <expression value="DeviceDefinition.deviceName.name" />
+  <xpath value="f:DeviceDefinition/f:deviceName/f:name" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

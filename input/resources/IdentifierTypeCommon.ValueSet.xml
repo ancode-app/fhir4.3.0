@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IdentifierTypeCommon" />
+  <url value="https://ancode.app/fhir/ValueSet/IdentifierTypeCommon" />
+  <version value="1.0" />
+  <name value="IdentifierTypeCommon" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <description value="Identifier Type Common" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/IdentifierType" />      
+      <concept>
+        <code value="IDENTIFIER" />
+        <display value="Identifier"/>
+      </concept>
+      <concept>
+        <code value="LEGACY" />
+        <display value="Legacy System ID" />
+      </concept>
+      <concept>
+        <code value="OTHER" />
+        <display value="Other Identifier"/>
+      </concept>
+      <concept>
+        <code value="INTEGRATION" />
+        <display value="Integration Identifier"/>
+      </concept>
+      <concept>
+        <code value="HEALTHCAREPROVIDERCODE" />
+        <display value="Healthcare Provider Code"/>
+      </concept>  
+      <concept>
+        <code value="VERSION" />
+        <display value="Version"/>
+      </concept>
+      <concept>
+        <code value="GROUPID" />
+        <display value="Group ID"/>
+      </concept>
+      <concept>
+        <code value="HEALTHCAREINSURANCECODE" />
+        <display value="Healthcare Insurance Code"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

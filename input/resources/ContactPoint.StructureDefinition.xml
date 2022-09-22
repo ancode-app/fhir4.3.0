@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ContactPoint" />
+  <url value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+  <version value="1.0" />
+  <name value="ContactPoint" />
+  <status value="draft" />
+  <date value="2021-11-10" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="ContactPoint" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ContactPoint" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ContactPoint">
+      <path value="ContactPoint" />
+      <alias value="Contato" />
+      <alias value="Informação de Contato" />
+      <alias value="Telefone" />
+      <alias value="E-Mail" />
+      <alias value="Correio Eletrônico" />
+      <alias value="Celular" />
+      <alias value="Recado" />
+    </element>
+    <element id="ContactPoint.system">
+      <path value="ContactPoint.system" />
+      <min value="1" />
+    </element>
+    <element id="ContactPoint.value">
+      <path value="ContactPoint.value" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

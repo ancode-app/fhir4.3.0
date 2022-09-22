@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BankAccount" />
+  <url value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
+  <version value="1.0" />
+  <name value="BankAccount" />
+  <status value="draft" />
+  <date value="2022-09-22" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Organization" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="Extension.extension:bankCode">
+      <path value="Extension.extension" />
+      <sliceName value="bankCode" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/BankCode" />
+      </type>
+    </element>
+    <element id="Extension.extension:bankCode.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="bankCode" />
+    </element>
+    <element id="Extension.extension:bankCode.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Extension.extension:agencyNumber">
+      <path value="Extension.extension" />
+      <sliceName value="agencyNumber" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/AgencyNumber" />
+      </type>
+    </element>
+    <element id="Extension.extension:agencyNumber.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="agencyNumber" />
+    </element>
+    <element id="Extension.extension:agencyNumber.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Extension.extension:accountNumber">
+      <path value="Extension.extension" />
+      <sliceName value="accountNumber" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/AccountNumber" />
+      </type>
+    </element>
+    <element id="Extension.extension:accountNumber.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="accountNumber" />
+    </element>
+    <element id="Extension.extension:accountNumber.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Extension.extension:pixKey">
+      <path value="Extension.extension" />
+      <sliceName value="pixKey" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/PixKey" />
+      </type>
+    </element>
+    <element id="Extension.extension:pixKey.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="pixKey" />
+    </element>
+    <element id="Extension.extension:pixKey.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

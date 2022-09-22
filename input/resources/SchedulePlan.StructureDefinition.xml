@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="SchedulePlan" />
+  <url value="https://ancode.app/fhir/StructureDefinition/SchedulePlan" />
+  <version value="1.0" />
+  <name value="SchedulePlan" />
+  <status value="draft" />
+  <date value="2021-12-06" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Schedule" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="3" />
+    </element>
+    <element id="Extension.extension:insuranceProvider">
+      <path value="Extension.extension" />
+      <sliceName value="insuranceProvider" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/InsuranceProvider" />
+      </type>
+    </element>
+    <element id="Extension.extension:insuranceProvider.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="insuranceProvider" />
+    </element>
+    <element id="Extension.extension:daysOfWeek">
+      <path value="Extension.extension" />
+      <sliceName value="daysOfWeek" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/DaysOfWeek" />
+      </type>
+    </element>
+    <element id="Extension.extension:daysOfWeek.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="daysOfWeek" />
+    </element>
+    <element id="Extension.extension:daysOfWeek.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <description value="daysOfWeek" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/days-of-week" />
+      </binding>
+    </element>
+    <element id="Extension.extension:startTime">
+      <path value="Extension.extension" />
+      <sliceName value="startTime" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/StartTime" />
+      </type>
+    </element>
+    <element id="Extension.extension:startTime.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="startTime" />
+    </element>
+    <element id="Extension.extension:startTime.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="time" />
+      </type>
+    </element>
+    <element id="Extension.extension:endTime">
+      <path value="Extension.extension" />
+      <sliceName value="endTime" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/EndTime" />
+      </type>
+    </element>
+    <element id="Extension.extension:endTime.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="endTime" />
+    </element>
+    <element id="Extension.extension:endTime.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="time" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://ancode.app/fhir/StructureDefinition/SchedulePlan" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

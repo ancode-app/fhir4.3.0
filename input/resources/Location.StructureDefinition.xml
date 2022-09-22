@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Location" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Location" />
+  <version value="1.0" />
+  <name value="Location" />
+  <status value="draft" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Location" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Location" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Location.extension">
+      <path value="Location.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="Location.extension:defaultCostCenter">
+      <path value="Location.extension" />
+      <sliceName value="defaultCostCenter" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/DefaultCostCenter" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Location.extension:notifyMinimumStock">
+      <path value="Location.extension" />
+      <sliceName value="notifyMinimumStock" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/NotifyMinimumStock" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Location.status">
+      <path value="Location.status" />
+      <min value="1" />
+    </element>
+    <element id="Location.operationalStatus">
+      <path value="Location.operationalStatus" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Location.name">
+      <path value="Location.name" />
+      <min value="1" />
+    </element>
+    <element id="Location.type">
+      <path value="Location.type" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Location.telecom">
+      <path value="Location.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+    <element id="Location.address">
+      <path value="Location.address" />
+      <type>
+        <code value="Address" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+    <element id="Location.physicalType">
+      <path value="Location.physicalType" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Location.managingOrganization">
+      <path value="Location.managingOrganization" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

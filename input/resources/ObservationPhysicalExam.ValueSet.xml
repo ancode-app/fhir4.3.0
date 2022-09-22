@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ObservationPhysicalExam" />
+  <url value="https://ancode.app/fhir/ValueSet/ObservationPhysicalExam" />
+  <version value="1.0" />  
+  <name value="ObservationPhysicalExam" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-05-05" />
+  <publisher value="Ancode" />
+  <description value="Observation Codes" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/ObservationCodes" />      
+      <concept>
+        <code value="8302-2" />
+        <display value="Body height" />
+      </concept>
+      <concept>
+        <code value="9843-4" />
+        <display value="Head Occipital-frontal circumference" />
+      </concept>
+      <concept>
+        <code value="29463-7" />
+        <display value="Body weight" />
+      </concept>
+      <concept>
+        <code value="39156-5" />
+        <display value="Body mass index (BMI)" />
+      </concept>      
+      <concept>
+        <code value="8282-6" />
+        <display value="Maximum left calf circumference" />
+      </concept>
+      <concept>
+        <code value="8283-4" />
+        <display value="Maximum right calf circumference" />
+      </concept>
+      <concept>
+        <code value="8280-0" />
+        <display value="Abdominal circumference" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

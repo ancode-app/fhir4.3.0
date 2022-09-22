@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTipoEstabelecimentoSaude" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/ValueSet/BRTipoEstabelecimentoSaude" />
+  <version value="1.0" />
+  <name value="BRTipoEstabelecimentoSaude" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-04-07" />
+  <publisher value="Ancode" />
+  <description value="BR Tipo Estabelecimento Saude" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/BRTipoEstabelecimentoSaude" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

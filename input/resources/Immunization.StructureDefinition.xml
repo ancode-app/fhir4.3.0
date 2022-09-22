@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Immunization" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Immunization" />
+  <version value="1.0" />
+  <name value="Immunization" />
+  <status value="draft" />
+  <date value="2022-05-10" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Immunization" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Immunization" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Immunization.vaccineCode">
+      <path value="Immunization.vaccineCode" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/VaccineCode" />
+      </binding>
+    </element>
+    <element id="Immunization.occurrence[x]">
+      <path value="Immunization.occurrence[x]" />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+    <element id="Immunization.recorded">
+      <path value="Immunization.recorded" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.primarySource">
+      <path value="Immunization.primarySource" />
+      <min value="1" />
+    </element>
+    <element id="Immunization.site">
+      <path value="Immunization.site" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/VaccineBodySite" />
+      </binding>
+    </element>
+    <element id="Immunization.route">
+      <path value="Immunization.route" />
+      <min value="1" />
+      <binding>
+        <strength value="example" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/VaccineRoute" />
+      </binding>
+    </element>
+    <element id="Immunization.protocolApplied">
+      <path value="Immunization.protocolApplied" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Immunization.protocolApplied.doseNumber[x]">
+      <path value="Immunization.protocolApplied.doseNumber[x]" />
+      <type>
+        <code value="positiveInt" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

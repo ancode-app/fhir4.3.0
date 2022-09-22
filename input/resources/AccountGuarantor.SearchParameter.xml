@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AccountGuarantor" />
+  <url value="https://ancode.app/fhir/SearchParameter/AccountGuarantor" />
+  <version value="1.0" />
+  <name value="AccountGuarantor" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-07-18" />
+  <description value="Account Guarantor" />
+  <code value="guarantor" />
+  <base value="Account" />
+  <type value="reference" />
+  <expression value="Account.guarantor.party" />
+  <xpath value="f:Account/f:guarantor/f:party" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

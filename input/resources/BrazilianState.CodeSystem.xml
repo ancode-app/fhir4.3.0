@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BrazilianState" />
+  <url value="https://ancode.app/fhir/CodeSystem/BrazilianState" />
+  <version value="1.0" />
+  <name value="BrazilianState" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-05-12T20:18:11.6743763+00:00" />
+  <publisher value="Ancode" />
+  <description value="Terminologia de unidades federativas do Brasil" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="AC" />
+    <display value="Acre" />
+  </concept>
+  <concept>
+    <code value="AL" />
+    <display value="Alagoas" />
+  </concept>
+  <concept>
+    <code value="AP" />
+    <display value="Amapá" />
+  </concept>
+  <concept>
+    <code value="AM" />
+    <display value="Amazonas" />
+  </concept>
+  <concept>
+    <code value="BA" />
+    <display value="Bahia" />
+  </concept>
+  <concept>
+    <code value="CE" />
+    <display value="Ceará" />
+  </concept>
+  <concept>
+    <code value="DF" />
+    <display value="Distrito Federal" />
+  </concept>
+  <concept>
+    <code value="ES" />
+    <display value="Espírito Santo" />
+  </concept>
+  <concept>
+    <code value="GO" />
+    <display value="Goiás" />
+  </concept>
+  <concept>
+    <code value="MA" />
+    <display value="Maranhão" />
+  </concept>
+  <concept>
+    <code value="MT" />
+    <display value="Mato Grosso" />
+  </concept>
+  <concept>
+    <code value="MS" />
+    <display value="Mato Grosso do Sul" />
+  </concept>
+  <concept>
+    <code value="MG" />
+    <display value="Minas Gerais" />
+  </concept>
+  <concept>
+    <code value="PA" />
+    <display value="Pará" />
+  </concept>
+  <concept>
+    <code value="PB" />
+    <display value="Paraíba" />
+  </concept>
+  <concept>
+    <code value="PR" />
+    <display value="Paraná" />
+  </concept>
+  <concept>
+    <code value="PE" />
+    <display value="Pernambuco" />
+  </concept>
+  <concept>
+    <code value="PI" />
+    <display value="Piauí" />
+  </concept>
+  <concept>
+    <code value="RJ" />
+    <display value="Rio de Janeiro" />
+  </concept>
+  <concept>
+    <code value="RN" />
+    <display value="Rio Grande do Norte" />
+  </concept>
+  <concept>
+    <code value="RS" />
+    <display value="Rio Grande do Sul" />
+  </concept>
+  <concept>
+    <code value="RO" />
+    <display value="Rondônia" />
+  </concept>
+  <concept>
+    <code value="RR" />
+    <display value="Roraima" />
+  </concept>
+  <concept>
+    <code value="SC" />
+    <display value="Santa Catarina" />
+  </concept>
+  <concept>
+    <code value="SP" />
+    <display value="São Paulo" />
+  </concept>
+  <concept>
+    <code value="SE" />
+    <display value="Sergipe" />
+  </concept>
+  <concept>
+    <code value="TO" />
+    <display value="Tocantins" />
+  </concept>
+  <concept>
+    <code value="EX" />
+    <display value="Exterior" />
+  </concept>
+</CodeSystem>

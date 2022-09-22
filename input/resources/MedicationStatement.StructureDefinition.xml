@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="MedicationStatement" />
+  <url value="https://ancode.app/fhir/StructureDefinition/MedicationStatement" />
+  <version value="1.0" />
+  <name value="MedicationStatement" />
+  <status value="draft" />
+  <date value="2021-12-02" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="MedicationStatement" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationStatement" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="MedicationStatement.statusReason">
+      <path value="MedicationStatement.statusReason" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="MedicationStatement.category">
+      <path value="MedicationStatement.category" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="MedicationStatement.medication[x]">
+      <path value="MedicationStatement.medication[x]" />
+      <type>
+        <code value="Reference" />
+      </type>
+    </element>
+    <element id="MedicationStatement.effective[x]">
+      <path value="MedicationStatement.effective[x]" />
+      <type>
+        <code value="Period" />
+      </type>
+    </element>
+    <element id="MedicationStatement.effective[x].start">
+      <path value="MedicationStatement.effective[x].start" />
+      <min value="1" />
+    </element>
+    <element id="MedicationStatement.dateAsserted">
+      <path value="MedicationStatement.dateAsserted" />
+      <min value="1" />
+    </element>
+    <element id="MedicationStatement.informationSource">
+      <path value="MedicationStatement.informationSource" />
+      <min value="1" />
+    </element>
+    <element id="MedicationStatement.reasonCode">
+      <path value="MedicationStatement.reasonCode" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BRCID10" />
+      </binding>
+    </element>
+    <element id="MedicationStatement.dosage">
+      <path value="MedicationStatement.dosage" />
+      <min value="1" />
+    </element>
+    <element id="MedicationStatement.dosage.text">
+      <path value="MedicationStatement.dosage.text" />
+      <min value="1" />
+    </element>
+    <element id="MedicationStatement.dosage.additionalInstruction">
+      <path value="MedicationStatement.dosage.additionalInstruction" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="MedicationStatement.dosage.patientInstruction">
+      <path value="MedicationStatement.dosage.patientInstruction" />
+      <min value="1" />
+    </element>
+    <element id="MedicationStatement.dosage.timing.code">
+      <path value="MedicationStatement.dosage.timing.code" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="MedicationStatement.dosage.route">
+      <path value="MedicationStatement.dosage.route" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="MedicationStatement.dosage.method">
+      <path value="MedicationStatement.dosage.method" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

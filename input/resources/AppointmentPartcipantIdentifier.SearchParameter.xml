@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AppointmentPartcipantIdentifier" />
+  <url value="https://ancode.app/fhir/SearchParameter/AppointmentPartcipantIdentifier" />
+  <version value="1.0" />
+  <name value="AppointmentPartcipantIdentifier" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-08-17" />
+  <description value="Appointment Partcipant Identifier" />
+  <code value="partcipantIdentifier" />
+  <base value="Appointment" />
+  <type value="token" />
+  <expression value="Appointment.partcipant.actor.identifier" />
+  <xpath value="f:Appointment/f:partcipant/f:actor/f:identifier" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

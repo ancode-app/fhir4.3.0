@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Procedure" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Procedure" />
+  <version value="1.0" />
+  <name value="Procedure" />
+  <status value="draft" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Procedure" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Procedure" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Procedure.extension">
+      <path value="Procedure.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Procedure.extension:performedQuantity">
+      <path value="Procedure.extension" />
+      <sliceName value="performedQuantity" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/PerformedQuantity" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Procedure.basedOn">
+      <path value="Procedure.basedOn" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest" />
+      </type>
+    </element>
+    <element id="Procedure.category">
+      <path value="Procedure.category" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BRTecnicaUtilizada" />
+      </binding>
+    </element>
+    <element id="Procedure.code">
+      <path value="Procedure.code" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.subject">
+      <path value="Procedure.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+      </type>
+    </element>
+    <element id="Procedure.encounter">
+      <path value="Procedure.encounter" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.performed[x]">
+      <path value="Procedure.performed[x]" />
+      <min value="1" />
+      <type>
+        <code value="Period" />
+      </type>
+    </element>
+    <element id="Procedure.performed[x].start">
+      <path value="Procedure.performed[x].start" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.performed[x].end">
+      <path value="Procedure.performed[x].end" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.recorder">
+      <path value="Procedure.recorder" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.performer">
+      <path value="Procedure.performer" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.performer.extension">
+      <path value="Procedure.performer.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Procedure.performer.extension:cboHealthcare">
+      <path value="Procedure.performer.extension" />
+      <sliceName value="cboHealthcare" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/CBOHealthcare" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Procedure.performer.function">
+      <path value="Procedure.performer.function" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BRGrauParticipacao" />
+      </binding>
+    </element>
+    <element id="Procedure.performer.actor">
+      <path value="Procedure.performer.actor" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+      </type>
+    </element>
+    <element id="Procedure.performer.onBehalfOf">
+      <path value="Procedure.performer.onBehalfOf" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.location">
+      <path value="Procedure.location" />
+      <min value="1" />
+    </element>
+    <element id="Procedure.reasonCode">
+      <path value="Procedure.reasonCode" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BRCID10" />
+      </binding>
+    </element>
+    <element id="Procedure.bodySite">
+      <path value="Procedure.bodySite" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BRViaAcesso" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

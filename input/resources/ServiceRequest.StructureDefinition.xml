@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ServiceRequest" />
+  <url value="https://ancode.app/fhir/StructureDefinition/ServiceRequest" />
+  <name value="ServiceRequest" />
+  <status value="draft" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ServiceRequest" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ServiceRequest.extension">
+      <path value="ServiceRequest.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="2" />
+    </element>
+    <element id="ServiceRequest.extension:authorizedQuantity">
+      <path value="ServiceRequest.extension" />
+      <sliceName value="authorizedQuantity" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/AuthorizedQuantity" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="ServiceRequest.extension:performedQuantity">
+      <path value="ServiceRequest.extension" />
+      <sliceName value="performedQuantity" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/PerformedQuantity" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="ServiceRequest.identifier">
+      <path value="ServiceRequest.identifier" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="ServiceRequest.code">
+      <path value="ServiceRequest.code" />
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.quantity[x]">
+      <path value="ServiceRequest.quantity[x]" />
+      <min value="1" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
+    <element id="ServiceRequest.performer">
+      <path value="ServiceRequest.performer" />
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.locationReference">
+      <path value="ServiceRequest.locationReference" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="ServiceRequest.insurance">
+      <path value="ServiceRequest.insurance" />
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.supportingInfo">
+      <path value="ServiceRequest.supportingInfo" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="type" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.supportingInfo:healthcareService">
+      <path value="ServiceRequest.supportingInfo" />
+      <sliceName value="healthcareService" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/HealthcareService" />
+      </type>
+    </element>
+    <element id="ServiceRequest.supportingInfo:healthcareService.reference">
+      <path value="ServiceRequest.supportingInfo.reference" />
+      <min value="1" />
+    </element>
+    <element id="ServiceRequest.supportingInfo:chargeItemDefinition">
+      <path value="ServiceRequest.supportingInfo" />
+      <sliceName value="chargeItemDefinition" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/ChargeItemDefinition" />
+      </type>
+    </element>
+    <element id="ServiceRequest.supportingInfo:chargeItemDefinition.reference">
+      <path value="ServiceRequest.supportingInfo.reference" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

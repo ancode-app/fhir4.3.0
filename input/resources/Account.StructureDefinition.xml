@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Account" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Account" />
+  <version value="1.0" />
+  <name value="Account" />
+  <status value="draft" />
+  <date value="2021-12-02" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Account" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Account" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Account.extension">
+      <path value="Account.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Account.extension:encounterType">
+      <path value="Account.extension" />
+      <sliceName value="encounterType" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/EncounterType" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Account.extension:valueTotal">
+      <path value="Account.extension" />
+      <sliceName value="valueTotal" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Value" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Account.name">
+      <path value="Account.name" />
+      <min value="1" />
+    </element>
+    <element id="Account.subject">
+      <path value="Account.subject" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Account.servicePeriod">
+      <path value="Account.servicePeriod" />
+      <min value="1" />
+    </element>
+    <element id="Account.servicePeriod.start">
+      <path value="Account.servicePeriod.start" />
+      <min value="1" />
+    </element>
+    <element id="Account.coverage">
+      <path value="Account.coverage" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Account.owner">
+      <path value="Account.owner" />
+      <min value="1" />
+    </element>
+    <element id="Account.guarantor">
+      <path value="Account.guarantor" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

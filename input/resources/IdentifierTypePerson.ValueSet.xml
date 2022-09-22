@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IdentifierTypePerson" />
+  <url value="https://ancode.app/fhir/ValueSet/IdentifierTypePerson" />
+  <version value="1.0" />
+  <name value="IdentifierTypePerson" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <description value="Identifier Type Person" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/IdentifierType" />
+      <concept>
+        <code value="CPF" />
+        <display value="CPF" />
+      </concept>
+      <concept>
+        <code value="CNS" />
+        <display value="Cartão Nacional de Saúde" />
+      </concept>
+      <concept>
+        <code value="RG" />
+        <display value="Registro Geral" />
+      </concept>
+      <concept>
+        <code value="CNH" />
+        <display value="Carteira Nacional de Habilitação" />
+      </concept>
+      <concept>
+        <code value="INSS" />
+        <display value="Instituto Nacional do Seguro Social" />
+      </concept>
+      <concept>
+        <code value="PISPASEP" />
+        <display value="Programa de Integração Social/Programa de Formação do Patrimônio do Servidor Público" />
+      </concept>
+      <concept>
+        <code value="NIT" />
+        <display value="Número de Registro do Trabalhador" />
+      </concept>
+      <concept>
+        <code value="PPN" />
+        <display value="Passaporte" />
+      </concept>
+      <concept>
+        <code value="FACERECOGNITION" />
+        <display value="Face Recognition" />
+      </concept>
+      <concept>
+        <code value="AUTHID" />
+        <display value="AUTH ID" />
+      </concept>
+      <concept>
+        <code value="AUTHLOGIN" />
+        <display value="AUTH Login" />
+      </concept>
+      <concept>
+        <code value="IDMIL" />
+        <display value="Número da Identidade Militar" />
+      </concept>
+      <concept>
+        <code value="IDFUNC" />
+        <display value="Número da Identidade Funcional" />
+      </concept>
+      <concept>
+        <code value="IDENTIFIER" />
+        <display value="Identifier"/>
+      </concept>
+      <concept>
+        <code value="LEGACY" />
+        <display value="Legacy System ID" />
+      </concept>
+      <concept>
+        <code value="OTHER" />
+        <display value="Other Identifier"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

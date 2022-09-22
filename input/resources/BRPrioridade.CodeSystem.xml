@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRPrioridade" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRPrioridade" />
+  <version value="1.0" />
+  <name value="BRPrioridade" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-06-22" />
+  <publisher value="Ancode" />
+  <description value="BR Prioridade" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="1" />
+    <display value="Emergência" />
+    <property>
+      <code value="color" />
+      <valueString value="vermelho" />
+    </property>
+    <property>
+      <code value="description" />
+      <valueString value="Comprometimento da via aérea, Respiração ineficaz, Choque, Criança não responde" />
+    </property>
+  </concept>
+  <concept>
+    <code value="3" />
+    <display value="Muito Urgente" />
+    <property>
+      <code value="color" />
+      <valueString value="laranja" />
+    </property>
+    <property>
+      <code value="description" />
+      <valueString value="Dor severa, Grande hemorragia incontrolável, Alteração do nível de consciência, Criança quente" />
+    </property>
+  </concept>
+  <concept>
+    <code value="5" />
+    <display value="Urgente" />
+    <property>
+      <code value="color" />
+      <valueString value="amarelo" />
+    </property>
+    <property>
+      <code value="description" />
+      <valueString value="Dor moderada, Pequena hemorragia incontrolável, História inapropriada, Vômitos persistêntes, Quente" />
+    </property>
+  </concept>
+  <concept>
+    <code value="7" />
+    <display value="Pouco Urgente" />
+    <property>
+      <code value="color" />
+      <valueString value="verde" />
+    </property>
+    <property>
+      <code value="description" />
+      <valueString value="Dor, Febrícula, Vômitos, Problema recente" />
+    </property>
+  </concept>
+  <concept>
+    <code value="9" />
+    <display value="Não Urgente" />
+    <property>
+      <code value="color" />
+      <valueString value="azul" />
+    </property>
+  </concept>
+</CodeSystem>
+

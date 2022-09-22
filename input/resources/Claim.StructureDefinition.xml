@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Claim" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Claim" />
+  <version value="1.0" />
+  <name value="Claim" />
+  <status value="draft" />
+  <date value="2022-04-11" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Claim" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Claim" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Claim.insurer">
+      <path value="Claim.insurer" />
+      <min value="1" />
+    </element>
+    <element id="Claim.procedure.procedure[x]">
+      <path value="Claim.procedure.procedure[x]" />
+      <type>
+        <code value="Reference" />
+      </type>
+    </element>
+    <element id="Claim.insurance">
+      <path value="Claim.insurance" />
+      <max value="1" />
+    </element>
+    <element id="Claim.item.serviced[x]">
+      <path value="Claim.item.serviced[x]" />
+      <type>
+        <code value="date" />
+      </type>
+    </element>
+    <element id="Claim.item.location[x]">
+      <path value="Claim.item.location[x]" />
+      <type>
+        <code value="Reference" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

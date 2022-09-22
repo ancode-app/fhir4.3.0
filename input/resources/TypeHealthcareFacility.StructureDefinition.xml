@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="TypeHealthcareFacility" />
+  <url value="https://ancode.app/fhir/StructureDefinition/TypeHealthcareFacility" />
+  <version value="1.0" />
+  <name value="TypeHealthcareFacility" />
+  <status value="draft" />
+  <date value="2022-04-07" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Organization" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://ancode.app/fhir/StructureDefinition/TypeHealthcareFacility" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <description value="TypeHealthcareFacility" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BRTipoEstabelecimentoSaude" />
+      </binding>
+    </element>
+    <element id="Extension.value[x].coding">
+      <path value="Extension.value[x].coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.value[x].coding.system">
+      <path value="Extension.value[x].coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Extension.value[x].coding.code">
+      <path value="Extension.value[x].coding.code" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

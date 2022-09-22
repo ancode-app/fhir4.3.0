@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ClaimResponse" />
+  <url value="https://ancode.app/fhir/StructureDefinition/ClaimResponse" />
+  <version value="1.0" />
+  <name value="ClaimResponse" />
+  <title value="Ancode" />
+  <status value="draft" />
+  <date value="2022-04-11" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ClaimResponse" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ClaimResponse" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ClaimResponse.requestor">
+      <path value="ClaimResponse.requestor" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

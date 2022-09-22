@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ObservationSocialHistory" />
+  <url value="https://ancode.app/fhir/ValueSet/ObservationSocialHistory" />
+  <version value="1.0" />  
+  <name value="ObservationSocialHistory" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-05-05" />
+  <publisher value="Ancode" />
+  <description value="Observation Codes" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/ObservationCodes" />      
+      <concept>
+        <code value="74013-4" />
+        <display value="Alcohol Use" />
+      </concept>
+      <concept>
+        <code value="72166-2" />
+        <display value="Tobacco Use" />
+      </concept>
+      <concept>
+        <code value="LG41761-4" />
+        <display value="Exercise/Activity" />
+      </concept>
+      <concept>
+        <code value="74204-9" />
+        <display value="Drug use" />
+      </concept>
+      <concept>
+        <code value="74172-8" />
+        <display value="Level of autonomy" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="EncounterParticipantTypeMostUsed" />
+  <url value="https://ancode.app/fhir/ValueSet/EncounterParticipantTypeMostUsed" />
+  <version value="1.0" />
+  <name value="EncounterParticipantTypeMostUsed" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-03-31" />
+  <publisher value="Ancode" />
+  <description value="Encounter Participant Type Most Used" />
+  <immutable value="false" />
+  <compose>    
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />      
+      <concept>
+        <code value="ADM" />
+        <display value="admitter" />
+      </concept>
+      <concept>
+        <code value="ATND" />
+        <display value="attender" />
+      </concept>
+      <concept>
+        <code value="CALLBCK" />
+        <display value="callback contact" />
+      </concept>
+      <concept>
+        <code value="CON" />
+        <display value="consultant" />
+      </concept>
+      <concept>
+        <code value="DIS" />
+        <display value="discharger" />
+      </concept>
+      <concept>
+        <code value="ESC" />
+        <display value="escort" />
+      </concept>
+      <concept>
+        <code value="REF" />
+        <display value="referrer" />
+      </concept>
+      <concept>
+        <code value="SPRF" />
+        <display value="secondary performer" />
+      </concept>
+      <concept>
+        <code value="PPRF" />
+        <display value="primary performer" />
+      </concept>
+      <concept>
+        <code value="PART" />
+        <display value="Participation" />
+      </concept>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/participant-type" />      
+      <concept>
+        <code value="translator" />
+        <display value="Translator" />
+      </concept>
+      <concept>
+        <code value="emergency" />
+        <display value="Emergency" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

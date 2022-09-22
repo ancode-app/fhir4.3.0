@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ScheduleType" />
+  <url value="https://ancode.app/fhir/ValueSet/ScheduleType" />
+  <version value="1.0" />
+  <name value="ScheduleType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-12-04" />
+  <publisher value="Ancode" />
+  <description value="Schedule Type" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/ScheduleType" />
+    </include>
+  </compose>
+</ValueSet>

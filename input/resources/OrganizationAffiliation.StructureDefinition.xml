@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="OrganizationAffiliation" />
+  <url value="https://ancode.app/fhir/StructureDefinition/OrganizationAffiliation" />
+  <version value="1.0" />
+  <name value="OrganizationAffiliation" />
+  <status value="draft" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="OrganizationAffiliation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="OrganizationAffiliation.identifier">
+      <path value="OrganizationAffiliation.identifier" />
+      <min value="1" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="OrganizationAffiliation.active">
+      <path value="OrganizationAffiliation.active" />
+      <min value="1" />
+    </element>
+    <element id="OrganizationAffiliation.period">
+      <path value="OrganizationAffiliation.period" />
+      <min value="1" />
+    </element>
+    <element id="OrganizationAffiliation.organization">
+      <path value="OrganizationAffiliation.organization" />
+      <min value="1" />
+    </element>
+    <element id="OrganizationAffiliation.participatingOrganization">
+      <path value="OrganizationAffiliation.participatingOrganization" />
+      <min value="1" />
+    </element>
+    <element id="OrganizationAffiliation.telecom">
+      <path value="OrganizationAffiliation.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

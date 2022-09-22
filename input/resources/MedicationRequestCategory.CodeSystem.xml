@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="MedicationRequestCategory" />
+  <url value="https://ancode.app/fhir/CodeSystem/MedicationRequestCategory" />
+  <version value="1.0" />
+  <name value="MedicationRequestCategory" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2022-06-07" />
+  <publisher value="Ancode" />
+  <description value="Medication Request Category" />
+  <content value="complete" />  
+  <concept>
+    <code value="Memed" />
+    <display value="Memed" />
+  </concept>
+  <concept>
+    <code value="Printed" />
+    <display value="Printed" />
+  </concept>
+  <concept>
+    <code value="Inpatient" />
+    <display value="Inpatient" />
+  </concept>
+  <concept>
+    <code value="Outpatient" />
+    <display value="Outpatient" />
+  </concept>
+</CodeSystem>

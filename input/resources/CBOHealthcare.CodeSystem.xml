@@ -1,0 +1,3231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CBOHealthcare" />
+  <meta>
+    <lastUpdated value="2020-03-11T12:05:01.176+00:00" />
+  </meta>
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/CBOHealthcare" />
+  <version value="201701A" />
+  <name value="Classificação Brasileira de Ocupações - CBO" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-03-11T12:05:18.2868027+00:00" />
+  <publisher value="Ministério do Trabalho e Emprego do Brasil" />
+  <description value="Classifica as profissões do mercado de trabalho brasileiro." />
+  <content value="complete" />
+  <property>
+    <code value="healthcare" />
+    <description value="Se a ocupação está relacionada à área de prestação de serviço em saúde" />
+    <type value="boolean" />
+  </property>
+  <property>
+    <code value="regulated" />
+    <description value="Se a ocupação está regulada" />
+    <type value="boolean" />
+  </property>
+  <concept>
+    <code value="131205" />
+    <display value="DIRETOR DE SERVICOS DE SAUDE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="131210" />
+    <display value="GERENTE DE SERVICOS DE SAUDE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="131220" />
+    <display value="GERONTOLOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="1312C1" />
+    <display value="SANITARISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="142340" />
+    <display value="OUVIDOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="201115" />
+    <display value="GENETICISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="203005" />
+    <display value="PESQUISADOR EM BIOLOGIA AMBIENTAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="203015" />
+    <display value="PESQUISADOR EM BIOLOGIA DE MICROORGANISMOS E PARASITAS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="203020" />
+    <display value="PESQUISADOR EM BIOLOGIA HUMANA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="203320" />
+    <display value="PESQUISADOR EM SAUDE COLETIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="213150" />
+    <display value="FISICO (MEDICINA)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="213155" />
+    <display value="FISICO (NUCLEAR E REATORES)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="213165" />
+    <display value="FISICO (PARTICULAS E CAMPOS)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="213170" />
+    <display value="FISICO (PLASMA)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="213205" />
+    <display value="QUIMICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="213210" />
+    <display value="QUIMICO INDUSTRIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="214915" />
+    <display value="ENGENHEIRO DE SEGURANCA DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="214940" />
+    <display value="HIGIENISTA OCUPACIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="221105" />
+    <display value="BIOLOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="221205" />
+    <display value="BIOMEDICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="222205" />
+    <display value="ENGENHEIRO DE ALIMENTOS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="223119" />
+    <display value="MEDICO EM ELETROENCEFALOGRAFIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223150" />
+    <display value="MEDICO PERITO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2231A1" />
+    <display value="MEDICO BRONCOESOFALOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2231A2" />
+    <display value="MEDICO HANSENOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2231F8" />
+    <display value="MEDICO EM MEDICINA PREVENTIVA E SOCIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2231F9" />
+    <display value="MEDICO RESIDENTE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2231G1" />
+    <display value="MEDICO CARDIOLOGISTA INTERVENCIONISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223204" />
+    <display value="CIRURGIAO DENTISTA  AUDITOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223208" />
+    <display value="CIRURGIAO DENTISTA  CLINICO GERAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223212" />
+    <display value="CIRURGIAO DENTISTA  ENDODONTISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223216" />
+    <display value="CIRURGIAO DENTISTA  EPIDEMIOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223220" />
+    <display value="CIRURGIAO DENTISTA  ESTOMATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223224" />
+    <display value="CIRURGIAO DENTISTA  IMPLANTODONTISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223228" />
+    <display value="CIRURGIAO DENTISTA  ODONTOGERIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223232" />
+    <display value="CIRURGIAO DENTISTA  ODONTOLOGISTA LEGAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223236" />
+    <display value="CIRURGIAO DENTISTA  ODONTOPEDIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223240" />
+    <display value="CIRURGIAO DENTISTA  ORTOPEDISTA E ORTODONTISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223244" />
+    <display value="CIRURGIAO DENTISTA  PATOLOGISTA BUCAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223248" />
+    <display value="CIRURGIAO DENTISTA  PERIODONTISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223252" />
+    <display value="CIRURGIAO DENTISTA  PROTESIOLOGO BUCOMAXILOFACIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223256" />
+    <display value="CIRURGIAO DENTISTA  PROTESISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223260" />
+    <display value="CIRURGIAO DENTISTA  RADIOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223264" />
+    <display value="CIRURGIAO DENTISTA  REABILITADOR ORAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223268" />
+    <display value="CIRURGIAO DENTISTA  TRAUMATOLOGISTA BUCOMAXILOFACIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223272" />
+    <display value="CIRURGIAO DENTISTA DE SAUDE COLETIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223276" />
+    <display value="CIRURGIAO DENTISTA  ODONTOLOGIA DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223280" />
+    <display value="CIRURGIAO DENTISTA  DENTISTICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223284" />
+    <display value="CIRURGIAO DENTISTA  DISFUNCAO TEMPOROMANDIBULAR E DOR OROFACIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223288" />
+    <display value="CIRURGIAO DENTISTA  ODONTOLOGIA PARA PACIENTES COM NECESSIDADES ESPECIAIS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223293" />
+    <display value="CIRURGIAO DENTISTA DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223305" />
+    <display value="MEDICO VETERINARIO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223310" />
+    <display value="ZOOTECNISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223405" />
+    <display value="FARMACEUTICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223415" />
+    <display value="FARMACEUTICO ANALISTA CLINICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223420" />
+    <display value="FARMACEUTICO DE ALIMENTOS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223425" />
+    <display value="FARMACEUTICO PRATICAS INTEGRATIVAS E COMPLEMENTARES" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223430" />
+    <display value="FARMACEUTICO EM SAUDE PUBLICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223435" />
+    <display value="FARMACEUTICO INDUSTRIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223440" />
+    <display value="FARMACEUTICO TOXICOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223445" />
+    <display value="FARMACEUTICO HOSPITALAR E CLINICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223505" />
+    <display value="ENFERMEIRO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223510" />
+    <display value="ENFERMEIRO AUDITOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223515" />
+    <display value="ENFERMEIRO DE BORDO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223520" />
+    <display value="ENFERMEIRO DE CENTRO CIRURGICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223525" />
+    <display value="ENFERMEIRO DE TERAPIA INTENSIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223530" />
+    <display value="ENFERMEIRO DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223535" />
+    <display value="ENFERMEIRO NEFROLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223540" />
+    <display value="ENFERMEIRO NEONATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223545" />
+    <display value="ENFERMEIRO OBSTETRICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223550" />
+    <display value="ENFERMEIRO PSIQUIATRICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223555" />
+    <display value="ENFERMEIRO PUERICULTOR E PEDIATRICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223560" />
+    <display value="ENFERMEIRO SANITARISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223565" />
+    <display value="ENFERMEIRO DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223570" />
+    <display value="PERFUSIONISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2235C3" />
+    <display value="ENFERMEIRO ESTOMATERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223605" />
+    <display value="FISIOTERAPEUTA GERAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223625" />
+    <display value="FISIOTERAPEUTA RESPIRATORIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223630" />
+    <display value="FISIOTERAPEUTA NEUROFUNCIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223635" />
+    <display value="FISIOTERAPEUTA TRAUMATOORTOPEDICA FUNCIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223640" />
+    <display value="FISIOTERAPEUTA OSTEOPATA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223645" />
+    <display value="FISIOTERAPEUTA QUIROPRAXISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223650" />
+    <display value="FISIOTERAPEUTA ACUPUNTURISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223655" />
+    <display value="FISIOTERAPEUTA ESPORTIVO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223660" />
+    <display value="FISIOTERAPEUTA DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2236I1" />
+    <display value="TECNICO EM ORIENTACAO E MOBILIDADE DE CEGOS E DEFICIENTES VISUAIS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="223710" />
+    <display value="NUTRICIONISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223810" />
+    <display value="FONOAUDIOLOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223815" />
+    <display value="FONOAUDIOLOGO EDUCACIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223820" />
+    <display value="FONOAUDIOLOGO EM AUDIOLOGIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223825" />
+    <display value="FONOAUDIOLOGO EM DISFAGIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223830" />
+    <display value="FONOAUDIOLOGO EM LINGUAGEM" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223835" />
+    <display value="FONOAUDIOLOGO EM MOTRICIDADE OROFACIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223840" />
+    <display value="FONOAUDIOLOGO EM SAUDE COLETIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223845" />
+    <display value="FONOAUDIOLOGO EM VOZ" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223905" />
+    <display value="TERAPEUTA OCUPACIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="223910" />
+    <display value="ORTOPTISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="224105" />
+    <display value="AVALIADOR FISICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="224110" />
+    <display value="LUDOMOTRICISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="224115" />
+    <display value="PREPARADOR DE ATLETA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="224120" />
+    <display value="PREPARADOR FISICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="224125" />
+    <display value="TECNICO DE DESPORTO INDIVIDUAL E COLETIVO (EXCETO FUTEBOL)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="224130" />
+    <display value="TECNICO DE LABORATORIO E FISCALIZACAO DESPORTIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="2241E1" />
+    <display value="PROFISSIONAL DE EDUCACAO FISICA NA SAUDE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225103" />
+    <display value="MEDICO INFECTOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225105" />
+    <display value="MEDICO ACUPUNTURISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225106" />
+    <display value="MEDICO LEGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225109" />
+    <display value="MEDICO NEFROLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225110" />
+    <display value="MEDICO ALERGISTA E IMUNOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225112" />
+    <display value="MEDICO NEUROLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225115" />
+    <display value="MEDICO ANGIOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225118" />
+    <display value="MEDICO NUTROLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225120" />
+    <display value="MEDICO CARDIOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225121" />
+    <display value="MEDICO ONCOLOGISTA CLINICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225122" />
+    <display value="MEDICO CANCEROLOGISTA PEDIATRICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225124" />
+    <display value="MEDICO PEDIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225125" />
+    <display value="MEDICO CLINICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225127" />
+    <display value="MEDICO PNEUMOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225130" />
+    <display value="MEDICO DE FAMILIA E COMUNIDADE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225133" />
+    <display value="MEDICO PSIQUIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225135" />
+    <display value="MEDICO DERMATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225136" />
+    <display value="MEDICO REUMATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225139" />
+    <display value="MEDICO SANITARISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225140" />
+    <display value="MEDICO DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225142" />
+    <display value="MEDICO DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225145" />
+    <display value="MEDICO EM MEDICINA DE TRAFEGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225148" />
+    <display value="MEDICO ANATOMOPATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225150" />
+    <display value="MEDICO EM MEDICINA INTENSIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225151" />
+    <display value="MEDICO ANESTESIOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225154" />
+    <display value="MEDICO ANTROPOSOFICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225155" />
+    <display value="MEDICO ENDOCRINOLOGISTA E METABOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225160" />
+    <display value="MEDICO FISIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225165" />
+    <display value="MEDICO GASTROENTEROLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225170" />
+    <display value="MEDICO GENERALISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225175" />
+    <display value="MEDICO GENETICISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225180" />
+    <display value="MEDICO GERIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225185" />
+    <display value="MEDICO HEMATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225195" />
+    <display value="MEDICO HOMEOPATA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225203" />
+    <display value="MEDICO EM CIRURGIA VASCULAR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225210" />
+    <display value="MEDICO CIRURGIAO CARDIOVASCULAR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225215" />
+    <display value="MEDICO CIRURGIAO DE CABECA E PESCOCO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225220" />
+    <display value="MEDICO CIRURGIAO DO APARELHO DIGESTIVO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225225" />
+    <display value="MEDICO CIRURGIAO GERAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225230" />
+    <display value="MEDICO CIRURGIAO PEDIATRICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225235" />
+    <display value="MEDICO CIRURGIAO PLASTICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225240" />
+    <display value="MEDICO CIRURGIAO TORACICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225245" />
+    <display value="MEDICO FONIATRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225250" />
+    <display value="MEDICO GINECOLOGISTA E OBSTETRA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225255" />
+    <display value="MEDICO MASTOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225260" />
+    <display value="MEDICO NEUROCIRURGIAO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225265" />
+    <display value="MEDICO OFTALMOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225270" />
+    <display value="MEDICO ORTOPEDISTA E TRAUMATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225275" />
+    <display value="MEDICO OTORRINOLARINGOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225280" />
+    <display value="MEDICO COLOPROCTOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225285" />
+    <display value="MEDICO UROLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225290" />
+    <display value="MEDICO CANCEROLOGISTA CIRURGICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225295" />
+    <display value="MEDICO CIRURGIAO DA MAO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225305" />
+    <display value="MEDICO CITOPATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225310" />
+    <display value="MEDICO EM ENDOSCOPIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225315" />
+    <display value="MEDICO EM MEDICINA NUCLEAR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225320" />
+    <display value="MEDICO EM RADIOLOGIA E DIAGNOSTICO POR IMAGEM" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225325" />
+    <display value="MEDICO PATOLOGISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225330" />
+    <display value="MEDICO RADIOTERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225335" />
+    <display value="MEDICO PATOLOGISTA CLINICO  MEDICINA LABORATORIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225340" />
+    <display value="MEDICO HEMOTERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225345" />
+    <display value="MEDICO HIPERBARISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="225350" />
+    <display value="MEDICO NEUROFISIOLOGISTA CLINICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="226105" />
+    <display value="QUIROPRAXISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="226110" />
+    <display value="OSTEOPATA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="226305" />
+    <display value="MUSICOTERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="226310" />
+    <display value="ARTETERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="226315" />
+    <display value="EQUOTERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="226320" />
+    <display value="NATUROLOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="232120" />
+    <display value="PROFESSOR DE EDUCACAO FISICA NO ENSINO MEDIO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="233125" />
+    <display value="PROFESSOR DE TECNICAS DE ENFERMAGEM" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="234410" />
+    <display value="PROFESSOR DE EDUCACAO FISICA NO ENSINO SUPERIOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="234415" />
+    <display value="PROFESSOR DE ENFERMAGEM DO ENSINO SUPERIOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="239205" />
+    <display value="PROFESSOR DE ALUNOS COM DEFICIENCIA AUDITIVA E SURDOS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="239210" />
+    <display value="PROFESSOR DE ALUNOS COM DEFICIENCIA FISICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="239215" />
+    <display value="PROFESSOR DE ALUNOS COM DEFICIENCIA MENTAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="239220" />
+    <display value="PROFESSOR DE ALUNOS COM DEFICIENCIA MULTIPLA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="239225" />
+    <display value="PROFESSOR DE ALUNOS COM DEFICIENCIA VISUAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="239415" />
+    <display value="PEDAGOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="239425" />
+    <display value="PSICOPEDAGOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251505" />
+    <display value="PSICOLOGO EDUCACIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251510" />
+    <display value="PSICOLOGO CLINICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251515" />
+    <display value="PSICOLOGO DO ESPORTE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251520" />
+    <display value="PSICOLOGO HOSPITALAR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251525" />
+    <display value="PSICOLOGO JURIDICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251530" />
+    <display value="PSICOLOGO SOCIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251535" />
+    <display value="PSICOLOGO DO TRANSITO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251540" />
+    <display value="PSICOLOGO DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251545" />
+    <display value="NEUROPSICOLOGO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251550" />
+    <display value="PSICANALISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251555" />
+    <display value="PSICOLOGO ACUPUNTURISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="251605" />
+    <display value="ASSISTENTE SOCIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="312210" />
+    <display value="TECNICO DE SANEAMENTO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="313505" />
+    <display value="TECNICO EM FOTONICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="3135D1" />
+    <display value="TECNICO EM REABILITACAO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="3135D2" />
+    <display value="TECNICO EM EQUIPAMENTO MEDICO HOSPITALAR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322105" />
+    <display value="TECNICO EM ACUPUNTURA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="322115" />
+    <display value="TECNICO EM QUIROPRAXIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322120" />
+    <display value="MASSOTERAPEUTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322125" />
+    <display value="TERAPEUTA HOLISTICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="322135" />
+    <display value="DOULA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322205" />
+    <display value="TECNICO DE ENFERMAGEM" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322210" />
+    <display value="TECNICO DE ENFERMAGEM DE TERAPIA INTENSIVA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322215" />
+    <display value="TECNICO DE ENFERMAGEM DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322220" />
+    <display value="TECNICO DE ENFERMAGEM PSIQUIATRICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322225" />
+    <display value="INSTRUMENTADOR CIRURGICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322230" />
+    <display value="AUXILIAR DE ENFERMAGEM" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322235" />
+    <display value="AUXILIAR DE ENFERMAGEM DO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322240" />
+    <display value="AUXILIAR DE SAUDE (NAVEGACAO MARITIMA)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322245" />
+    <display value="TECNICO DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322250" />
+    <display value="AUXILIAR DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322305" />
+    <display value="TECNICO EM OPTICA E OPTOMETRIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322405" />
+    <display value="TECNICO EM SAUDE BUCAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322410" />
+    <display value="PROTETICO DENTARIO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322415" />
+    <display value="AUXILIAR EM SAUDE BUCAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322420" />
+    <display value="AUXILIAR DE PROTESE DENTARIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322425" />
+    <display value="TECNICO EM SAUDE BUCAL DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322430" />
+    <display value="AUXILIAR EM SAUDE BUCAL DA ESTRATEGIA DE SAUDE DA FAMILIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322505" />
+    <display value="TECNICO DE ORTOPEDIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="322605" />
+    <display value="TECNICO DE IMOBILIZACAO ORTOPEDICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="324105" />
+    <display value="TECNICO EM METODOS ELETROGRAFICOS EM ENCEFALOGRAFIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324110" />
+    <display value="TECNICO EM METODOS GRAFICOS EM CARDIOLOGIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324115" />
+    <display value="TECNICO EM RADIOLOGIA E IMAGENOLOGIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324120" />
+    <display value="TECNOLOGO EM RADIOLOGIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324125" />
+    <display value="TECNOLOGO OFTALMICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324205" />
+    <display value="TECNICO EM PATOLOGIA CLINICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324210" />
+    <display value="AUXILIAR TECNICO EM PATOLOGIA CLINICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324215" />
+    <display value="CITOTECNICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="324220" />
+    <display value="TECNICO EM HEMOTERAPIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="325105" />
+    <display value="AUXILIAR TECNICO EM LABORATORIO DE FARMACIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="325110" />
+    <display value="TECNICO EM LABORATORIO DE FARMACIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="325115" />
+    <display value="TECNICO EM FARMACIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="325205" />
+    <display value="TECNICO DE ALIMENTOS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="325210" />
+    <display value="TECNICO EM NUTRICAO E DIETETICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="351605" />
+    <display value="TECNICO EM SEGURANCA NO TRABALHO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="351610" />
+    <display value="TECNICO EM HIGIENE OCUPACIONAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="352210" />
+    <display value="AGENTE DE SAUDE PUBLICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="422205" />
+    <display value="TELEFONISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="422210" />
+    <display value="TELEOPERADOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="422215" />
+    <display value="MONITOR DE TELEATENDIMENTO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="422220" />
+    <display value="OPERADOR DE RADIOCHAMADA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="515105" />
+    <display value="AGENTE COMUNITARIO DE SAUDE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515110" />
+    <display value="ATENDENTE DE ENFERMAGEM" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515115" />
+    <display value="PARTEIRA LEIGA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515120" />
+    <display value="VISITADOR SANITARIO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515125" />
+    <display value="AGENTE INDIGENA DE SAUDE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515130" />
+    <display value="AGENTE INDIGENA DE SANEAMENTO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515135" />
+    <display value="SOCORRISTA (EXCETO MEDICOS E ENFERMEIROS)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515140" />
+    <display value="AGENTE DE COMBATE AS ENDEMIAS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="5151F1" />
+    <display value="AGENTE DE COMBATE A ENDEMIAS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515205" />
+    <display value="AUXILIAR DE BANCO DE SANGUE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515210" />
+    <display value="AUXILIAR DE FARMACIA DE MANIPULACAO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515215" />
+    <display value="AUXILIAR DE LABORATORIO DE ANALISES CLINICAS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515220" />
+    <display value="AUXILIAR DE LABORATORIO DE IMUNOBIOLOGICOS" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515225" />
+    <display value="AUXILIAR DE PRODUCAO FARMACEUTICA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="5152A1" />
+    <display value="MICROSCOPISTA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515305" />
+    <display value="EDUCADOR SOCIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515310" />
+    <display value="AGENTE DE ACAO SOCIAL" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515315" />
+    <display value="MONITOR DE DEPENDENTE QUIMICO" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="515325" />
+    <display value="SOCIOEDUCADOR" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="516220" />
+    <display value="CUIDADOR EM SAUDE" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+  <concept>
+    <code value="766420" />
+    <display value="AUXILIAR DE RADIOLOGIA (REVELACAO FOTOGRAFICA)" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>  
+  <concept>
+    <code value="782320" />
+    <display value="CONDUTOR DE AMBULANCIA" />
+    <property>
+      <code value="healthcare" />
+      <valueBoolean value="true" />
+    </property>
+    <property>
+      <code value="regulated" />
+      <valueBoolean value="false" />
+    </property>
+  </concept>
+</CodeSystem>

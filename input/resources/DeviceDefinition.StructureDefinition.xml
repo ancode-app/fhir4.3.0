@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DeviceDefinition" />
+  <url value="https://ancode.app/fhir/StructureDefinition/DeviceDefinition" />
+  <version value="1.0" />
+  <name value="DeviceDefinition" />
+  <status value="draft" />
+  <date value="2022-03-24" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="DeviceDefinition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DeviceDefinition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="DeviceDefinition.extension">
+      <path value="DeviceDefinition.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="DeviceDefinition.extension:unitType">
+      <path value="DeviceDefinition.extension" />
+      <sliceName value="unitType" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/UnitType" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DeviceDefinition.deviceName">
+      <path value="DeviceDefinition.deviceName" />
+      <min value="1" />
+    </element>
+    <element id="DeviceDefinition.deviceName.extension">
+      <path value="DeviceDefinition.deviceName.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="DeviceDefinition.deviceName.extension:nameMetaphone">
+      <path value="DeviceDefinition.deviceName.extension" />
+      <sliceName value="nameMetaphone" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Metaphone" />
+      </type>
+    </element>
+    <element id="DeviceDefinition.type">
+      <path value="DeviceDefinition.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/RiskClass" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

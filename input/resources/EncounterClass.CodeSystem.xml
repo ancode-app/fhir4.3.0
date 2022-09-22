@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="EncounterClass" />
+  <url value="https://ancode.app/fhir/CodeSystem/EncounterClass" />
+  <version value="1.0" />
+  <name value="EncounterClass" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-12-07" />
+  <publisher value="Ancode" />
+  <description value="Encounter Class" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="1" />
+    <display value="InPerson" />
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="AncodeVideoCall" />
+  </concept>
+  <concept>
+    <code value="3" />
+    <display value="Telephone" />
+  </concept>
+  <concept>
+    <code value="4" />
+    <display value="WhatsApp" />
+  </concept>
+  <concept>
+    <code value="5" />
+    <display value="Skype" />
+  </concept>
+  <concept>
+    <code value="6" />
+    <display value="Zoom" />
+  </concept>
+  <concept>
+    <code value="7" />
+    <display value="Google Meet" />
+  </concept>
+  <concept>
+    <code value="99" />
+    <display value="Others" />
+  </concept>  
+</CodeSystem>

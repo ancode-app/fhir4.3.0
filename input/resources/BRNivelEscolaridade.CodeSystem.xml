@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRNivelEscolaridade" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRNivelEscolaridade" />
+  <version value="1.0" />
+  <name value="BRNivelEscolaridade" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2022-04-07" />
+  <publisher value="Ancode" />
+  <description value="BR Education Level" />
+  <content value="complete" />
+  <concept>
+    <code value="01" />
+    <display value="Analfabeto" />
+  </concept>
+  <concept>
+    <code value="02" />
+    <display value="Ensino Fundamental Incompleto" />
+  </concept>
+  <concept>
+    <code value="03" />
+    <display value="Ensino Fundamental Completo" />
+  </concept>
+  <concept>
+    <code value="04" />
+    <display value="Ensino Médio Incompleto" />
+  </concept>
+  <concept>
+    <code value="05" />
+    <display value="Ensino Médio Completo" />
+  </concept>
+  <concept>
+    <code value="06" />
+    <display value="Ensino Técnico Incompleto" />
+  </concept>
+  <concept>
+    <code value="07" />
+    <display value="Ensino Técnico Completo" />
+  </concept>
+  <concept>
+    <code value="08" />
+    <display value="Ensino Superior Incompleto" />
+  </concept>
+  <concept>
+    <code value="09" />
+    <display value="Ensino Superior Completo" />
+  </concept>
+  <concept>
+    <code value="10" />
+    <display value="Pós Gradução Incompleto" />
+  </concept>
+  <concept>
+    <code value="11" />
+    <display value="Pós Gradução Completo" />
+  </concept>
+  <concept>
+    <code value="12" />
+    <display value="Mestrado" />
+  </concept>
+  <concept>
+    <code value="13" />
+    <display value="Doutorado" />
+  </concept>
+  <concept>
+    <code value="14" />
+    <display value="Ph.D." />
+  </concept>
+</CodeSystem>

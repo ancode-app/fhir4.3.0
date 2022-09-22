@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://ancode.app/fhir/StructureDefinition/HumanName" />
+  <version value="1.0" />
+  <name value="HumanName" />
+  <title value="Nomes" />
+  <status value="draft" />
+  <date value="2021-11-10" />
+  <publisher value="Ancode" />
+  <description value="Padronização de uso de nomes." />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="HumanName" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/HumanName" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="HumanName.extension">
+      <path value="HumanName.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="HumanName.extension:textMetaphone">
+      <path value="HumanName.extension" />
+      <sliceName value="textMetaphone" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Metaphone" />
+      </type>
+    </element>
+    <element id="HumanName.extension:textMetaphone.value[x]">
+      <path value="HumanName.extension.value[x]" />
+      <min value="1" />
+    </element>
+    <element id="HumanName.use">
+      <path value="HumanName.use" />
+      <min value="1" />
+      <isModifierReason value="É importante que as aplicações saibam interpretar corretamente o tipo de nome que está sendo utilizado, para dar a tratativa correta ao indivíduo." />
+    </element>
+    <element id="HumanName.text">
+      <path value="HumanName.text" />
+      <min value="1" />
+    </element>
+    <element id="HumanName.given">
+      <path value="HumanName.given" />
+      <min value="1" />
+      <max value="2" />
+    </element>
+  </differential>
+</StructureDefinition>

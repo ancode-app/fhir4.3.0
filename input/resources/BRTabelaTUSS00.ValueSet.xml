@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTabelaTUSS00" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/ValueSet/BRTabelaTUSS00" />
+  <version value="1.0" />
+  <name value="BRTabelaTUSS00" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-07-26" />
+  <publisher value="Ancode" />
+  <description value="BR Tabela TUSS 00" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/BRTabelaTUSS00" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

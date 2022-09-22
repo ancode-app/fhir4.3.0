@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DomainResourceExtension" />
+  <url value="https://ancode.app/fhir/SearchParameter/DomainResourceExtension" />
+  <name value="DomainResourceExtension" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-04-29T00:00:00-03:00" />
+  <publisher value="Ancode" />
+  <description value="DomainResource Extension" />
+  <code value="extension" />
+  <base value="DomainResource" />
+  <type value="special" />
+  <expression value="DomainResource.extension" />
+  <xpath value="f:DomainResource/f:extension" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

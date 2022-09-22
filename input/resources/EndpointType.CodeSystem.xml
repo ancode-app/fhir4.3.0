@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="EndpointType" />
+  <url value="https://ancode.app/fhir/CodeSystem/EndpointType" />
+  <version value="1.0" />
+  <name value="EndpointType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-05-12T20:18:11.6743763+00:00" />
+  <publisher value="Ancode" />
+  <description value="Endpoint Typel" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="TISS" />
+    <display value="TISS" />
+  </concept>
+  <concept>
+    <code value="MEMED" />
+    <display value="MEMED" />
+  </concept>
+</CodeSystem>

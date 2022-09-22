@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="BRTabelaTUSS22"/>
+    <url value="https://ancode.app/fhir/CodeSystem/BRTabelaTUSS22"/>
+    <version value="TISS 3.05.00"/>
+    <name value="BRTabelaTUSS22"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <publisher value="Ancode"/>
+    <contact>
+        <telecom>
+            <system value="url"/>
+            <value value="https://ancode.app"/>
+        </telecom>
+    </contact>
+    <description value="Tabela 22 - Terminologia de procedimentos e eventos em saúde"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="30201012"/>
+        <display value="Biópsia de lábio"/>
+    </concept>
+    <concept>
+        <code value="30201063"/>
+        <display value="Frenotomia labial"/>
+    </concept>
+    <concept>
+        <code value="30202027"/>
+        <display value="Biópsia de boca"/>
+    </concept>
+    <concept>
+        <code value="30203015"/>
+        <display value="Frenotomia lingual"/>
+    </concept>
+    <concept>
+        <code value="30203031"/>
+        <display value="Biópsia de língua"/>
+    </concept>
+    <concept>
+        <code value="30204011"/>
+        <display value="Biópsia de glândula salivar"/>
+    </concept>
+    <concept>
+        <code value="30204038"/>
+        <display value="Exérese de rânula ou mucocele"/>
+    </concept>
+    <concept>
+        <code value="30207231"/>
+        <display value="Redução de luxação do ATM"/>
+    </concept>
+    <concept>
+        <code value="30211018"/>
+        <display value="Biópsia de mandíbula"/>
+    </concept>
+    <concept>
+        <code value="40801136"/>
+        <display value="RX - Panorâmica de mandíbula (ortopantomografia)"/>
+    </concept>
+    <concept>
+        <code value="40801179"/>
+        <display value="RX - Radiografia peri-apical"/>
+    </concept>
+    <concept>
+        <code value="40801187"/>
+        <display value="RX - Radiografia oclusal"/>
+    </concept>
+    <concept>
+        <code value="41401654"/>
+        <display value="Teste de fluxo salivar"/>
+    </concept>
+    <concept>
+        <code value="30214068"/>
+        <display value="Paratireoidectomia total com reimplante primário de paratireóide"/>
+    </concept>
+    <concept>
+        <code value="30306116"/>
+        <display value="Reposicionamento de lentes intraoculares"/>
+    </concept>
+    <concept>
+        <code value="30310148"/>
+        <display value="Sutura de íris - pupiloplastia"/>
+    </concept>
+    <concept>
+        <code value="30310156"/>
+        <display value="Revisão de cirurgia fistulizante antiglaucomatosa"/>
+    </concept>
+    <concept>
+        <code value="30311063"/>
+        <display value="Cirurgia de nistagmo"/>
+    </concept>
+    <concept>
+        <code value="40324613"/>
+        <display value="Febre amarela - IgG"/>
+    </concept>
+    <concept>
+        <code value="40324621"/>
+        <display value="Febre amarela - IgM"/>
+    </concept>
+    <concept>
+        <code value="40324630"/>
+        <display value="Febre amarela, pesquisa por PCR"/>
+    </concept>
+    <concept>
+        <code value="40710114"/>
+        <display value="Tratamento de metástases ósseas com isótopos alfa emissor - planejamento e 1º dia de tratamento"/>
+    </concept>
+    <concept>
+        <code value="40901823"/>
+        <display value="US - Vascular com contraste microbolhas"/>
+    </concept>
+    <concept>
+        <code value="20101252"/>
+        <display value="Ativação do implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="20101260"/>
+        <display value="Mapeamento e balanceamento dos eletrodos do implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="20101295"/>
+        <display value="Troca do processador de áudio do implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="20101422"/>
+        <display value="Monoximetria não invasiva (Coex)"/>
+    </concept>
+    <concept>
+        <code value="30303117"/>
+        <display value="Crioterapia conjuntival"/>
+    </concept>
+    <concept>
+        <code value="30310130"/>
+        <display value="Iridoplastia periférica a laser"/>
+    </concept>
+    <concept>
+        <code value="30404169"/>
+        <display value="Substituição do ímã do implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="30404185"/>
+        <display value="Neurotelemetria transoperatória do implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="30602459"/>
+        <display value="Retirada de prótese de mama - unilateral"/>
+    </concept>
+    <concept>
+        <code value="30912326"/>
+        <display value="Reparo transcateter valvar mitral"/>
+    </concept>
+    <concept>
+        <code value="30912334"/>
+        <display value="Implante transcateter de válvula pulmonar (ITVP)"/>
+    </concept>
+    <concept>
+        <code value="31004350"/>
+        <display value="Desarterialização hemorroidária transanal com mucopexia guiada por doppler"/>
+    </concept>
+    <concept>
+        <code value="31104304"/>
+        <display value="Retirada de implante no tratamento da incontinência urinária masculina - esfincter artificial"/>
+    </concept>
+    <concept>
+        <code value="31303331"/>
+        <display value="Implante subdérmico hormonal para contracepção - inserção"/>
+    </concept>
+    <concept>
+        <code value="31309240"/>
+        <display value="Cordocentese guiada por ultrassonografia"/>
+    </concept>
+    <concept>
+        <code value="31401414"/>
+        <display value="Localização/intervenção estereotáxica de lesões/estruturas de crânio por neuronavegação com intervenção"/>
+    </concept>
+    <concept>
+        <code value="40103919"/>
+        <display value="Vídeoeletroencefalograma contínua invasiva para avaliação de tratamento cirúrgico de epilepsia - a cada 12 horas"/>
+    </concept>
+    <concept>
+        <code value="40103927"/>
+        <display value="Teste de impulso cefálico ou vHIT (Vídeo Head Impulse Teste (Vídeo HT))"/>
+    </concept>
+    <concept>
+        <code value="40202801"/>
+        <display value="Colocação endoscópica de balão intragástrco de curta permanência (6 meses)"/>
+    </concept>
+    <concept>
+        <code value="40202810"/>
+        <display value="Colocação endoscópica de balão intragástrico de longa permanência (9 - 12 meses)"/>
+    </concept>
+    <concept>
+        <code value="40202828"/>
+        <display value="Calibração endoscópica de balão de longa permanência"/>
+    </concept>
+    <concept>
+        <code value="40202836"/>
+        <display value="Retirada endoscópica de balão intragástrico"/>
+    </concept>
+    <concept>
+        <code value="40314570"/>
+        <display value="Identificação multiplex por PCR painel com até 25 agentes"/>
+    </concept>
+    <concept>
+        <code value="40314588"/>
+        <display value="Identificação multiplex por PCR painel com 26 a 40 agentes"/>
+    </concept>
+    <concept>
+        <code value="40314596"/>
+        <display value="Quantificação de TRECs e KRECs"/>
+    </concept>
+    <concept>
+        <code value="40314600"/>
+        <display value="Teste molecular para nódulos de tireoide por perfil de microRNA (miRNA), por nódulo"/>
+    </concept>
+    <concept>
+        <code value="40314626"/>
+        <display value="PCR em tempo real para vírus influenza A e B"/>
+    </concept>
+    <concept>
+        <code value="40317498"/>
+        <display value="Dosagem de p2PSA"/>
+    </concept>
+    <concept>
+        <code value="40324656"/>
+        <display value="Anticorpo anti-NMDAR"/>
+    </concept>
+    <concept>
+        <code value="40324664"/>
+        <display value="Anticorpo anti-MOG"/>
+    </concept>
+    <concept>
+        <code value="40324672"/>
+        <display value="Anticorpo anti-AMPAR, dosagem sangue"/>
+    </concept>
+    <concept>
+        <code value="40324680"/>
+        <display value="Anticorpos anti-GABAR"/>
+    </concept>
+    <concept>
+        <code value="40324699"/>
+        <display value="Anticorpos anti-LGI1, dosagem sangue"/>
+    </concept>
+    <concept>
+        <code value="40324702"/>
+        <display value="Anticorpos anti-CASPR2"/>
+    </concept>
+    <concept>
+        <code value="40324710"/>
+        <display value="Anticorpos anti-HMG-CoA redutase (anti-hmgcoar), dosagem"/>
+    </concept>
+    <concept>
+        <code value="40324729"/>
+        <display value="Anticorpos anti tiroquinase músculo específica (anti-MUSK), dosagem"/>
+    </concept>
+    <concept>
+        <code value="40324737"/>
+        <display value="Anticorpos anti-VGKC, dosagem"/>
+    </concept>
+    <concept>
+        <code value="40324745"/>
+        <display value="Anticorpo anti-LGi1, dosagem líquor"/>
+    </concept>
+    <concept>
+        <code value="40324753"/>
+        <display value="Anticorpo anti-AMPAR, dosagem líquor"/>
+    </concept>
+    <concept>
+        <code value="40324761"/>
+        <display value="Anti HU (ANNA1), dosagem líquor"/>
+    </concept>
+    <concept>
+        <code value="40402223"/>
+        <display value="Operação  de  processadora de  sangue  em  fotoaférese  extra  corpórea  (FEC)"/>
+    </concept>
+    <concept>
+        <code value="40404579"/>
+        <display value="Identificação de anticorpos anti-eritrocitários a frio em gel"/>
+    </concept>
+    <concept>
+        <code value="40503860"/>
+        <display value="Captura/Amplificação e subsequente sequenciamento de regiões genômicas DE ATÉ 20 KILOBASES DE DNA TUMORAL PARA ANÁLISE DE MUTAÇÕES SOMÁTICAS por qualquer técnica de sequenciamento (Sanger ou qualquer forma de sequenciamento de nova geração – NGS)"/>
+    </concept>
+    <concept>
+        <code value="40503879"/>
+        <display value="Captura/Amplificação e subsequente sequenciamento de regiões genômicas DE 20 KILOBASES A 1 MEGABASE DE DNA TUMORAL PARA ANÁLISE DE MUTAÇÕES SOMÁTICAS por qualquer técnica de sequenciamento (Sanger ou qualquer forma de sequenciamento de nova geração – NGS)"/>
+    </concept>
+    <concept>
+        <code value="40503887"/>
+        <display value="Captura/Amplificação e subsequente sequenciamento de regiões genômicas DE 1 MEGABASE A 30 MEGABASES DE DNA TUMORAL PARA ANÁLISE DE MUTAÇÕES SOMÁTICAS por qualquer técnica de sequenciamento (Sanger ou qualquer forma de sequenciamento de nova geração – NGS)"/>
+    </concept>
+    <concept>
+        <code value="40503895"/>
+        <display value="Captura/Amplificação e subsequente sequenciamento de regiões genômicas DE MAIS DE 30 MEGABASES DE DNA TUMORAL PARA ANÁLISE DE MUTAÇÕES SOMÁTICAS por qualquer técnica de sequenciamento (Sanger ou qualquer forma de sequenciamento de nova geração – NGS); INCLUI EXOMA TUMORAL"/>
+    </concept>
+    <concept>
+        <code value="40503909"/>
+        <display value="Quantificação  de  proteína  beta  amilóide-42,  no  líquido  cefalorraquidiano  (LCR)"/>
+    </concept>
+    <concept>
+        <code value="40503917"/>
+        <display value="Quantificação de carga viral HIV-1 (HIV RNA) no líquido cefalorraquidiano (LCR)"/>
+    </concept>
+    <concept>
+        <code value="40503925"/>
+        <display value="Quantificação  de  proteína  Tau-fosforilada,  no  líquido  cefalorraquidiano  (LCR)"/>
+    </concept>
+    <concept>
+        <code value="40503933"/>
+        <display value="Quantificação de proteína Tau-Total, no líquido cefalorraquidiano (LCR)"/>
+    </concept>
+    <concept>
+        <code value="40503941"/>
+        <display value="Detecção  de  anticorpo  IgG  anti-HTLV-1/2  no  líquido  cefalorraquidiano  (LCR)"/>
+    </concept>
+    <concept>
+        <code value="40503950"/>
+        <display value="Painel multiplex infeccioso no líquor - painel com até 25 agentes"/>
+    </concept>
+    <concept>
+        <code value="40708136"/>
+        <display value="PET CT neurológico com FDG"/>
+    </concept>
+    <concept>
+        <code value="40710122"/>
+        <display value="Tratamento de metástases ósseas com isótopos alfa emissor - por dia de atendimento (até o início do próximo ciclo - intervalo de 4 a 8 semanas)"/>
+    </concept>
+    <concept>
+        <code value="40808319"/>
+        <display value="Colocação de clipes(s) pré QT neoadjuvante em axila – cada lado (não inclui o exame de base)"/>
+    </concept>
+    <concept>
+        <code value="40808327"/>
+        <display value="Colocação de clipes(s) pré QT neoadjuvante em mama – cada lado (não inclui o exame de base)"/>
+    </concept>
+    <concept>
+        <code value="40812162"/>
+        <display value="Cone beam CT ou Tomografia Computadorizada em 'Feixe Cônico' intra operatória"/>
+    </concept>
+    <concept>
+        <code value="40814181"/>
+        <display value="Ablação percutânea de tumor renal (qualquer método)"/>
+    </concept>
+    <concept>
+        <code value="40814190"/>
+        <display value="Embolização das artérias prostáticas, por vaso"/>
+    </concept>
+    <concept>
+        <code value="40814203"/>
+        <display value="Neurólise de plexo nervoso guiado por tomografia computadorizada"/>
+    </concept>
+    <concept>
+        <code value="40814211"/>
+        <display value="Radioembolização hepática"/>
+    </concept>
+    <concept>
+        <code value="40814238"/>
+        <display value="Termoablação para nódulos benignos de tireoide"/>
+    </concept>
+    <concept>
+        <code value="40901777"/>
+        <display value="Ecocardiograma transtorácico tridimensional"/>
+    </concept>
+    <concept>
+        <code value="40901785"/>
+        <display value="Ecocardiograma transesofágico tridimensional"/>
+    </concept>
+    <concept>
+        <code value="40901807"/>
+        <display value="Ecocardiograma transtorácico com STRAIN bidirecional (inclui transtorácico)"/>
+    </concept>
+    <concept>
+        <code value="40901815"/>
+        <display value="US - Órgão ou estrutura isolada com contrate microbolhas"/>
+    </concept>
+    <concept>
+        <code value="40901831"/>
+        <display value="Elastografia por onda de cisalhamento (shear wave) da próstata dirigida por ultrassonografia modo B"/>
+    </concept>
+    <concept>
+        <code value="40901840"/>
+        <display value="Elastografia por onda de cisalhamento (shear wave) de estrutura superficial dirigida por ultrassonografia modo B (mama ou cervical ou axila ou músculo ou tendão ou tireóide)"/>
+    </concept>
+    <concept>
+        <code value="41301560"/>
+        <display value="Campimetria blue-yellow (perimetria azul amarelo)"/>
+    </concept>
+    <concept>
+        <code value="41501276"/>
+        <display value="Biometria óptica"/>
+    </concept>
+    <concept>
+        <code value="41501284"/>
+        <display value="Tomografia por impedância elétrica do tórax"/>
+    </concept>
+    <concept>
+        <code value="41501292"/>
+        <display value="Titulação da PEEP decremental orientada por tomografia por impedância elétrica"/>
+    </concept>
+    <concept>
+        <code value="41501306"/>
+        <display value="Perfusão pulmonar por tomografia por impedância elétrica"/>
+    </concept>
+    <concept>
+        <code value="41501314"/>
+        <display value="Angiografia de grande angular (AGA)"/>
+    </concept>
+    <concept>
+        <code value="41501322"/>
+        <display value="Angiotomografia ocular (ATO)"/>
+    </concept>
+    <concept>
+        <code value="10106162"/>
+        <display value="Atendimento para avaliação oftalmológica ao recém-nascido em berçário ou UTI"/>
+    </concept>
+    <concept>
+        <code value="20101244"/>
+        <display value="Avaliação e seleção para implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="20101287"/>
+        <display value="Reflexo estapediano eliciado eletricamente unilateral"/>
+    </concept>
+    <concept>
+        <code value="20101309"/>
+        <display value="Avaliação clínica pré coleta de líquor no teste de punção lombar única ou repetida – TAP test"/>
+    </concept>
+    <concept>
+        <code value="20101317"/>
+        <display value="Avaliação clínica pós coleta de líquor no teste de punção lombar única ou repetida – TAP test"/>
+    </concept>
+    <concept>
+        <code value="20101325"/>
+        <display value="Avaliação e diagnóstico de morte encefálica - exame clínico que confirme coma não perceptivo e ausência de função tronco encefálico"/>
+    </concept>
+    <concept>
+        <code value="20101333"/>
+        <display value="Avaliação e diagnóstico de morte encefálica - teste de apneia que confirme ausência de movimentos respiratórios após estimulação máxima dos centros respiratórios"/>
+    </concept>
+    <concept>
+        <code value="20101341"/>
+        <display value="Avaliação neurológica ampla - ANA"/>
+    </concept>
+    <concept>
+        <code value="20101368"/>
+        <display value="Teste de provocação oral (TPO) com alimentos"/>
+    </concept>
+    <concept>
+        <code value="20101376"/>
+        <display value="Teste cutâneo de puntura ou intradérmico com medicamentos (até 3 drogas)"/>
+    </concept>
+    <concept>
+        <code value="20101384"/>
+        <display value="Teste de provocação com medicamentos via oral"/>
+    </concept>
+    <concept>
+        <code value="20101392"/>
+        <display value="Teste de provocação com medicamentos via injetável"/>
+    </concept>
+    <concept>
+        <code value="20101414"/>
+        <display value="Acompanhamento clínico ambulatorial do tabagista, por avaliação, do 1º ao 90º dia, até 7 avaliações clínicas"/>
+    </concept>
+    <concept>
+        <code value="20101430"/>
+        <display value="Acompanhamento clínico ambulatorial do pós-operatório de cirurgia de catarata congênita ou glaucoma congênito, por avaliação do 11º ao 30º dias, até 3 avaliações, em consultório"/>
+    </concept>
+    <concept>
+        <code value="20101449"/>
+        <display value="Acompanhamento clínico ambulatorial da retinopatia da prematuridade por avaliação do 1º ao 30º dia, até 5 avaliações, em consultório"/>
+    </concept>
+    <concept>
+        <code value="20102151"/>
+        <display value="Gestão de pacientes com apneia obstrutiva do sono elegíveis para tratamento com pressão positiva contínua em via aérea"/>
+    </concept>
+    <concept>
+        <code value="20102160"/>
+        <display value="Monitorização ambulatorial da pressão arterial de 5 dias - MAPA 5d"/>
+    </concept>
+    <concept>
+        <code value="20102178"/>
+        <display value="Monitorização contínua da insuficiência respiratória em pacientes com esclerose lateral amniotrófica (ELA) que necessitam de assitência ventilatória não-invasiva"/>
+    </concept>
+    <concept>
+        <code value="20104456"/>
+        <display value="Tratamento preventivo da migrânea crônica"/>
+    </concept>
+    <concept>
+        <code value="20104472"/>
+        <display value="Terapia subcutânea com imunoglobulina humana policlonal"/>
+    </concept>
+    <concept>
+        <code value="20104499"/>
+        <display value="Terapia biológica anti-reabsortiva óssea subcutânea - ambulatorial"/>
+    </concept>
+    <concept>
+        <code value="20104502"/>
+        <display value="Terapia anabólica óssea subcutânea - ambulatorial"/>
+    </concept>
+    <concept>
+        <code value="20201150"/>
+        <display value="Acompanhamento clínico hospitalar do tabagista em síndrome de abstinência, por avaliação, com visitas pós internação e pré alta, limitada a 2"/>
+    </concept>
+    <concept>
+        <code value="20204213"/>
+        <display value="Terapia biológica anti-reabsortiva óssea subcutânea - hospitalar"/>
+    </concept>
+    <concept>
+        <code value="20204221"/>
+        <display value="Terapia anabólica óssea subcutânea - hospitalar"/>
+    </concept>
+    <concept>
+        <code value="30303125"/>
+        <display value="Reconstrução de superfície ocular com membrana amniótica"/>
+    </concept>
+    <concept>
+        <code value="30304130"/>
+        <display value="Preparo da membrana amniótica para procedimentos oftalmológicos"/>
+    </concept>
+    <concept>
+        <code value="30304148"/>
+        <display value="Planejamento personalizado da ablação refrativa com base na análise da frente de onda ocular total ou da córnea (monocular)"/>
+    </concept>
+    <concept>
+        <code value="30306086"/>
+        <display value="Implante refrativo de lente intraocular fácica"/>
+    </concept>
+    <concept>
+        <code value="30404150"/>
+        <display value="Procedimento cirúrgico de implante coclear unilateral (primeira implantação ou substituição)"/>
+    </concept>
+    <concept>
+        <code value="30602360"/>
+        <display value="Mamoplastia feminina (com ou sem uso de implantes mamários) pós-bariátrica"/>
+    </concept>
+    <concept>
+        <code value="30602378"/>
+        <display value="Mamoplastia masculina pós-bariátrica"/>
+    </concept>
+    <concept>
+        <code value="30602386"/>
+        <display value="Adenomastectomia / mastectomia preservadora de pele, aréola e papila"/>
+    </concept>
+    <concept>
+        <code value="30602394"/>
+        <display value="Adenomastectomia com redução de excesso de pele"/>
+    </concept>
+    <concept>
+        <code value="30602408"/>
+        <display value="Capsulectomia - ressecção de cápsula da prótese unilateral"/>
+    </concept>
+    <concept>
+        <code value="30602416"/>
+        <display value="Mastectomia preservadora de pele"/>
+    </concept>
+    <concept>
+        <code value="30602424"/>
+        <display value="Papilectomia de mama - unilateral"/>
+    </concept>
+    <concept>
+        <code value="30602432"/>
+        <display value="Reconstrução mamária com retalho livre microcirúrgico"/>
+    </concept>
+    <concept>
+        <code value="30602440"/>
+        <display value="Reposicionamento com complexo aréolo-papilar - unilateral"/>
+    </concept>
+    <concept>
+        <code value="30602467"/>
+        <display value="Reconstrução mamária com retalho miocutâneo de grande dorsal"/>
+    </concept>
+    <concept>
+        <code value="30806062"/>
+        <display value="Hérnia diafragmática congênita - tratamento cirúrgico (qualquer via)"/>
+    </concept>
+    <concept>
+        <code value="30806070"/>
+        <display value="Hérnia diafragmática congênita - tratamento cirúrgico por vídeo"/>
+    </concept>
+    <concept>
+        <code value="30912300"/>
+        <display value="Oclusão do apêndice atrial esquerdo"/>
+    </concept>
+    <concept>
+        <code value="30912318"/>
+        <display value="Angioplastia transluminal percutânea por balão para tratamento de oclusão coronária crônica com ou sem stent"/>
+    </concept>
+    <concept>
+        <code value="30918049"/>
+        <display value="Avaliação do limiar de desfibrilação ventricular"/>
+    </concept>
+    <concept>
+        <code value="31101607"/>
+        <display value="Pieloplastia na criança"/>
+    </concept>
+    <concept>
+        <code value="31101615"/>
+        <display value="Pieloplastia laparoscópica unilateral na criança"/>
+    </concept>
+    <concept>
+        <code value="31203167"/>
+        <display value="Tumor testicular na criança"/>
+    </concept>
+    <concept>
+        <code value="31303340"/>
+        <display value="Implante subdérmico hormonal para contracepção - remoção"/>
+    </concept>
+    <concept>
+        <code value="31303374"/>
+        <display value="Implante de dispositivo intra-uterino (DIU) hormonal - remoção"/>
+    </concept>
+    <concept>
+        <code value="31303382"/>
+        <display value="Implante de dispositivo intra-uterino (DIU) não hormonal - remoção"/>
+    </concept>
+    <concept>
+        <code value="31307299"/>
+        <display value="Endometriose  profunda - tratamento cirúrgico (não inclui ureterólise e abordagem de outros órgãos pélvicos)"/>
+    </concept>
+    <concept>
+        <code value="31309267"/>
+        <display value="Tamponamento uterino para hemorragia pós-parto (pós-cesárea ou parto vaginal) - qualquer tipo de balão intrauterino"/>
+    </concept>
+    <concept>
+        <code value="31603017"/>
+        <display value="Atendimento médico do plantonista em sala de recuperação pós-anestésica geral ou pediátrica, por paciente, por hora (até 6 horas)"/>
+    </concept>
+    <concept>
+        <code value="40202780"/>
+        <display value="Biópsia endoscópica por órgão"/>
+    </concept>
+    <concept>
+        <code value="40202798"/>
+        <display value="Ecobroncoscopia com punção aspirativa com agulha fina"/>
+    </concept>
+    <concept>
+        <code value="40324800"/>
+        <display value="Teste anti-SARS-CoV-2 (Coronavírus COVID-19), pesquisa quantitativa de anticorpos (IgG) neutralizantes"/>
+    </concept>
+    <concept>
+        <code value="40325016"/>
+        <display value="Teste SARS-COV-2 (Coronavírus COVID-19), teste rápido para anticorpos totais, IgM ou IgG, IgM e IgG"/>
+    </concept>
+    <concept>
+        <code value="40402231"/>
+        <display value="Material descartável contendo kit para sistema integrado de FEC e solução fotossensibilizante"/>
+    </concept>
+    <concept>
+        <code value="40404552"/>
+        <display value="Controle bacteriológico para concentrado de plaquetas"/>
+    </concept>
+    <concept>
+        <code value="40404560"/>
+        <display value="Pesquisa de anticorpos séricos irregulares antieritrocitários - método de eluição - gel teste"/>
+    </concept>
+    <concept>
+        <code value="41301579"/>
+        <display value="Tonometria - binocular - indicação específica"/>
+    </concept>
+    <concept>
+        <code value="41301587"/>
+        <display value="Gonioscopia - binocular - indicação específica"/>
+    </concept>
+    <concept>
+        <code value="41301595"/>
+        <display value="Mapeamento de retina - monocular - indicação específica"/>
+    </concept>
+    <concept>
+        <code value="41401743"/>
+        <display value="Teste de integridade do implante coclear unilateral"/>
+    </concept>
+    <concept>
+        <code value="41501330"/>
+        <display value="Paquimetria ultrassônica - monocular - indicação específica"/>
+    </concept>
+    <concept>
+        <code value="41501349"/>
+        <display value="Biometria ultrassônica (Ecobiometria) - monocular - indicação específica"/>
+    </concept>
+    <concept>
+        <code value="20101279"/>
+        <display value="Potencial evocado eletricamente no sistema auditivo central"/>
+    </concept>
+    <concept>
+        <code value="20101350"/>
+        <display value="Programação de dispositivos neurofuncionais"/>
+    </concept>
+    <concept>
+        <code value="20101406"/>
+        <display value="Acompanhamento clínico ambulatorial pós-cirurgia fistulizante antoglaucomatosa - por avaliação do 11º ao 30º dia, até três avaliações"/>
+    </concept>
+    <concept>
+        <code value="30312140"/>
+        <display value="Fármaco modulação com anti-angiogênico para retinopatia diabética e obstrução venosa retiniana"/>
+    </concept>
+    <concept>
+        <code value="30918057"/>
+        <display value="Punção do saco pericárdico com introdução de cateter multipolar no espaço pericárdico"/>
+    </concept>
+    <concept>
+        <code value="30918065"/>
+        <display value="Punção transeptal com introdução de cateter multipolar nas câmaras esquerdas e/ou veias pulmonares"/>
+    </concept>
+    <concept>
+        <code value="31303358"/>
+        <display value="Histerectomia total - via vaginal"/>
+    </concept>
+    <concept>
+        <code value="31303366"/>
+        <display value="Histeroscopia com ressectoscópio para miomectomia"/>
+    </concept>
+    <concept>
+        <code value="31309283"/>
+        <display value="Cerclagem do colo uterino via abdominal"/>
+    </concept>
+    <concept>
+        <code value="31309291"/>
+        <display value="Cerclagem do colo uterino via laparoscópica"/>
+    </concept>
+    <concept>
+        <code value="40401030"/>
+        <display value="Exsanguíneo  transfusão"/>
+    </concept>
+    <concept>
+        <code value="40401049"/>
+        <display value="Transfusão fetal intra-uterina"/>
+    </concept>
+    <concept>
+        <code value="40401057"/>
+        <display value="Aférese para paciente ABO incompatível"/>
+    </concept>
+    <concept>
+        <code value="40402185"/>
+        <display value="Operação de processadora automática de sangue em aférese"/>
+    </concept>
+    <concept>
+        <code value="40402193"/>
+        <display value="Operação de processadora automática de sangue em autotransfusão intra-operatória"/>
+    </concept>
+    <concept>
+        <code value="40402207"/>
+        <display value="Depleção de plasma em TCTH alogênicos com incompatibilidade ABO menor"/>
+    </concept>
+    <concept>
+        <code value="40402215"/>
+        <display value="Sedimentação de hemácias em Transplante de Células-Tronco Hematopoéticas (TCTH) alogênicos com incompatibilidade ABO maior"/>
+    </concept>
+    <concept>
+        <code value="40809196"/>
+        <display value="Punção biópsia/aspirativa de órgão ou estrutura profunda orientada por RM (não inclui o exame de base)"/>
+    </concept>
+    <concept>
+        <code value="40809200"/>
+        <display value="Punção biópsia/aspirativa de órgão ou estrutura profunda orientada por RX (não inclui o exame de base)"/>
+    </concept>
+    <concept>
+        <code value="40809218"/>
+        <display value="Punção biópsia/aspirativa de órgão ou estrutura profunda orientada por TC (não inclui o exame de base)"/>
+    </concept>
+    <concept>
+        <code value="40809226"/>
+        <display value="Punção biópsia/aspirativa de órgão ou estrutura profunda orientada por US (não inclui o exame de base)"/>
+    </concept>
+    <concept>
+        <code value="20101457"/>
+        <display value="Acompanhamento clínico ambulatorial de uveítes anteriores agudas e/ou coriorrenites focais ou disseminadas em atividade por avaliação do 1º ao 30º dia, até 5 avaliações, em consultório"/>
+    </concept>
+    <concept>
+        <code value="40325024"/>
+        <display value="Teste SARS-COV-2 (Coronavírus COVID-19), teste rápido para detecção de antígeno"/>
+    </concept>
+    <concept>
+        <code value="30310172"/>
+        <display value="Cirurgia antiglaucomatosa via angular, com implante de drenagem, por técnica minimamente invasiva"/>
+    </concept>
+    <concept>
+        <code value="30310121"/>
+        <display value="Cirurgia antiglaucomatosa via angular sem implante de drenagem"/>
+    </concept>
+    <concept>
+        <code value="40314642"/>
+        <display value="Mycobacterium leprae (bacilo de hansen), detecção de resistência a antibióticos por PCR"/>
+    </concept>
+    <concept>
+        <code value="40314650"/>
+        <display value="Mycobacterium leprae (bacilo de hansen), pesquisa PCR em tempo real"/>
+    </concept>
+    <concept>
+        <code value="40325040"/>
+        <display value="Mycobacterium leprae (bacilo de hansen), IgM, anticorpos (teste rápido)"/>
+    </concept>
+    <concept>
+        <code value="40814220"/>
+        <display value="Trombectomia no acidente vascular cerebral AVC isquêmico agudo"/>
+    </concept>
+</CodeSystem>

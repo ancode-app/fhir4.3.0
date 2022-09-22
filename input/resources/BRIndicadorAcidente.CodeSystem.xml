@@ -1,0 +1,29 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRIndicadorAcidente" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRIndicadorAcidente" />
+  <version value="1.0" />
+  <name value="BRIndicadorAcidente" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-07-13" />
+  <publisher value="Ancode" />
+  <description value="BR Indicador Acidente" />
+  <content value="complete" />
+  <concept>
+    <code value="0" />
+    <display value="Trabalho" />
+  </concept>
+  <concept>
+    <code value="1" />
+    <display value="Trânsito" />
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="Outros Acidentes" />
+  </concept>
+  <concept>
+    <code value="9" />
+    <display value="Não Acidentes" />
+  </concept>
+</CodeSystem>

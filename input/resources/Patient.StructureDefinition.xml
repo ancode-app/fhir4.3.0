@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Patient" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Patient" />
+  <version value="1.0" />
+  <name value="Patient" />
+  <status value="draft" />
+  <date value="2021-11-10" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Patient" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Patient.extension">
+      <path value="Patient.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Patient.extension:birthCity">
+      <path value="Patient.extension" />
+      <sliceName value="birthCity" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/City" />
+      </type>
+    </element>
+    <element id="Patient.extension:nacionality">
+      <path value="Patient.extension" />
+      <sliceName value="nacionality" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Country" />
+      </type>
+    </element>
+    <element id="Patient.extension:protectedPerson">
+      <path value="Patient.extension" />
+      <sliceName value="protectedPerson" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ProtectedPerson" />
+      </type>
+    </element>
+    <element id="Patient.extension:race">
+      <path value="Patient.extension" />
+      <sliceName value="race" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Race" />
+      </type>
+    </element>
+    <element id="Patient.extension:occupation">
+      <path value="Patient.extension" />
+      <sliceName value="occupation" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Occupation" />
+      </type>
+    </element>
+    <element id="Patient.extension:motherName">
+      <path value="Patient.extension" />
+      <sliceName value="motherName" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/MotherName" />
+      </type>
+    </element>
+    <element id="Patient.extension:ethnicity">
+      <path value="Patient.extension" />
+      <sliceName value="ethnicity" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Ethnicity" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Patient.extension:educationLevel">
+      <path value="Patient.extension" />
+      <sliceName value="educationLevel" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/EducationLevel" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Patient.extension:birthSex">
+      <path value="Patient.extension" />
+      <sliceName value="birthSex" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/BirthSex" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Patient.identifier">
+      <path value="Patient.identifier" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+      <constraint>
+        <key value="ide-1" />
+        <severity value="error" />
+        <human value="The Resource must have at least one Oficial Identifier" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </constraint>
+    </element>
+    <element id="Patient.identifier.type">
+      <path value="Patient.identifier.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypePerson" />
+      </binding>
+    </element>
+    <element id="Patient.active">
+      <path value="Patient.active" />
+      <min value="1" />
+    </element>
+    <element id="Patient.name">
+      <path value="Patient.name" />
+      <min value="1" />
+      <type>
+        <code value="HumanName" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/HumanName" />
+      </type>
+    </element>
+    <element id="Patient.telecom">
+      <path value="Patient.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+    <element id="Patient.gender">
+      <path value="Patient.gender" />
+      <min value="1" />
+    </element>
+    <element id="Patient.deceased[x]">
+      <path value="Patient.deceased[x]" />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+    <element id="Patient.address">
+      <path value="Patient.address" />
+      <type>
+        <code value="Address" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+    <element id="Patient.maritalStatus">
+      <path value="Patient.maritalStatus" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BrazilianMaritalStatus" />
+      </binding>
+    </element>
+    <element id="Patient.multipleBirth[x]">
+      <path value="Patient.multipleBirth[x]" />
+      <type>
+        <code value="boolean" />
+      </type>
+    </element>
+    <element id="Patient.photo">
+      <path value="Patient.photo" />
+      <max value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

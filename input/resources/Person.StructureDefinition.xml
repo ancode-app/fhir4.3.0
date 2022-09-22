@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Person" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Person" />
+  <version value="1.0" />
+  <name value="Person" />
+  <status value="draft" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Person" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Person" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Person.identifier">
+      <path value="Person.identifier" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+      <constraint>
+        <key value="per-1" />
+        <severity value="error" />
+        <human value="CPF validation" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Person" />
+      </constraint>
+      <constraint>
+        <key value="ide-1" />
+        <severity value="error" />
+        <human value="The Resource must have at least one Oficial Identifier" />
+        <source value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </constraint>
+    </element>
+    <element id="Person.identifier.type">
+      <path value="Person.identifier.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypePerson" />
+      </binding>
+    </element>
+    <element id="Person.name">
+      <path value="Person.name" />
+      <min value="1" />
+      <type>
+        <code value="HumanName" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/HumanName" />
+      </type>
+    </element>
+    <element id="Person.telecom">
+      <path value="Person.telecom" />
+      <type>
+        <code value="ContactPoint" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ContactPoint" />
+      </type>
+    </element>
+    <element id="Person.address">
+      <path value="Person.address" />
+      <type>
+        <code value="Address" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+    <element id="Person.active">
+      <path value="Person.active" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

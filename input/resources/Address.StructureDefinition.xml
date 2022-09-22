@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Address" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Address" />
+  <version value="1.0" />
+  <name value="Address" />
+  <status value="draft" />
+  <date value="2021-11-10" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="Address" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Address" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Address.extension">
+      <path value="Address.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="Address.extension:streetType">
+      <path value="Address.extension" />
+      <sliceName value="streetType" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/StreetType" />
+      </type>
+    </element>
+    <element id="Address.extension:streetName">
+      <path value="Address.extension" />
+      <sliceName value="streetName" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/StreetName" />
+      </type>
+    </element>
+    <element id="Address.extension:streetNumber">
+      <path value="Address.extension" />
+      <sliceName value="streetNumber" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/StreetNumber" />
+      </type>
+    </element>
+    <element id="Address.extension:neighborhood">
+      <path value="Address.extension" />
+      <sliceName value="neighborhood" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Neighborhood" />
+      </type>
+    </element>
+    <element id="Address.extension:addressComplement">
+      <path value="Address.extension" />
+      <sliceName value="addressComplement" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/AddressComplement" />
+      </type>
+    </element>
+    <element id="Address.extension:ibgeCode">
+      <path value="Address.extension" />
+      <sliceName value="ibgeCode" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/IBGECode" />
+      </type>
+    </element>
+    <element id="Address.use">
+      <path value="Address.use" />
+      <min value="1" />
+    </element>
+    <element id="Address.city">
+      <path value="Address.city" />
+      <min value="1" />
+    </element>
+    <element id="Address.state">
+      <path value="Address.state" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/BrazilianState" />
+      </binding>
+    </element>
+    <element id="Address.postalCode">
+      <path value="Address.postalCode" />
+      <min value="1" />
+    </element>
+    <element id="Address.country">
+      <path value="Address.country" />
+      <min value="1" />
+    </element>
+    <element id="Address.period.start">
+      <path value="Address.period.start" />
+      <short value="Data de Inicio do Endereço" />
+      <definition value="Data em que o endereço foi cadastrado ou começou a ser utilizado." />
+    </element>
+    <element id="Address.period.end">
+      <path value="Address.period.end" />
+      <short value="Data de Término do Endereço" />
+      <definition value="Data em que o endereço foi desativado ou parou de ser utilizado." />
+    </element>
+  </differential>
+</StructureDefinition>

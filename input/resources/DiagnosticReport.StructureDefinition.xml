@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DiagnosticReport" />
+  <url value="https://ancode.app/fhir/StructureDefinition/DiagnosticReport" />
+  <version value="1.0" />
+  <name value="DiagnosticReport" />
+  <status value="draft" />
+  <date value="2021-12-02" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="DiagnosticReport" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="DiagnosticReport.subject">
+      <path value="DiagnosticReport.subject" />
+      <min value="1" />
+    </element>
+    <element id="DiagnosticReport.effective[x]">
+      <path value="DiagnosticReport.effective[x]" />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+    <element id="DiagnosticReport.performer">
+      <path value="DiagnosticReport.performer" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PractitionerRoleMostUsed" />
+  <url value="https://ancode.app/fhir/ValueSet/PractitionerRoleMostUsed" />
+  <version value="1.0" />
+  <name value="PractitionerRoleMostUsed" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-03-09" />
+  <publisher value="Ancode" />
+  <description value="Practitioner Role Most Used" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/PractitionerRoleMostUsed" />
+    </include>
+  </compose>
+</ValueSet>

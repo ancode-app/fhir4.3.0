@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ConfirmationType" />
+  <url value="https://ancode.app/fhir/ValueSet/ConfirmationType" />
+  <version value="1.0" />
+  <name value="ConfirmationType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-08-17" />
+  <publisher value="Ancode" />
+  <description value="Confirmation Type" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/ConfirmationType" />
+    </include>
+  </compose>
+</ValueSet>

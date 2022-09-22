@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ServiceCategory" />
+  <url value="https://ancode.app/fhir/CodeSystem/ServiceCategory" />
+  <version value="1.0" />
+  <name value="ServiceCategory" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-12-09" />
+  <publisher value="Ancode" />
+  <description value="Service Category" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="01" />
+    <display value="PROCEDIMENTOS GERAIS" />
+  </concept>
+  <concept>
+    <code value="02" />
+    <display value="PROCEDIMENTOS CLÍNICOS AMBULATORIAIS E HOSPITALARES" />
+  </concept>
+  <concept>
+    <code value="03" />
+    <display value="EXAMES ESPECÍFICOS" />
+  </concept>
+  <concept>
+    <code value="04" />
+    <display value="SISTEMA NERVOSO - CENTRAL E PERIFÉRICO" />
+  </concept>
+  <concept>
+    <code value="05" />
+    <display value="PELE E TECIDO CELULAR SUBCUTÂNEO, MUCOSAS E ANEXOS" />
+  </concept>
+  <concept>
+    <code value="06" />
+    <display value="MÉTODOS DIAGNÓSTICOS POR IMAGEM" />
+  </concept>
+  <concept>
+    <code value="07" />
+    <display value="ORELHA" />
+  </concept>
+  <concept>
+    <code value="08" />
+    <display value="SISTEMA GENITAL E REPRODUTOR MASCULINO" />
+  </concept>
+  <concept>
+    <code value="09" />
+    <display value="SISTEMA CÁRDIO-CIRCULATÓRIO" />
+  </concept>
+  <concept>
+    <code value="10" />
+    <display value="OLHOS" />
+  </concept>
+  <concept>
+    <code value="11" />
+    <display value="SISTEMA MÚSCULO-ESQUELÉTICO E ARTICULAÇÕES" />
+  </concept>
+  <concept>
+    <code value="12" />
+    <display value="CABEÇA E PESCOÇO" />
+  </concept>
+  <concept>
+    <code value="13" />
+    <display value="NARIZ E SEIOS PARANASAIS" />
+  </concept>
+  <concept>
+    <code value="14" />
+    <display value="PAREDE TORÁCICA" />
+  </concept>
+  <concept>
+    <code value="15" />
+    <display value="SISTEMA RESPIRATÓRIO E MEDIASTINO" />
+  </concept>
+  <concept>
+    <code value="16" />
+    <display value="SISTEMA DIGESTIVO E ANEXOS" />
+  </concept>
+  <concept>
+    <code value="17" />
+    <display value="SISTEMA GENITAL E REPRODUTOR FEMININO" />
+  </concept>
+  <concept>
+    <code value="18" />
+    <display value="SISTEMA URINÁRIO" />
+  </concept>
+  <concept>
+    <code value="19" />
+    <display value="ENDOSCÓPICOS" />
+  </concept>
+  <concept>
+    <code value="20" />
+    <display value="RADIOTERAPIA" />
+  </concept>
+  <concept>
+    <code value="21" />
+    <display value="TRANSPLANTES DE ÓRGÃOS OU TECIDOS" />
+  </concept>
+  <concept>
+    <code value="22" />
+    <display value="OUTROS PROCEDIMENTOS INVASIVOS" />
+  </concept>
+  <concept>
+    <code value="23" />
+    <display value="ELETROFISIOLÓGICOS / MECÂNICOS E FUNCIONAIS" />
+  </concept>
+  <concept>
+    <code value="24" />
+    <display value="PROCEDIMENTOS LABORATORIAIS" />
+  </concept>
+  <concept>
+    <code value="25" />
+    <display value="GENÉTICA" />
+  </concept>
+  <concept>
+    <code value="26" />
+    <display value="MEDICINA TRANSFUSIONAL" />
+  </concept>
+  <concept>
+    <code value="27" />
+    <display value="ANATOMIA PATOLÓGICA E CITOPATOLOGIA" />
+  </concept>
+  <concept>
+    <code value="28" />
+    <display value="MEDICINA NUCLEAR" />
+  </concept>
+  <concept>
+    <code value="99" />
+    <display value="NÃO DEFINIDO" />
+  </concept>
+</CodeSystem>

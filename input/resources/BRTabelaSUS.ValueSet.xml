@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTabelaSUS"/>
+  <language value="pt-BR"/>
+  <url value="https://ancode.app/fhir/ValueSet/BRTabelaSUS" />
+  <version value="1.0" />
+  <name value="BRTabelaSUS" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-12-04" />
+  <publisher value="Ancode" />
+  <description value="BR Tabela SUS" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/BRTabelaSUS" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

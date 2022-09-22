@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Invoice" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Invoice" />
+  <version value="1.0" />
+  <name value="Invoice" />
+  <status value="draft" />
+  <date value="2021-12-02" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Invoice" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Invoice" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Invoice.subject">
+      <path value="Invoice.subject" />
+      <min value="1" />
+    </element>
+    <element id="Invoice.recipient">
+      <path value="Invoice.recipient" />
+      <min value="1" />
+    </element>
+    <element id="Invoice.issuer">
+      <path value="Invoice.issuer" />
+      <min value="1" />
+    </element>
+    <element id="Invoice.account">
+      <path value="Invoice.account" />
+      <min value="1" />
+    </element>
+    <element id="Invoice.lineItem">
+      <path value="Invoice.lineItem" />
+      <min value="1" />
+    </element>
+    <element id="Invoice.totalNet">
+      <path value="Invoice.totalNet" />
+      <min value="1" />
+    </element>
+    <element id="Invoice.totalGross">
+      <path value="Invoice.totalGross" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>

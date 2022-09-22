@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ChargeItemDefinition" />
+  <url value="https://ancode.app/fhir/StructureDefinition/ChargeItemDefinition" />
+  <version value="1.0" />
+  <name value="ChargeItemDefinition" />
+  <status value="draft" />
+  <date value="2021-12-02" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ChargeItemDefinition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ChargeItemDefinition.extension">
+      <path value="ChargeItemDefinition.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="ChargeItemDefinition.extension:billingTableProvider">
+      <path value="ChargeItemDefinition.extension" />
+      <sliceName value="billingTableProvider" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/BillingTableProvider" />
+      </type>
+    </element>
+    <element id="ChargeItemDefinition.effectivePeriod">
+      <path value="ChargeItemDefinition.effectivePeriod" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItemDefinition.effectivePeriod.start">
+      <path value="ChargeItemDefinition.effectivePeriod.start" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItemDefinition.code">
+      <path value="ChargeItemDefinition.code" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItemDefinition.instance">
+      <path value="ChargeItemDefinition.instance" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService" />
+      </type>
+    </element>
+    <element id="ChargeItemDefinition.propertyGroup">
+      <path value="ChargeItemDefinition.propertyGroup" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="ChargeItemDefinition.propertyGroup.applicability">
+      <path value="ChargeItemDefinition.propertyGroup.applicability" />
+      <contentReference value="http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition#ChargeItemDefinition.applicability" />
+    </element>
+    <element id="ChargeItemDefinition.propertyGroup.priceComponent">
+      <path value="ChargeItemDefinition.propertyGroup.priceComponent" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItemDefinition.propertyGroup.priceComponent.amount">
+      <path value="ChargeItemDefinition.propertyGroup.priceComponent.amount" />
+      <min value="1" />
+    </element>
+    <element id="ChargeItemDefinition.propertyGroup.priceComponent.amount.value">
+      <path value="ChargeItemDefinition.propertyGroup.priceComponent.amount.value" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
