@@ -586,6 +586,13 @@
       <name value="DaysOfWeek"/>
       <description value="Days Of Week"/>
     </resource>
+	<resource>
+		  <reference>
+			  <reference value="StructureDefinition/Decimal"/>
+		  </reference>
+		  <name value="Decimal"/>
+		  <description value="Decimal"/>
+	</resource>  
     <resource>
       <reference>
         <reference value="StructureDefinition/DefaultCostCenter"/>
@@ -1090,13 +1097,20 @@
       <name value="OrganizationAffiliation"/>
       <description value="OrganizationAffiliation"/>
     </resource>
+	<resource>
+	    <reference>
+		    <reference value="StructureDefinition/PackageConversionFactor"/>		    
+		</reference>
+		<name value="PackageConversionFactor"/>
+		<description value="Package Conversion Factor"/>
+	</resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/PackagedProductDefinition"/>
       </reference>
       <name value="PackagedProductDefinition"/>
       <description value="PackagedProductDefinition"/>
-    </resource>
+    </resource>	  
     <resource>
       <reference>
         <reference value="StructureDefinition/Patient"/>

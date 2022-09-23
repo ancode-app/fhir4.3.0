@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="PackageConversionFactor" />
+  <url value="https://ancode.app/fhir/StructureDefinition/PackageConversionFactor" />
+  <version value="1.0" />
+  <name value="PackageConversionFactor" />
+  <status value="draft" />
+  <date value="2022-09-22" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="PackagedProductDefinition" />
+  </context>
+  <context>
+    <type value="element" />
+    <expression value="Organization" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Extension.extension:destinationPackage">
+      <path value="Extension.extension" />
+      <sliceName value="destinationPackage" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/PackagedProductDefinition" />
+      </type>
+    </element>
+    <element id="Extension.extension:destinationPackage.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="destinationPackage" />
+    </element>
+    <element id="Extension.extension:destinationPackage.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="Reference" />
+      </type>
+    </element>
+    <element id="Extension.extension:factor">
+      <path value="Extension.extension" />
+      <sliceName value="factor" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Decimal" />
+      </type>
+    </element>
+    <element id="Extension.extension:factor.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="factor" />
+    </element>
+    <element id="Extension.extension:factor.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="decimal" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://ancode.app/fhir/StructureDefinition/PackageConversionFactor" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
