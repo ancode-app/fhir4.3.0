@@ -33,18 +33,15 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/EncounterType" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Account.extension:valueTotal">
       <path value="Account.extension" />
       <sliceName value="valueTotal" />
       <min value="0" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/Value" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Account.name">
       <path value="Account.name" />

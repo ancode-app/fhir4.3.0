@@ -59,14 +59,6 @@
     <element id="Extension.extension:daysOfWeek.value[x]">
       <path value="Extension.extension.value[x]" />
       <min value="1" />
-      <type>
-        <code value="code" />
-      </type>
-      <binding>
-        <strength value="required" />
-        <description value="daysOfWeek" />
-        <valueSet value="http://hl7.org/fhir/ValueSet/days-of-week" />
-      </binding>
     </element>
     <element id="Extension.extension:startTime">
       <path value="Extension.extension" />
@@ -85,9 +77,6 @@
     <element id="Extension.extension:startTime.value[x]">
       <path value="Extension.extension.value[x]" />
       <min value="1" />
-      <type>
-        <code value="time" />
-      </type>
     </element>
     <element id="Extension.extension:endTime">
       <path value="Extension.extension" />
@@ -106,9 +95,6 @@
     <element id="Extension.extension:endTime.value[x]">
       <path value="Extension.extension.value[x]" />
       <min value="1" />
-      <type>
-        <code value="time" />
-      </type>
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />

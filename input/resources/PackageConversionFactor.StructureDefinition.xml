@@ -31,7 +31,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="1" />
+      <min value="2" />
     </element>
     <element id="Extension.extension:destinationPackage">
       <path value="Extension.extension" />
@@ -40,23 +40,17 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/PackagedProductDefinition" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/DestinationPackage" />
       </type>
     </element>
     <element id="Extension.extension:destinationPackage.url">
       <path value="Extension.extension.url" />
       <fixedUri value="destinationPackage" />
     </element>
-    <element id="Extension.extension:destinationPackage.value[x]">
-      <path value="Extension.extension.value[x]" />
-      <type>
-        <code value="Reference" />
-      </type>
-    </element>
     <element id="Extension.extension:factor">
       <path value="Extension.extension" />
       <sliceName value="factor" />
-      <min value="0" />
+      <min value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/Decimal" />
@@ -65,12 +59,6 @@
     <element id="Extension.extension:factor.url">
       <path value="Extension.extension.url" />
       <fixedUri value="factor" />
-    </element>
-    <element id="Extension.extension:factor.value[x]">
-      <path value="Extension.extension.value[x]" />
-      <type>
-        <code value="decimal" />
-      </type>
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />

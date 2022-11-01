@@ -1,0 +1,321 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
+      "concept" : [{
+        "code" : "IDENTIFIER",
+        "display" : "Identifier"
+      },
+      {
+        "code" : "LEGACY",
+        "display" : "Legacy System ID"
+      },
+      {
+        "code" : "OTHER",
+        "display" : "Other Identifier"
+      },
+      {
+        "code" : "INTEGRATION",
+        "display" : "Integration Identifier"
+      },
+      {
+        "code" : "HEALTHCAREPROVIDERCODE",
+        "display" : "Healthcare Provider Code"
+      },
+      {
+        "code" : "VERSION",
+        "display" : "Version"
+      },
+      {
+        "code" : "GROUPID",
+        "display" : "Group ID"
+      },
+      {
+        "code" : "HEALTHCAREINSURANCECODE",
+        "display" : "Healthcare Insurance Code"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
+      "concept" : [{
+        "code" : "CNPJ",
+        "display" : "Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)"
+      },
+      {
+        "code" : "IE",
+        "display" : "Inscrição Estadual"
+      },
+      {
+        "code" : "IM",
+        "display" : "Inscrição Municipal"
+      },
+      {
+        "code" : "CNES",
+        "display" : "Código Nacional Estabelecimento Saúde"
+      },
+      {
+        "code" : "ANS",
+        "display" : "Código na Agência Nacional de Saúde"
+      },
+      {
+        "code" : "IDENTIFIER",
+        "display" : "Identifier"
+      },
+      {
+        "code" : "LEGACY",
+        "display" : "Legacy System ID"
+      },
+      {
+        "code" : "OTHER",
+        "display" : "Other Identifier"
+      },
+      {
+        "code" : "INTEGRATION",
+        "display" : "Integration Identifier"
+      },
+      {
+        "code" : "HEALTHCAREPROVIDERCODE",
+        "display" : "Healthcare Provider Code"
+      },
+      {
+        "code" : "VERSION",
+        "display" : "Version"
+      },
+      {
+        "code" : "GROUPID",
+        "display" : "Group ID"
+      },
+      {
+        "code" : "HEALTHCAREINSURANCECODE",
+        "display" : "Healthcare Insurance Code"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
+      "concept" : [{
+        "code" : "CPF",
+        "display" : "CPF"
+      },
+      {
+        "code" : "CNS",
+        "display" : "Cartão Nacional de Saúde"
+      },
+      {
+        "code" : "RG",
+        "display" : "Registro Geral"
+      },
+      {
+        "code" : "CNH",
+        "display" : "Carteira Nacional de Habilitação"
+      },
+      {
+        "code" : "INSS",
+        "display" : "Instituto Nacional do Seguro Social"
+      },
+      {
+        "code" : "PISPASEP",
+        "display" : "Programa de Integração Social/Programa de Formação do Patrimônio do Servidor Público"
+      },
+      {
+        "code" : "NIT",
+        "display" : "Número de Registro do Trabalhador"
+      },
+      {
+        "code" : "PPN",
+        "display" : "Passaporte"
+      },
+      {
+        "code" : "FACERECOGNITION",
+        "display" : "Face Recognition"
+      },
+      {
+        "code" : "AUTHID",
+        "display" : "AUTH ID"
+      },
+      {
+        "code" : "AUTHLOGIN",
+        "display" : "AUTH Login"
+      },
+      {
+        "code" : "IDMIL",
+        "display" : "Número da Identidade Militar"
+      },
+      {
+        "code" : "IDFUNC",
+        "display" : "Número da Identidade Funcional"
+      },
+      {
+        "code" : "IDENTIFIER",
+        "display" : "Identifier"
+      },
+      {
+        "code" : "LEGACY",
+        "display" : "Legacy System ID"
+      },
+      {
+        "code" : "OTHER",
+        "display" : "Other Identifier"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
+      "concept" : [{
+        "code" : "CPF",
+        "display" : "CPF"
+      },
+      {
+        "code" : "CNS",
+        "display" : "Cartão Nacional de Saúde"
+      },
+      {
+        "code" : "RG",
+        "display" : "Registro Geral"
+      },
+      {
+        "code" : "CNH",
+        "display" : "Carteira Nacional de Habilitação"
+      },
+      {
+        "code" : "INSS",
+        "display" : "Instituto Nacional do Seguro Social"
+      },
+      {
+        "code" : "PISPASEP",
+        "display" : "Programa de Integração Social/Programa de Formação do Patrimônio do Servidor Público"
+      },
+      {
+        "code" : "NIT",
+        "display" : "Número de Registro do Trabalhador"
+      },
+      {
+        "code" : "PPN",
+        "display" : "Passaporte"
+      },
+      {
+        "code" : "FACERECOGNITION",
+        "display" : "Face Recognition"
+      },
+      {
+        "code" : "AUTHID",
+        "display" : "AUTH ID"
+      },
+      {
+        "code" : "AUTHLOGIN",
+        "display" : "AUTH Login"
+      },
+      {
+        "code" : "COREN",
+        "display" : "Número de inscrição no Conselho Regional de Enfermagem de São Paulo (COREN)"
+      },
+      {
+        "code" : "CRESS",
+        "display" : "Número de inscrição no Conselho Regional de Serviço Social (CRESS)"
+      },
+      {
+        "code" : "CRF",
+        "display" : "Número de inscrição no Conselho Regional de Farmácia (CRF)"
+      },
+      {
+        "code" : "CREFITO",
+        "display" : "Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)"
+      },
+      {
+        "code" : "CRM",
+        "display" : "Número de inscrição no Conselho Regional de Medicina (CRM)"
+      },
+      {
+        "code" : "CRMV",
+        "display" : "Número de inscrição no Conselho Regional de Medicina Veterinária (CRMV)"
+      },
+      {
+        "code" : "CRN",
+        "display" : "Número de inscrição no Conselho Regional de Nutrição (CRN)"
+      },
+      {
+        "code" : "CRP",
+        "display" : "Número de inscrição no Conselho Regional de Psicologia (CRP)"
+      },
+      {
+        "code" : "CREF",
+        "display" : "Número de inscrição no Conselho Regional de Educação Física (CREF)"
+      },
+      {
+        "code" : "CRBM",
+        "display" : "Número da inscrição no Conselho Regional de Biomedicina (CRBM)"
+      },
+      {
+        "code" : "CRFA",
+        "display" : "Número da inscrição no Conselho Regional de Fonoaudiologia (CRFa/CREFONO)"
+      },
+      {
+        "code" : "CRTR",
+        "display" : "Número da inscrição no Conselho Regional de Técnicos em Radiologia (CRTR)"
+      },
+      {
+        "code" : "IDMIL",
+        "display" : "Número da Identidade Militar"
+      },
+      {
+        "code" : "IDFUNC",
+        "display" : "Número da Identidade Funcional"
+      },
+      {
+        "code" : "IDENTIFIER",
+        "display" : "Identifier"
+      },
+      {
+        "code" : "LEGACY",
+        "display" : "Legacy System ID"
+      },
+      {
+        "code" : "OTHER",
+        "display" : "Other Identifier"
+      },
+      {
+        "code" : "INTEGRATION",
+        "display" : "Integration Identifier"
+      },
+      {
+        "code" : "HEALTHCAREPROVIDERCODE",
+        "display" : "Healthcare Provider Code"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

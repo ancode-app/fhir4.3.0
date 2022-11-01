@@ -80,7 +80,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/EncounterClass" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Schedule.extension:encounterType">
       <path value="Schedule.extension" />
@@ -90,18 +89,15 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/EncounterType" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Schedule.extension:confirmationType">
       <path value="Schedule.extension" />
       <sliceName value="confirmationType" />
       <min value="1" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/ConfirmationType" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Schedule.identifier">
       <path value="Schedule.identifier" />
@@ -117,6 +113,9 @@
     <element id="Schedule.specialty">
       <path value="Schedule.specialty" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="specialty" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/CBOHealthcare" />
       </binding>

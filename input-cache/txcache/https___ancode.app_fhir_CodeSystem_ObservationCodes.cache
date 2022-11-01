@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/ObservationCodes",
+      "concept" : [{
+        "code" : "8302-2",
+        "display" : "Body height"
+      },
+      {
+        "code" : "9843-4",
+        "display" : "Head Occipital-frontal circumference"
+      },
+      {
+        "code" : "29463-7",
+        "display" : "Body weight"
+      },
+      {
+        "code" : "39156-5",
+        "display" : "Body mass index (BMI)"
+      },
+      {
+        "code" : "8282-6",
+        "display" : "Maximum left calf circumference"
+      },
+      {
+        "code" : "8283-4",
+        "display" : "Maximum right calf circumference"
+      },
+      {
+        "code" : "8280-0",
+        "display" : "Abdominal circumference"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/ObservationCodes",
+      "concept" : [{
+        "code" : "74013-4",
+        "display" : "Alcohol Use"
+      },
+      {
+        "code" : "72166-2",
+        "display" : "Tobacco Use"
+      },
+      {
+        "code" : "LG41761-4",
+        "display" : "Exercise/Activity"
+      },
+      {
+        "code" : "74204-9",
+        "display" : "Drug use"
+      },
+      {
+        "code" : "74172-8",
+        "display" : "Level of autonomy"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/ObservationCodes",
+      "concept" : [{
+        "code" : "9279-1",
+        "display" : "Respiratory rate"
+      },
+      {
+        "code" : "8867-4",
+        "display" : "Heart rate"
+      },
+      {
+        "code" : "2708-6",
+        "display" : "Oxygen saturation"
+      },
+      {
+        "code" : "8310-5",
+        "display" : "Body temperature"
+      },
+      {
+        "code" : "8480-6",
+        "display" : "Systolic blood pressure"
+      },
+      {
+        "code" : "8462-4",
+        "display" : "Diastolic blood pressure"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Active"
+      },
+      {
+        "code" : "stopped",
+        "display" : "Stopped"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

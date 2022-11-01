@@ -33,7 +33,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/DefaultCostCenter" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Location.extension:notifyMinimumStock">
       <path value="Location.extension" />
@@ -44,7 +43,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/NotifyMinimumStock" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Location.status">
       <path value="Location.status" />
@@ -53,6 +51,9 @@
     <element id="Location.operationalStatus">
       <path value="Location.operationalStatus" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="OperationalStatus" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
@@ -63,6 +64,9 @@
     <element id="Location.type">
       <path value="Location.type" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="LocationType" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
@@ -83,6 +87,9 @@
     <element id="Location.physicalType">
       <path value="Location.physicalType" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="PhysicalType" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>

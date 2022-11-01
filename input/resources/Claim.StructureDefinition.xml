@@ -23,6 +23,9 @@
       <type>
         <code value="Reference" />
       </type>
+      <binding>
+        <strength value="example" />
+      </binding>
     </element>
     <element id="Claim.insurance">
       <path value="Claim.insurance" />
@@ -39,6 +42,9 @@
       <type>
         <code value="Reference" />
       </type>
+      <binding>
+        <strength value="example" />
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

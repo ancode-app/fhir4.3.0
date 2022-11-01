@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "concept" : [{
+        "code" : "ADM",
+        "display" : "admitter"
+      },
+      {
+        "code" : "ATND",
+        "display" : "attender"
+      },
+      {
+        "code" : "CALLBCK",
+        "display" : "callback contact"
+      },
+      {
+        "code" : "CON",
+        "display" : "consultant"
+      },
+      {
+        "code" : "DIS",
+        "display" : "discharger"
+      },
+      {
+        "code" : "ESC",
+        "display" : "escort"
+      },
+      {
+        "code" : "REF",
+        "display" : "referrer"
+      },
+      {
+        "code" : "SPRF",
+        "display" : "secondary performer"
+      },
+      {
+        "code" : "PPRF",
+        "display" : "primary performer"
+      },
+      {
+        "code" : "PART",
+        "display" : "Participation"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "concept" : [{
+        "code" : "EHCPOL",
+        "display" : "Extended Healthcare"
+      },
+      {
+        "code" : "PUBLICPOL",
+        "display" : "Public Healthcare"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

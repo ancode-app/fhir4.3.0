@@ -32,7 +32,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/CBOHealthcare" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="PractitionerRole.active">
       <path value="PractitionerRole.active" />
@@ -58,6 +57,9 @@
       <path value="PractitionerRole.code" />
       <min value="1" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="PractitionerRole" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/PractitionerRoleMostUsed" />
       </binding>
@@ -65,6 +67,9 @@
     <element id="PractitionerRole.specialty">
       <path value="PractitionerRole.specialty" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="PractitionerSpecialty" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/CBOHealthcare" />
       </binding>

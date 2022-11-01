@@ -18,6 +18,9 @@
       <path value="MedicationStatement.statusReason" />
       <max value="1" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationStatementStatusReason" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
@@ -25,6 +28,9 @@
       <path value="MedicationStatement.category" />
       <min value="1" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationStatementCategory" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
@@ -33,6 +39,9 @@
       <type>
         <code value="Reference" />
       </type>
+      <binding>
+        <strength value="example" />
+      </binding>
     </element>
     <element id="MedicationStatement.effective[x]">
       <path value="MedicationStatement.effective[x]" />
@@ -55,6 +64,9 @@
     <element id="MedicationStatement.reasonCode">
       <path value="MedicationStatement.reasonCode" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationReason" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/BRCID10" />
       </binding>
@@ -70,6 +82,12 @@
     <element id="MedicationStatement.dosage.additionalInstruction">
       <path value="MedicationStatement.dosage.additionalInstruction" />
       <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="A coded concept identifying additional instructions such as &quot;take with water&quot; or &quot;avoid operating heavy machinery&quot;." />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="AdditionalInstruction" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
@@ -80,18 +98,36 @@
     <element id="MedicationStatement.dosage.timing.code">
       <path value="MedicationStatement.dosage.timing.code" />
       <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="Code for a known / defined timing pattern." />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="TimingAbbreviation" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
     <element id="MedicationStatement.dosage.route">
       <path value="MedicationStatement.dosage.route" />
       <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="A coded concept describing the route or physiological path of administration of a therapeutic agent into or onto the body of a subject." />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="RouteOfAdministration" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>
     <element id="MedicationStatement.dosage.method">
       <path value="MedicationStatement.dosage.method" />
       <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="A coded concept describing the technique by which the medicine is administered." />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationAdministrationMethod" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>

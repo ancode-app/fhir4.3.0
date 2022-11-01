@@ -19,7 +19,6 @@
         <key value="org-5" />
         <severity value="error" />
         <human value="When type is HealthcareProvider, Location is required" />
-        <source value="https://ancode.app/fhir/StructureDefinition/Organization" />
       </constraint>
     </element>
     <element id="Organization.extension">
@@ -52,7 +51,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/TypeHealthcareFacility" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Organization.extension:serviceBillingTable">
       <path value="Organization.extension" />
@@ -63,7 +61,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/ServiceBillingTable" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Organization.extension:medicationBillingTable">
       <path value="Organization.extension" />
@@ -74,7 +71,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/MedicationBillingTable" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Organization.extension:deviceBillingTable">
       <path value="Organization.extension" />
@@ -85,18 +81,15 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/DeviceBillingTable" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Organization.extension:bankAccount">
       <path value="Organization.extension" />
       <sliceName value="bankAccount" />
       <min value="0" />
-      <max value="*" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Organization.identifier">
       <path value="Organization.identifier" />
@@ -109,7 +102,6 @@
         <key value="org-4" />
         <severity value="error" />
         <human value="CNPJ validation" />
-        <source value="https://ancode.app/fhir/StructureDefinition/Organization" />
       </constraint>
       <constraint>
         <key value="ide-1" />
@@ -121,6 +113,15 @@
     <element id="Organization.identifier.type">
       <path value="Organization.identifier.type" />
       <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierType" />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypeOrganization" />
       </binding>
@@ -134,6 +135,9 @@
       <min value="1" />
       <max value="1" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="OrganizationType" />
+        </extension>
         <strength value="required" />
       </binding>
     </element>

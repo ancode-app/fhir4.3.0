@@ -10,16 +10,25 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition" />
   <derivation value="constraint" />
   <differential>
-  	<element id="PackagedProductDefinition.extension:packageConversionFactor">
-		<path value="PackagedProductDefinition.extension"/>
-		<sliceName value="packageConversionFactor"/>
-		<min value="0"/>
-		<max value="*"/>
-		<type>
-		<code value="Extension"/>
-		<profile value="https://ancode.app/fhir/StructureDefinition/PackageConversionFactor"/>
-		</type>
-		<isModifier value="false"/>
-	</element>
+    <element id="PackagedProductDefinition.extension">
+      <path value="PackagedProductDefinition.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="PackagedProductDefinition.extension:packageConversionFactor">
+      <path value="PackagedProductDefinition.extension" />
+      <sliceName value="packageConversionFactor" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/PackageConversionFactor" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>

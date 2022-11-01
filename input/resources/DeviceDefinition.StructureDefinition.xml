@@ -29,12 +29,10 @@
       <path value="DeviceDefinition.extension" />
       <sliceName value="unitType" />
       <min value="1" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/UnitType" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="DeviceDefinition.deviceName">
       <path value="DeviceDefinition.deviceName" />
@@ -63,6 +61,9 @@
     <element id="DeviceDefinition.type">
       <path value="DeviceDefinition.type" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="DeviceKind" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/RiskClass" />
       </binding>

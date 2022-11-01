@@ -32,7 +32,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/AuthorizedQuantity" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="ServiceRequest.extension:performedQuantity">
       <path value="ServiceRequest.extension" />
@@ -42,7 +41,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/PerformedQuantity" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="ServiceRequest.identifier">
       <path value="ServiceRequest.identifier" />

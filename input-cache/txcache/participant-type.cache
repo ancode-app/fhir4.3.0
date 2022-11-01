@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "concept" : [{
+        "code" : "translator",
+        "display" : "Translator"
+      },
+      {
+        "code" : "emergency",
+        "display" : "Emergency"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------

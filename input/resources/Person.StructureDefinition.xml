@@ -23,7 +23,6 @@
         <key value="per-1" />
         <severity value="error" />
         <human value="CPF validation" />
-        <source value="https://ancode.app/fhir/StructureDefinition/Person" />
       </constraint>
       <constraint>
         <key value="ide-1" />
@@ -35,6 +34,15 @@
     <element id="Person.identifier.type">
       <path value="Person.identifier.type" />
       <binding>
+        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
+          <valueString value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierType" />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true" />
+        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypePerson" />
       </binding>
