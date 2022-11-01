@@ -798,6 +798,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/Group"/>
+      </reference>
+      <name value="Group"/>
+      <description value="Group"/>
+    </resource>    
+    <resource>
+      <reference>
         <reference value="StructureDefinition/HealthcareService"/>
       </reference>
       <name value="HealthcareService"/>
