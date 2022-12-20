@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ProcedureType" />
+  <url value="https://ancode.app/fhir/CodeSystem/ProcedureType" />
+  <version value="1.0" />
+  <name value="ProcedureType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-12-16" />
+  <publisher value="Ancode" />
+  <description value="Procedure Type" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="Consultation" />
+    <display value="Consultation" />
+  </concept>
+  <concept>
+    <code value="Procedure" />
+    <display value="Procedure" />
+  </concept>
+</CodeSystem>

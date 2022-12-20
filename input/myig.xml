@@ -788,13 +788,20 @@
       </reference>
       <name value="Ethnicity"/>
       <description value="Ethnicity"/>
-    </resource>
+    </resource>    
     <resource>
       <reference>
         <reference value="StructureDefinition/FamilyMemberHistory"/>
       </reference>
       <name value="FamilyMemberHistory"/>
       <description value="Family Member History"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Group"/>
+      </reference>
+      <name value="Group"/>
+      <description value="Group"/>
     </resource>
     <resource>
       <reference>
@@ -1176,6 +1183,27 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/ProcedureType"/>
+      </reference>
+      <name value="ProcedureType"/>
+      <description value="Procedure Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ProcedureType"/>
+      </reference>
+      <name value="ProcedureType"/>
+      <description value="Procedure Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ProcedureType"/>
+      </reference>
+      <name value="ProcedureType"/>
+      <description value="Procedure Type"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ProtectedPerson"/>
       </reference>
       <name value="ProtectedPerson"/>
@@ -1194,7 +1222,7 @@
       </reference>
       <name value="Qualification"/>
       <description value="Qualification"/>
-    </resource>   
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/Questionnaire"/>

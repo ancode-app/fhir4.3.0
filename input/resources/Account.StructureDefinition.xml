@@ -23,7 +23,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="1" />
+      <min value="2" />
     </element>
     <element id="Account.extension:encounterType">
       <path value="Account.extension" />
@@ -42,6 +42,17 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/Value" />
       </type>
+    </element>
+    <element id="Account.extension:procedureType">
+      <path value="Account.extension" />
+      <sliceName value="procedureType" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ProcedureType" />
+      </type>
+      <isModifier value="false" />
     </element>
     <element id="Account.name">
       <path value="Account.name" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ProcedureType" />
+  <url value="https://ancode.app/fhir/ValueSet/ProcedureType" />
+  <version value="1.0" />
+  <name value="ProcedureType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2021-11-30" />
+  <publisher value="Ancode" />
+  <description value="Procedure Type" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/ProcedureType" />
+    </include>
+  </compose>
+</ValueSet>
