@@ -47,9 +47,9 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Dec 15, 2022 17:04+0000 for FHIR v5.0.0-cibuild 
+  Generated on Tue, Dec 20, 2022 18:03+0000 for FHIR v5.0.0-snapshot3 
 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-snapshot3">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="fhir-xhtml.xsd"/>
@@ -33226,7 +33226,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="displayName" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The name used to display by default when the device is referenced. Based on intent of use by the resource creator, this may reflect one of the names in Device.deviceName, or may be another simple name.</xs:documentation>
+              <xs:documentation xml:lang="en">The name used to display by default when the device is referenced. Based on intent of use by the resource creator, this may reflect one of the names in Device.name, or may be another simple name.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="definition" minOccurs="0" maxOccurs="1" type="CodeableReference">
@@ -33279,7 +33279,7 @@ of the resource representation.</xs:documentation>
               <xs:documentation xml:lang="en">The serial number assigned by the organization when the device was manufactured.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="deviceName" type="Device.DeviceName" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="name" type="Device.Name" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.</xs:documentation>
            </xs:annotation>
@@ -33423,22 +33423,26 @@ of the resource representation.</xs:documentation>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="Device.DeviceName">
+  <xs:complexType name="Device.Name">
     <xs:annotation>
       <xs:documentation xml:lang="en">A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="name" minOccurs="1" maxOccurs="1" type="string">
+          <xs:element name="value" minOccurs="1" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The name that identifies the device.</xs:documentation>
+              <xs:documentation xml:lang="en">The actual name that identifies the device.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="type" minOccurs="1" maxOccurs="1" type="DeviceNameType">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The type of deviceName. Note that ManufactureDeviceName means that the name is the name as given by the manufacturer, not the name of the manufacturer.
-RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
+              <xs:documentation xml:lang="en">Indicates the kind of name. RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="display" minOccurs="0" maxOccurs="1" type="boolean">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the default or preferred name to be displayed.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -63173,7 +63177,12 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="owner" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Individual organization or Device currently responsible for task execution.</xs:documentation>
+              <xs:documentation xml:lang="en">Party responsible for managing task execution.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="performer" type="Task.Performer" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The entity who performed the requested task.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="location" minOccurs="0" maxOccurs="1" type="Reference">
@@ -63214,6 +63223,27 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="output" type="Task.Output" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">Outputs produced by the Task.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="Task.Performer">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">A task to be performed.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="function" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A code or description of the performer of the task.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="actor" minOccurs="1" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The actor or entity who performed the task.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>

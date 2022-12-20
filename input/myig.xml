@@ -1337,6 +1337,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ScheduleQuestionarie"/>
+      </reference>
+      <name value="ScheduleQuestionarie"/>
+      <description value="Schedule Questionarie"/>
+    </resource>    
+    <resource>
+      <reference>
         <reference value="CodeSystem/ScheduleType"/>
       </reference>
       <name value="ScheduleType"/>
