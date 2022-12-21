@@ -34,6 +34,20 @@
         <profile value="https://ancode.app/fhir/StructureDefinition/UnitType" />
       </type>
     </element>
+    <element id="DeviceDefinition.identifier">
+      <path value="DeviceDefinition.identifier" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="DeviceDefinition.identifier.system">
+      <path value="DeviceDefinition.identifier.system" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypeInventory" />
+      </binding>
+    </element>
     <element id="DeviceDefinition.deviceName">
       <path value="DeviceDefinition.deviceName" />
       <min value="1" />

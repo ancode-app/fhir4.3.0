@@ -175,4 +175,20 @@
     <code value="HEALTHCAREINSURANCECODE" />
     <display value="Healthcare Insurance Code"/>
   </concept>
+  <concept>
+    <code value="SIMPRO" />
+    <display value="Código Simpro"/>
+  </concept>
+  <concept>
+    <code value="BRASINDICE" />
+    <display value="Código Brasíndice"/>
+  </concept>
+  <concept>
+    <code value="TUSS" />
+    <display value="Código TUSS"/>
+  </concept>
+  <concept>
+    <code value="TISS" />
+    <display value="Código TISS"/>
+  </concept>
 </CodeSystem>

@@ -861,6 +861,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/IdentifierTypeInventory"/>
+      </reference>
+      <name value="IdentifierTypeInventory"/>
+      <description value="Identifier Type Inventory"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/IdentifierTypeOrganization"/>
       </reference>
       <name value="IdentifierTypeOrganization"/>
@@ -931,6 +938,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/MedicationAdministration"/>
+      </reference>                                                                                
+      <name value="MedicationAdministration"/>
+      <description value="Medication Administration"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/MedicationBillingTable"/>
       </reference>                                                                                
       <name value="MedicationBillingTable"/>
@@ -943,6 +957,13 @@
       <name value="MedicationCodeExtension"/>
       <description value="Medication Code Extension"/>
     </resource>    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MedicationDispense"/>
+      </reference>                                                                                
+      <name value="MedicationDispense"/>
+      <description value="Medication Dispense"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/MedicationRequest"/>
@@ -1446,6 +1467,20 @@
       </reference>
       <name value="StreetType"/>
       <description value="Street Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/SupplyDelivery"/>
+      </reference>
+      <name value="SupplyDelivery"/>
+      <description value="Supply Delivery"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/SupplyRequest"/>
+      </reference>
+      <name value="SupplyRequest"/>
+      <description value="Supply Request"/>
     </resource>
     <resource>
       <reference>

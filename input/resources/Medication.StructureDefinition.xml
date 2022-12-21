@@ -14,6 +14,20 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Medication" />
   <derivation value="constraint" />
   <differential>
+    <element id="Medication.identifier">
+      <path value="Medication.identifier" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="Medication.identifier.system">
+      <path value="Medication.identifier.system" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypeInventory" />
+      </binding>
+    </element>
     <element id="Medication.code">
       <path value="Medication.code" />
       <min value="1" />

@@ -51,6 +51,39 @@ e: {
     "include" : [{
       "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
       "concept" : [{
+        "code" : "HEALTHCAREINSURANCECODE",
+        "display" : "Healthcare Insurance Code"
+      },
+      {
+        "code" : "SIMPRO",
+        "display" : "Código Simpro"
+      },
+      {
+        "code" : "BRASINDICE",
+        "display" : "Código Brasíndice"
+      },
+      {
+        "code" : "TUSS",
+        "display" : "Código TUSS"
+      },
+      {
+        "code" : "TISS",
+        "display" : "Código TISS"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "java.lang.NullPointerException"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
+      "concept" : [{
         "code" : "CNPJ",
         "display" : "Número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ)"
       },

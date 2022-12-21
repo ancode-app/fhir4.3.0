@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IdentifierTypeInventory" />
+  <url value="https://ancode.app/fhir/ValueSet/IdentifierTypeInventory" />
+  <version value="1.0" />
+  <name value="IdentifierTypeInventory" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-12-21" />
+  <publisher value="Ancode" />
+  <description value="Identifier Type Inventory" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/IdentifierType" />      
+      <concept>
+        <code value="HEALTHCAREINSURANCECODE" />
+        <display value="Healthcare Insurance Code"/>
+      </concept>
+      <concept>
+        <code value="SIMPRO" />
+        <display value="Código Simpro"/>
+      </concept>
+      <concept>
+        <code value="BRASINDICE" />
+        <display value="Código Brasíndice"/>
+      </concept>
+      <concept>
+        <code value="TUSS" />
+        <display value="Código TUSS"/>
+      </concept>
+      <concept>
+        <code value="TISS" />
+        <display value="Código TISS"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
