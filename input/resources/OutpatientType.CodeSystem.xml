@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="OutpatientType" />
+  <url value="https://ancode.app/fhir/CodeSystem/OutpatientType" />
+  <version value="1.0" />
+  <name value="OutpatientType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-12-26" />
+  <publisher value="Ancode" />
+  <description value="Outpatient Type" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="1" />
+    <display value="First" />
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="Follow-Up" />
+  </concept>
+  <concept>
+    <code value="3" />
+    <display value="Prenatal" />
+  </concept>
+  <concept>
+    <code value="4" />
+    <display value="Forwarding" />
+  </concept>
+</CodeSystem>

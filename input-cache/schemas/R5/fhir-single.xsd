@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Wed, Dec 21, 2022 06:41+0000 for FHIR v5.0.0-snapshot3 
+  Generated on Mon, Dec 26, 2022 20:14+0000 for FHIR v5.0.0-snapshot3 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-snapshot3">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -20187,7 +20187,9 @@ A coverage may only be responsible for specific types of charges, and the sequen
             <xs:element name="valueQuantity" type="Quantity"/>
             <xs:element name="valueDate" type="date"/>
             <xs:element name="valueBoolean" type="boolean"/>
+            <xs:element name="valueMarkdown" type="markdown"/>
             <xs:element name="valueAttachment" type="Attachment"/>
+            <xs:element name="valueReference" type="Reference"/>
           </xs:choice>
           <xs:element name="status" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
@@ -22325,7 +22327,7 @@ into another (possibly the same) biological entity.</xs:documentation>
               <xs:documentation xml:lang="en">The anatomical location(s) or region(s) not occupied or represented by the specimen, lesion, or body structure.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A summary, characterization or explanation of the body structure.</xs:documentation>
            </xs:annotation>
@@ -25974,7 +25976,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="language" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Language in which this form of the article is published.</xs:documentation>
+              <xs:documentation xml:lang="en">The language or languages in which this form of the article is published.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="accessionNumber" minOccurs="0" maxOccurs="1" type="string">
@@ -25999,7 +26001,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="pageCount" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Actual or approximate number of pages or screens.</xs:documentation>
+              <xs:documentation xml:lang="en">Actual or approximate number of pages or screens. Distinct from reporting the page numbers.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
@@ -26056,7 +26058,7 @@ of the resource representation.</xs:documentation>
         <xs:sequence>
           <xs:element name="classifier" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Code the reason for different URLs, e.g. abstract and full-text.</xs:documentation>
+              <xs:documentation xml:lang="en">A characterization of the object expected at the web location.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="url" minOccurs="0" maxOccurs="1" type="uri">
@@ -26108,12 +26110,12 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="entry" type="Citation.Entry" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">An individual entity named in the author list or contributor list.</xs:documentation>
+              <xs:documentation xml:lang="en">An individual entity named as a contributor, for example in the author list or contributor list.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="summary" type="Citation.Summary1" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Used to record a display of the author/contributor list without separate coding for each list member.</xs:documentation>
+              <xs:documentation xml:lang="en">Used to record a display of the author/contributor list without separate data element for each list member.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -26129,7 +26131,7 @@ of the resource representation.</xs:documentation>
         <xs:sequence>
           <xs:element name="contributor" minOccurs="1" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The identity of the individual entity.</xs:documentation>
+              <xs:documentation xml:lang="en">The identity of the individual contributor.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="forenameInitials" minOccurs="0" maxOccurs="1" type="string">
@@ -26139,7 +26141,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="affiliation" minOccurs="0" maxOccurs="unbounded" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Organization affiliated with the entity.</xs:documentation>
+              <xs:documentation xml:lang="en">Organization affiliated with the contributor.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="contributionType" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
@@ -26149,7 +26151,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="role" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The role of the contributor (e.g. author, editor, reviewer).</xs:documentation>
+              <xs:documentation xml:lang="en">The role of the contributor (e.g. author, editor, reviewer, funder).</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="contributionInstance" type="Citation.ContributionInstance" minOccurs="0" maxOccurs="unbounded">
@@ -26159,7 +26161,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="correspondingContact" minOccurs="0" maxOccurs="1" type="boolean">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Indication of which contributor is the corresponding contributor for the role.</xs:documentation>
+              <xs:documentation xml:lang="en">Whether the contributor is the corresponding contributor for the role.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="rankingOrder" minOccurs="0" maxOccurs="1" type="positiveInt">
@@ -26206,7 +26208,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="style" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The format for the display string.</xs:documentation>
+              <xs:documentation xml:lang="en">The format for the display string, such as author last name with first letter capitalized followed by forename initials.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="source" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -46485,7 +46487,9 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
             <xs:element name="valueQuantity" type="Quantity"/>
             <xs:element name="valueDate" type="date"/>
             <xs:element name="valueBoolean" type="boolean"/>
+            <xs:element name="valueMarkdown" type="markdown"/>
             <xs:element name="valueAttachment" type="Attachment"/>
+            <xs:element name="valueReference" type="Reference"/>
           </xs:choice>
         </xs:sequence>
       </xs:extension>
@@ -51774,6 +51778,13 @@ Reflex | Repeat | Re-run.</xs:documentation>
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the ObservationDefinition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the ObservationDefinition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions are orderable.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
           <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A natural language name identifying the ObservationDefinition. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
@@ -51832,6 +51843,11 @@ Reflex | Repeat | Re-run.</xs:documentation>
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">Copyright statement relating to the ObservationDefinition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the ObservationDefinition.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -53218,7 +53234,7 @@ For resource issues, this will be a simple XPath limited to element names, repet
           </xs:element>
           <xs:element name="amount" minOccurs="0" maxOccurs="1" type="Quantity">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The number of this type of item within this packaging.</xs:documentation>
+              <xs:documentation xml:lang="en">The number of this type of item within this packaging or for continuous items such as liquids it is the quantity (for example 25ml).</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -59097,6 +59113,18 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the SpecimenDefinition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the SpecimenDefinition author and is not expected to be globally unique.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
+          <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A natural language name identifying the {{title}}. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="title" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A short, descriptive, user-friendly title for the SpecimenDefinition.</xs:documentation>
@@ -59167,6 +59195,11 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">Copyright statement relating to the SpecimenDefinition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the SpecimenDefinition.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -59240,7 +59273,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The specimen's container.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="requirement" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="requirement" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">Requirements for delivery and special handling of this kind of conditioned specimen.</xs:documentation>
            </xs:annotation>
@@ -59296,7 +59329,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Color of container cap.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">The textual description of the kind of container.</xs:documentation>
            </xs:annotation>
@@ -59318,7 +59351,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Substance introduced in the kind of container to preserve, maintain or enhance the specimen. Examples: Formalin, Citrate, EDTA.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="preparation" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="preparation" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">Special processing that should be applied to the container for this kind of specimen.</xs:documentation>
            </xs:annotation>
@@ -59367,7 +59400,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The maximum time interval of preservation of the specimen with these conditions.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="instruction" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="instruction" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">Additional textual instructions for the preservation or transport of the specimen. For instance, 'Protect from light exposure'.</xs:documentation>
            </xs:annotation>

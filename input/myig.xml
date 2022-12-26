@@ -1125,13 +1125,34 @@
       <name value="OrganizationAffiliation"/>
       <description value="OrganizationAffiliation"/>
     </resource>
-	<resource>
-	    <reference>
-		    <reference value="StructureDefinition/PackageConversionFactor"/>		    
-		</reference>
-		<name value="PackageConversionFactor"/>
-		<description value="Package Conversion Factor"/>
-	</resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/OutpatientType"/>
+      </reference>
+      <name value="OutpatientType"/>
+      <description value="Outpatient Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/OutpatientType"/>
+      </reference>
+      <name value="OutpatientType"/>
+      <description value="Outpatient Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/OutpatientType"/>
+      </reference>
+      <name value="OutpatientType"/>
+      <description value="Outpatient Type"/>
+    </resource>
+    <resource>
+        <reference>
+          <reference value="StructureDefinition/PackageConversionFactor"/>		    
+      </reference>
+      <name value="PackageConversionFactor"/>
+      <description value="Package Conversion Factor"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/PackagedProductDefinition"/>

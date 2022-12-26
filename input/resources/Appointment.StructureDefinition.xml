@@ -52,6 +52,17 @@
         <profile value="https://ancode.app/fhir/StructureDefinition/NewbornCare" />
       </type>
     </element>
+    <element id="Appointment.extension:outpatientType">
+      <path value="Appointment.extension" />
+      <sliceName value="outpatientType" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/OutpatientType" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Appointment.cancelationReason">
       <path value="Appointment.cancelationReason" />
       <binding>
