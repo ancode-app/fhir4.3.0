@@ -99,14 +99,14 @@
         <profile value="https://ancode.app/fhir/StructureDefinition/ConfirmationType" />
       </type>
     </element>
-    <element id="Schedule.extension:scheduleQuestionarie">
+    <element id="Schedule.extension:scheduleQuestionnarie">
       <path value="Schedule.extension" />
-      <sliceName value="scheduleQuestionarie" />
+      <sliceName value="scheduleQuestionnarie" />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/ScheduleQuestionarie" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ScheduleQuestionnarie" />
       </type>
       <isModifier value="false" />
     </element>
