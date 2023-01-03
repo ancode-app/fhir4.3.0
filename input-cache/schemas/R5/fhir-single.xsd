@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Mon, Dec 26, 2022 20:14+0000 for FHIR v5.0.0-snapshot3 
+  Generated on Fri, Dec 30, 2022 17:33+0000 for FHIR v5.0.0-snapshot3 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-snapshot3">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -64194,6 +64194,29 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">A link to further details on the result.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="requirement" type="TestReport.Requirement" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Links or references providing traceability to the testing requirements for this assert.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TestReport.Requirement">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">A summary of information based on the results of executing a TestScript.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Link or reference providing traceability to the testing requirement for this test.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="linkUri" type="uri"/>
+            <xs:element name="linkCanonical" type="canonical"/>
+          </xs:choice>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -64787,7 +64810,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="expression" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The FHIRPath expression to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.</xs:documentation>
+              <xs:documentation xml:lang="en">The FHIRPath expression for a specific value to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="headerField" minOccurs="0" maxOccurs="1" type="string">
@@ -64997,7 +65020,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="compareToSourceExpression" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.</xs:documentation>
+              <xs:documentation xml:lang="en">The FHIRPath expression for a specific value to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="compareToSourcePath" minOccurs="0" maxOccurs="1" type="string">
@@ -65090,6 +65113,29 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Whether or not the test execution will produce a warning only on error for this assert.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="requirement" type="TestScript.Requirement" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Links or references providing traceability to the testing requirements for this assert.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TestScript.Requirement">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">A structured set of tests against a FHIR server or client implementation to determine compliance against the FHIR specification.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Link or reference providing traceability to the testing requirement for this test.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="linkUri" type="uri"/>
+            <xs:element name="linkCanonical" type="canonical"/>
+          </xs:choice>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>

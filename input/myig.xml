@@ -1379,10 +1379,10 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ScheduleQuestionnarie"/>
+        <reference value="StructureDefinition/ScheduleQuestionnaire"/>
       </reference>
-      <name value="ScheduleQuestionnarie"/>
-      <description value="Schedule Questionnarie"/>
+      <name value="ScheduleQuestionnaire"/>
+      <description value="Schedule Questionnaire"/>
     </resource>    
     <resource>
       <reference>

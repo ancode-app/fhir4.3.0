@@ -99,16 +99,14 @@
         <profile value="https://ancode.app/fhir/StructureDefinition/ConfirmationType" />
       </type>
     </element>
-    <element id="Schedule.extension:scheduleQuestionnarie">
+    <element id="Schedule.extension:scheduleQuestionnaire">
       <path value="Schedule.extension" />
-      <sliceName value="scheduleQuestionnarie" />
+      <sliceName value="scheduleQuestionnaire" />
       <min value="0" />
-      <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/ScheduleQuestionnarie" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ScheduleQuestionnaire" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Schedule.identifier">
       <path value="Schedule.identifier" />
@@ -152,7 +150,6 @@
     <element id="Schedule.actor:practitioner">
       <path value="Schedule.actor" />
       <sliceName value="practitioner" />
-      <max value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://ancode.app/fhir/StructureDefinition/Practitioner" />
