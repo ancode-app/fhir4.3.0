@@ -83,4 +83,8 @@
     <code value="8280-0" />
     <display value="Abdominal circumference" />
   </concept>
+  <concept>
+    <code value="8277-6" />
+    <display value="Body surface area" />
+  </concept>
 </CodeSystem>
