@@ -91,6 +91,17 @@
         <profile value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
       </type>
     </element>
+    <element id="Organization.extension:biometricsSettings">
+      <path value="Organization.extension" />
+      <sliceName value="biometricsSettings" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/BiometricsSettings" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Organization.identifier">
       <path value="Organization.identifier" />
       <min value="1" />
@@ -113,15 +124,6 @@
     <element id="Organization.identifier.type">
       <path value="Organization.identifier.type" />
       <binding>
-        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
-          <valueString value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="IdentifierType" />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypeOrganization" />
       </binding>
@@ -135,9 +137,6 @@
       <min value="1" />
       <max value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="OrganizationType" />
-        </extension>
         <strength value="required" />
       </binding>
     </element>

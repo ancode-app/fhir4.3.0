@@ -147,6 +147,41 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/Biometrics"/>
+      </reference>
+      <name value="Biometrics"/>
+      <description value="Biometrics"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BiometricsConfidenceFactor"/>
+      </reference>
+      <name value="BiometricsConfidenceFactor"/>
+      <description value="Biometrics Confidence Factor"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BiometricsSettings"/>
+      </reference>
+      <name value="BiometricsSettings"/>
+      <description value="Biometrics Settings"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BiometricsType"/>
+      </reference>
+      <name value="BiometricsType"/>
+      <description value="Biometrics Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BiometricsType"/>
+      </reference>
+      <name value="BiometricsType"/>
+      <description value="Biometrics Type"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/BirthSex"/>
       </reference>
       <name value="BirthSex"/>
@@ -788,7 +823,28 @@
       </reference>
       <name value="Ethnicity"/>
       <description value="Ethnicity"/>
-    </resource>    
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/FaceRecognition"/>
+      </reference>
+      <name value="FaceRecognition"/>
+      <description value="Face Recognition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/FaceRecognitionType"/>
+      </reference>
+      <name value="FaceRecognitionType"/>
+      <description value="Face Recognition Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/FaceRecognitionType"/>
+      </reference>
+      <name value="FaceRecognitionType"/>
+      <description value="Face Recognition Type"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/FamilyMemberHistory"/>

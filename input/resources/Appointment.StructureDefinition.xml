@@ -22,7 +22,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="3" />
+      <min value="4" />
     </element>
     <element id="Appointment.extension:accidentIndicator">
       <path value="Appointment.extension" />
@@ -56,19 +56,14 @@
       <path value="Appointment.extension" />
       <sliceName value="outpatientType" />
       <min value="1" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/OutpatientType" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Appointment.cancelationReason">
       <path value="Appointment.cancelationReason" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="cancelation-reason" />
-        </extension>
         <strength value="required" />
       </binding>
     </element>
@@ -76,9 +71,6 @@
       <path value="Appointment.specialty" />
       <min value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="specialty" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/CBOHealthcare" />
       </binding>
@@ -87,9 +79,6 @@
       <path value="Appointment.appointmentType" />
       <min value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="appointment-type" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/EncounterType" />
       </binding>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BiometricsType" />
+  <url value="https://ancode.app/fhir/CodeSystem/BiometricsType" />
+  <version value="1.0" />
+  <name value="BiometricsType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-01-17" />
+  <publisher value="Ancode" />
+  <description value="Biometrics Type" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="FacialRecognition" />
+    <display value="Facial Recognition" />
+  </concept>
+</CodeSystem>

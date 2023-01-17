@@ -122,9 +122,6 @@
     <element id="Schedule.specialty">
       <path value="Schedule.specialty" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="specialty" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/CBOHealthcare" />
       </binding>

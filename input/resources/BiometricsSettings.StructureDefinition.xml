@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="BankAccount" />
-  <url value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
+  <id value="BiometricsSettings" />
+  <url value="https://ancode.app/fhir/StructureDefinition/BiometricsSettings" />
   <version value="1.0" />
-  <name value="BankAccount" />
+  <name value="BiometricsSettings" />
   <status value="draft" />
-  <date value="2022-09-22" />
+  <date value="2023-01-17" />
   <publisher value="Ancode" />
   <fhirVersion value="4.3.0" />
   <kind value="complex-type" />
@@ -29,64 +29,50 @@
       </slicing>
       <min value="0" />
     </element>
-    <element id="Extension.extension:bankCode">
+    <element id="Extension.extension:biometricsType">
       <path value="Extension.extension" />
-      <sliceName value="bankCode" />
+      <sliceName value="biometricsType" />
       <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/BankCode" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Biometrics" />
       </type>
     </element>
-    <element id="Extension.extension:bankCode.url">
+    <element id="Extension.extension:biometricsType.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="bankCode" />
+      <fixedUri value="biometricsType" />
     </element>
-    <element id="Extension.extension:agencyNumber">
+    <element id="Extension.extension:faceRecognition">
       <path value="Extension.extension" />
-      <sliceName value="agencyNumber" />
+      <sliceName value="faceRecognition" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/FaceRecognition" />
+      </type>
+    </element>
+    <element id="Extension.extension:faceRecognition.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="faceRecognition" />
+    </element>
+    <element id="Extension.extension:biometricsConfidenceFactor">
+      <path value="Extension.extension" />
+      <sliceName value="biometricsConfidenceFactor" />
       <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/AgencyNumber" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/BiometricsConfidenceFactor" />
       </type>
     </element>
-    <element id="Extension.extension:agencyNumber.url">
+    <element id="Extension.extension:biometricsConfidenceFactor.url">
       <path value="Extension.extension.url" />
-      <fixedUri value="agencyNumber" />
-    </element>
-    <element id="Extension.extension:accountNumber">
-      <path value="Extension.extension" />
-      <sliceName value="accountNumber" />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/AccountNumber" />
-      </type>
-    </element>
-    <element id="Extension.extension:accountNumber.url">
-      <path value="Extension.extension.url" />
-      <fixedUri value="accountNumber" />
-    </element>
-    <element id="Extension.extension:pixKey">
-      <path value="Extension.extension" />
-      <sliceName value="pixKey" />
-      <min value="0" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/PixKey" />
-      </type>
-    </element>
-    <element id="Extension.extension:pixKey.url">
-      <path value="Extension.extension.url" />
-      <fixedUri value="pixKey" />
+      <fixedUri value="biometricsConfidenceFactor" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://ancode.app/fhir/StructureDefinition/BankAccount" />
+      <fixedUri value="https://ancode.app/fhir/StructureDefinition/BiometricsSettings" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

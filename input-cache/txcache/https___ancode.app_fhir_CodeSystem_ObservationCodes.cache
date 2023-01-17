@@ -32,6 +32,10 @@
       {
         "code" : "8280-0",
         "display" : "Abdominal circumference"
+      },
+      {
+        "code" : "8277-6",
+        "display" : "Body surface area"
       }]
     }]
   }
