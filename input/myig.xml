@@ -649,6 +649,13 @@
       <name value="DefinitionTopic"/>
       <description value="Definition Topic"/>
     </resource>
+     <resource>
+      <reference>
+        <reference value="StructureDefinition/DestinationPackage"/>
+      </reference>
+      <name value="DestinationPackage"/>
+      <description value="Destination Package"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/Device"/>
@@ -977,6 +984,13 @@
       </reference>                                                                                
       <name value="Library"/>
       <description value="Library"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="StructureDefinition/List"/>
+      </reference>                                                                                
+      <name value="List"/>
+      <description value="List"/>
     </resource>
     <resource>
       <reference>
@@ -1383,6 +1397,13 @@
       </reference>
       <name value="RelatedPerson"/>
       <description value="RelatedPerson"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/RemittanceOutcome"/>
+      </reference>
+      <name value="RemittanceOutcome"/>
+      <description value="Remittance Outcome"/>
     </resource>
     <resource>
       <reference>

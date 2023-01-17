@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="List" />
+  <url value="https://ancode.app/fhir/StructureDefinition/List" />
+  <version value="1.0" />
+  <name value="List" />
+  <status value="draft" />
+  <date value="2023-01-17" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="List" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/List" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="List.extension">
+      <path value="List.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="List.extension:remittanceOutcome">
+      <path value="List.extension" />
+      <sliceName value="remittanceOutcome" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/RemittanceOutcome" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="List.code">
+      <path value="List.code" />
+      <min value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
