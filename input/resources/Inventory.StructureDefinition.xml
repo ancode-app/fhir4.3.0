@@ -23,7 +23,6 @@
     <element id="Inventory.identifier">
       <path value="Inventory.identifier" />
       <min value="1" />
-      <max value="*" />
       <type>
         <code value="Identifier" />
         <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
@@ -50,7 +49,6 @@
     </element>
     <element id="Inventory.group">
       <path value="Inventory.group" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -59,7 +57,6 @@
     </element>
     <element id="Inventory.package">
       <path value="Inventory.package" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
@@ -67,7 +64,6 @@
     </element>
     <element id="Inventory.package.inventory">
       <path value="Inventory.package.inventory" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -76,7 +72,6 @@
     </element>
     <element id="Inventory.package.supply">
       <path value="Inventory.package.supply" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -85,7 +80,6 @@
     </element>
     <element id="Inventory.package.use">
       <path value="Inventory.package.use" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -129,8 +123,6 @@
     </element>
     <element id="Inventory.technicalSpecifications">
       <path value="Inventory.technicalSpecifications" />
-      <min value="0" />
-      <max value="*" />
       <type>
         <code value="string" />
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
@@ -138,8 +130,6 @@
     </element>
     <element id="Inventory.batch">
       <path value="Inventory.batch" />
-      <min value="0" />
-      <max value="*" />
       <type>
         <code value="BackboneElement" />
       </type>
@@ -200,7 +190,6 @@
     </element>
     <element id="Inventory.bodySite">
       <path value="Inventory.bodySite" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="CodeableConcept" />
