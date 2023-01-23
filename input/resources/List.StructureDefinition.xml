@@ -34,7 +34,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/RemittanceOutcome" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="List.code">
       <path value="List.code" />

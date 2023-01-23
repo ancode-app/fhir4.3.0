@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://ancode.app/fhir/StructureDefinition/InventoryEventModel" />
+  <name value="InventoryEventModel" />
+  <status value="draft" />
+  <fhirVersion value="4.3.0" />
+  <kind value="logical" />
+  <abstract value="false" />
+  <type value="https://ancode.app/fhir/StructureDefinition/InventoryEvent" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element" />
+  <derivation value="specialization" />
+  <differential>
+    <element id="InventoryEvent">
+      <path value="InventoryEvent" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Element" />
+      </type>
+    </element>
+    <element id="InventoryEvent.identifier">
+      <path value="InventoryEvent.identifier" />
+      <min value="1" />
+      <max value="*" />
+      <type>
+        <code value="Identifier" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
+      </type>
+    </element>
+    <element id="InventoryEvent.item">
+      <path value="InventoryEvent.item" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Medication" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/DeviceDefinition" />
+      </type>
+    </element>
+    <element id="InventoryEvent.batch">
+      <path value="InventoryEvent.batch" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="InventoryEvent.batch.number">
+      <path value="InventoryEvent.batch.number" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="InventoryEvent.batch.validity">
+      <path value="InventoryEvent.batch.validity" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="dateTime" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/dateTime" />
+      </type>
+    </element>
+    <element id="InventoryEvent.inventory">
+      <path value="InventoryEvent.inventory" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Inventory" />
+      </type>
+    </element>
+    <element id="InventoryEvent.package">
+      <path value="InventoryEvent.package" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="InventoryEvent.package.origin">
+      <path value="InventoryEvent.package.origin" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/PackagedProductDefinition" />
+      </type>
+    </element>
+    <element id="InventoryEvent.package.destination">
+      <path value="InventoryEvent.package.destination" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/PackagedProductDefinition" />
+      </type>
+    </element>
+    <element id="InventoryEvent.location">
+      <path value="InventoryEvent.location" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="InventoryEvent.location.origin">
+      <path value="InventoryEvent.location.origin" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Location" />
+      </type>
+    </element>
+    <element id="InventoryEvent.location.destination">
+      <path value="InventoryEvent.location.destination" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Location" />
+      </type>
+    </element>
+    <element id="InventoryEvent.type">
+      <path value="InventoryEvent.type" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/InventoryEventType" />
+      </binding>
+    </element>
+    <element id="InventoryEvent.reason">
+      <path value="InventoryEvent.reason" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/InventoryEventReason" />
+      </binding>
+    </element>
+    <element id="InventoryEvent.quantity">
+      <path value="InventoryEvent.quantity" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="decimal" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/decimal" />
+      </type>
+    </element>
+    <element id="InventoryEvent.balance">
+      <path value="InventoryEvent.balance" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="InventoryEvent.balance.previous">
+      <path value="InventoryEvent.balance.previous" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="decimal" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/decimal" />
+      </type>
+    </element>
+    <element id="InventoryEvent.balance.final">
+      <path value="InventoryEvent.balance.final" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="decimal" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/decimal" />
+      </type>
+    </element>
+    <element id="InventoryEvent.observation">
+      <path value="InventoryEvent.observation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="string" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="InventoryEvent.event">
+      <path value="InventoryEvent.event" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

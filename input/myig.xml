@@ -973,6 +973,41 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/InventoryEvent"/>
+      </reference>                                                                                
+      <name value="InventoryEvent"/>
+      <description value="Inventory Event"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/InventoryEventReason"/>
+      </reference>
+      <name value="InventoryEventReason"/>
+      <description value="Inventory Event Reason"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/InventoryEventReason"/>
+      </reference>
+      <name value="InventoryEventReason"/>
+      <description value="Inventory Event Reason"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/InventoryEventType"/>
+      </reference>
+      <name value="InventoryEventType"/>
+      <description value="Inventory Event Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/InventoryEventType"/>
+      </reference>
+      <name value="InventoryEventType"/>
+      <description value="Inventory Event Type"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Invoice"/>
       </reference>                                                                                
       <name value="Invoice"/>

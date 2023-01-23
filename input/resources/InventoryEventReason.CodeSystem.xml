@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="InventoryEventReason" />
+  <url value="https://ancode.app/fhir/CodeSystem/InventoryEventReason" />
+  <version value="1.0" />
+  <name value="InventoryEventReason" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2023-01-23" />
+  <publisher value="Ancode" />
+  <description value="Inventory Event Reason" />
+  <content value="complete" />  
+  <concept>
+    <code value="Purchase" />
+    <display value="Purchase" />
+  </concept>
+  <concept>
+    <code value="Use" />
+    <display value="Use" />
+  </concept>
+  <concept>
+    <code value="Sale" />
+    <display value="Sale" />
+  </concept>
+  <concept>
+    <code value="Transfer" />
+    <display value="Transfer" />
+  </concept>
+  <concept>
+    <code value="Loss" />
+    <display value="Loss" />
+  </concept>
+  <concept>
+    <code value="Dispose" />
+    <display value="Dispose" />
+  </concept>
+  <concept>
+    <code value="Borrow" />
+    <display value="Borrow" />
+  </concept>
+</CodeSystem>

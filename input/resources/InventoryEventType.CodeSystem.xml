@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="InventoryEventType" />
+  <url value="https://ancode.app/fhir/CodeSystem/InventoryEventType" />
+  <version value="1.0" />
+  <name value="InventoryEventType" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2023-01-23" />
+  <publisher value="Ancode" />
+  <description value="Inventory Event Type" />
+  <content value="complete" />  
+  <concept>
+    <code value="Entry" />
+    <display value="Entry" />
+  </concept>
+  <concept>
+    <code value="Out" />
+    <display value="Out" />
+  </concept>
+  <concept>
+    <code value="Transfer" />
+    <display value="Transfer" />
+  </concept>
+</CodeSystem>
