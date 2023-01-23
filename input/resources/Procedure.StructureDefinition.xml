@@ -47,9 +47,6 @@
       <path value="Procedure.category" />
       <min value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ProcedureCategory" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/BRTecnicaUtilizada" />
       </binding>
@@ -117,9 +114,6 @@
       <path value="Procedure.performer.function" />
       <min value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ProcedurePerformerRole" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/BRGrauParticipacao" />
       </binding>
@@ -144,9 +138,6 @@
     <element id="Procedure.reasonCode">
       <path value="Procedure.reasonCode" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ProcedureReason" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/BRCID10" />
       </binding>
@@ -155,9 +146,6 @@
       <path value="Procedure.bodySite" />
       <max value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="BodySite" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/BRViaAcesso" />
       </binding>

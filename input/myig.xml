@@ -963,6 +963,13 @@
       </reference>                                                                                
       <name value="InsuranceProvider"/>
       <description value="Insurance Insurance Provider"/>
+    </resource> 
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Inventory"/>
+      </reference>                                                                                
+      <name value="Inventory"/>
+      <description value="Inventory"/>
     </resource>
     <resource>
       <reference>

@@ -75,9 +75,6 @@
     <element id="DeviceDefinition.type">
       <path value="DeviceDefinition.type" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="DeviceKind" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/RiskClass" />
       </binding>

@@ -14,10 +14,6 @@
     <include>
       <system value="https://ancode.app/fhir/CodeSystem/IdentifierType" />      
       <concept>
-        <code value="HEALTHCAREINSURANCECODE" />
-        <display value="Healthcare Insurance Code"/>
-      </concept>
-      <concept>
         <code value="SIMPRO" />
         <display value="Código Simpro"/>
       </concept>
@@ -32,6 +28,10 @@
       <concept>
         <code value="TISS" />
         <display value="Código TISS"/>
+      </concept>
+      <concept>
+        <code value="ANVISA" />
+        <display value="ANVISA - Agência Nacional de Vigilância Sanitária"/>
       </concept>
     </include>
   </compose>

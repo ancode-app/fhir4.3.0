@@ -51,10 +51,6 @@ e: {
     "include" : [{
       "system" : "https://ancode.app/fhir/CodeSystem/IdentifierType",
       "concept" : [{
-        "code" : "HEALTHCAREINSURANCECODE",
-        "display" : "Healthcare Insurance Code"
-      },
-      {
         "code" : "SIMPRO",
         "display" : "Código Simpro"
       },
@@ -69,6 +65,10 @@ e: {
       {
         "code" : "TISS",
         "display" : "Código TISS"
+      },
+      {
+        "code" : "ANVISA",
+        "display" : "ANVISA - Agência Nacional de Vigilância Sanitária"
       }]
     }]
   }

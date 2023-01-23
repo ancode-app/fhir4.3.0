@@ -20,7 +20,7 @@
     <display value="Normal Face" />
   </concept>
   <concept>
-    <code value="Right Face" />
+    <code value="RightFace" />
     <display value="Right Face" />
   </concept>
   <concept>
