@@ -50,7 +50,7 @@
     </element>
     <element id="Inventory.group">
       <path value="Inventory.group" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -59,7 +59,7 @@
     </element>
     <element id="Inventory.package">
       <path value="Inventory.package" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
@@ -146,7 +146,7 @@
     </element>
     <element id="Inventory.batch.number">
       <path value="Inventory.batch.number" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="string" />
@@ -155,7 +155,7 @@
     </element>
     <element id="Inventory.batch.validity">
       <path value="Inventory.batch.validity" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="dateTime" />
@@ -200,7 +200,7 @@
     </element>
     <element id="Inventory.bodySite">
       <path value="Inventory.bodySite" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="CodeableConcept" />
