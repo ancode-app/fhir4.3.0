@@ -23,6 +23,7 @@
     <element id="InventoryEvent.identifier">
       <path value="InventoryEvent.identifier" />
       <min value="1" />
+      <max value="*" />
       <type>
         <code value="Identifier" />
         <profile value="https://ancode.app/fhir/StructureDefinition/Identifier" />
@@ -40,6 +41,7 @@
     </element>
     <element id="InventoryEvent.batch">
       <path value="InventoryEvent.batch" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
@@ -74,6 +76,7 @@
     </element>
     <element id="InventoryEvent.package">
       <path value="InventoryEvent.package" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
@@ -81,6 +84,7 @@
     </element>
     <element id="InventoryEvent.package.origin">
       <path value="InventoryEvent.package.origin" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -89,6 +93,7 @@
     </element>
     <element id="InventoryEvent.package.destination">
       <path value="InventoryEvent.package.destination" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -97,6 +102,7 @@
     </element>
     <element id="InventoryEvent.location">
       <path value="InventoryEvent.location" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="BackboneElement" />
@@ -104,6 +110,7 @@
     </element>
     <element id="InventoryEvent.location.origin">
       <path value="InventoryEvent.location.origin" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -112,6 +119,7 @@
     </element>
     <element id="InventoryEvent.location.destination">
       <path value="InventoryEvent.location.destination" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />
@@ -181,6 +189,8 @@
     </element>
     <element id="InventoryEvent.observation">
       <path value="InventoryEvent.observation" />
+      <min value="0" />
+      <max value="*" />
       <type>
         <code value="string" />
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
@@ -188,6 +198,7 @@
     </element>
     <element id="InventoryEvent.event">
       <path value="InventoryEvent.event" />
+      <min value="0" />
       <max value="1" />
       <type>
         <code value="Reference" />

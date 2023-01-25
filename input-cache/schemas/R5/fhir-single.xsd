@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Mon, Jan 23, 2023 17:37+0000 for FHIR v5.0.0-cibuild 
+  Generated on Tue, Jan 24, 2023 18:01+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -22352,6 +22352,11 @@ into another (possibly the same) biological entity.</xs:documentation>
               <xs:documentation xml:lang="en">Body locations in relation to a specific body landmark (tatoo, scar, other body structure).</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="spatialReference" minOccurs="0" maxOccurs="unbounded" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">XY or XYZ-coordinate orientation for structure.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="qualifier" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
               <xs:documentation xml:lang="en">Code that represents the included structure qualifier.</xs:documentation>
@@ -41643,11 +41648,6 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">Each imaging selection includes one or more selected DICOM SOP instances.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="imageRegion" type="ImagingSelection.ImageRegion1" minOccurs="0" maxOccurs="unbounded">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Each imaging selection might includes a 3D image region, specified by a region type and a set of 3D coordinates.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -41705,17 +41705,22 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
        - A list of Region of Interest (ROI) numbers selected from a radiotherapy structure set SOP Instance.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="imageRegion" type="ImagingSelection.ImageRegion" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="imageRegion2D" type="ImagingSelection.ImageRegion2D" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">Each imaging selection instance or frame list might includes an image region, specified by a region type and a set of 2D coordinates.
        If the parent imagingSelection.instance contains a subset element of type frame, the image region applies to all frames in the subset list.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="imageRegion3D" type="ImagingSelection.ImageRegion3D" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Each imaging selection might includes a 3D image region, specified by a region type and a set of 3D coordinates.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="ImagingSelection.ImageRegion">
+  <xs:complexType name="ImagingSelection.ImageRegion2D">
     <xs:annotation>
       <xs:documentation xml:lang="en">A selection of DICOM SOP instances and/or frames within a single Study and Series. This might include additional specifics such as an image region, an Observation UID or a Segmentation Number, allowing linkage to an Observation Resource or transferring this information along with the ImagingStudy Resource.</xs:documentation>
     </xs:annotation>
@@ -41737,7 +41742,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="ImagingSelection.ImageRegion1">
+  <xs:complexType name="ImagingSelection.ImageRegion3D">
     <xs:annotation>
       <xs:documentation xml:lang="en">A selection of DICOM SOP instances and/or frames within a single Study and Series. This might include additional specifics such as an image region, an Observation UID or a Segmentation Number, allowing linkage to an Observation Resource or transferring this information along with the ImagingStudy Resource.</xs:documentation>
     </xs:annotation>
@@ -65779,6 +65784,11 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="currentLocation" minOccurs="1" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The current location for the entity to be transported.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="reason" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The business status of the person or item being currently transported.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="reasonCode" minOccurs="0" maxOccurs="1" type="CodeableConcept">
