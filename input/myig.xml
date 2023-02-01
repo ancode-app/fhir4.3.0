@@ -616,18 +616,25 @@
     </resource>  
     <resource>
       <reference>
+        <reference value="StructureDefinition/Date"/>
+      </reference>
+      <name value="Date"/>
+      <description value="Date"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/DaysOfWeek"/>
       </reference>
       <name value="DaysOfWeek"/>
       <description value="Days Of Week"/>
     </resource>
-	<resource>
-		  <reference>
-			  <reference value="StructureDefinition/Decimal"/>
-		  </reference>
-		  <name value="Decimal"/>
-		  <description value="Decimal"/>
-	</resource>  
+    <resource>
+        <reference>
+          <reference value="StructureDefinition/Decimal"/>
+        </reference>
+        <name value="Decimal"/>
+        <description value="Decimal"/>
+    </resource>  
     <resource>
       <reference>
         <reference value="StructureDefinition/DefaultCostCenter"/>

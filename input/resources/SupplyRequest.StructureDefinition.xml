@@ -13,4 +13,47 @@
   <type value="SupplyRequest" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/SupplyRequest" />
   <derivation value="constraint" />
+  <differential>
+    <element id="SupplyRequest.extension">
+      <path value="SupplyRequest.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="SupplyRequest.extension:deliverWhen">
+      <path value="SupplyRequest.extension" />
+      <sliceName value="deliverWhen" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/Date" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="SupplyRequest.extension:deliverWhen.value[x]">
+      <path value="SupplyRequest.extension.value[x]" />
+      <type>
+        <code value="date" />
+      </type>
+    </element>
+    <element id="SupplyRequest.item[x]">
+      <path value="SupplyRequest.item[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceDefinition" />
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>
