@@ -259,4 +259,8 @@
     <code value="PSY" />
     <display value="Psychologist" />
   </concept>
+  <concept>
+    <code value="ST" />
+    <display value="Speech Therapist" />
+  </concept>
 </CodeSystem>
