@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="LocationPhysicalType" />
+  <url value="https://ancode.app/fhir/SearchParameter/LocationPhysicalType" />
+  <version value="1.0" />
+  <name value="LocationPhysicalType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-02-06" />
+  <description value="Location PhysicalType" />
+  <code value="physicalType" />
+  <base value="Location" />
+  <type value="token" />
+  <expression value="Location.physicalType" />
+  <xpath value="f:Location/f:physicalType" />
+  <xpathUsage value="normal" />
+  <multipleOr value="false" />
+  <multipleAnd value="false" />
+</SearchParameter>

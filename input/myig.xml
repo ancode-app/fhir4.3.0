@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchemahisi-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
   <id value="ancode.app.fhir.anhealth"/>
   <url value="https://ancode.app/fhir/ImplementationGuide/ancode.app.fhir.anhealth"/>
   <version value="0.2.0"/>
@@ -1047,6 +1047,13 @@
       </reference>                                                                                
       <name value="Location"/>
       <description value="Location"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="SearchParameter/LocationPhysicalType"/>
+      </reference>
+      <name value="LocationPhysicalType"/>
+      <description value="Location PhysicalType"/>
     </resource>
     <resource>
       <reference>
