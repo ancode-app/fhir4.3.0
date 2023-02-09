@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="InventoryEventType" />
-  <language value="pt-BR" />
   <url value="https://ancode.app/fhir/ValueSet/InventoryEventType" />
   <version value="1.0" />
   <name value="InventoryEventType" />
