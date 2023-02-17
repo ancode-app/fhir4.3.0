@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PhysicalType" />
+  <url value="https://ancode.app/fhir/ValueSet/PhysicalType" />
+  <version value="1.0" />
+  <name value="PhysicalType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-02-16" />
+  <publisher value="Ancode" />
+  <description value="Physical Type" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/PhysicalType" />
+    </include>
+  </compose>
+</ValueSet>

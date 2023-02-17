@@ -1,0 +1,127 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRMotivoEncerramento" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRMotivoEncerramento" />
+  <version value="1.0" />
+  <name value="BRMotivoEncerramento" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-02-16" />
+  <publisher value="Ancode" />
+  <description value="BRMotivoEncerramento" />
+  <content value="complete" />
+ <concept>
+    <code value="11" />
+    <display value="Alta Curado" />
+  </concept>
+ <concept>
+    <code value="12" />
+    <display value="Alta Melhorado" />
+  </concept>
+ <concept>
+    <code value="14" />
+    <display value="Alta a pedido" />
+  </concept>
+ <concept>
+    <code value="15" />
+    <display value="Alta com previsão de retorno para acompanhamento do paciente" />
+  </concept>
+ <concept>
+    <code value="16" />
+    <display value="Alta por Evasão" />
+  </concept>
+ <concept>
+    <code value="17" />
+    <display value="Alta da Puérpera e recém-nascido" />
+  </concept>
+ <concept>
+    <code value="18" />
+    <display value="Alta por Outros motivos" />
+  </concept>
+ <concept>
+    <code value="21" />
+    <display value="Permanencia por características próprias da doença" />
+  </concept>
+ <concept>
+    <code value="22" />
+    <display value="Permanencia por Intercorrência" />
+  </concept>
+ <concept>
+    <code value="23" />
+    <display value="Permanencia por impossibilidade sócio-familiar" />
+  </concept>
+ <concept>
+    <code value="24" />
+    <display value="permanencia por Processo de doação de órgãos, tecidos e células - doador vivo" />
+  </concept>
+ <concept>
+    <code value="25" />
+    <display value="Permanencia por Processo de doação de órgãos, tecidos e células - doador morto" />
+  </concept>
+ <concept>
+    <code value="26" />
+    <display value="Permanencia por mudança de procedimento" />
+  </concept>
+ <concept>
+    <code value="27" />
+    <display value="Permanencia por re-operação" />
+  </concept>
+ <concept>
+    <code value="28" />
+    <display value="Permanencia por outros motivos" />
+  </concept>
+ <concept>
+    <code value="31" />
+    <display value="Transferido para outro estabelecimento" />
+  </concept>
+ <concept>
+    <code value="32" />
+    <display value="Transferencia para internação domiciliar" />
+  </concept>
+ <concept>
+    <code value="41" />
+    <display value="Óbito com declaração de óbito fornecida pelo médico assistente" />
+  </concept>
+ <concept>
+    <code value="42" />
+    <display value="Óbito com declaração de Óbito fornecida pelo Instituto Médico Legal - IML" />
+  </concept>
+ <concept>
+    <code value="43" />
+    <display value="Óbito com declaração de Óbito fornecida pelo Serviço de Verificação de Óbito - SVO." />
+  </concept>
+ <concept>
+    <code value="51" />
+    <display value="ENCERRAMENTO ADMINISTRATIVO" />
+  </concept>
+ <concept>
+    <code value="61" />
+    <display value="Alta mãe/puerpera e do recem nascido" />
+  </concept>
+ <concept>
+    <code value="62" />
+    <display value="Alta mãe/puerpera e permanencia do recem-nascido" />
+  </concept>
+ <concept>
+    <code value="63" />
+    <display value="Alta mãe/puerpera e obito do recem-nascido" />
+  </concept>
+ <concept>
+    <code value="64" />
+    <display value="Alta mãe/puerpera com obito fetal" />
+  </concept>
+ <concept>
+    <code value="65" />
+    <display value="Óbito da gestante e do concepto" />
+  </concept>
+ <concept>
+    <code value="66" />
+    <display value="Óbito da mãe/puerpera e alta do recem-nascido" />
+  </concept>
+ <concept>
+    <code value="67" />
+    <display value="Obito da mae/puerpera e permanencia do recem nascido" />
+  </concept>
+</CodeSystem>
+
+

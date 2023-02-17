@@ -56,6 +56,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/AccountSplit"/>
+      </reference>
+      <name value="AccountSplit"/>
+      <description value="AccountSplit"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Address"/>
       </reference>
       <name value="Address"/>
@@ -294,6 +301,20 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/BRMotivoEncerramento"/>
+      </reference>
+      <name value="BRMotivoEncerramento"/>
+      <description value="BR Motivo Encerramento"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRMotivoEncerramento"/>
+      </reference>
+      <name value="BRMotivoEncerramento"/>
+      <description value="BR Motivo Encerramento"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="CodeSystem/BRNivelEscolaridade"/>
       </reference>
       <name value="BRNivelEscolaridade"/>
@@ -417,6 +438,34 @@
       </reference>
       <name value="BRTipoEstabelecimentoSaude"/>
       <description value="BR Tipo Estabelecimento Saude"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoFaturamento"/>
+      </reference>
+      <name value="BRTipoFaturamento"/>
+      <description value="BR Tipo Faturamento"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoFaturamento"/>
+      </reference>
+      <name value="BRTipoFaturamento"/>
+      <description value="BR Tipo Faturamento"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/BRTipoInternacao"/>
+      </reference>
+      <name value="BRTipoInternacao"/>
+      <description value="BR Tipo Internacao"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/BRTipoInternacao"/>
+      </reference>
+      <name value="BRTipoInternacao"/>
+      <description value="BR Tipo Internacao"/>
     </resource>
     <resource>
       <reference>
@@ -700,6 +749,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/DischargeReason"/>
+      </reference>
+      <name value="DischargeReason"/>
+      <description value="Discharge Reason"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/DocumentReference"/>
       </reference>
       <name value="DocumentReference"/>
@@ -868,6 +924,27 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/Flag"/>
+      </reference>
+      <name value="Flag"/>
+      <description value="Flag"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/FlagCategory"/>
+      </reference>
+      <name value="FlagCategory"/>
+      <description value="Flag Category"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/FlagCategory"/>
+      </reference>
+      <name value="FlagCategory"/>
+      <description value="Flag Category"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Group"/>
       </reference>
       <name value="Group"/>
@@ -879,6 +956,13 @@
       </reference>
       <name value="HealthcareService"/>
       <description value="Healthcare Service"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HospitalizationType"/>
+      </reference>
+      <name value="HospitalizationType"/>
+      <description value="Hospitalization Type"/>
     </resource>
     <resource>
       <reference>
@@ -1307,12 +1391,35 @@
       <name value="Person"/>
       <description value="Person"/>
     </resource>
+
+
+    <resource>
+      <reference>
+        <reference value="CodeSystem/PhysicalType"/>
+      </reference>
+      <name value="PhysicalType"/>
+      <description value="Physical Type"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/PhysicalType"/>
+      </reference>
+      <name value="PhysicalType"/>
+      <description value="Physical Type"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/PixKey"/>
       </reference>
       <name value="PixKey"/>
       <description value="PixKey"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PlanDefinition"/>
+      </reference>
+      <name value="PlanDefinition"/>
+      <description value="PlanDefinition"/>
     </resource>
     <resource>
       <reference>

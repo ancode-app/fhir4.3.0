@@ -1,0 +1,35 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoInternacao" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRTipoInternacao" />
+  <version value="1.0" />
+  <name value="BRTipoInternacao" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-02-16" />
+  <publisher value="Ancode" />
+  <description value="BRTipoInternacao" />
+  <content value="complete" />
+ <concept>
+    <code value="1" />
+    <display value="Clínica" />
+  </concept>
+ <concept>
+    <code value="2" />
+    <display value="Cirúrgica" />
+  </concept>
+ <concept>
+    <code value="3" />
+    <display value="Obstétrica" />
+  </concept>
+ <concept>
+    <code value="4" />
+    <display value="Pediátrica" />
+  </concept>
+ <concept>
+    <code value="5" />
+    <display value="Psiquiátrica" />
+  </concept>
+</CodeSystem>
+
+

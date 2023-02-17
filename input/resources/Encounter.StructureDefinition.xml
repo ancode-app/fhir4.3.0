@@ -80,6 +80,38 @@
         <valueSet value="https://ancode.app/fhir/ValueSet/BRCID10" />
       </binding>
     </element>
+    <element id="Encounter.hospitalization.extension">
+      <path value="Encounter.hospitalization.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="0" />
+    </element>
+    <element id="Encounter.hospitalization.extension:dischargeReason">
+      <path value="Encounter.hospitalization.extension" />
+      <sliceName value="dischargeReason" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/DischargeReason" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.hospitalization.extension:hospitalizationType">
+      <path value="Encounter.hospitalization.extension" />
+      <sliceName value="hospitalizationType" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/HospitalizationType" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Encounter.hospitalization.admitSource">
       <path value="Encounter.hospitalization.admitSource" />
       <min value="1" />

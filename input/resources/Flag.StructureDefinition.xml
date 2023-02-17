@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Flag" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Flag" />
+  <version value="1.0" />
+  <name value="Flag" />
+  <status value="draft" />
+  <date value="2023-02-16" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Flag" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Flag" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Flag.category">
+      <path value="Flag.category" />
+      <min value="1" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/FlagCategory" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

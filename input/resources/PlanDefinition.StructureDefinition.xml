@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="PlanDefinition" />
+  <url value="https://ancode.app/fhir/StructureDefinition/PlanDefinition" />
+  <version value="1.0" />
+  <name value="PlanDefinition" />
+  <status value="draft" />
+  <date value="2023-02-16" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="PlanDefinition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PlanDefinition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="PlanDefinition.subject[x]">
+      <path value="PlanDefinition.subject[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Location" />
+      </type>
+      <type>
+        <code value="canonical" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/SubstanceDefinition" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Location" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

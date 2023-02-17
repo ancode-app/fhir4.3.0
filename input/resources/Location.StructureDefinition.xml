@@ -82,6 +82,7 @@
       <path value="Location.physicalType" />
       <binding>
         <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/PhysicalType" />
       </binding>
     </element>
     <element id="Location.managingOrganization">

@@ -1,0 +1,31 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoFaturamento" />
+  <language value="pt-BR" />
+  <url value="https://ancode.app/fhir/CodeSystem/BRTipoFaturamento" />
+  <version value="1.0" />
+  <name value="BRTipoFaturamento" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-02-16" />
+  <publisher value="Ancode" />
+  <description value="BRTipoFaturamento" />
+  <content value="complete" />
+ <concept>
+    <code value="1" />
+    <display value="Parcial" />
+  </concept>
+ <concept>
+    <code value="2" />
+    <display value="Final" />
+  </concept>
+ <concept>
+    <code value="3" />
+    <display value="Complementar" />
+  </concept>
+ <concept>
+    <code value="4" />
+    <display value="Total" />
+  </concept>
+</CodeSystem>
+
+
