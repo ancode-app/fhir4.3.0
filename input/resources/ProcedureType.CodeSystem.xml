@@ -19,4 +19,8 @@
     <code value="Procedure" />
     <display value="Procedure" />
   </concept>
+  <concept>
+    <code value="Hospitalization" />
+    <display value="Hospitalization" />
+  </concept>
 </CodeSystem>
