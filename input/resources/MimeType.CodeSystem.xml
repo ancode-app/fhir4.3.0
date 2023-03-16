@@ -62,4 +62,8 @@
     <code value="image/gif" />
     <display value="image/gif" />
   </concept>
+  <concept>
+    <code value="image/png" />
+    <display value="image/png" />
+  </concept>
 </CodeSystem>

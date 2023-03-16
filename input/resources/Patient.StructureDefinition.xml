@@ -131,15 +131,6 @@
     <element id="Patient.identifier.type">
       <path value="Patient.identifier.type" />
       <binding>
-        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
-          <valueString value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="IdentifierType" />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypePerson" />
       </binding>
@@ -183,12 +174,6 @@
     <element id="Patient.maritalStatus">
       <path value="Patient.maritalStatus" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="MaritalStatus" />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/BrazilianMaritalStatus" />
       </binding>

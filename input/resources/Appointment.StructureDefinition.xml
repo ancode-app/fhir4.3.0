@@ -40,7 +40,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="4" />
+      <min value="3" />
     </element>
     <element id="Appointment.extension:accidentIndicator">
       <path value="Appointment.extension" />
@@ -73,7 +73,7 @@
     <element id="Appointment.extension:outpatientType">
       <path value="Appointment.extension" />
       <sliceName value="outpatientType" />
-      <min value="1" />
+      <min value="0" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/OutpatientType" />
