@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Evidence" />
+  <url value="https://ancode.app/fhir/StructureDefinition/Evidence" />
+  <version value="1.0" />
+  <name value="Evidence" />
+  <status value="draft" />
+  <date value="2023-03-16" />
+  <publisher value="Ancode" />
+  <fhirVersion value="4.3.0" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Evidence" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Evidence" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Evidence">
+      <path value="Evidence" />
+      <constraint>
+        <key value="evi-0" />
+        <severity value="error" />
+        <human value="Name should be usable as an identifier for the module by machine processing applications such as code generation" />
+      </constraint>
+    </element>
+  </differential>
+</StructureDefinition>

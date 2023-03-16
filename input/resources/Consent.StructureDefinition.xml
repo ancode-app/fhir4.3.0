@@ -14,6 +14,34 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Consent" />
   <derivation value="constraint" />
   <differential>
+    <element id="Consent">
+      <path value="Consent" />
+      <constraint>
+        <key value="ppc-1" />
+        <severity value="error" />
+        <human value="Either a Policy or PolicyRule" />
+      </constraint>
+      <constraint>
+        <key value="ppc-2" />
+        <severity value="error" />
+        <human value="IF Scope=privacy, there must be a patient" />
+      </constraint>
+      <constraint>
+        <key value="ppc-3" />
+        <severity value="error" />
+        <human value="IF Scope=research, there must be a patient" />
+      </constraint>
+      <constraint>
+        <key value="ppc-4" />
+        <severity value="error" />
+        <human value="IF Scope=adr, there must be a patient" />
+      </constraint>
+      <constraint>
+        <key value="ppc-5" />
+        <severity value="error" />
+        <human value="IF Scope=treatment, there must be a patient" />
+      </constraint>
+    </element>
     <element id="Consent.identifier">
       <path value="Consent.identifier" />
       <type>

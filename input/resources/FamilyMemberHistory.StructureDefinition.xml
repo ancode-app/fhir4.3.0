@@ -14,6 +14,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory" />
   <derivation value="constraint" />
   <differential>
+    <element id="FamilyMemberHistory">
+      <path value="FamilyMemberHistory" />
+      <constraint>
+        <key value="fhs-1" />
+        <severity value="error" />
+        <human value="Can have age[x] or born[x], but not both" />
+      </constraint>
+      <constraint>
+        <key value="fhs-2" />
+        <severity value="error" />
+        <human value="Can only have estimatedAge if age[x] is present" />
+      </constraint>
+    </element>
     <element id="FamilyMemberHistory.date">
       <path value="FamilyMemberHistory.date" />
       <min value="1" />

@@ -14,6 +14,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance" />
   <derivation value="constraint" />
   <differential>
+    <element id="AllergyIntolerance">
+      <path value="AllergyIntolerance" />
+      <constraint>
+        <key value="ait-1" />
+        <severity value="error" />
+        <human value="AllergyIntolerance.clinicalStatus SHALL be present if verificationStatus is not entered-in-error" />
+      </constraint>
+      <constraint>
+        <key value="ait-2" />
+        <severity value="error" />
+        <human value="AllergyIntolerance.clinicalStatus SHALL NOT be present if verification Status is entered-in-error" />
+      </constraint>
+    </element>
     <element id="AllergyIntolerance.clinicalStatus">
       <path value="AllergyIntolerance.clinicalStatus" />
       <min value="1" />

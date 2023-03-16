@@ -14,6 +14,24 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
   <derivation value="constraint" />
   <differential>
+    <element id="Condition">
+      <path value="Condition" />
+      <constraint>
+        <key value="con-3" />
+        <severity value="error" />
+        <human value="Condition.clinicalStatus SHOULD be present if verificationStatus is not entered-in-error and category is problem-list-item" />
+      </constraint>
+      <constraint>
+        <key value="con-4" />
+        <severity value="error" />
+        <human value="If condition is abated, then clinicalStatus must be either inactive, resolved, or remission" />
+      </constraint>
+      <constraint>
+        <key value="con-5" />
+        <severity value="error" />
+        <human value="Condition.clinicalStatus SHALL NOT be present if verification Status is entered-in-error" />
+      </constraint>
+    </element>
     <element id="Condition.clinicalStatus">
       <path value="Condition.clinicalStatus" />
       <min value="1" />

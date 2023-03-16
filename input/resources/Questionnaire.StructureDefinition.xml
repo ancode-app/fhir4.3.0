@@ -10,6 +10,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Questionnaire" />
   <derivation value="constraint" />
   <differential>
+    <element id="Questionnaire">
+      <path value="Questionnaire" />
+      <constraint>
+        <key value="que-0" />
+        <severity value="error" />
+        <human value="Name should be usable as an identifier for the module by machine processing applications such as code generation" />
+      </constraint>
+      <constraint>
+        <key value="que-2" />
+        <severity value="error" />
+        <human value="The link ids for groups and questions must be unique within the questionnaire" />
+      </constraint>
+    </element>
     <element id="Questionnaire.title">
       <path value="Questionnaire.title" />
       <min value="1" />

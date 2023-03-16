@@ -10,6 +10,14 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Library" />
   <derivation value="constraint" />
   <differential>
+    <element id="Library">
+      <path value="Library" />
+      <constraint>
+        <key value="cnl-0" />
+        <severity value="error" />
+        <human value="Name should be usable as an identifier for the module by machine processing applications such as code generation" />
+      </constraint>
+    </element>
     <element id="Library.topic">
       <path value="Library.topic" />
       <min value="1" />

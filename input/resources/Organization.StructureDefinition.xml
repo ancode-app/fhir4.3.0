@@ -20,6 +20,11 @@
         <severity value="error" />
         <human value="When type is HealthcareProvider, Location is required" />
       </constraint>
+      <constraint>
+        <key value="org-1" />
+        <severity value="error" />
+        <human value="The organization SHALL at least have a name or an identifier, and possibly more than one" />
+      </constraint>
     </element>
     <element id="Organization.extension">
       <path value="Organization.extension" />
@@ -100,7 +105,6 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/BiometricsSettings" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="Organization.identifier">
       <path value="Organization.identifier" />

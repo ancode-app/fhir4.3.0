@@ -14,6 +14,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
   <derivation value="constraint" />
   <differential>
+    <element id="Observation">
+      <path value="Observation" />
+      <constraint>
+        <key value="obs-6" />
+        <severity value="error" />
+        <human value="dataAbsentReason SHALL only be present if Observation.value[x] is not present" />
+      </constraint>
+      <constraint>
+        <key value="obs-7" />
+        <severity value="error" />
+        <human value="If Observation.code is the same as an Observation.component.code then the value element associated with the code SHALL NOT be present" />
+      </constraint>
+    </element>
     <element id="Observation.category">
       <path value="Observation.category" />
       <min value="1" />
