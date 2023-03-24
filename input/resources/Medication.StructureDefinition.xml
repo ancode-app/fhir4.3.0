@@ -32,27 +32,6 @@
       <path value="Medication.code" />
       <min value="1" />
     </element>
-    <element id="Medication.code.extension">
-      <path value="Medication.code.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
-    <element id="Medication.code.extension:textMetaphone">
-      <path value="Medication.code.extension" />
-      <sliceName value="textMetaphone" />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/Metaphone" />
-      </type>
-    </element>
     <element id="Medication.status">
       <path value="Medication.status" />
       <min value="1" />

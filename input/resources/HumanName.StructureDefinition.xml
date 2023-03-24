@@ -15,31 +15,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/HumanName" />
   <derivation value="constraint" />
   <differential>
-    <element id="HumanName.extension">
-      <path value="HumanName.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
-    <element id="HumanName.extension:textMetaphone">
-      <path value="HumanName.extension" />
-      <sliceName value="textMetaphone" />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/Metaphone" />
-      </type>
-    </element>
-    <element id="HumanName.extension:textMetaphone.value[x]">
-      <path value="HumanName.extension.value[x]" />
-      <min value="1" />
-    </element>
     <element id="HumanName.use">
       <path value="HumanName.use" />
       <min value="1" />

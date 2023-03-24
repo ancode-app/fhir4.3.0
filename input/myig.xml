@@ -123,6 +123,13 @@
       </reference>
       <name value="AppointmentSupportingInformation"/>
       <description value="Appointment SupportingInformation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Attachment"/>
+      </reference>
+      <name value="Attachment"/>
+      <description value="Attachment"/>
     </resource>    
     <resource>
       <reference>
@@ -887,12 +894,19 @@
       <name value="EndTime"/>
       <description value="End Time"/>
     </resource>
-     <resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/Ethnicity"/>
       </reference>
       <name value="Ethnicity"/>
       <description value="Ethnicity"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Evidence"/>
+      </reference>
+      <name value="Evidence"/>
+      <description value="Evidence"/>
     </resource>
     <resource>
       <reference>
@@ -1215,13 +1229,6 @@
       </reference>
       <name value="MedicationStatementStatus"/>
       <description value="Medication Statement Status"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/Metaphone"/>
-      </reference>
-      <name value="Metaphone"/>
-      <description value="Metaphone"/>
     </resource>
     <resource>
       <reference>

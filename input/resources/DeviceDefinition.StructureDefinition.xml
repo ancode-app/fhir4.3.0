@@ -52,26 +52,6 @@
       <path value="DeviceDefinition.deviceName" />
       <min value="1" />
     </element>
-    <element id="DeviceDefinition.deviceName.extension">
-      <path value="DeviceDefinition.deviceName.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
-    <element id="DeviceDefinition.deviceName.extension:nameMetaphone">
-      <path value="DeviceDefinition.deviceName.extension" />
-      <sliceName value="nameMetaphone" />
-      <min value="0" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/Metaphone" />
-      </type>
-    </element>
     <element id="DeviceDefinition.type">
       <path value="DeviceDefinition.type" />
       <binding>

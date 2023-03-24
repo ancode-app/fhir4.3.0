@@ -188,5 +188,12 @@
       <path value="Patient.photo" />
       <max value="1" />
     </element>
+    <element id="Patient.photo.contentType">
+      <path value="Patient.photo.contentType" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/MimeType" />
+      </binding>
+    </element>
   </differential>
 </StructureDefinition>

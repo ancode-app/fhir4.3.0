@@ -24,26 +24,14 @@
       </slicing>
       <min value="1" />
     </element>
-    <element id="HealthcareService.extension:nameMetaphone">
-      <path value="HealthcareService.extension" />
-      <sliceName value="nameMetaphone" />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/Metaphone" />
-      </type>
-    </element>
     <element id="HealthcareService.extension:procedureType">
       <path value="HealthcareService.extension" />
       <sliceName value="procedureType" />
       <min value="1" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/ProcedureType" />
       </type>
-      <isModifier value="false" />
     </element>
     <element id="HealthcareService.identifier">
       <path value="HealthcareService.identifier" />
@@ -52,15 +40,6 @@
     <element id="HealthcareService.identifier.type">
       <path value="HealthcareService.identifier.type" />
       <binding>
-        <extension url="http://hl7.org/fhir/build/StructureDefinition/binding-definition">
-          <valueString value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="IdentifierType" />
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/IdentifierTypeCommon" />
       </binding>
@@ -74,9 +53,6 @@
       <min value="1" />
       <max value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="service-category" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/ServiceCategory" />
       </binding>
@@ -86,9 +62,6 @@
       <min value="1" />
       <max value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="service-type" />
-        </extension>
         <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/ServiceType" />
       </binding>
@@ -109,9 +82,6 @@
       <min value="1" />
       <max value="1" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ServiceProvisionConditions" />
-        </extension>
         <strength value="required" />
       </binding>
     </element>
