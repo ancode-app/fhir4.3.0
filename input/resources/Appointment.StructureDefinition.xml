@@ -13,24 +13,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Appointment" />
   <derivation value="constraint" />
   <differential>
-    <element id="Appointment">
-      <path value="Appointment" />
-      <constraint>
-        <key value="app-2" />
-        <severity value="error" />
-        <human value="Either start and end are specified, or neither" />
-      </constraint>
-      <constraint>
-        <key value="app-3" />
-        <severity value="error" />
-        <human value="Only proposed or cancelled appointments can be missing start/end dates" />
-      </constraint>
-      <constraint>
-        <key value="app-4" />
-        <severity value="error" />
-        <human value="Cancelation reason is only used for appointments that have been cancelled, or no-show" />
-      </constraint>
-    </element>
     <element id="Appointment.extension">
       <path value="Appointment.extension" />
       <slicing>
@@ -78,6 +60,28 @@
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/OutpatientType" />
       </type>
+    </element>
+    <element id="Appointment.extension:hospitalizationType">
+      <path value="Appointment.extension" />
+      <sliceName value="hospitalizationType" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/HospitalizationType" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Appointment.extension:chemotherapyIndicator">
+      <path value="Appointment.extension" />
+      <sliceName value="chemotherapyIndicator" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://ancode.app/fhir/StructureDefinition/ChemotherapyIndicator" />
+      </type>
+      <isModifier value="false" />
     </element>
     <element id="Appointment.cancelationReason">
       <path value="Appointment.cancelationReason" />
