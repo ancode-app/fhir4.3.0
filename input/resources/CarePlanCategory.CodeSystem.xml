@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CarePlanCategory" />
+  <url value="https://ancode.app/fhir/CodeSystem/CarePlanCategory" />
+  <version value="1.0" />
+  <name value="CarePlanCategory" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-03-29" />
+  <publisher value="Ancode" />
+  <description value="Care Plan Category" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="AccountKit" />
+    <display value="AccountKit" />
+  </concept>
+  <concept>
+    <code value="ServiceRequestKit" />
+    <display value="ServiceRequestKit" />
+  </concept>
+</CodeSystem>

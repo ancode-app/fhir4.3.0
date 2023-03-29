@@ -508,7 +508,28 @@
       </reference>
       <name value="BRViaAdministracao"/>
       <description value="BRViaAdministracao"/>
-    </resource>   
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CarePlan"/>
+      </reference>
+      <name value="CarePlan"/>
+      <description value="Care Plan"/>
+    </resource>    
+    <resource>
+      <reference>
+        <reference value="ValueSet/CarePlanCategory"/>
+      </reference>
+      <name value="CarePlanCategory"/>
+      <description value="Care Plan Category"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/CarePlanCategory"/>
+      </reference>
+      <name value="CarePlanCategory"/>
+      <description value="Care Plan Category"/>
+    </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/CBOHealthcare"/>

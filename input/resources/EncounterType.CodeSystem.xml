@@ -31,4 +31,8 @@
     <code value="surgicalHospitalization" />
     <display value="Surgical Hospitalization" />
   </concept>
+  <concept>
+    <code value="busy" />
+    <display value="Busy" />
+  </concept>
 </CodeSystem>
