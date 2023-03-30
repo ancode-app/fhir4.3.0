@@ -56,6 +56,14 @@
       <path value="DeviceDefinition.type" />
       <binding>
         <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/DeviceDefinitionType" />
+      </binding>
+    </element>
+    <element id="DeviceDefinition.safety">
+      <path value="DeviceDefinition.safety" />
+      <max value="1" />
+      <binding>
+        <strength value="required" />
         <valueSet value="https://ancode.app/fhir/ValueSet/RiskClass" />
       </binding>
     </element>

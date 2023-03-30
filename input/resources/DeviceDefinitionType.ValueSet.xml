@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="DeviceDefinitionType" />
+  <url value="https://ancode.app/fhir/ValueSet/DeviceDefinitionType" />
+  <version value="1.0" />
+  <name value="DeviceDefinitionType" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-03-30" />
+  <publisher value="Ancode" />
+  <description value="Device Definition Type" />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="https://ancode.app/fhir/CodeSystem/DeviceDefinitionType" />
+    </include>
+  </compose>
+</ValueSet>
