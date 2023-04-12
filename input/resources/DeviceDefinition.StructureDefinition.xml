@@ -14,26 +14,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DeviceDefinition" />
   <derivation value="constraint" />
   <differential>
-    <element id="DeviceDefinition.extension">
-      <path value="DeviceDefinition.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="1" />
-    </element>
-    <element id="DeviceDefinition.extension:unitType">
-      <path value="DeviceDefinition.extension" />
-      <sliceName value="unitType" />
-      <min value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://ancode.app/fhir/StructureDefinition/UnitType" />
-      </type>
-    </element>
     <element id="DeviceDefinition.identifier">
       <path value="DeviceDefinition.identifier" />
       <type>

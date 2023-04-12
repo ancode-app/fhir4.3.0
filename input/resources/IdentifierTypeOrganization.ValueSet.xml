@@ -65,6 +65,10 @@
         <code value="HEALTHCAREINSURANCECODE" />
         <display value="Healthcare Insurance Code"/>
       </concept>
+      <concept>
+        <code value="AUTHID" />
+        <display value="AUTH ID" />
+      </concept>
     </include>
   </compose>
 </ValueSet>

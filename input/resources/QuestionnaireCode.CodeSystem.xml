@@ -19,4 +19,8 @@
     <code value="Evolution" />
     <display value="Evolution" />
   </concept>
+  <concept>
+    <code value="DesktopTicket" />
+    <display value="Desktop Ticket"/>
+  </concept>  
 </CodeSystem>

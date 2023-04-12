@@ -134,6 +134,10 @@ e: {
       {
         "code" : "HEALTHCAREINSURANCECODE",
         "display" : "Healthcare Insurance Code"
+      },
+      {
+        "code" : "AUTHID",
+        "display" : "AUTH ID"
       }]
     }]
   }

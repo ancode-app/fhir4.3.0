@@ -1805,14 +1805,7 @@
       </reference>
       <name value="TypeHealthcareFacility"/>
       <description value="Type Healthcare Facility"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/UnitType"/>
-      </reference>
-      <name value="UnitType"/>
-      <description value="Unit Type"/>
-    </resource>
+    </resource> 
     <resource>
       <reference>
         <reference value="ValueSet/VaccineBodySite"/>
