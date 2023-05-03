@@ -31,5 +31,13 @@
         <targetProfile value="https://ancode.app/fhir/StructureDefinition/Location" />
       </type>
     </element>
+    <element id="PlanDefinition.library">
+      <path value="PlanDefinition.library" />
+      <type>
+        <code value="canonical" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Library" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Schedule" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>

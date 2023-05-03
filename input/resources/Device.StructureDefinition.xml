@@ -22,5 +22,12 @@
       <path value="Device.deviceName" />
       <min value="1" />
     </element>
+    <element id="Device.type">
+      <path value="Device.type" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://ancode.app/fhir/ValueSet/DeviceType" />
+      </binding>
+    </element>
   </differential>
 </StructureDefinition>

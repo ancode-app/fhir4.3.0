@@ -754,6 +754,20 @@
       <name value="Device"/>
       <description value="Device"/>
     </resource>
+     <resource>
+      <reference>
+        <reference value="CodeSystem/DeviceType"/>
+      </reference>
+      <name value="DeviceType"/>
+      <description value="Device Type"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/DeviceType"/>
+      </reference>
+      <name value="DeviceType"/>
+      <description value="Device Type"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/DeviceBillingTable"/>
@@ -984,6 +998,20 @@
       </reference>
       <name value="FlagCategory"/>
       <description value="Flag Category"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/FlagCode"/>
+      </reference>
+      <name value="FlagCode"/>
+      <description value="Flag Code"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/FlagCode"/>
+      </reference>
+      <name value="FlagCode"/>
+      <description value="Flag Code"/>
     </resource>
     <resource>
       <reference>

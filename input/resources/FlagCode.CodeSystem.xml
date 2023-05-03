@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="FlagCode" />
+  <url value="https://ancode.app/fhir/CodeSystem/FlagCode" />
+  <version value="1.0" />
+  <name value="FlagCode" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2023-05-03" />
+  <publisher value="Ancode" />
+  <description value="Flag Code" />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="DesktopTicket" />
+    <display value="Desktop Ticket" />
+  </concept>
+</CodeSystem>

@@ -13,4 +13,14 @@
   <type value="MedicationAdministration" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationAdministration" />
   <derivation value="constraint" />
+  <differential>
+    <element id="MedicationAdministration.device">
+      <path value="MedicationAdministration.device" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/DeviceDefinition" />
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>
