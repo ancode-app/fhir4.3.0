@@ -66,4 +66,12 @@
     <code value="image/png" />
     <display value="image/png" />
   </concept>
+  <concept>
+    <code value="text/plain" />
+    <display value="text/plain" />
+  </concept>
+  <concept>
+    <code value="text/html" />
+    <display value="text/html" />
+  </concept>
 </CodeSystem>
