@@ -15,19 +15,11 @@
   <differential>
     <element id="Appointment.extension">
       <path value="Appointment.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <min value="3" />
     </element>
     <element id="Appointment.extension:accidentIndicator">
       <path value="Appointment.extension" />
       <sliceName value="accidentIndicator" />
-      <min value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/AccidentIndicator" />
@@ -36,7 +28,6 @@
     <element id="Appointment.extension:encounterClass">
       <path value="Appointment.extension" />
       <sliceName value="encounterClass" />
-      <min value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/EncounterClass" />
@@ -55,7 +46,6 @@
     <element id="Appointment.extension:outpatientType">
       <path value="Appointment.extension" />
       <sliceName value="outpatientType" />
-      <min value="0" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/OutpatientType" />
@@ -64,7 +54,6 @@
     <element id="Appointment.extension:hospitalizationType">
       <path value="Appointment.extension" />
       <sliceName value="hospitalizationType" />
-      <min value="0" />
       <type>
         <code value="Extension" />
         <profile value="https://ancode.app/fhir/StructureDefinition/HospitalizationType" />
@@ -73,7 +62,6 @@
     <element id="Appointment.extension:chemotherapyIndicator">
       <path value="Appointment.extension" />
       <sliceName value="chemotherapyIndicator" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -130,6 +118,15 @@
       <type>
         <code value="Reference" />
         <targetProfile value="https://ancode.app/fhir/StructureDefinition/Schedule" />
+      </type>
+    </element>
+    <element id="Appointment.supportingInformation:coverage">
+      <path value="Appointment.supportingInformation" />
+      <sliceName value="coverage" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Coverage" />
       </type>
     </element>
     <element id="Appointment.slot">
