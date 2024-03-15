@@ -119,13 +119,13 @@
         <targetProfile value="https://ancode.app/fhir/StructureDefinition/Schedule" />
       </type>
     </element>
-    <element id="Appointment.supportingInformation:coverage">
+    <element id="Appointment.supportingInformation:organizationCoverage">
       <path value="Appointment.supportingInformation" />
-      <sliceName value="coverage" />
+      <sliceName value="organizationCoverage" />
       <max value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Coverage" />
+        <targetProfile value="https://ancode.app/fhir/StructureDefinition/Organization" />
       </type>
     </element>
     <element id="Appointment.slot">

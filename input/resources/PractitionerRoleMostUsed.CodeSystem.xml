@@ -35,4 +35,8 @@
     <code value="secretary" />
     <display value="Secretary" />
   </concept>
+  <concept>
+    <code value="speechTherapist" />
+    <display value="Speech Therapist" />
+  </concept>
 </CodeSystem>
